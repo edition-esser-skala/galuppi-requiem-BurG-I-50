@@ -115,12 +115,147 @@ TeDecetAltoNotes = {
 		\clef treble
 		\key a \major \time 3/4 \autoBeamOff \tempoTeDecet
 			\set Score.currentBarNumber = #53
-		
+		R2.*15 %67
+		\mvTr a'4\pE^\soloE e e
+		fis2.
+		e2 r4 %70
+		d d d
+		cis8([ h)] cis4 r
+		c c c
+		c? h r
+		r r h %75
+		fis' fis8 fis fis fis
+		fis4 e h
+		a' a8 a a a
+		a4 gis h~
+		h a gis8 gis %80
+		gis8. fis16 fis4 r
+		r r fis
+		g2.
+		g?2 g4
+		g?2. %85
+		fis2 g4
+		fis8([ e)] fis4 g
+		g? fis r
+		r e e
+		fis2 gis!4 %90
+		a2 gis4
+		fis2 fis4
+		e2 r4
+		r e e
+		fis2 gis!4 %95
+		a2 gis4
+		fis2 fis4
+		e2 r4
+		R2.*8 %106
+		e4 h h
+		cis2.
+		h2 r4
+		d! d d %110
+		cis8([ h)] cis4 r
+		c c c
+		c? h r
+		r r e
+		a a8 a a g %115
+		fis4 fis e8 e
+		g2 fis4
+		e2 e4
+		a a8 a a a
+		a4 gis e %120
+		cis' cis8 cis cis cis
+		cis4 h r
+		h a a8 a
+		a8. gis16 gis4 r
+		r r a %125
+		a2.
+		g2 g4
+		f2.
+		e2 f4
+		e8([ d)] e4 f %130
+		f? e r
+		r a g
+		fis!2 e4
+		d2 cis4
+		h8([ d] cis4) h %135
+		a2 r4
+		r a' g
+		fis2 e4
+		d2 cis4
+		h8([^\critnote d] cis4) h %140
+		a2.
+		R2.*5 %146
+		R2.\fermataMarkup \bar "||" %147 finis
 	}
 }
 
 TeDecetAltoLyrics = \lyricmode {
+	Te de -- cet %68
+	hy --
+	mnus, %70
+	De -- us, in
+	Si -- on,
+	De -- us, in
+	Si -- on,
+	et %75
+	ti -- bi red -- de -- tur
+	vo -- tum, et
+	ti -- bi red -- de -- tur
+	vo -- tum, vo --
+	tum in Je -- %80
+	ru -- sa -- lem:
+	Ex --
+	au --
+	di, ex --
+	au -- %85
+	di o --
+	ra -- tio -- nem
+	me -- am,
+	o -- mnis
+	ca -- ro %90
+	ad te
+	ve -- ni --
+	et,
+	o -- mnis
+	ca -- ro %95
+	ad te
+	ve -- ni --
+	et.
 	
+	Te de -- cet %107
+	hy --
+	mnus,
+	De -- us, in %110
+	Si -- on,
+	De -- us, in
+	Si -- on,
+	et
+	ti -- bi red -- de -- tur %115
+	vo -- tum in Je --
+	ru -- sa --
+	lem, et
+	ti -- bi red -- de -- tur
+	vo -- tum, et %120
+	ti -- bi red -- de -- tur
+	vo -- tum,
+	vo -- tum in Je --
+	ru -- sa -- lem:
+	Ex -- %125
+	au --
+	di, ex --
+	au --
+	di o --
+	ra -- tio -- nem %130
+	me -- am,
+	o -- mnis
+	ca -- ro
+	ad te
+	ve -- ni -- %135
+	et,
+	o -- mnis
+	ca -- ro
+	ad te
+	ve -- ni -- %140
+	et. %141 finis
 }
 
 % AltoNotes = {

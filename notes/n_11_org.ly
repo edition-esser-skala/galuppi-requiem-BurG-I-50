@@ -124,11 +124,199 @@ TeDecetOrgano = {
 		\key a \major \time 3/4 \tempoTeDecet
 			\set Score.currentBarNumber = #53
 		\mvTr a'4\f-\soloE a,\p a
+		a'\f a,\p a
+		a'\f a,\p a %55
+		e\f e'\p e,
+		e\f e'\p e,
+		dis\f dis dis
+		e e' e,
+		e2. %60
+		r8 gis gis gis gis gis
+		a2.
+		r8 a a h cis dis
+		e2 e,4
+		a2 r4 %65
+		d e e,
+		a2.
+		a4\pE a a
+		a a a
+		a a a %70
+		e e e
+		e' e e
+		dis dis dis
+		e e, e'
+		e gis e %75
+		h h' h,
+		e gis e
+		fis dis h
+		e e, e'
+		dis?2 e4 %80
+		h' h, h
+		h h r
+		r8 e( g) e( dis e)
+		r c( e) c( h c)
+		r ais ais ais ais ais %85
+		h4 h' ais,
+		h2 ais4
+		h h' a!
+		gis! fis e
+		h2 e4 %90
+		e dis e
+		a h h,
+		cis8 cis' h a gis fis
+		e4 gis e
+		h2 e4 %95
+		e dis e
+		a h h,
+		e\fE e\p e
+		h\fE h\pE h
+		h\fE h\pE h %100
+		ais\fE ais ais
+		h h' h,
+		h2 r4
+		e2 gis4
+		a h h, %105
+		e e, r
+		e'\pE e e
+		e e e
+		e e e
+		e e e %110
+		e e e
+		dis dis dis
+		e e, e'
+		e fis gis
+		a2 cis,4 %115
+		d! fis a
+		a, cis d
+		a' a, r
+		a cis a
+		d e e, %120
+		a cis a
+		h gis e
+		a a' a,
+		e' e8 d cis h
+		a4 a a %125
+		a a a
+		a a a
+		a a a
+		a a gis
+		a a gis %130
+		a a r
+		a2.
+		a
+		a4 gis a
+		d e e, %135
+		fis8 fis' e d cis h
+		a2.
+		a
+		a4 gis a
+		d e e, %140
+		a\fE^\critnote a\pE a
+		a\fE a\pE a
+		a\fE a\pE a
+		e\fE e'\pE e,
+		a2\fE r4 %145
+		d e e,
+		a2.^\critnote \bar "||" %147 FINIS
 	}
 }
 
 TeDecetBassFigures = \figuremode {
-	
+	r2. %53
+	<6 4>
+	<5 3> %55
+	<[7]>
+	<6 4>
+	<7!>
+	<[6!] 4>4 <5 3>2
+	<[_+]>2. %60
+	r8 <6 5> r2
+	r2.
+	r2 r8 <[7]>
+	<5 3>4 <6 4> <7 5>
+	r2. %65
+	r4 <[6] [4]> <[5] [3]>
+	r2.
+	r
+	<6 4>
+	<5 3> %70
+	<7>
+	<6 4>
+	<7!>
+	<6! 4>4 <5 3>2
+	r4 <[6]> r %75
+	<4> <3> r
+	<9> <[6]> r
+	<9> <[6] [5]> r
+	<9> <8> r
+	<[6] [4]> <[5] [3]> r %80
+	<6 4> <5 3> r
+	r2.
+	r8 <_!> r2
+	r8 <5 [_!]> r2
+	r8 <7 [_+]> r2 %85
+	r2 <[7!]>4
+	r2 <[7!]>4
+	<[6!] [4]> <[5] [3]> <[2]>
+	<[6]> <[6\\]> r
+	<4> <_+> r %90
+	<4 2> <[\t] [\t]> r
+	<[6] [5]> <4> <_+>
+	r2.
+	r4 <[6]> r
+	<[4]> <[3]> r %95
+	<4 2> <[\t] [\t]> r
+	<6 5> <4> <3>
+	r2.
+	<7>
+	<[6] [4]> %100
+	<7!>
+	<[6!] [4]>4 <[5] [3]> r
+	r2.
+	<[_+]>2 <[6]>4
+	r <[6] [4]> <[5] [3]> %105
+	r2.
+	r
+	<6 4>
+	<5 3>
+	<7> %110
+	<6 4>
+	<7!>
+	<[6!] 4>4 <5 3> r
+	r4 <[7]> <[6]>8 <[5]>
+	r2 <[6]>8 <[5!]> %115
+	r4 <[6]> r
+	<7!> <[6] [5!]> r
+	r2.
+	r4 <[6]> r
+	<6 [5]>2. %120
+	<9>4 <6> r
+	<9> <[6] [5]> r
+	<4 2> <5 3> r
+	<6 4> <5 3> r
+	r2. %125
+	r
+	<7!>
+	<6! 4>
+	r2 <7!>4
+	r2 <[7!]>4 %130
+	<[6!] [4]> <[5] [3]> r
+	<[8]>2 <[7!]>4
+	<[6] [4]>2 <[5] [3]>4
+	<[4] [2]> <[\t] [\t]> r
+	<[6] [5]> <[6] [4]> <[5] [3]> %135
+	r2.
+	<[8]>2 <[7!]>4
+	<[6] [4]>2 <[5] [3]>4
+	<[4] [2]> <[\t] [\t]> r
+	<[6] [5]> <[6] [4]> <[5] [3]> %140
+	r2.
+	<6 4>
+	<5 3>
+	<7>
+	r %145
+	r4 <[6] [4]> <[5] [3]>
+	r2. %147 FINIS
 }
 
 % Organo = {

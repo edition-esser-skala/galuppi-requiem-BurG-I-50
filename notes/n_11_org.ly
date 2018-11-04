@@ -40,9 +40,9 @@ IntroitusOrgano = {
 		e'8 e d d cis cis cis cis %30
 		his his his his cis cis cis cis
 		cis cis cis cis h h h h
-		h h a a a a g g
+		h h a! a a a g g
 		fis fis h h e, e' e e
-		dis dis dis dis cis a' a,4 %35
+		d? d d d cis a' a,4 %35
 		r8 e' e e dis h' h,4
 		e8 e e e e e e e
 		e e e e a a, a' gis

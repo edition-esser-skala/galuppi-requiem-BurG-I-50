@@ -48,7 +48,7 @@ IntroitusSopranoNotes = {
 		a4. a8 g4 g8 g
 		gis2 a %35
 		ais4. ais8 h4 r
-		r gis gis h
+		r gis! gis h
 		d4. d8 cis4 r
 		r ais ais cis
 		e4. e8 dis4 r %40

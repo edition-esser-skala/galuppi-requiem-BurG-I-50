@@ -53,7 +53,7 @@ IntroitusAltoNotes = {
 		r fis fis fis
 		fis4. fis8 fis4 r %40
 		r h h a
-		gis4. ais8 h4 h
+		gis!4. ais8 h4 h
 		a4. a8 g4 r
 		g4. g8 fis4 r
 		fis4. fis8 fis4( e) %45

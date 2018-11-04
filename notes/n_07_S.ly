@@ -56,7 +56,7 @@ IntroitusSopranoNotes = {
 		e4. e8 dis4 fis
 		fis4. fis8 e4 r
 		e4. e8 dis4 r
-		a4. a8 gis2 %45
+		a4. a8 gis!2 %45
 		fis e8 e gis ais
 		h4. h8 h2
 		a4. a8 gis2

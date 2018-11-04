@@ -88,7 +88,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 1 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

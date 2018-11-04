@@ -27,7 +27,7 @@ IntroitusCornoI = {
 		d2 d4 r
 		d d d r
 		R1*2 %20
-		d2 d
+		\pao d2 d
 		e d4 r8 e
 		d4 d d r
 		d2 d4 d

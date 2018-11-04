@@ -26,7 +26,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = "Corno I, II"
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex E]" } }
 						\partcombine \IntroitusCornoI \IntroitusCornoII
 					>>
 				>>

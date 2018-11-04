@@ -7,7 +7,7 @@
 IntroitusCornoII = {
 	\relative c' {
 		\clef treble
-		\key e \major \time 4/4 \tempoIntroitus
+		\key c \major \time 4/4 \tempoIntroitus
 		
 	}
 }

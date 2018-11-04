@@ -6,7 +6,7 @@
 
 IntroitusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \major \time 4/4 \tempoIntroitus
 		e8\fE e e e h h h h
 		gis gis gis gis e e' e e,

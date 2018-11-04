@@ -62,3 +62,12 @@ IntroitusViolinoII = {
 		e16 h gis' e e8 e e4 r\fermata \bar "||" %52 finis
 	}
 }
+
+TeDecetViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoTeDecet
+			\set Score.currentBarNumber = #53
+		
+	}
+}

@@ -62,3 +62,12 @@ IntroitusViola = {
 		e8 e, e e e4 r\fermata \bar "||" %52 finis
 	}
 }
+
+TeDecetViola = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoTeDecet
+			\set Score.currentBarNumber = #53
+		
+	}
+}

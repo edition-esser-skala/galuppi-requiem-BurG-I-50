@@ -63,6 +63,15 @@ IntroitusViolinoI = {
 	}
 }
 
+TeDecetViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoTeDecet
+			\set Score.currentBarNumber = #53
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

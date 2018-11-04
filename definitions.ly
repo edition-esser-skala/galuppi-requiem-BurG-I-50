@@ -192,6 +192,7 @@ tempoMarkup =
 %
 
 tempoIntroitus = \tempoMarkup "[Tempo deest]"
+tempoTeDecet = \tempoMarkup "Maestoso"
 
 
 

@@ -110,6 +110,19 @@ IntroitusTenoreLyrics = \lyricmode {
 	e -- is. %49 finis
 }
 
+TeDecetTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 3/4 \autoBeamOff \tempoTeDecet
+			\set Score.currentBarNumber = #53
+		
+	}
+}
+
+TeDecetTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

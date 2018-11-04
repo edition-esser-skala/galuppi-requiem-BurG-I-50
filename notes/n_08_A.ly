@@ -110,6 +110,19 @@ IntroitusAltoLyrics = \lyricmode {
 	e -- is. %49 finis
 }
 
+TeDecetAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \autoBeamOff \tempoTeDecet
+			\set Score.currentBarNumber = #53
+		
+	}
+}
+
+TeDecetAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

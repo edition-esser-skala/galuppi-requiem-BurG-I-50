@@ -115,12 +115,147 @@ TeDecetTenoreNotes = {
 		\clef "treble_8"
 		\key a \major \time 3/4 \autoBeamOff \tempoTeDecet
 			\set Score.currentBarNumber = #53
-		
+		R2.*15 %67
+		\mvTr cis4\pE^\soloE cis cis
+		d2.
+		cis2 r4 %70
+		h h h
+		a8([ gis)] a4 r
+		a a a
+		a gis r8 h
+		e4 e8 e e e %75
+		e4 dis h
+		gis' gis8 gis gis gis
+		gis4 fis8 fis fis fis
+		fis4 e gis~
+		gis fis e8 e %80
+		e8. dis16 dis4 r
+		r r dis
+		e2.
+		e2 e4
+		e2. %85
+		dis2 e4
+		dis8([ cis)] dis4 e
+		e dis r
+		r e e
+		e( dis) e %90
+		fis2 e4
+		e2 dis4
+		e2 r4
+		r e e
+		dis2 e4 %95
+		fis2 e4
+		e2 dis4
+		e2 r4
+		R2.*8 %106
+		gis,4 gis gis
+		a2.
+		gis2 r4
+		h h h %110
+		a8([ gis)] a4 r
+		a a a
+		a gis r8 h
+		e4 e8 e e d!
+		cis4 cis r %115
+		d d cis8 cis
+		e2 d4
+		cis2 r4
+		r2 r8 e,
+		h'4 h8 h h h %120
+		h4 a e
+		d' d8 d d d
+		d4 cis cis8 cis
+		cis8. h16 h4 r
+		r r a %125
+		cis2.
+		e2 cis4
+		d2.
+		cis2 d4
+		cis8([ h)] cis4 cis %130
+		d cis r
+		r cis e
+		d2 cis4
+		h2 a4
+		a2 gis4 %135
+		a2 r4
+		cis2 cis4
+		d2 cis4
+		h2 a4
+		a2 gis4 %140
+		a2.
+		R2.*5 %146
+		R2.\fermataMarkup \bar "||" %147 finis
 	}
 }
 
 TeDecetTenoreLyrics = \lyricmode {
+	Te de -- cet %68
+	hy --
+	mnus, %70
+	De -- us, in
+	Si -- on,
+	De -- us, in
+	Si -- on, et
+	ti -- bi red -- de -- tur %75
+	vo -- tum, et
+	ti -- bi red -- de -- tur
+	vo -- tum, red -- de -- tur
+	vo -- tum, vo --
+	tum in Je -- %80
+	ru -- sa -- lem:
+	Ex --
+	au --
+	di, ex --
+	au -- %85
+	di o --
+	ra -- tio -- nem
+	me -- am,
+	o -- mnis
+	ca -- ro %90
+	ad te
+	ve -- ni --
+	et,
+	o -- mnis
+	ca -- ro %95
+	ad te
+	ve -- ni --
+	et.
 	
+	Te de -- cet %107
+	hy --
+	mnus,
+	De -- us, in %110
+	Si -- on,
+	De -- us, in
+	Si -- on, et
+	ti -- bi red -- de -- tur
+	vo -- tum, %115
+	vo -- tum in Je --
+	ru -- sa --
+	lem,
+	et
+	ti -- bi red -- de -- tur %120
+	vo -- tum, et
+	ti -- bi red -- de -- tur
+	vo -- tum in Je --
+	ru -- sa -- lem:
+	Ex -- %125
+	au --
+	di, ex --
+	au --
+	di o --
+	ra -- tio -- nem %130
+	me -- am,
+	o -- mnis
+	ca -- ro
+	ad te
+	ve -- ni -- %135
+	et,
+	o -- mnis
+	ca -- ro
+	ad te
+	ve -- ni -- %140
+	et. %141 finis
 }
 
 % TenoreNotes = {

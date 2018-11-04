@@ -199,7 +199,7 @@ TeDecetOrgano = {
 		a a a
 		a a a
 		a a a
-		a a gis
+		a a gis!
 		a a gis %130
 		a a r
 		a2.
@@ -248,7 +248,7 @@ TeDecetBassFigures = \figuremode {
 	<4> <3> r
 	<9> <[6]> r
 	<9> <[6] [5]> r
-	<9> <8> r
+	<9 [4]> <8 [3]> r
 	<[6] [4]> <[5] [3]> r %80
 	<6 4> <5 3> r
 	r2.
@@ -264,8 +264,8 @@ TeDecetBassFigures = \figuremode {
 	<[6] [5]> <4> <_+>
 	r2.
 	r4 <[6]> r
-	<[4]> <[3]> r %95
-	<4 2> <[\t] [\t]> r
+	r2. %95
+	<4 2>4 <[\t] [\t]> r
 	<6 5> <4> <3>
 	r2.
 	<7>

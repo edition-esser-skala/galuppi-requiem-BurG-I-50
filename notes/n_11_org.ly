@@ -324,11 +324,113 @@ KyrieOrgano = {
 		\clef treble
 		\key e \major \time 2/2 \tempoKyrie
 		\mvTr h'2.\fE-\tuttiE h4
+		<< {
+			cis2 h
+			ais1
+			h2 a
+			gis4 e gis ais %5
+		} \\ {
+			e2. e4
+			fis2 e
+			dis1
+			e2 e %5
+		} >> \clef "treble_8"
+		h2. h4
+		\clef bass e,2. e4
+		fis2 e
+		dis1
+		e2 e %10
+		fis1
+		gis
+		a2 a,
+		e'1
+		a,2 \clef treble << {
+			r2 %15
+			a''2. a4
+			h2 a
+			gis4 e gis ais
+		} \\ {
+			e2 %15
+			fis e
+			dis1
+			e2 e
+		} >> \clef "treble_8"
+		h2. h4
+		cis2 h %20
+		ais ais
+		h gis
+		fis h
+		\clef bass fis2. fis4
+		gis2 fis %25
+		eis1
+		fis2 fis
+		fis e!
+		dis gis
+		eis fis %30
+		dis e
+		h1-!
+		h-!
+		h-!
+		h-! %35
+		h
+		h2 h'
+		h a~
+		a gis
+		fis2. e4 %40
+		h1
+		e
+		h2 ais
+		h1
+		e\fermata \bar "||" %45 finis
 	}
 }
 
 KyrieBassFigures = \figuremode {
-	
+	r1
+	r
+	r
+	r
+	r %5
+	r
+	<6>2 <5>
+	<_+>2 <[4+] 2>
+	<6> <5!>
+	r1 %10
+	<7>2 <6>
+	<6>1
+	r
+	r
+	r %15
+	r
+	r
+	r
+	r
+	<6> %20
+	<6>
+	r2 <6>
+	<_+>1
+	<4>2 <_+>
+	r1 %25
+	<6>2 <5>
+	<_+>1
+	<[4+] 2>2 <6>
+	<7> <_!>
+	<5>4 <6> <_!>2 %30
+	<6 5>1
+	<1>
+	q
+	q
+	q %35
+	r
+	r
+	<4+ 2>2 <6>
+	<4 2> <6>
+	<_+>1 %40
+	r
+	<9>2 <8>
+	r <6 5>
+	<5 4> <\l 3>
+	r1 %45 finis
 }
 
 % Organo = {

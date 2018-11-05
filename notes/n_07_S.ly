@@ -114,12 +114,100 @@ KyrieSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
-		
+		\mvTr h'2.\fE^\tuttiE h4
+		cis2 h
+		ais1
+		h2 a
+		gis4 e gis ais %5
+		\once \tieDashed h2~ h4 a
+		gis1
+		\once \tieDashed fis~
+		fis
+		e2 e' %10
+		e dis
+		e2. d4
+		cis h \once \tieDashed a2~
+		a gis
+		a r %15
+		a2. a4
+		h2^\critnote a
+		gis4 e gis ais
+		h2 h
+		ais2. h4 %20
+		cis h ais gis
+		fis2 h
+		ais h
+		fis r
+		h2. h4 %25
+		cis2 h
+		ais1
+		his2 \once \tieDashed cis~
+		cis h~
+		h4 gis \once \tieDashed a!2~ %30
+		a gis
+		fis h
+		h \once \tieDashed a~
+		a gis
+		fis r %35
+		fis e
+		dis fis
+		gis a
+		h1
+		ais %40
+		h2. a4
+		gis1
+		\once \tieDashed fis~
+		fis
+		e\fermata \bar "||" %45 finis
 	}
 }
 
 KyrieSopranoLyrics = \lyricmode {
+	Ky -- ri --
+	e e --
+	lei --
+	son, e --
+	lei -- _ _ _ %5
+	_ _
+	_
+	_
 	
+	son, e -- %10
+	lei -- _
+	_ _
+	_ _ _
+	_
+	son. %15
+	Ky -- ri --
+	e e --
+	lei -- _ _ _
+	son, e --
+	lei -- _ %20
+	_ _ _ _
+	_ _
+	_ _
+	son.
+	Ky -- ri -- %25
+	e e --
+	lei --
+	_ _
+	_
+	_ _ %30
+	_
+	son, e --
+	lei -- _
+	_
+	_ %35
+	_ _
+	son, e --
+	lei -- _
+	_
+	_
+	_ _
+	_
+	_
+	
+	son.
 }
 
 % Organo = {

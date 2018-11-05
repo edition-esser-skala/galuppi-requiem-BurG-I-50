@@ -377,7 +377,7 @@ KyrieOrgano = {
 		h a~
 		a gis
 		fis2. e4 %40
-		h1
+		dis1^\critnote
 		e
 		h2 ais
 		h1
@@ -397,15 +397,15 @@ KyrieBassFigures = \figuremode {
 	<6> <5!>
 	r1 %10
 	<7>2 <6>
-	<6>1
+	<6>2. <[5!]>4
+	r1
+	r
+	<[4]>2 <[3]> %15
+	r1
 	r
 	r
-	r %15
 	r
-	r
-	r
-	r
-	<6> %20
+	<[6\\]> %20
 	<6>
 	r2 <6>
 	<_+>1
@@ -426,7 +426,7 @@ KyrieBassFigures = \figuremode {
 	<4+ 2>2 <6>
 	<4 2> <6>
 	<_+>1 %40
-	r
+	<[6]>2. <[5!]>4
 	<9>2 <8>
 	r <6 5>
 	<5 4> <\l 3>

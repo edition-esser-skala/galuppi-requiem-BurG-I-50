@@ -68,6 +68,100 @@ TeDecetViola = {
 		\clef treble
 		\key a \major \time 3/4 \tempoTeDecet
 			\set Score.currentBarNumber = #53
-		
+		a'4\f a,\p a
+		a'\f a,\p a
+		a'\f a,\p a %55
+		e\f e'\p e,
+		e\f e'\p e,
+		dis\f dis\pE dis
+		e e' e,
+		e2.\fE %60
+		r8 gis gis gis gis gis
+		a2.
+		r8 a a h cis dis
+		e2 e,4
+		a2 r4 %65
+		d e e,
+		a2.
+		a4\pE a a
+		a a a
+		a a a %70
+		e e e
+		e' e e
+		dis dis dis
+		e e, e'
+		e gis e %75
+		h h' h,
+		e gis e
+		fis dis h
+		e e, e'
+		dis?2 e4 %80
+		h' h, h
+		h h r
+		r8 e( g) e( dis e)
+		r c( e) c( h c)
+		r ais ais ais ais ais %85
+		h4 h' ais,
+		h2 ais4
+		h2 r4
+		h' a gis
+		fis h, h %90
+		h2 h4
+		cis h h
+		cis8 cis' h a gis fis
+		e4 h' gis
+		h,2 h4 %95
+		h h h
+		cis h h
+		h2\fE r4
+		h h\pE h
+		h\fE h\pE h %100
+		ais\fE ais\pE ais
+		h h' h,
+		h2\fE r4
+		e2 gis4
+		a h h, %105
+		e e, r
+		e'\pE e e
+		e e e
+		e e e
+		e e e %110
+		e e e
+		dis dis dis
+		e e, e'
+		e fis gis
+		a2 cis,4 %115
+		d! fis a
+		a, cis d
+		a' a, r
+		a cis a
+		d e e, %120
+		a cis a
+		h gis e
+		a a' a,
+		e' e8 d cis h
+		a4 a a %125
+		a a a
+		a a a
+		a a a
+		a a gis!
+		a a gis %130
+		a a r
+		a2.
+		a
+		a4 gis a
+		d e e, %135
+		fis8 fis' e d cis h
+		a2.
+		a
+		a4 gis a
+		d e e, %140
+		a\fE^\critnote a\pE a
+		a\fE a\pE a
+		a\fE a\pE a
+		e\fE e'\pE e,
+		a2\fE r4 %145
+		d e e,
+		a2.^\critnote \bar "||" %147 FINIS
 	}
 }

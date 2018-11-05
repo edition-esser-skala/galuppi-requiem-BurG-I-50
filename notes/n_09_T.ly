@@ -184,7 +184,7 @@ TeDecetTenoreNotes = {
 		a2 gis4 %140
 		a2.
 		R2.*5 %146
-		R2.\fermataMarkup \bar "||" %147 finis
+		R2.\fermataMarkup \bar "||" %147 FINIS
 	}
 }
 
@@ -255,7 +255,7 @@ TeDecetTenoreLyrics = \lyricmode {
 	ca -- ro
 	ad te
 	ve -- ni -- %140
-	et. %141 finis
+	et. %141 FINIS
 }
 
 % TenoreNotes = {

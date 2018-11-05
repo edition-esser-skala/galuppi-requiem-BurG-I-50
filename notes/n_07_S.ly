@@ -110,14 +110,26 @@ IntroitusSopranoLyrics = \lyricmode {
 	e -- is. %49 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
+KyrieSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieSopranoLyrics = \lyricmode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
 % 		
 % 		
 % 	}
 % }
 % 
-% SopranoLyrics = \lyricmode {
+% BassFigures = \figuremode {
 % 	
 % }

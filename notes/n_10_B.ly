@@ -99,6 +99,18 @@ IntroitusBassoLyrics = \lyricmode {
 	e -- is. %49 finis
 }
 
+KyrieBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -165,3 +165,11 @@ TeDecetViolinoII = {
 		a2.\fermata \markRequiemDaCapoE \bar "||" %147 FINIS
 	}
 }
+
+KyrieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 2/2 \tempoKyrie
+		
+	}
+}

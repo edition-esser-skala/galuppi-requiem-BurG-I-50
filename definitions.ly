@@ -199,6 +199,8 @@ markRequiemDaCapoE = {
 tempoIntroitus = \tempoMarkup "[Tempo deest]"
 tempoTeDecet = \tempoMarkup "Maestoso"
 
+tempoKyrie = \tempoMarkup "[Tempo deest]"
+
 
 
 % modify the Scheme function 'format-bass-figure'

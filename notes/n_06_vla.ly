@@ -165,3 +165,11 @@ TeDecetViola = {
 		a2.^\critnote \markRequiemDaCapoE \bar "||" %147 FINIS
 	}
 }
+
+KyrieViola = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 2/2 \tempoKyrie
+		
+	}
+}

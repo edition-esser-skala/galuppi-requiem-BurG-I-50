@@ -58,3 +58,11 @@ IntroitusCornoI = {
 		c8(-. c-. c-. c-.) c4-! r\fermata \bar "||" %52 finis
 	}
 }
+
+KyrieCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoKyrie
+		
+	}
+}

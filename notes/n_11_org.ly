@@ -319,6 +319,18 @@ TeDecetBassFigures = \figuremode {
 	r2. %147 FINIS
 }
 
+KyrieOrgano = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 2/2 \tempoKyrie
+		\mvTr h'2.\fE-\tuttiE h4
+	}
+}
+
+KyrieBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -258,6 +258,18 @@ TeDecetAltoLyrics = \lyricmode {
 	et. %141 FINIS
 }
 
+KyrieAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

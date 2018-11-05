@@ -166,6 +166,14 @@ TeDecetViolinoI = {
 	}
 }
 
+KyrieViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 2/2 \tempoKyrie
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

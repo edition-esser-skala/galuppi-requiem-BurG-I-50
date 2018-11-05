@@ -181,8 +181,8 @@ TeDecetAltoNotes = {
 		r a' g
 		fis2 e4
 		d2 cis4
-		h2.^\critnote %140
-		a
+		h2^\critnote h4 %140
+		a2.
 		R2.*5 %146
 		R2.\fermataMarkup \bar "||" %147 finis
 	}

@@ -68,6 +68,100 @@ TeDecetViolinoII = {
 		\clef treble
 		\key a \major \time 3/4 \tempoTeDecet
 			\set Score.currentBarNumber = #53
-		
+		<a' a,>4\f cis,16.(\p d32 cis8) cis16.( d32 cis8)
+		<a' a,>4\f d,16.(\p e32 d8) d16.( e32 d8)
+		<a' a,>4\f \slurDashed cis,16.(\p d32 cis8) cis16.( d32 cis8) %55
+		d4\f h16.(\p cis32 h8) h16.( cis32 h8)
+		cis4\f a16.(\p h32 a8) a16.( h32 a8)
+		c4\f a16.(\p h32 a8) a16.( h32 a8) \slurSolid
+		a4 gis r
+		<gis' h>2.\fE %60
+		h,2.
+		<cis e>
+		a2.
+		\slurDashed gis16.( a32 gis8) a16.( h32 a8) h16.( cis32 h8) \slurSolid
+		a cis16 a e' cis a' e cis' a e cis %65
+		r8 d cis h a gis
+		a2.-\critnote
+		<a' a,>4\f \slurDashed cis,16.(\p d32 cis8) cis16.( d32 cis8)
+		<a' a,>4\f d,16.(\p e32 d8) d16.( e32 d8)
+		<a' a,>4\f cis,16.(\p d32 cis8) cis16.( d32 cis8) %70
+		d4\f h16.(\p cis32 h8) h16.( cis32 h8)
+		cis4\f a16.(\p h32 a8) a16.( h32 a8)
+		c4\fE a16.(\pE h32 a8) a16.( h32 a8) \slurSolid
+		a4 gis r
+		r r h' %75
+		fis' fis8 fis fis fis
+		fis4 e h
+		a' a8 a a a
+		a4 gis gis
+		gis fis e %80
+		e8[ dis] dis h' fis dis
+		h h, h4 r
+		r8 e( g) e( dis e)
+		r \slurDashed c( e) c( h c) \slurSolid
+		r e' e e e e %85
+		dis4 dis e
+		dis8 cis dis4 e
+		e dis r
+		r e e
+		e dis e %90
+		fis2 e4
+		e2 dis4
+		e2 r4
+		r e, e
+		dis2 e4 %95
+		fis2 e4
+		e2 dis4
+		<e h' e>4\f \slurDashed gis16.(\p a32 gis8) gis16.( a32 gis8)
+		a4\f fis16.(\p gis32 fis8) fis16.( gis32 fis8)
+		gis4\f e16.(\p fis32 e8) e16.( fis32 e8) %100
+		g4\fE e16.(\pE fis32 e8) e16.( fis32 e8) \slurSolid
+		e4 dis r
+		<h fis'>2.\fE
+		<h gis'!>
+		r8 a' gis fis e dis %105
+		e2.
+		e4\p \slurDashed gis16.( a32 gis8) gis16.( a32 gis8)
+		e4 a16.( h32 a8) a16.( h32 a8)
+		gis4 gis16.( a32 gis8) gis16.( a32 gis8)
+		d!4\f h16.(\p cis32 h8) h16.( cis32 h8) %110
+		cis4 a16.( h32 a8) a16.( h32 a8)
+		c4 a16.( h32 a8) a16.( h32 a8) \slurSolid
+		a4 gis r
+		r r e''
+		a a8 a a g %115
+		fis4 d cis
+		e2 d4
+		cis2 e4
+		a a8 a a a
+		a4 gis! e %120
+		cis' cis8 cis cis cis
+		cis4 h r
+		h a a
+		a8. gis16 gis4 r
+		r8 cis,, e a cis4 %125
+		cis2.
+		e
+		d
+		cis2 d4
+		cis8 h cis4 d %130
+		d cis8 a cis e
+		a2 g4
+		fis! d cis
+		h2 a4
+		a2 gis4 %135
+		a2 r4
+		r cis e
+		d2 cis4
+		h2 a4
+		a2 gis4 %140
+		a4\f \slurDashed cis,16.(\pE d32 cis8) cis16.( d32 cis8)
+		<a' a,>4\fE d,16.(\pE e32 d8) d16.( e32 d8)
+		<a' a,>4\fE cis,16.(\pE d32 cis8) cis16.( d32 cis8)
+		d4\fE h16.(\pE cis32 h8) h16.( cis32 h8) \slurSolid
+		a\fE cis16 a e' cis a' e cis' a e cis %145
+		r8 d cis h a gis
+		a2.\fermata \bar "||" %147 finis
 	}
 }

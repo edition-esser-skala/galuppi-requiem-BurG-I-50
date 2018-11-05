@@ -68,9 +68,9 @@ TeDecetViolinoI = {
 		\clef treble
 		\key a \major \time 3/4 \tempoTeDecet
 			\set Score.currentBarNumber = #53
-		<a' a,>4\f e16.(\p fis32 e8) e16.( fis32 e8)
+		<a' a,>4\f e16.(\p fis32 e8) \once \slurDashed e16.( fis32 e8)
 		<a a,>4\f fis16.(\p g32 fis8) fis16.( g32 fis8)
-		<a a,>4\f e16.(\p fis32 e8) e16.( fis32 e8) %55
+		<a a,>4\f e16.(\p fis32 e8) \once \slurDashed e16.( fis32 e8) %55
 		h'4\f d,16.(\p e32 d8) d16.( e32 d8)
 		a'4\f cis,16.(\p d32 cis8) cis16.( d32 cis8)
 		a'4\f c,16.(\p d32 c8) c16.( d32 c8)
@@ -79,16 +79,16 @@ TeDecetViolinoI = {
 		d,2.
 		cis16 a e' cis a' e cis' a e' cis a e
 		cis2.
-		h16. cis32 h8 cis16. d32 cis8 d16. e32 d8
+		\slurDashed h16.( cis32 h8) cis16.( d32 cis8) d16.( e32 d8) \slurSolid
 		cis16 a e' cis a' e cis' a e' cis a e %65
 		r8 fis e d cis h
 		a2.
 		<a' a,>4\f e16.(\p fis32 e8) e16.( fis32 e8)
 		<a a,>4\f fis16.(\p g32 fis8) fis16.( g32 fis8)
-		<a a,>4\f e16.(\p fis32 e8) e16.( fis32 e8) %70
+		<a a,>4\f e16.(\p fis32 e8) \once \slurDashed e16.( fis32 e8) %70
 		h'4\f d,16.(\p e32 d8) d16.( e32 d8)
-		a'4 cis,16.(\p d32 cis8) cis16.( d32 cis8)
-		a'4\fE c,16.(\pE d32 c8) c16.( d32 c8)
+		a'4\f \slurDashed cis,16.(\p d32 cis8) cis16.( d32 cis8)
+		a'4\fE c,16.(\pE d32 c8) c16.( d32 c8) \slurSolid
 		c?4 h r8 h'
 		e4 e8 e e e %75
 		e4 dis h
@@ -113,21 +113,21 @@ TeDecetViolinoI = {
 		fis2 gis4 %95
 		a2 gis4
 		fis2 fis4
-		<e h' e>4\f h'16.\p cis32 h8 h16. cis32 h8
-		fis'4\f a,16.\p h32 a8 a16. h32 a8
-		e'4\f gis,16.\p a32 gis8 gis16. a32 gis8 %100
-		e'4\fE g,16.\pE a32 g8 g16. a32 g8
+		<e h' e>4\f \slurDashed h'16.(\p cis32 h8) h16.( cis32 h8)
+		fis'4\f a,16.(\p h32 a8) a16.( h32 a8)
+		e'4\f gis,16.(\p a32 gis8) gis16.( a32 gis8) %100
+		e'4\fE g,16.(\pE a32 g8) g16.( a32 g8) \slurSolid
 		g?4 fis r
 		dis16\fE h fis' dis h' fis dis' h h' fis dis h
-		gis e h' gis e' h gis' e h' gis fis e
+		gis! e h' gis e' h gis' e h' gis fis e
 		r8 cis h a gis fis %105
 		e2.
-		e'4\p h16. cis32 h8 h16. cis32 h8
-		e4 cis16. d!32 cis8 cis16. d32 cis8
-		e4 h16. cis32 h8 h16. cis32 h8
-		h4\f d,!16.\p e32 d8 d16. e32 d8 %110
-		a'4 cis,16. d32 cis8 cis16. d32 cis8
-		a'4 c,16. d32 c8 c16. d32 c8
+		e'4\p \slurDashed h16.( cis32 h8) h16.( cis32 h8)
+		e4 cis16.( d!32 cis8) cis16.( d32 cis8)
+		e4 h16.( cis32 h8) h16.( cis32 h8)
+		h4\f d,!16.(\p e32 d8) d16.( e32 d8) %110
+		a'4 cis,16.( d32 cis8) cis16.( d32 cis8)
+		a'4 c,16.( d32 c8) c16.( d32 c8) \slurSolid
 		c?4 h r8 h'
 		e4 e8 e e d
 		cis4 cis r %115
@@ -156,10 +156,10 @@ TeDecetViolinoI = {
 		fis2 e4
 		d2 cis4
 		h2. %140
-		a4\f e16.\pE fis32 e8 e16. fis32 e8
+		a4\f \slurDashed e16.(\pE fis32 e8) e16.( fis32 e8)
 		<a a,>4\fE fis16.(\pE g32 fis8) fis16.( g32 fis8)
 		<a \parenthesize a,>4\fE e16.(\pE fis32 e8) e16.( fis32 e8)
-		h'4\fE d,16.(\pE e32 d8) d16.( e32 d8)
+		h'4\fE d,16.(\pE e32 d8) d16.( e32 d8) \slurSolid
 		cis16\fE a e' cis a' e cis' a e' cis a e %145
 		r8 fis e d cis h
 		a2.\fermata \bar "||" %147 finis

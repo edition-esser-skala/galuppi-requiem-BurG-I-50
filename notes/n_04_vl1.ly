@@ -162,7 +162,7 @@ TeDecetViolinoI = {
 		h'4\fE d,16.(\pE e32 d8) d16.( e32 d8) \slurSolid
 		cis16\fE a e' cis a' e cis' a e' cis a e %145
 		r8 fis e d cis h
-		a2.\fermata \bar "||" %147 FINIS
+		a2.\fermata \markRequiemDaCapoE \bar "||" %147 FINIS
 	}
 }
 

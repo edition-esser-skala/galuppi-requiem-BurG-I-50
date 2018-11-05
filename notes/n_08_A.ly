@@ -184,7 +184,7 @@ TeDecetAltoNotes = {
 		h2^\critnote h4 %140
 		a2.
 		R2.*5 %146
-		R2.\fermataMarkup \bar "||" %147 FINIS
+		R2.\fermataMarkup \markRequiemDaCapoE \bar "||" %147 FINIS
 	}
 }
 

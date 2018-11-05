@@ -65,7 +65,7 @@ IntroitusViola = {
 
 TeDecetViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 3/4 \tempoTeDecet
 			\set Score.currentBarNumber = #53
 		a'4\f a,\p a
@@ -104,7 +104,7 @@ TeDecetViola = {
 		h4 h' ais,
 		h2 ais4
 		h2 r4
-		h' a gis
+		h' a gis!
 		fis h, h %90
 		h2 h4
 		cis h h
@@ -162,6 +162,6 @@ TeDecetViola = {
 		e\fE e'\pE e,
 		a2\fE r4 %145
 		d e e,
-		a2.^\critnote \bar "||" %147 FINIS
+		a2.^\critnote \markRequiemDaCapoE \bar "||" %147 FINIS
 	}
 }

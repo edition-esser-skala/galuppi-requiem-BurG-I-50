@@ -217,7 +217,7 @@ TeDecetOrgano = {
 		e\fE e'\pE e,
 		a2\fE r4 %145
 		d e e,
-		a2.^\critnote \bar "||" %147 FINIS
+		a2.^\critnote \markRequiemDaCapoE \bar "||" %147 FINIS
 	}
 }
 

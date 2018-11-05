@@ -202,12 +202,12 @@ KyrieSopranoLyrics = \lyricmode {
 	son, e --
 	lei -- _
 	_
-	_
+	_ %40
 	_ _
 	_
 	_
 	
-	son.
+	son. %45 finis
 }
 
 % Organo = {

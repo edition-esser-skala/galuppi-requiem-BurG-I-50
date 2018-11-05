@@ -262,12 +262,93 @@ KyrieAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
-		
+		R1
+		\mvTr e2.\fE^\tuttiE e4
+		fis2 e
+		dis1
+		e2 e %5
+		\once \tieDashed dis~ dis
+		e2. dis4
+		cis1
+		h
+		h2 r %10
+		R1*4
+		e2. e4 %15
+		fis2 e
+		dis!1
+		e2 e
+		dis1
+		e2 dis %20
+		cis1
+		dis2 \once \tieDashed e~
+		e dis
+		cis1
+		h2 r %25
+		R1
+		fis'2. fis4
+		gis2 gis
+		fis1
+		gis2 \once \tieDashed fis~ %30
+		fis e
+		dis r
+		R1
+		r2 h'
+		h \once \tieDashed a~ %35
+		a gis
+		fis fis
+		eis \once \tieDashed fis~
+		fis e
+		\once \tieDashed fis1~ %40
+		fis~
+		fis2 e
+		dis e~
+		e dis
+		e1\fermata \bar "||" %45 finis
 	}
 }
 
 KyrieAltoLyrics = \lyricmode {
+	Ky -- ri -- %2
+	e e --
+	lei --
+	son, e -- %5
+	lei --
+	_ _
+	_
+	_
+	son. %10
 	
+	Ky -- ri -- %15
+	e e --
+	lei --
+	son, e --
+	lei --
+	_ _ %20
+	_
+	_ _
+	_
+	_
+	son. %25
+	
+	Ky -- ri --
+	e e --
+	lei --
+	_ _ %30
+	_
+	son,
+	
+	e --
+	lei -- _ %35
+	_
+	son, e --
+	lei -- _
+	_
+	_ %40
+	
+	_
+	_ _
+	_
+	son. %45 finis
 }
 
 % AltoNotes = {

@@ -68,7 +68,101 @@ TeDecetViolinoI = {
 		\clef treble
 		\key a \major \time 3/4 \tempoTeDecet
 			\set Score.currentBarNumber = #53
-		
+		<a' a,>4\f e16.(\p fis32 e8) e16.( fis32 e8)
+		<a a,>4\f fis16.(\p g32 fis8) fis16.( g32 fis8)
+		<a a,>4\f e16.(\p fis32 e8) e16.( fis32 e8) %55
+		h'4\f d,16.(\p e32 d8) d16.( e32 d8)
+		a'4\f cis,16.(\p d32 cis8) cis16.( d32 cis8)
+		a'4\f c,16.(\p d32 c8) c16.( d32 c8)
+		c?4 h r
+		e16\fE h gis' e h' gis d' h h' gis d h %60
+		d,2.
+		cis16 a e' cis a' e cis' a e' cis a e
+		cis2.
+		h16. cis32 h8 cis16. d32 cis8 d16. e32 d8
+		cis16 a e' cis a' e cis' a e' cis a e %65
+		r8 fis e d cis h
+		a2.
+		<a' a,>4\f e16.(\p fis32 e8) e16.( fis32 e8)
+		<a a,>4\f fis16.(\p g32 fis8) fis16.( g32 fis8)
+		<a a,>4\f e16.(\p fis32 e8) e16.( fis32 e8) %70
+		h'4\f d,16.(\p e32 d8) d16.( e32 d8)
+		a'4 cis,16.(\p d32 cis8) cis16.( d32 cis8)
+		a'4\fE c,16.(\pE d32 c8) c16.( d32 c8)
+		c?4 h r8 h'
+		e4 e8 e e e %75
+		e4 dis h
+		gis' gis8 gis gis gis
+		gis4 fis8 fis fis fis
+		fis4 e h'
+		h a gis %80
+		gis8[ fis] fis h fis dis
+		h h, h4 r
+		r8 e( g) e( dis e)
+		r \slurDashed c( e) c( h c) \slurSolid
+		r g'' g g g g %85
+		fis2 g4
+		fis8 e fis4 g
+		g fis r
+		r e e
+		fis2 gis!4 %90
+		a2 gis4
+		fis2 fis4
+		e2 r4
+		r e, e
+		fis2 gis4 %95
+		a2 gis4
+		fis2 fis4
+		<e h' e>4\f h'16.\p cis32 h8 h16. cis32 h8
+		fis'4\f a,16.\p h32 a8 a16. h32 a8
+		e'4\f gis,16.\p a32 gis8 gis16. a32 gis8 %100
+		e'4\fE g,16.\pE a32 g8 g16. a32 g8
+		g?4 fis r
+		dis16\fE h fis' dis h' fis dis' h h' fis dis h
+		gis e h' gis e' h gis' e h' gis fis e
+		r8 cis h a gis fis %105
+		e2.
+		e'4\p h16. cis32 h8 h16. cis32 h8
+		e4 cis16. d!32 cis8 cis16. d32 cis8
+		e4 h16. cis32 h8 h16. cis32 h8
+		h4\f d,!16.\p e32 d8 d16. e32 d8 %110
+		a'4 cis,16. d32 cis8 cis16. d32 cis8
+		a'4 c,16. d32 c8 c16. d32 c8
+		c?4 h r8 h'
+		e4 e8 e e d
+		cis4 cis r %115
+		d fis e
+		g2 fis4
+		e2 r4
+		r r e
+		h' h8 h h h %120
+		h4 a e
+		d' d8 d d d
+		d4 cis cis
+		cis8. h16 h4 r
+		r8 a, cis e a4 %125
+		a2.
+		g
+		f
+		e2 f4
+		e8 d e4 f %130
+		f? e8 a, cis e
+		cis2 e4
+		d fis! e
+		d2 cis4
+		h8 d cis4 h %135
+		a2 r4
+		r a' g
+		fis2 e4
+		d2 cis4
+		h2. %140
+		a4\f e16.\pE fis32 e8 e16. fis32 e8
+		<a a,>4\fE fis16.(\pE g32 fis8) fis16.( g32 fis8)
+		<a \parenthesize a,>4\fE e16.(\pE fis32 e8) e16.( fis32 e8)
+		h'4\fE d,16.(\pE e32 d8) d16.( e32 d8)
+		cis16\fE a e' cis a' e cis' a e' cis a e %145
+		r8 fis e d cis h
+		a2.\fermata \bar "||" %147 finis
 	}
 }
 

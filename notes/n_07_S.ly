@@ -215,12 +215,93 @@ ChristeSopranoNotes = {
 		\clef treble
 		\key e \minor \time 3/4 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #46
-		
+		R2.*4 %49
+		r4 \mvTr h'\pE^\soloE h %50
+		h a2
+		g4 g2
+		fis r4
+		r h d
+		d c c %55
+		h2.
+		a
+		g
+		fis4 a h
+		c2. %60
+		h2 h4
+		a d c
+		h2.
+		a
+		g4 r r %65
+		R2.*3
+		r4 d' d
+		c c c %70
+		h2.
+		a4 d c
+		h8([ a)] h4^\critnote d
+		d c h
+		a2 \once \tieDashed c4~ %75
+		c h a
+		g2.
+		fis4 h a
+		g8([ fis)] g4 g
+		fis2. %80
+		e4 e' d
+		c c c
+		h2 \once \tieDashed e4~
+		\once \tieDashed e2.~
+		e4 dis \once \tieDashed fis~ %85
+		fis \once \tieDashed e2~
+		e2.
+		dis8[ c h a g fis]
+		g2.
+		fis4^\critnote fis2 %90
+		e4 r r
+		R2.
+		R\fermataMarkup \markKyrieDaCapo \bar "||" %93 finis
 	}
 }
 
 ChristeSopranoLyrics = \lyricmode {
+	Chri -- ste, %50
+	Chri -- ste
+	e -- lei --
+	son,
+	Chri -- ste,
+	Chri -- ste e -- %55
+	lei --
+	_
+	_
+	son, Chri -- ste,
+	Chri -- %60
+	ste e --
+	_ _ _
+	_
+	lei --
+	son. %65
 	
+	Chri -- ste, %69
+	Chri -- ste e -- %70
+	lei --
+	son, Chri -- ste,
+	Chri -- ste e --
+	lei -- _ _
+	_ _ %75
+	_ _
+	_
+	son, Chri -- ste,
+	Chri -- ste e --
+	lei -- %80
+	son, Chri -- ste,
+	Chri -- ste e --
+	lei -- _
+	
+	_ _ %85
+	_
+	
+	_
+	son,
+	e -- lei -- %90
+	son. %91 FINIS
 }
 
 % SopranoNotes = {

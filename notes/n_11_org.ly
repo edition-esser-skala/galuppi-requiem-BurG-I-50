@@ -485,7 +485,7 @@ ChristeOrgano = {
 		a fis h a h h, %90
 		c c' h a g fis
 		e g a fis h h,
-		e2 r4\fermata \markKyrieDaCapo \bar "||" %93 finis
+		e2 r4\fermata \markKyrieDaCapo \bar "||" %93 FINIS
 	}
 }
 
@@ -534,10 +534,10 @@ ChristeBassFigures = \figuremode {
 	<7 [_+]>2.
 	<[_+]>
 	r
-	<[6] [5]>4 <[5] [4]> <\l [_+]>
+	<[6] [5]>4 <[5] [4]> <\l [_+]> %90
 	r2.
 	r4 <6 5> <_+>
-	r2.
+	r2. %93 FINIS
 }
 
 % Organo = {

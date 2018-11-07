@@ -63,6 +63,27 @@ KyrieCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 2/2 \tempoKyrie
-		
+		R1*9 %9
+		c'1\fE %10
+		d
+		e
+		c
+		c
+		c2 r %15
+		R1*15 %30
+		d2 c
+		g g~
+		g1~
+		g~
+		\tieDashed g~ %35
+		g~
+		g~
+		g \tieSolid
+		R1*2 %40
+		r2 g
+		c1
+		g2 c
+		g1
+		e\fermata \bar "||" %45 finis
 	}
 }

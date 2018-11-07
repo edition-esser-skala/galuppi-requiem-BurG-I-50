@@ -72,8 +72,8 @@ KyrieCornoI = {
 		f r %15
 		R1*15 %30
 		f2 e
-		d g,
-		\tieDashed g1~
+		d \tieDashed g,~
+		g1~
 		g~
 		g~ %35
 		g~

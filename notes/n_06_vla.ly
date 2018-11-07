@@ -208,3 +208,12 @@ KyrieViola = {
 		h-\critnote\fermata \bar "||" %45 finis
 	}
 }
+
+ChristeViola = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoChriste
+			\set Score.currentBarNumber = #46
+		
+	}
+}

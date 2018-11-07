@@ -351,6 +351,19 @@ KyrieAltoLyrics = \lyricmode {
 	son. %45 finis
 }
 
+ChristeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \autoBeamOff \tempoChriste
+			\set Score.currentBarNumber = #46
+		
+	}
+}
+
+ChristeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

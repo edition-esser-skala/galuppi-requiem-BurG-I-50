@@ -195,11 +195,16 @@ markRequiemDaCapoE = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark "[Requiem da capo]"
 }
+marKyrieDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark "Kyrie da capo"
+}
 
 tempoIntroitus = \tempoMarkup "[Tempo deest]"
 tempoTeDecet = \tempoMarkup "Maestoso"
 
 tempoKyrie = \tempoMarkup "[Tempo deest]"
+tempoChriste = \tempoMarkup "[Tempo deest]"
 
 
 

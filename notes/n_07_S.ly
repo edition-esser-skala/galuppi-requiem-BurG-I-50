@@ -210,14 +210,27 @@ KyrieSopranoLyrics = \lyricmode {
 	son. %45 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
+ChristeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \autoBeamOff \tempoChriste
+			\set Score.currentBarNumber = #46
+		
+	}
+}
+
+ChristeSopranoLyrics = \lyricmode {
+	
+}
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
 % 		
 % 		
 % 	}
 % }
 % 
-% BassFigures = \figuremode {
+% SopranoLyrics = \lyricmode {
 % 	
 % }

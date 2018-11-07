@@ -214,3 +214,12 @@ KyrieViolinoII = {
 		e1\fermata \bar "||" %45 finis
 	}
 }
+
+ChristeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoChriste
+			\set Score.currentBarNumber = #46
+		
+	}
+}

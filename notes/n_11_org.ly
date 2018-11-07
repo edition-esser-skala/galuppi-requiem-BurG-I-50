@@ -457,11 +457,11 @@ ChristeOrgano = {
 		d( cis d e fis d)
 		g fis g a h c
 		d cis d cis d d,
-		g fis g a h g %65
+		g\fE fis g a h g %65
 		fis e fis d e fis
 		g( fis g a h cis)
 		d d, d' c h a
-		g fis g a h g
+		g\pE fis g a h g
 		a g fis fis e fis %70
 		g fis g a h cis
 		d cis d d, e fis
@@ -483,7 +483,7 @@ ChristeOrgano = {
 		h2 h4
 		e r8 e fis g
 		a fis h a h h, %90
-		c c' h a g fis
+		c\fE c' h a g fis
 		e g a fis h h,
 		e2 r4\fermata \markKyrieDaCapo \bar "||" %93 FINIS
 	}

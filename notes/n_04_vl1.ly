@@ -223,7 +223,54 @@ ChristeViolinoI = {
 		\clef treble
 		\key e \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #46
-		
+		e'8(\fE dis e fis g e)
+		dis( cis dis h cis dis)
+		e( dis e fis g ais)
+		h( h, h' a g fis)
+		\mvTr e8\pE-\markup { \remarkE "simile" } dis e fis g e %50
+		dis cis dis h cis dis
+		e dis e fis g ais
+		h h, h' a g fis
+		e( fis gis a h gis)
+		a gis a h c a %55
+		d,( h e fis e d)
+		cis a d e fis d
+		e d cis h cis a
+		d4 d, r
+		r8 d'( e d e fis) %60
+		g( g, g a h cis)
+		d( cis d e fis d)
+		g fis g a h c
+		d cis d cis d d,
+		g\fE fis g a h g %65
+		fis e fis d e fis
+		g( fis g a h cis)
+		d d, d' c h a
+		g\pE fis g a h g
+		a g fis fis e fis %70
+		g fis g a h cis
+		d cis d d, e fis
+		g fis g a h g
+		c h c c, d e
+		fis e fis g a fis %75
+		h ais h h, cis? dis
+		e dis e fis g e
+		h'( h, h cis? dis h)
+		e( dis e fis g e)
+		a fis h a h h, %80
+		e( dis e fis gis e)
+		a( a, a h c! dis)
+		e( dis e fis g e)
+		fis eis fis gis ais fis
+		h( h, h cis? dis h) %85
+		e dis e d? c h
+		ais ais ais ais ais ais
+		h2 h4
+		e r8 e fis g
+		a fis h a h h, %90
+		c\fE c' h a g fis
+		e g a fis h h,
+		e2 r4\fermata \markKyrieDaCapo \bar "||" %93 FINIS
 	}
 }
 

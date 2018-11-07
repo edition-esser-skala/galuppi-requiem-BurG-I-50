@@ -304,6 +304,18 @@ ChristeSopranoLyrics = \lyricmode {
 	son. %91 FINIS
 }
 
+DiesIraeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -206,6 +206,8 @@ tempoTeDecet = \tempoMarkup "Maestoso"
 tempoKyrie = \tempoMarkup "[Tempo deest]"
 tempoChriste = \tempoMarkup "[Tempo deest]"
 
+tempoDiesIrae = \tempoMarkup "[Tempo deest]"
+
 
 
 % modify the Scheme function 'format-bass-figure'

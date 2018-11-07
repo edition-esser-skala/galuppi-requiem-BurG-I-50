@@ -173,6 +173,18 @@ KyrieBassoLyrics = \lyricmode {
 	son. %45 finis
 }
 
+DiesIraeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

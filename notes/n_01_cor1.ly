@@ -87,3 +87,11 @@ KyrieCornoI = {
 		c\fermata \bar "||" %45 finis
 	}
 }
+
+DiesIraeCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDiesIrae
+		
+	}
+}

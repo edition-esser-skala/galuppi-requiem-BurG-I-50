@@ -270,3 +270,11 @@ ChristeViolinoII = {
 		e2 r4\fermata \markKyrieDaCapo \bar "||" %93 FINIS
 	}
 }
+
+DiesIraeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \tempoDiesIrae
+		
+	}
+}

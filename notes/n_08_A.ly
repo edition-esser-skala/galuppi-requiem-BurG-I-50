@@ -406,6 +406,18 @@ ChristeAltoLyrics = \lyricmode {
 	
 }
 
+DiesIraeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

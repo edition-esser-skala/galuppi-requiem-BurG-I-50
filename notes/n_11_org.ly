@@ -540,6 +540,18 @@ ChristeBassFigures = \figuremode {
 	r2. %93 FINIS
 }
 
+DiesIraeOrgano = {
+	\relative c {
+		\clef bass
+		\key e \major \time 3/4 \tempoDiesIrae
+		\mvTr e4\fE-\tuttiE r r
+	}
+}
+
+DiesIraeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

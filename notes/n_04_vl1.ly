@@ -274,6 +274,14 @@ ChristeViolinoI = {
 	}
 }
 
+DiesIraeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \tempoDiesIrae
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -223,7 +223,7 @@ ChristeViolinoI = {
 		\clef treble
 		\key e \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #46
-		e'8(\fE dis e fis g e)
+		\mvTr e'8(\fE-\markup { \remark "coll’Organo sempre" } dis e fis g e)
 		dis( cis dis h cis dis)
 		e( dis e fis g ais)
 		h( h, h' a g fis)

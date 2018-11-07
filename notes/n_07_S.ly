@@ -252,7 +252,7 @@ ChristeSopranoNotes = {
 		e4 dis \once \tieDashed fis~ %85
 		fis \once \tieDashed e2~
 		e2.
-		dis8[ c h a g fis]
+		dis8[ c! h a g fis]
 		g2.
 		fis4^\critnote fis2 %90
 		e4 r r

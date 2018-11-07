@@ -356,7 +356,49 @@ ChristeAltoNotes = {
 		\clef treble
 		\key e \minor \time 3/4 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #46
-		
+		R2.*4 %49
+		r4 g'\pE^\soloE g %50
+		fis fis2
+		e4 e2
+		dis r4
+		R2.
+		r4 e a %55
+		a g g
+		g fis2~
+		fis4 e2
+		d4 fis g
+		a2. %60
+		g2 g4
+		g fis \once \tieDashed a~
+		a g8[ fis] g4~
+		g fis2
+		g4 r r %65
+		R2.*3
+		r4 h h
+		h a a %70
+		a( g8[ fis]) g4
+		fis r r
+		r g f
+		e8([ d)] e4 g
+		g fis e %75
+		dis2 \once \tieDashed fis4~
+		fis e e
+		dis2 fis4
+		e e e
+		e( dis8[ cis?] dis4) %80
+		e r r
+		r a a
+		a g h
+		h ais cis~
+		cis h a %85
+		\once \tieDashed g2.~
+		g
+		fis4 r8 fis[ e dis]
+		e2.
+		e4 dis2 %90
+		e4 r r
+		R2.
+		R\fermataMarkup \markKyrieDaCapo \bar "||" %93 finis
 	}
 }
 

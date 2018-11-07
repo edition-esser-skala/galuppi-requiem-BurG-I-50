@@ -170,6 +170,41 @@ KyrieViola = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 2/2 \tempoKyrie
-		
+		R1*5 %5
+		h2.\fE h4
+		cis2 h
+		ais1
+		h2 a
+		gis1 %10
+		a
+		h
+		cis2 cis
+		h1
+		a2 r %15
+		R1*3
+		h2. h4
+		cis2 h %20
+		ais1
+		h2 gis
+		fis \once \tieDashed h~
+		h ais
+		h r %25
+		R1*4
+		r2 cis %30
+		h1
+		h2 h
+		cis2. dis4
+		e h e2
+		dis4 h cis dis %35
+		e1
+		fis2 dis
+		cis1
+		dis2 \once \tieDashed e~
+		e cis %40
+		\once \tieDashed h1~
+		\once \tieDashed h~
+		h2-\critnote cis
+		h1
+		h-\critnote\fermata \bar "||" %45 finis
 	}
 }

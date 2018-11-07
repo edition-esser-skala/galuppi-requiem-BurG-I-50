@@ -168,7 +168,7 @@ TeDecetViola = {
 
 KyrieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \major \time 2/2 \tempoKyrie
 		R1*5 %5
 		h2.\fE h4

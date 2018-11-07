@@ -103,12 +103,74 @@ KyrieBassoNotes = {
 	\relative c {
 		\clef bass
 		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
-		
+		R1*6
+		\mvTr e2.\fE^\tuttiE e4
+		fis2 e
+		dis1
+		e2 e %10
+		fis1
+		gis
+		a2 a,
+		e'1
+		a,2 r %15
+		R1*8 %23
+		fis'2. fis4
+		gis2 fis %25
+		eis1
+		fis2 fis
+		fis e!
+		dis gis
+		eis fis %30
+		dis e
+		h1
+		h
+		\once \tieDashed h~
+		\once \tieDashed h~ %35
+		h
+		h2 h'
+		h a~
+		a gis
+		fis2. e4 %40
+		dis1
+		e
+		h2 ais
+		h1
+		e\fermata \bar "||" %45 finis
 	}
 }
 
 KyrieBassoLyrics = \lyricmode {
+	Ky -- ri -- %7
+	e e --
+	lei --
+	son, e -- %10
+	lei --
+	_
+	son, e --
+	lei --
+	son. %15
 	
+	Ky -- ri -- %24
+	e e -- %25
+	lei --
+	son, e --
+	lei -- _
+	_ _
+	_ _ %30
+	_ _
+	son,
+	e --
+	lei --
+	
+	son, e -- %37
+	lei -- _
+	_
+	_ _ %40
+	_
+	_
+	_ _
+	_
+	son. %45 finis
 }
 
 % BassoNotes = {

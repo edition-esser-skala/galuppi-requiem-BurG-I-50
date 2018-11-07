@@ -262,12 +262,81 @@ KyrieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key e \major \time 2/2 \autoBeamOff \tempoKyrie
-		
+		R1*5 %5
+		\mvTr h2.\fE^\tuttiE h4
+		cis2 h
+		ais1
+		h2 a
+		gis1 %10
+		a
+		h
+		cis2 cis
+		h1
+		a2 r %15
+		R1*3
+		h2. h4
+		cis2 h %20
+		ais1
+		h2 gis
+		fis \once \tieDashed h~
+		h ais
+		h r %25
+		R1*4
+		r2 cis %30
+		h1
+		h2 r^\critnote
+		cis2. dis4
+		e h e2
+		dis4 h cis dis %35
+		e1
+		fis2 dis
+		cis1
+		dis2 \once \tieDashed e~
+		e cis %40
+		\once \tieDashed h1~
+		\once \tieDashed h~
+		h2 cis
+		h1
+		h\fermata \bar "||" %45 finis
 	}
 }
 
 KyrieTenoreLyrics = \lyricmode {
+	Ky -- ri -- %6
+	e e --
+	lei --
+	son, e --
+	lei -- %10
+	_
+	_
+	son, e --
+	lei --
+	son. %15
 	
+	Ky -- ri -- %19
+	e e -- %20
+	lei --
+	son, e --
+	lei -- _
+	_
+	son, %25
+	
+	e -- %30
+	lei --
+	son.
+	Ky -- ri --
+	e [e -- lei] --
+	_ _ _ _ %35
+	_
+	son, e --
+	lei --
+	_ _
+	_ %40
+	_
+	
+	_
+	_
+	son. %45 finis
 }
 
 % TenoreNotes = {

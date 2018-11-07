@@ -170,6 +170,47 @@ KyrieViolinoII = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 2/2 \tempoKyrie
-		
+		R1
+		e2.\fE e4
+		fis2 e
+		dis1
+		e2 e %5
+		\once \tieDashed dis~ dis
+		e2. dis4
+		cis1
+		h
+		h2 r %10
+		R1*4
+		e2. e4 %15
+		fis2 e
+		dis!1
+		e2 e
+		dis1
+		e2 dis %20
+		cis1
+		dis2 \once \tieDashed e~
+		e dis
+		cis1
+		h2 r %25
+		R1
+		fis''2. fis4
+		gis2 gis
+		fis1
+		gis2 fis %30
+		fis, e
+		dis r
+		R1
+		r2 h'~
+		h \once \tieDashed a~ %35
+		a gis
+		fis fis
+		eis \once \tieDashed fis~
+		fis e
+		\once \tieDashed fis1~ %40
+		fis~
+		fis2 e
+		dis e~
+		e dis
+		e1\fermata \bar "||" %45 finis
 	}
 }

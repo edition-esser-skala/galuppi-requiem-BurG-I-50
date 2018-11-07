@@ -198,7 +198,7 @@ KyrieSopranoLyrics = \lyricmode {
 	lei -- _
 	_
 	_ %35
-	_ _
+	_
 	son, e --
 	lei -- _
 	_

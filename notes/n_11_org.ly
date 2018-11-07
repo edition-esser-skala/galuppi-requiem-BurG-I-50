@@ -439,11 +439,105 @@ ChristeOrgano = {
 		\key e \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #46
 		\mvTr e8(\fE-\soloE dis e fis g e)
+		dis( cis dis h cis dis)
+		e( dis e fis g ais)
+		h( h, h' a g fis)
+		\mvTr e8\pE-\markup { \remarkE "simile" } dis e fis g e %50
+		dis cis dis h cis dis
+		e dis e fis g ais
+		h h, h' a g fis
+		e( fis gis a h gis)
+		a gis a h c a %55
+		d,( h e fis e d)
+		cis a d e fis d
+		e d cis h cis a
+		d4 d, r
+		r8 d'( e d e fis) %60
+		g( g, g a h cis)
+		d( cis d e fis d)
+		g fis g a h c
+		d cis d cis d d,
+		g fis g a h g %65
+		fis e fis d e fis
+		g( fis g a h cis)
+		d d, d' c h a
+		g fis g a h g
+		a g fis fis e fis %70
+		g fis g a h cis
+		d cis d d, e fis
+		g fis g a h g
+		c h c c, d e
+		fis e fis g a fis %75
+		h ais h h, cis? dis
+		e dis e fis g e
+		h'( h, h cis? dis h)
+		e( dis e fis g e)
+		a fis h a h h, %80
+		e( dis e fis gis e)
+		a( a, a h c! dis)
+		e( dis e fis g e)
+		fis eis fis gis ais fis
+		h( h, h cis? dis h) %85
+		e dis e d? c h
+		ais ais ais ais ais ais
+		h2 h4
+		e r8 e fis g
+		a fis h a h h, %90
+		c c' h a g fis
+		e g a fis h h,
+		e2 r4\fermata \markKyrieDaCapo \bar "||" %93 finis
 	}
 }
 
 ChristeBassFigures = \figuremode {
-	
+	r2. %46
+	r
+	r
+	r
+	r %50
+	r
+	r
+	<_+>
+	r
+	<4>4 <3>2 %55
+	<6 5>4 <[_+]>2
+	<6 5>2.
+	<9>4 <6 5>2
+	r2.
+	r8 <7> r2 %60
+	r2.
+	<4>4 <3> <[6]>
+	<9> <8> <[6]>
+	<4> <3>2
+	r2. %65
+	<[6]>
+	r
+	r
+	r
+	<9>4 <8>2 %70
+	r2.
+	r
+	r2 <6 5!>4
+	<9>4 <8>2
+	<9>4 <8>2 %75
+	<9 [_+]>4 <8>2
+	<9>4 <8>2
+	<[_+]>2.
+	r
+	<6 5>4 <[_+]>2 %80
+	r2 <[6]>4
+	r2.
+	<4>4 <3> <[6]>
+	<7 4> <\l _+> <[6] [_+]>
+	<9> <8> <[6] [5!]> %85
+	<9> <8>2
+	<7 [_+]>2.
+	<[_+]>
+	r
+	<[6] [5]>4 <[5] [4]> <\l [_+]>
+	r2.
+	r4 <6 5> <_+>
+	r2.
 }
 
 % Organo = {

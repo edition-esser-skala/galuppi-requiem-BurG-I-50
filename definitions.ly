@@ -195,7 +195,7 @@ markRequiemDaCapoE = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark "[Requiem da capo]"
 }
-marKyrieDaCapo = {
+markKyrieDaCapo = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark "Kyrie da capo"
 }

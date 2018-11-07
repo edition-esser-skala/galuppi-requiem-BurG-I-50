@@ -148,8 +148,8 @@ KyrieSopranoNotes = {
 		fis h
 		h \once \tieDashed a~
 		a gis
-		fis r %35
-		fis e
+		\once \tieDashed fis1~^\critnote %35
+		fis2 e
 		dis fis
 		gis a
 		h1

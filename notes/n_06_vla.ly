@@ -211,7 +211,7 @@ KyrieViola = {
 
 ChristeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 3/4 \tempoChriste
 			\set Score.currentBarNumber = #46
 		\mvTr e8(\fE-\markup { \remark "VIola coll’Organo sempre" } dis e fis g e)

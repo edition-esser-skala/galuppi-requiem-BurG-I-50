@@ -343,12 +343,166 @@ DiesIraeTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
-		
+		R2.*18 %18
+		r4 \mvTr h\fE^\tuttiE e
+		e dis r %20
+		R2.*3
+		h2 a4
+		gis2 fis4 %25
+		e( gis) h
+		e e, r
+		R2.
+		dis'2.
+		cis %30
+		h
+		h
+		h4( e) e
+		cis2.
+		h2 r4 %35
+		h2.
+		h
+		cis
+		dis
+		h2 e4 %40
+		cis2.
+		dis2 r4
+		R2.*10 %52
+		r4 d d
+		cis d? r
+		r d? d %55
+		d? cis r
+		cis2 h4
+		a2 e4
+		a2 a4
+		a gis r %60
+		d'?2 cis4
+		h2 fis4
+		h2 h4
+		h ais r
+		r ais ais %65
+		a gis r
+		r h h
+		h h r
+		e2 d4
+		cis2 cis4 %70
+		cis( dis!) e
+		e dis r
+		R2.
+		h2 a4
+		gis2 fis4 %75
+		e( gis) h
+		e dis r
+		h2.
+		h
+		gis %80
+		h
+		cis2 cis4
+		h2.
+		gis2 r4
+		h2. %85
+		h
+		e
+		e
+		cis2 cis4
+		h2. %90
+		h2 r4
+		R2.*2 \bar "||"
+		\time 4/4 \newSpacingSection \tempoQuantusTremor R1
+		h2 cis! %95
+		cis4 h h h
+		h h a e'
+		e e cis cis
+		h h cis cis
+		cis cis dis! dis %100
+		cis cis cis cis
+		h h r h8 h
+		h4 h h h
+		h h h h
+		cis cis dis! dis %105
+		e e h h
+		cis! cis h h
+		h2 h4 r\fermata \bar "||" %1098 finis
 	}
 }
 
 DiesIraeTenoreLyrics = \lyricmode {
+	Di -- es %19
+	i -- rae, %20
 	
+	sol -- vet, %24
+	sae -- clum %25
+	in __ fa --
+	vil -- la,
+	
+	te --
+	ste %30
+	Da --
+	vid
+	cum __ Si --
+	byl --
+	la, %35
+	te --
+	ste
+	Da --
+	vid
+	cum Si -- %40
+	byl --
+	la.
+	
+	Di -- es %53
+	i -- rae,
+	di -- es %55
+	il -- la
+	sol -- vet
+	sae -- clum
+	in fa --
+	vil -- la, %60
+	sol -- vet
+	sae -- clum
+	in fa --
+	vil -- la,
+	di -- es %65
+	i -- rae,
+	di -- es
+	il -- la,
+	sol -- vet
+	sae -- clum %70
+	in __ fa --
+	vil -- la,
+	
+	sol -- vet
+	sae -- clum %75
+	in __ fa --
+	vil -- la,
+	te --
+	ste
+	Da -- %80
+	vid
+	cum Si --
+	byl --
+	la,
+	te -- %85
+	ste
+	Da --
+	vid
+	cum Si --
+	byl -- %90
+	la.
+	
+	Quan -- tus %95
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven --
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus -- %100
+	su -- rus, di -- scus --
+	su -- rus! Quan -- tus
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven -- %105
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus --
+	su -- rus! %108 finis
 }
 
 % TenoreNotes = {

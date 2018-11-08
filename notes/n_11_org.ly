@@ -637,7 +637,7 @@ DiesIraeOrgano = {
 		e4 gis e
 		cis e cis
 		ais cis ais \bar "||"
-		\time 4/4 \tempoQuantusTremor h8 h h h h h h h
+		\time 4/4 \newSpacingSection \tempoQuantusTremor h8 h h h h h h h
 		h h h h ais ais ais ais %95
 		h h h h a'! a a a
 		gis! gis gis gis a a a a
@@ -724,13 +724,13 @@ DiesIraeBassFigures = \figuremode {
 	<6 _!>
 	r4 <6 5>2
 	r2.
-	r2 <6 [5!]>4
+	r4 <[7]> <6 [5!]>
 	<[9]>4 <[8]>2 %70
 	<6 5>2.
-	<_+>
-	<[8] [6]>2 <[7] [5]>4
+	<[4]>4 <_+>2
+	<[8] [6]> <[7] [5]>4
 	<[6] [4]>2 <[5] [3]>4
-	<[6] [4]>2. %75
+	<[6] [4]>2 <[5] [3]>4 %75
 	<[8] [6]>2 <[7] [5]>4
 	r2.
 	r
@@ -744,7 +744,7 @@ DiesIraeBassFigures = \figuremode {
 	r
 	r
 	<[8] [6]>
-	<[6] [5]>2 <[7]>4
+	<[8] [6]>2 <[7] [5]>4
 	<[4]>2 <[3]>4 %90
 	<[8] [3]>2. \bassFigureExtendersOn
 	<8 3>

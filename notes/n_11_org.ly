@@ -545,11 +545,225 @@ DiesIraeOrgano = {
 		\clef bass
 		\key e \major \time 3/4 \tempoDiesIrae
 		\mvTr e4\fE-\tuttiE r r
+		cis h r
+		h2 e4
+		h e, r
+		e gis h %5
+		e e, r
+		e gis h
+		e e, r
+		e gis h
+		e h8 h' fis dis %10
+		h4 cis dis
+		e fis gis
+		a e e,
+		a' h h,
+		e8 e e e e e %15
+		e e e e e e
+		a a h h h, h
+		e4 e, r
+		e' e, r
+		cis' h r %20
+		h2 e4
+		h e, r
+		e' gis h
+		e e, r
+		e, gis h %25
+		e e, r
+		e gis h
+		e h r
+		h'8 h h h h h
+		fis fis fis fis fis fis %30
+		gis gis gis gis gis gis
+		dis dis dis dis dis dis
+		e e e e e e
+		fis fis fis fis fis fis
+		gis gis gis gis gis gis %35
+		dis dis dis dis dis dis
+		e e e e e e
+		cis cis cis cis cis cis
+		h h h h h h
+		e e e e e e %40
+		fis fis fis fis fis, fis
+		h4 r r
+		h ais r
+		fis'2 h4
+		fis h,8 h' fis dis %45
+		h4 cis dis
+		e h' h,
+		e fis fis,
+		h8 h h h h h
+		h h h h h h %50
+		e e fis fis fis, fis
+		h2 r4
+		h h h
+		fis' h, r
+		h h' a! %55
+		gis a r
+		a, cis e
+		a a, r
+		a cis a
+		e' e cis %60
+		h d fis
+		h h, r
+		h d h
+		fis' fis g?8-! eis-!
+		fis4 fis fis %65
+		fis e! r
+		h dis! e
+		h e, r
+		e' fis gis
+		a2. %70
+		ais
+		h4 h, h
+		h2.
+		h
+		h %75
+		h
+		e4 h h
+		e8 e e e e e
+		h h h h h h
+		cis cis cis cis cis cis %80
+		gis gis gis gis gis gis
+		a a a a ais ais
+		h h h h h h
+		cis2 r4
+		dis8 dis dis dis dis dis %85
+		e e e e e e
+		cis cis cis cis cis cis
+		gis' gis gis gis gis gis
+		a a a a ais ais
+		h h h h, h h %90
+		e4 gis e
+		cis e cis
+		ais cis ais \bar "||"
+		\time 4/4 \tempoQuantusTremor h8 h h h h h h h
+		h h h h ais ais ais ais %95
+		h h h h a'! a a a
+		gis! gis gis gis a a a a
+		e e e e e e e e
+		d d d d cis cis cis cis
+		cis cis cis cis his his his his %100
+		cis cis cis cis ais ais ais ais
+		h h h h h h h h
+		h h h h h h h h
+		h h h h h h h h
+		h h h h h h h h %105
+		h h h h h h h h
+		ais ais ais ais h h h h
+		h h h h e,4 r\fermata \bar "||" %108 finis
 	}
 }
 
 DiesIraeBassFigures = \figuremode {
-	
+	r2.
+	<[6\\]>
+	r
+	r
+	r %5
+	r
+	r
+	r
+	r
+	r %10
+	<7>
+	r4 <6!>2
+	r2.
+	r4 <6 4> <5 3>
+	<7!>2. %15
+	<6 4>4 <5 3>2
+	r4 <6 4> <5 3>
+	r2.
+	r
+	<[6\\]> %20
+	r
+	r
+	r
+	r
+	r %25
+	r
+	r
+	r
+	r
+	<6> %30
+	<[6]>
+	<6>
+	<6>
+	<4>2 <_+>4
+	r2. %35
+	<6>
+	r
+	<[6\\]>
+	r
+	<6> %40
+	<[4]>2 <[_+]>4
+	r2.
+	<4+ 2>4 <[6]>2
+	<_+>2.
+	<_+> %45
+	<7!>
+	r
+	r4 <6 4> <5 [_+]>
+	<[7!]>2.
+	<6 4>4 <5 3> r %50
+	r <6 4> <5 [_+]>
+	r2.
+	<_!>
+	<_+>
+	<[_!]>2 <[4!]>4 %55
+	<6 5>2.
+	r
+	r
+	r
+	<6 4>4 <5 3> <[6\\]> %60
+	<_!>2 <_+>4
+	<[_!]>2.
+	q
+	<6! 4>4 <5 _+> <[1]>8 q
+	<_+>2. %65
+	<6 _!>
+	r4 <6 5>2
+	r2.
+	r2 <6 [5!]>4
+	r2. %70
+	<6 5>
+	<_+>
+	r
+	r
+	r %75
+	r
+	r
+	r
+	<6 4>
+	<5 3> %80
+	<8 6>
+	<6 5>
+	<5 4>2 <\l 3>4
+	r2.
+	<[6] [5]> %85
+	r
+	r
+	<[8] [6]>
+	<[6] [5]>
+	<[4]>2 <[3]>4 %90
+	<[8] [3]>2. \bassFigureExtendersOn
+	<8 3>
+	q2 q4 \bassFigureExtendersOff
+	r2. <7>4
+	<[6!] 4>2 <7> %95
+	<4 2>4 <3> <4 2>2
+	<6> <_!>
+	<_+> <4+ 2>
+	<6> <7 _+>
+	<6 4> <7> %100
+	<6 4>4 <5 _+> <6 5>2
+	r1
+	r2 <7 5>
+	<6! 4> <5 3>
+	<7+ 4> <7! 5> %105
+	<6! 4> <5 3>
+	<7!> <6! 4>
+	<5 4>4 <\l 3>r2. %108 finis
 }
 
 % Organo = {

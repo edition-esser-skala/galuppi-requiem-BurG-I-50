@@ -207,6 +207,7 @@ tempoKyrie = \tempoMarkup "[Tempo deest]"
 tempoChriste = \tempoMarkup "[Tempo deest]"
 
 tempoDiesIrae = \tempoMarkup "[Tempo deest]"
+	tempoQuantusTremor = \tempoMarkup "Allegro"
 
 
 

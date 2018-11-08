@@ -20,7 +20,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.1 DIES IRAE"
+			movement = "3.1 DIES IRAE – QUANTUS TREMOR"
 		}
 		\score {
 			<<

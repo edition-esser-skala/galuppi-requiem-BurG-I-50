@@ -81,8 +81,8 @@
 					\DiesIraeBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 120 }
+% 			\layout { }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

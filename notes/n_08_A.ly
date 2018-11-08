@@ -410,12 +410,170 @@ DiesIraeAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
-		
+		R2.*18 %18
+		r4 \mvTr gis'\fE^\tuttiE gis
+		fis fis r %20
+		r fis e
+		dis^\critnote e r
+		h'2.
+		h
+		h2 a4 %25
+		gis2 fis4
+		e2 dis4
+		e dis r
+		fis2.
+		fis %30
+		dis
+		fis
+		gis2 gis4
+		fis2.
+		dis2 r4 %35
+		fis2.
+		e
+		e2( fis4)
+		fis2.
+		gis2 gis4 %40
+		fis2.
+		fis2 r4
+		R2.*10 %52
+		r4 fis fis
+		fis fis r
+		r fis fis %55
+		e e r
+		e2 d?4
+		cis2 h4
+		cis( e) e
+		e e r %60
+		fis2 e4
+		d2 cis4
+		d( fis) fis
+		fis fis r
+		r fis fis %65
+		fis e r
+		r fis e
+		dis e r
+		gis( a) h
+		h( a8[ gis)] a4 %70
+		fis2 fis4
+		fis fis r
+		h2 a4
+		gis2 fis4
+		e( gis) h %75
+		e e, r
+		R2.
+		e
+		e
+		e %80
+		e
+		e2 e4
+		e2( dis4)
+		e2 r4
+		fis2. %85
+		gis
+		gis
+		gis
+		fis2 e4
+		e2( dis4) %90
+		e2 r4
+		R2.*2 \bar "||"
+		\time 4/4 \tempoQuantusTremor R1
+		r4 g2 g4 %95
+		fis fis fis fis
+		e e a a
+		gis! gis fis fis
+		fis fis eis eis
+		fis fis fis fis %100
+		fis eis e e
+		dis! dis r dis8 dis
+		h'4 h, c! dis!
+		e e e dis!
+		cis e fis fis %105
+		fis e dis! dis
+		e e e e
+		e( dis!) e r\fermata \bar "||" %108 finis
 	}
 }
 
 DiesIraeAltoLyrics = \lyricmode {
+	Di -- es %19
+	i -- rae, %20
+	di -- es
+	il -- la
+	sol --
+	vet,
+	sol -- vet %25
+	sae -- clum
+	in fa --
+	vil -- la,
+	te --
+	ste %30
+	Da --
+	vid
+	cum Si --
+	byl --
+	la, %35
+	te --
+	ste
+	Da --
+	vid
+	cum Si -- %40
+	byl --
+	la.
 	
+	Di -- es %53
+	i -- rae,
+	di -- es %55
+	il -- la
+	sol -- vet
+	sae -- clum
+	in __ fa --
+	vil -- la, %60
+	sol -- vet
+	sae -- clum
+	in __ fa --
+	vil -- la,
+	di -- es %65
+	i -- rae,
+	di -- es
+	il -- la,
+	sol -- vet
+	sae -- clum %70
+	in fa --
+	vil -- la,
+	sol -- vet
+	sae -- clum
+	in __ fa -- %75
+	vil -- la,
+	
+	te --
+	ste
+	Da -- %80
+	vid
+	cum Si --
+	byl --
+	la,
+	te -- %85
+	ste
+	Da --
+	vid
+	cum Si --
+	byl -- %90
+	la.
+	
+	Quan -- tus %95
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven --
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus -- %100
+	su -- rus, di -- scus --
+	su -- rus! Quan -- tus
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven -- %105
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus --
+	su -- rus! %108 finis
 }
 
 % AltoNotes = {

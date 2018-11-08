@@ -374,7 +374,7 @@ DiesIraeSopranoNotes = {
 		R2.*2 \bar "||"
 		\time 4/4 \tempoQuantusTremor R1
 		r4 e'2 e4 %95
-		e dis dis dis
+		e dis! dis dis
 		e d c c
 		h h ais ais
 		h h h h
@@ -467,7 +467,7 @@ DiesIraeSopranoLyrics = \lyricmode {
 	Ju -- dex est ven -- %105
 	tu -- rus, cun -- cta
 	stri -- cte di -- scus --
-	su -- rus! %1098 finis
+	su -- rus! %108 finis
 }
 
 % SopranoNotes = {

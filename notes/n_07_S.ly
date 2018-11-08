@@ -308,12 +308,166 @@ DiesIraeSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
-		
+		R2.*18 %18
+		r4 \mvTr e'\fE^\tuttiE h
+		ais h r %20
+		r a gis
+		fis e r
+		R2.
+		h'
+		h %25
+		h2 a4
+		gis2 fis4
+		gis fis r
+		h2.
+		ais %30
+		h
+		h
+		h2 cis4
+		h2( ais4)
+		h2 r4 %35
+		a!2.
+		gis
+		ais
+		h
+		h2 cis4 %40
+		h2( ais4)
+		h2 r4
+		R2.*10 %52
+		r4 h h
+		ais h r
+		r h h %55
+		h a! r
+		a2 gis4
+		a( e') d?
+		cis2 cis4
+		cis h r %60
+		h2 ais4
+		h( fis') e
+		d2 d4
+		d? cis r
+		r cis cis %65
+		dis! e r
+		r a, gis
+		fis e r
+		R2.*3 %71
+		h'2 a4
+		gis2 fis4
+		e( gis) h
+		e e, r %75
+		h'2 a4
+		gis fis r
+		gis2.
+		gis
+		gis %80
+		gis
+		fis2 fis4
+		fis2.
+		e2 r4
+		h'2. %85
+		h
+		cis
+		h
+		a2 gis4
+		fis2. %90
+		e2 r4
+		R2.*2 \bar "||"
+		\time 4/4 \tempoQuantusTremor R1
+		r4 e'2 e4 %95
+		e dis dis dis
+		e d c c
+		h h ais ais
+		h h h h
+		a! a a a %100
+		a gis fis fis
+		fis fis r h8 h
+		h4 h h a
+		g g fis h
+		ais ais a a %105
+		a g fis fis
+		g g g g
+		fis2 e4 r\fermata \bar "||" %108 finis
 	}
 }
 
 DiesIraeSopranoLyrics = \lyricmode {
+	Di -- es %19
+	i -- rae, %20
+	di -- es
+	il -- la
 	
+	sol --
+	vet %25
+	sae -- clum
+	in fa --
+	vil -- la,
+	te --
+	ste %30
+	Da --
+	vid
+	cum Si --
+	byl --
+	la, %35
+	te --
+	ste
+	Da --
+	vid
+	cum Si -- %40
+	byl --
+	la.
+	
+	Di -- es %53
+	i -- rae,
+	di -- es %55
+	il -- la
+	sol -- vet
+	sae -- clum
+	in fa --
+	vil -- la, %60
+	sol -- vet
+	sae -- clum
+	in fa --
+	vil -- la,
+	di -- es %65
+	i -- rae,
+	di -- es
+	il -- la,
+	
+	sol -- vet %72
+	sae -- clum
+	in __ fa --
+	vil -- la, %75
+	in fa --
+	vil -- la,
+	te --
+	ste
+	Da -- %80
+	vid
+	cum Si --
+	byl --
+	la,
+	te -- %85
+	ste
+	Da --
+	vid
+	cum Si --
+	byl -- %90
+	la.
+	
+	Quan -- tus %95
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven --
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus -- %100
+	su -- rus, di -- scus --
+	su -- rus! Quan -- tus
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven -- %105
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus --
+	su -- rus! %1098 finis
 }
 
 % SopranoNotes = {

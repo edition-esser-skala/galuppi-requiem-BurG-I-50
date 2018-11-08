@@ -476,7 +476,7 @@ DiesIraeAltoNotes = {
 		e2( dis4) %90
 		e2 r4
 		R2.*2 \bar "||"
-		\time 4/4 \tempoQuantusTremor R1
+		\time 4/4 \newSpacingSection \tempoQuantusTremor R1
 		r4 g2 g4 %95
 		fis fis fis fis
 		e e a a

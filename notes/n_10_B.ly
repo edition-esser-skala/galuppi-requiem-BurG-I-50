@@ -177,12 +177,169 @@ DiesIraeBassoNotes = {
 	\relative c {
 		\clef bass
 		\key e \major \time 3/4 \autoBeamOff \tempoDiesIrae
-		
+		R2.*18 %18
+		r4 \mvTr e\fE^\tuttiE e
+		cis h r %20
+		R2.*2
+		h'2 a4
+		gis2 fis4
+		e( gis) h %25
+		e e, r
+		e( gis) h
+		e, h r
+		h'2.
+		fis %30
+		gis
+		dis
+		e2 e4
+		fis2.
+		gis2 r4 %35
+		dis2.
+		e
+		cis
+		h
+		e2 e4 %40
+		fis2.
+		h,2 r4
+		R2.*10 %52
+		r4 h' h
+		fis h, r
+		r h' a! %55
+		gis a r
+		a,( cis) e
+		a a, r
+		a( cis) a
+		e' e r %60
+		h( d) fis
+		h h, r
+		h( d) h
+		fis' fis r
+		r fis fis %65
+		fis e! r
+		r dis! e
+		h e r
+		e( fis) gis
+		a2 a4 %70
+		ais2 ais4
+		h h, r
+		h'2.
+		h
+		h2 a!4 %75
+		gis2 fis4
+		e h r
+		e2.
+		h
+		cis %80
+		gis
+		a2 ais4
+		h2.
+		cis2 r4
+		dis2. %85
+		e
+		cis
+		gis'
+		a2 ais4
+		h2. %90
+		e,2 r4
+		R2.*2 \bar "||"
+		\time 4/4 \newSpacingSection \tempoQuantusTremor r4 h'2 a4
+		g e ais, ais %95
+		h h a'! a
+		gis! gis a a
+		e e e e
+		d d cis cis
+		cis cis his his %100
+		cis cis ais ais
+		h h r h'8 h
+		h4 h, h h
+		h h h h
+		h h h h %105
+		h h h h
+		ais ais h h
+		h2 e,4 r\fermata \bar "||" %108 finis
 	}
 }
 
 DiesIraeBassoLyrics = \lyricmode {
+	Di -- es %19
+	i -- rae, %20
 	
+	sol -- vet %23
+	sae -- clum
+	in __ fa -- %25
+	vil -- la,
+	in __ fa --
+	vil -- la,
+	te --
+	ste %30
+	Da --
+	vid
+	cum Si --
+	byl --
+	la, %35
+	te --
+	ste
+	Da --
+	vid
+	cum Si -- %40
+	byl --
+	la.
+	
+	Di -- es %53
+	i -- rae,
+	di -- es %55
+	il -- la
+	sol -- vet
+	sae -- clum
+	in __ fa --
+	vil -- la, %60
+	sol -- vet
+	sae -- clum
+	in __ fa --
+	vil -- la,
+	di -- es %65
+	i -- rae,
+	di -- es
+	il -- la,
+	sol -- vet
+	sae -- clum %70
+	in fa --
+	vil -- la,
+	sol --
+	vet
+	sae -- clum %75
+	in fa --
+	vil -- la,
+	te --
+	ste
+	Da -- %80
+	vid
+	cum Si --
+	byl --
+	la,
+	te -- %85
+	ste
+	Da --
+	vid
+	cum Si --
+	byl -- %90
+	la.
+	
+	Quan -- tus %94
+	tre -- mor est fu -- %95
+	tu -- rus, quan -- do
+	Ju -- dex est ven --
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus --
+	su -- rus, cun -- cta %100
+	stri -- cte di -- scus --
+	su -- rus! Quan -- tus
+	tre -- mor est fu --
+	tu -- rus, quan -- do
+	Ju -- dex est ven -- %105
+	tu -- rus, cun -- cta
+	stri -- cte di -- scus --
+	su -- rus! %108 finis
 }
 
 % BassoNotes = {

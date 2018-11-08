@@ -421,7 +421,7 @@ DiesIraeTenoreNotes = {
 		cis cis dis! dis %105
 		e e h h
 		cis! cis h h
-		h2 h4 r\fermata \bar "||" %1098 finis
+		h2 h4 r\fermata \bar "||" %108 finis
 	}
 }
 
@@ -429,7 +429,7 @@ DiesIraeTenoreLyrics = \lyricmode {
 	Di -- es %19
 	i -- rae, %20
 	
-	sol -- vet, %24
+	sol -- vet %24
 	sae -- clum %25
 	in __ fa --
 	vil -- la,

@@ -92,6 +92,99 @@ DiesIraeCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoDiesIrae
-		
+		e'2\fE r4
+		d d r
+		d2 e4
+		d c r
+		g2.~ %5
+		g~
+		\once \tieDashed g~
+		g~
+		g
+		g4 g8 g g4 %10
+		R2.*3
+		f'4 e d
+		c2. %15
+		c2 r4
+		f e d
+		c2 r4
+		r^\critnote e e
+		d d r %20
+		g,2.
+		g4 g r
+		\tieDashed g2.~
+		g~
+		g~ %25
+		g~
+		g \tieSolid
+		g4 g r
+		d'2.
+		d %30
+		R2.*5 %35
+		r4 f2
+		e2.
+		d
+		d
+		e2 e4 %40
+		d2.
+		d4 r r
+		R2.
+		d
+		d4 d8 d d4 %45
+		r f2
+		e4 d2
+		r4 r d
+		d f2
+		e4 d2 %50
+		e4 d d
+		d2 r4
+		R2.*4 %56
+		\tieDashed c2.~
+		c~
+		c
+		c4 c r %60
+		d2.~
+		d~
+		d~
+		d2 r4 \tieSolid
+		R2. %65
+		d4 e r
+		R2.
+		r4 c8 c c c
+		c2 r4
+		R2.*2 %71
+		r4 g g
+		\tieDashed g2.~
+		g~
+		g~ %75
+		g \tieSolid
+		g4 g r
+		e'2.~
+		e~
+		e~ %80
+		e~
+		\once \tieDashed d~
+		d
+		c2 r4
+		d2. %85
+		e
+		e
+		e
+		f2 e4
+		d2. %90
+		c4 r r
+		R2.*2 \bar "||"
+		\time 4/4 \newSpacingSection \tempoQuantusTremor g2 g4 r
+		R1 %95
+		g
+		g4 r r2
+		R1*4 %101
+		r2 r4 g8 g
+		g1~
+		g~
+		g~ %105
+		g2 g4 r
+		r2 r4 g
+		g2 g8 g g4\fermata \bar "||" %108 finis
 	}
 }

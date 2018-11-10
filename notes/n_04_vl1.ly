@@ -327,7 +327,7 @@ DiesIraeViolinoI = {
 		gis8 h fis2
 		e4 dis cis
 		h8 a'! a4.(\trill gis16 a)
-		gis8( h)-\critnote fis2 %50
+		gis8 h-\critnote fis2 %50
 		e4 dis cis
 		h8. h'16 h,4 r
 		h d' d

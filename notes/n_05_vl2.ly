@@ -275,6 +275,113 @@ DiesIraeViolinoII = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 3/4 \tempoDiesIrae
-		
+		e4\fE e'( h)
+		ais h32 h ais gis fis e dis cis h4
+		h \once \slurDashed fis'( e)
+		\once \slurDashed dis( e) r
+		R2. %5
+		\slurDashed h'8( h') h,( h') h,( a')
+		h,( gis') h,( gis') h,( fis') \slurSolid
+		h,,( h') h,( h') h,( a')
+		h,( gis') h,( gis') h,( fis')
+		e4 dis r %10
+		h8 a' a4.\trill( gis16 a)
+		gis8 d' d4.(\trill cis16 d)
+		cis8 a gis2
+		fis4 e dis
+		e8 h' h4.(\trill a16 h) %15
+		a8 cis gis2
+		fis4 e dis
+		e8 h gis4 r
+		e' \once \slurDashed e'( gis,)
+		e dis r %20
+		h \once \slurDashed fis'( e)
+		\once \slurDashed dis( e) r
+		R2.
+		h'8( h') h,( h') h,( a')
+		\slurDashed h,( gis') h,( gis') h,( fis') \slurSolid %25
+		h,,( h') h,( h') h,( a')
+		h,( gis') h,( gis') h,( fis')
+		e4 dis r
+		dis'2.
+		cis %30
+		h
+		fis'
+		gis2 gis4
+		cis,2.
+		h8 h h h h h %35
+		fis' fis fis fis fis fis
+		e e e e e e
+		e e e e e e
+		dis dis dis dis dis dis
+		gis gis gis gis gis gis %40
+		cis, cis cis cis cis cis
+		h4 h'( fis)
+		eis fis32 fis eis dis cis h ais gis fis4
+		fis \once \slurDashed cis'( h)
+		\once \slurDashed ais( h) r %45
+		h,8 fis' fis4.(\trill e16 fis)
+		e8 gis dis2
+		cis4 h ais
+		h4 fis'2
+		e4 dis2 %50
+		cis4 h ais
+		h8. h'16 h,4 r
+		h h' h
+		ais h r
+		h, h' h %55
+		h a! r
+		e8( cis') e,( cis') d,?( h')
+		e,( a) e( a) e( h')
+		a4 a a
+		a gis fis %60
+		\slurDashed fis8( d') fis,( d') ais( cis)
+		fis,( h) fis( h) fis( cis') \slurSolid
+		d2.
+		h4 ais8 fis g? eis
+		fis4 ais ais %65
+		a gis r
+		h, \slurDashed fis'( e)
+		dis( e) \slurSolid r
+		gis a h
+		h a8 gis a4 %70
+		fis2 cis'4
+		cis h8( h') h,( a')
+		h,( gis') h,( gis') h,( fis')
+		h,( h') h,( h') h,( a')
+		h,( gis') h,( gis') h,( fis') %75
+		h,,( h') h,( h') h,( a')
+		gis4 fis8( dis) dis( fis)
+		e4 gis e~
+		e gis e~
+		e gis e~ %80
+		e gis e
+		e e e
+		e e dis
+		e e e
+		fis8 fis fis fis fis fis %85
+		gis gis gis gis gis gis
+		gis gis gis gis gis gis
+		gis gis gis gis gis gis
+		fis-\critnote fis fis fis e e
+		e e e e dis dis %90
+		e4 gis e
+		cis e cis
+		ais cis ais \bar "||"
+		\time 4/4 \newSpacingSection \tempoQuantusTremor h4 r8 h dis!16 dis dis dis dis dis dis dis
+		e e e e g g g g g g g g g g g g %95
+		fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+		e e e e e e e e e e e e e e e e
+		gis! gis gis gis gis gis gis gis fis fis fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis eis eis eis eis eis eis eis eis
+		fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %100
+		fis fis fis fis eis eis eis eis e e e e e e e e
+		dis! dis dis dis dis dis dis dis h' h h h h h h h
+		h h h h h, h h h c c c c dis! dis dis dis
+		e e e e e e e e e e e e dis! dis dis dis
+		e e e e e e e e fis fis fis fis fis fis fis fis %105
+		fis fis fis fis e e e e dis! dis dis dis dis dis dis dis
+		e e e e e e e e e e e e e e e e
+		e e e e dis! dis dis dis e g,? g g g4\fermata \bar "||" %108 finis
 	}
 }

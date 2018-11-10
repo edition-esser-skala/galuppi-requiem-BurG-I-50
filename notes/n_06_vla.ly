@@ -269,6 +269,113 @@ DiesIraeViola = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 3/4 \tempoDiesIrae
-		
+		e4\fE r gis
+		fis dis r
+		h2 h4
+		h h r
+		gis'2 fis4 %5
+		e gis, h
+		e e, r
+		e gis h
+		e e, r
+		e' h8 h' fis dis %10
+		dis4 e fis
+		gis a h
+		a e e
+		fis h, h
+		h e8 e e e %15
+		e e e e e e
+		a, a h h h h
+		h2 r4
+		r gis' gis
+		fis fis r %20
+		h,2 h4
+		h h r
+		gis'2 fis4
+		e2 h4
+		e,2 r4 %25
+		e gis h
+		e e, r
+		h' h r
+		fis'8 fis fis fis fis fis
+		fis fis fis fis fis fis %30
+		dis dis dis dis dis dis
+		h h h h h h
+		h e e e e e
+		fis fis fis fis fis fis
+		gis gis gis gis h, h %35
+		h h h h h h
+		h h h h h h
+		fis' fis fis fis fis fis
+		fis fis fis fis fis fis
+		e e e e e e %40
+		fis fis fis fis fis fis
+		fis4 r r
+		gis fis r
+		fis2 fis4
+		fis fis r %45
+		h,2.
+		h
+		e4 fis fis
+		fis8 fis dis dis dis dis
+		h h h h h h %50
+		e e fis fis fis fis
+		fis2 r4
+		r fis fis
+		fis fis r
+		r fis fis %55
+		e e r
+		a, cis e
+		a a, r
+		e' e e
+		e e cis %60
+		h d fis
+		h h, r
+		fis' fis fis
+		fis fis r
+		fis fis fis %65
+		h, h r
+		h2 h4
+		h h r
+		e fis gis
+		a2 gis4 %70
+		fis2 fis4
+		fis fis fis
+		e fis dis!
+		e e, r
+		e' gis h %75
+		e, e, r
+		h' h h
+		h h h
+		h h h
+		cis cis cis %80
+		h h h
+		cis cis cis
+		h h h
+		cis2 r4
+		h8 h h h h h %85
+		h h h h h h
+		e e e e e e
+		dis dis dis dis dis dis
+		cis cis cis cis cis ais
+		h h h h h h %90
+		e4 gis e
+		cis e cis
+		ais cis ais \bar "||"
+		\time 4/4 \newSpacingSection \tempoQuantusTremor h8 h h h fis'16 fis fis fis fis fis fis fis
+		h, h h h h h h h cis! cis cis cis cis cis cis cis %95
+		cis cis cis cis h h h h h h h h h h h h
+		h h h h h h h h a a a a e' e e e
+		e e e e e e e e cis cis cis cis cis cis cis cis
+		h h h h h h h h cis cis cis cis cis cis cis cis
+		cis cis cis cis cis cis cis cis dis! dis dis dis dis dis dis dis %100
+		cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis
+		h h h h h h h h h h h h h h h h
+		h h h h h h h h h h h h h h h h
+		h h h h h h h h h h h h h h h h
+		cis cis cis cis cis cis cis cis dis! dis dis dis dis dis dis dis %105
+		e e e e e e e e h h h h h h h h
+		cis! cis cis cis cis cis cis cis h h h h h h h h
+		h h h h h h h h h8 e e,4\fermata \bar "||" %108 finis
 	}
 }

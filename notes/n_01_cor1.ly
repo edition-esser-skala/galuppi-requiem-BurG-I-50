@@ -93,7 +93,7 @@ DiesIraeCornoI = {
 		\clef treble
 		\key c \major \time 3/4 \tempoDiesIrae
 		e'2\fE r4
-		d d r
+		\pao d d r
 		d2 e4
 		d c r
 		g2.~ %5
@@ -109,8 +109,8 @@ DiesIraeCornoI = {
 		f e d
 		c2 r4
 		r^\critnote e e
-		d d r %20
-		g,2.
+		\pao d d r %20
+		\pao g,2.
 		g4 g r
 		\tieDashed g2.~
 		g~
@@ -123,20 +123,20 @@ DiesIraeCornoI = {
 		R2.*5 %35
 		r4 f2
 		e2.
-		d
+		\pao d
 		d
 		e2 e4 %40
-		d2.
+		\pao d2.
 		d4 r r
 		R2.
 		d
 		d4 d8 d d4 %45
 		r f2
 		e4 d2
-		r4 r d
+		r4 r \pao d
 		d f2
 		e4 d2 %50
-		e4 d d
+		e4 \pa d d \pd
 		d2 r4
 		R2.*4 %56
 		\tieDashed c2.~
@@ -162,7 +162,7 @@ DiesIraeCornoI = {
 		e'2.~
 		e~
 		e~ %80
-		e~
+		e
 		\once \tieDashed d~
 		d
 		c2 r4

@@ -834,7 +834,7 @@ TubaMirumOrgano = {
 		e e e e dis e
 		fis fis fis fis fis, fis %170
 		h2 r4
-		dis dis dis
+		dis\fE dis dis
 		e e e
 		eis? eis eis
 		fis fis fis %175
@@ -842,7 +842,7 @@ TubaMirumOrgano = {
 		h r h'
 		e, fis fis,
 		h h'8 fis dis fis
-		h,4 h h %180
+		h,4\pE h h %180
 		h h h
 		h r h
 		h r h

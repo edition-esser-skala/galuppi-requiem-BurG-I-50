@@ -347,12 +347,213 @@ TubaMirumBassoNotes = {
 		\clef bass
 		\key e \major \time 3/4 \autoBeamOff \tempoTubaMirum
 			\set Score.currentBarNumber = #109
-		
+		R2.*20 %128
+		\mvTr e2.\pE^\soloE
+		e %130
+		e
+		e
+		h'
+		h
+		h %135
+		e,2 r4
+		e2 e4
+		e a,2
+		fis' fis4
+		fis h,2 %140
+		h4( dis) fis
+		h h, r
+		ais'2.
+		h
+		e, %145
+		dis
+		e2 eis4
+		fis fis, r
+		h'2.
+		h %150
+		h
+		h
+		h
+		h
+		h %155
+		h,
+		fis'2 fis4
+		fis h,2
+		e dis4
+		dis cis r %160
+		h( dis) fis
+		e( gis) h
+		ais( cis) e,
+		dis h' r
+		gis2. %165
+		fis
+		e
+		dis
+		e2 dis8([ e)]
+		fis2. %170
+		h,2 r4
+		R2.*8 %179
+		h'2. %180
+		h
+		h
+		h
+		a!
+		gis %185
+		fis
+		e2 r4
+		e2 e4
+		e a,2
+		fis' fis4 %190
+		fis h,2
+		h4( dis) h
+		gis' fis r
+		e2.
+		e %195
+		e
+		e
+		e4( fis) gis
+		a a, r
+		a'2. %200
+		a
+		a
+		a
+		gis4( fis) e
+		h' h, r %205
+		h'2.
+		h
+		h
+		h
+		h %210
+		h
+		h
+		h,
+		a'2 a4
+		a a,2 %215
+		gis' gis4
+		gis gis,2
+		a ais4
+		h h r
+		a'!2. %220
+		gis
+		fis
+		e
+		a
+		ais %225
+		h
+		e,
+		d
+		cis
+		h %230
+		e
+		cis
+		a
+		h
+		e, %235
+		R2.*6 %241
+		R2.\fermataMarkup \bar "||" %242 finis
 	}
 }
 
 TubaMirumBassoLyrics = \lyricmode {
+	Tu -- %129
+	ba %130
+	mi --
+	rum
+	spar --
+	gens
+	so -- %135
+	num,
+	per se --
+	pul -- chra,
+	per se --
+	pul -- chra %140
+	re -- gi --
+	o -- num,
+	co --
+	get
+	o -- %145
+	mnes
+	an -- te
+	thro -- num.
+	Tu --
+	ba %150
+	mi --
+	rum
+	spar --
+	gens
+	so -- %155
+	num,
+	per se --
+	pul -- chra
+	re -- gi --
+	o -- num, %160
+	co -- get
+	o -- mnes
+	an -- te
+	thro -- num,
+	co -- %165
+	get
+	o --
+	mnes
+	an -- te __
+	thro -- %170
+	num.
 	
+	Tu -- %180
+	ba
+	mi --
+	rum
+	spar --
+	gens %185
+	so --
+	num,
+	per se --
+	pul -- chra,
+	per se -- %190
+	pul -- chra
+	re -- gi --
+	o -- num,
+	co --
+	get %195
+	o --
+	mnes
+	an -- te
+	thro -- num,
+	co -- %200
+	get
+	o --
+	mnes
+	an -- te
+	thro -- num. %205
+	Tu --
+	ba
+	mi --
+	rum
+	spar -- %210
+	gens
+	so --
+	num,
+	per se --
+	pul -- chra, %215
+	per se --
+	pul -- chra
+	re -- gi --
+	o -- num,
+	co -- %220
+	get
+	o --
+	mnes
+	an --
+	te %225
+	thro --
+	num,
+	co --
+	get
+	o -- %230
+	mnes
+	an --
+	te
+	thro --
+	num. %235 finis
 }
 
 % BassoNotes = {

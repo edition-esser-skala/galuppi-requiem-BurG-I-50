@@ -4,3 +4,11 @@
 
 \version "2.18.0"
 
+TubaMirumTromba = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoTubaMirum
+			\set Score.currentBarNumber = #109
+		
+	}
+}

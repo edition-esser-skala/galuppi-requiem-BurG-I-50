@@ -342,6 +342,19 @@ DiesIraeBassoLyrics = \lyricmode {
 	su -- rus! %108 finis
 }
 
+TubaMirumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \major \time 3/4 \autoBeamOff \tempoTubaMirum
+			\set Score.currentBarNumber = #109
+		
+	}
+}
+
+TubaMirumBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

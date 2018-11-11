@@ -385,3 +385,12 @@ DiesIraeViolinoII = {
 		e e e e dis! dis dis dis e g,? g g g4\fermata \bar "||" %108 finis
 	}
 }
+
+TubaMirumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \tempoTubaMirum
+			\set Score.currentBarNumber = #109
+		
+	}
+}

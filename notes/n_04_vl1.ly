@@ -389,6 +389,15 @@ DiesIraeViolinoI = {
 	}
 }
 
+TubaMirumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \tempoTubaMirum
+			\set Score.currentBarNumber = #109
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

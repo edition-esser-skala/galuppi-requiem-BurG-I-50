@@ -766,6 +766,19 @@ DiesIraeBassFigures = \figuremode {
 	<5 4>4 <\l 3> r2 %108 finis
 }
 
+TubaMirumOrgano = {
+	\relative c {
+		\clef bass
+		\key e \major \time 3/4 \tempoTubaMirum
+			\set Score.currentBarNumber = #109
+		\mvTr e4\fE-\soloE e, r
+	}
+}
+
+TubaMirumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

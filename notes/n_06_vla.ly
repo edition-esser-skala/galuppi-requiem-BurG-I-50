@@ -379,3 +379,12 @@ DiesIraeViola = {
 		h h h h h h h h h8 e e,4\fermata \bar "||" %108 finis
 	}
 }
+
+TubaMirumViola = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 3/4 \tempoTubaMirum
+			\set Score.currentBarNumber = #109
+		
+	}
+}

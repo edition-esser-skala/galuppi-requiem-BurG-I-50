@@ -385,6 +385,139 @@ TubaMirumViola = {
 		\clef treble
 		\key e \major \time 3/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #109
-		
+		e4\fE e, r
+		e' e, r %110
+		e' e, r
+		e' e, r
+		h'' h, r
+		h' h, r
+		h' h, r %115
+		fis fis fis
+		dis' dis dis
+		e h h
+		h h h
+		h h h %120
+		h h h
+		h h'8 a gis fis
+		e e e e e e
+		e e e e e e
+		a4 h h, %125
+		e e, e
+		e e e
+		e2.
+		e'4\pE e, r
+		e' e, r %130
+		e' e, r
+		e' e, r
+		h'' h, r
+		h' h, r
+		h' h, r %135
+		e e^\critnote dis
+		e e d
+		cis a a
+		fis' fis e
+		dis h h %140
+		h' h ais
+		gis gis gis
+		fis fis e
+		dis cis h
+		cis ais fis %145
+		h dis h
+		e2 eis4
+		fis fis, ais
+		fis'2.
+		dis %150
+		e
+		h
+		dis
+		dis
+		e %155
+		h4 h r
+		ais ais ais
+		h dis h
+		cis ais fis
+		fis fis r %160
+		dis' dis dis
+		e e e
+		e cis cis
+		dis fis h,
+		h8 h h h h h %165
+		h h h h h h
+		gis gis fis fis fis fis
+		fis fis fis fis fis fis
+		e' e e e dis e
+		fis fis fis fis fis, fis %170
+		h2\fE r4
+		h h a!
+		gis e r
+		cis' cis h
+		ais fis r %175
+		cis' ais fis
+		fis fis fis'
+		gis8 e fis4 fis
+		fis2 r4
+		h,\pE h h %180
+		h h h
+		h r h
+		h r h
+		h r h
+		h r h %185
+		h r h
+		e, e fis
+		gis gis gis
+		a a a
+		ais ais ais %190
+		h h h
+		h r h
+		e, h' a
+		gis e r
+		e' r e %195
+		e r e
+		e r e
+		e fis gis
+		a a, r
+		a' cis a %200
+		fis a fis
+		dis! fis dis
+		h cis dis
+		e2.
+		h'4 h, r %205
+		h r h
+		h r h
+		h r h
+		h r h
+		h r h %210
+		h r h
+		h r h
+		h r h
+		dis dis dis
+		h h h %215
+		h h h
+		h h h
+		a8 a a a ais ais
+		h4 h r
+		h cis dis %220
+		e fis gis
+		a h h,
+		e h e,
+		a8 a a a a a
+		ais ais ais ais ais ais %225
+		h h h h h h
+		h4 h e
+		e8 e e e e e
+		e e e e e e
+		fis fis fis fis fis fis %230
+		e e e e e e
+		cis cis cis cis cis cis
+		cis cis cis cis cis cis
+		h h h h h h
+		h4\fE gis gis %235
+		a a gis
+		fis ais ais
+		h h h
+		h h cis8 dis
+		e4 e, e' %240
+		a^\critnote h h,
+		e e, r\fermata \bar "||" %242 finis
 	}
 }

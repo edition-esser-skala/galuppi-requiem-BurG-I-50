@@ -1045,6 +1045,19 @@ TubaMirumBassFigures = \figuremode {
 	r2. %242 finis
 }
 
+MorsStupebitOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 2/4 \tempoMorsStupebit
+			\set Score.currentBarNumber = #243
+		\mvTr h'8\fE-\soloE h,16 ais h8 h
+	}
+}
+
+MorsStupebitBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

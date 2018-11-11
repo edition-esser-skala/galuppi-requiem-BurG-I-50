@@ -521,3 +521,12 @@ TubaMirumViola = {
 		e e, r\fermata \bar "||" %242 finis
 	}
 }
+
+MorsStupebitViola = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/4 \tempoMorsStupebit
+			\set Score.currentBarNumber = #243
+		
+	}
+}

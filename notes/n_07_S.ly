@@ -470,6 +470,19 @@ DiesIraeSopranoLyrics = \lyricmode {
 	su -- rus! %108 finis
 }
 
+MorsStupebitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/4 \autoBeamOff \tempoMorsStupebit
+			\set Score.currentBarNumber = #243
+		
+	}
+}
+
+MorsStupebitSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

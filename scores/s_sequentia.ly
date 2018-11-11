@@ -85,53 +85,97 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.2 TUBA MIRUM"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Tromba" "[ex E]" } }
+% 						\TubaMirumTromba
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\TubaMirumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\TubaMirumViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\TubaMirumViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\TubaMirumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\TubaMirumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2. = 45 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.2 TUBA MIRUM"
+			movement = "3.3 MORS STUPEBIT"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba" "[ex E]" } }
-						\TubaMirumTromba
-					>>
-				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\TubaMirumViolinoI
+							\MorsStupebitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\TubaMirumViolinoII
+							\MorsStupebitViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\TubaMirumViola
+						\MorsStupebitViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \MorsStupebitSopranoNotes }
 					}
-					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
+					\new Lyrics \lyricsto Soprano \MorsStupebitSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\TubaMirumOrgano
+						\MorsStupebitOrgano
 					}
 				>>
 				\new FiguredBass {
-					\TubaMirumBassFigures
+					\MorsStupebitBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2. = 45 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

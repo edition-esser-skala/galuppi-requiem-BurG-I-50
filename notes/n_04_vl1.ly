@@ -531,6 +531,15 @@ TubaMirumViolinoI = {
 	}
 }
 
+MorsStupebitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/4 \tempoMorsStupebit
+			\set Score.currentBarNumber = #243
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

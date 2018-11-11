@@ -527,3 +527,12 @@ TubaMirumViolinoII = {
 		e h e,4 r\fermata \bar "||" %242 finis
 	}
 }
+
+MorsStupebitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/4 \tempoMorsStupebit
+			\set Score.currentBarNumber = #243
+		
+	}
+}

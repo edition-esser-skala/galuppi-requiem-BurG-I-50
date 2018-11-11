@@ -772,11 +772,277 @@ TubaMirumOrgano = {
 		\key e \major \time 3/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #109
 		\mvTr e4\fE-\soloE e, r
+		e' e, r %110
+		e' e, r
+		e' e, r
+		h'' h, r
+		h' h, r
+		h' h, r %115
+		h h h
+		h h h
+		h h h
+		h h h
+		h h h %120
+		h h h
+		h h'8 a gis fis
+		e e e e e e
+		e e e e e e
+		a4 h h, %125
+		e e, e
+		e e e
+		e2.
+		e'4\pE e, r
+		e' e, r %130
+		e' e, r
+		e' e, r
+		h'' h, r
+		h' h, r
+		h' h, r %135
+		e e, fis
+		gis gis gis
+		a a a
+		ais ais ais
+		h h h %140
+		h' h ais
+		gis gis gis
+		fis fis e
+		dis cis h
+		cis ais fis %145
+		h dis h
+		e2 eis4
+		fis fis, ais
+		h h' r
+		h h, r %150
+		h' h, r
+		h' h, r
+		h' h, r
+		h' h, r
+		h' h, r %155
+		h' h, r
+		ais ais ais
+		h dis h
+		cis ais h
+		fis' fis8 e dis cis %160
+		h2 a!4
+		gis2.
+		fis2 fis4
+		h dis h
+		e8 e, e e e e %165
+		h' h h h h h
+		h h h h ais ais
+		h h h h h h
+		e e e e dis e
+		fis fis fis fis fis, fis %170
+		h2 r4
+		dis dis dis
+		e e e
+		eis? eis eis
+		fis fis fis %175
+		e! cis ais
+		h r h'
+		e, fis fis,
+		h h'8 fis dis fis
+		h,4 h h %180
+		h h h
+		h r h
+		h r h
+		h r h
+		h r h %185
+		h r h
+		e, e fis
+		gis gis gis
+		a a a
+		ais ais ais %190
+		h h h
+		h r h
+		e, h' a
+		gis e r
+		e' r e %195
+		e r e
+		e r e
+		e fis gis
+		a a, r
+		a' cis a %200
+		fis a fis
+		dis! fis dis
+		h cis dis
+		e2.
+		h'4 h, r %205
+		h r h
+		h r h
+		h r h
+		h r h
+		h r h %210
+		h r h
+		h r h
+		h r h
+		h h h
+		dis dis dis %215
+		e e e
+		e e, gis
+		a8 a a a ais ais
+		h4 h r
+		h cis dis %220
+		e fis gis
+		a h h,
+		e h e,
+		a8 a a a a a
+		ais ais ais ais ais ais %225
+		h-\critnote h h h h h
+		e4 e, r
+		d'8 d d d d d
+		cis cis cis cis cis cis
+		h h h h h h %230
+		e e e e e e
+		cis cis cis cis cis cis
+		a a a a a a
+		h h h h h h
+		e,4 gis' gis %235
+		a a gis
+		fis ais, ais
+		h h h
+		h h cis8 dis
+		e4 e, e' %240
+		a h h,
+		e e, r\fermata \bar "||" %242 finis
 	}
 }
 
 TubaMirumBassFigures = \figuremode {
-	
+	r2. %109
+	r %110
+	r
+	r
+	r
+	r
+	r %115
+	r
+	<7>
+	<6 5>4 <6 4>2
+	<8 6>2.
+	<7 [6]>4 <\l 5>2 %120
+	<6 5>4 <\l 4>2
+	<6 4>4 <5 3>2
+	r2.
+	r
+	<[6]>4 <[8] [6]>8 <[7] [5]> <[6] [4]> <[5] [3]> %125
+	r2.
+	r
+	r
+	r
+	r %130
+	r
+	r
+	r
+	r
+	r %135
+	r
+	<[6]>
+	r
+	<[6] [5]>
+	r %140
+	r2 <[6]>4
+	r2.
+	<_+>
+	<[6]>4 <[7]>2
+	r4 <[5]> <[7] [_+]> %145
+	r2.
+	r2 <[6] [5]>4
+	<[_+]>2 <[6] [5]>4
+	r2.
+	<7> %150
+	<6 4>
+	<5 3>
+	r
+	<7>
+	<6 4> %155
+	<6 4>4 <5 3>2
+	<6>2.
+	r
+	r4 <[6] [5]>2
+	<[6] [4]>4 <[5] [_+]>2 %160
+	r2 <[2]>4
+	<6>2.
+	<7 _+>
+	r
+	r %165
+	r
+	<4 2>2 <[5] [3]>4
+	r2.
+	r2 <[6]>4
+	<[6] [4]> <[5] [\t]> <[\t] [_+]> %170
+	r2.
+	<[6]>
+	r
+	<[6] [5]>
+	<[_+]> %175
+	<[4+] 2>4 <[6\\]> <6>
+	r2.
+	<[6]>4 <[8] [6]>8 <[7] [5]> <[6] [4]> <[5] [_+]>
+	r2.
+	r %180
+	<7>
+	<1>4 r q
+	q r q
+	q r q
+	<[1]> r q %185
+	q r q
+	r2 <[6]>4
+	q2.
+	r
+	<[6] [5]> %190
+	r
+	r
+	r2 <[2]>4
+	<[6]>2.
+	<7!> %195
+	<6 4>
+	<5 3>2 <6 4>4
+	<7!>2.
+	r
+	r %200
+	r
+	<[5]>
+	<[7]>
+	r
+	r %205
+	r
+	<7>
+	<6 4>
+	<5 3>
+	<[8] 6> %210
+	<7 5>
+	<6 4>
+	<5 3>
+	r
+	<[6]> %215
+	r
+	r2 <[6]>4
+	r2 <[6] [5]>4
+	r2.
+	<7> %220
+	r
+	<[6] [5]>
+	r
+	r
+	<[6] [5]> %225
+	r
+	r
+	<6 4 2>
+	<6>
+	<7> %230
+	r
+	<[5] [3]>
+	<6 5>
+	r
+	r4 <[6]>2 %235
+	r <[6]>8 <[6\\]>
+	<[_+]>4 <[6] [5]>2
+	r2.
+	<7>
+	r %240
+	<[6]>4 <[8] [6]>8 <[7] [5]> <[6] [4]> <[5] [3]>
+	r2. %242 finis
 }
 
 % Organo = {

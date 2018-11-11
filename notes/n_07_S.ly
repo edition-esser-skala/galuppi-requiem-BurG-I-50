@@ -475,12 +475,199 @@ MorsStupebitSopranoNotes = {
 		\clef treble
 		\key h \minor \time 2/4 \autoBeamOff \tempoMorsStupebit
 			\set Score.currentBarNumber = #243
-		
+		R2*28 %270
+		\mvTr h'4\pE^\soloE h
+		fis' fis,
+		g h
+		ais8 h r4
+		cis d %275
+		cis fis
+		fis, e'
+		d16([ cis)] h8 r4
+		d8( a4) h16([ a)]
+		g4 g %280
+		fis4. g16([ fis)]
+		fis8 e r4
+		a2
+		a
+		a %285
+		a
+		a4 a
+		a a
+		a4. g8
+		g fis r4 %290
+		R2
+		r4 d'8 d
+		d4 gis,
+		a h
+		c16([ h)] a8 r4 %295
+		r c8 c
+		c?4 fis,
+		g a
+		h16([ a)] g8 r4
+		g cis! %300
+		d d,
+		e4. fis16([ g)]
+		g8 fis r4
+		h8([ d)] d([ h)]
+		h[ g] g[ h] %305
+		a[ d] d[ a]
+		a[ fis] fis([ a)]
+		g4 g
+		fis8 a4 d8
+		d[ h] a([ g)] %310
+		fis e16([ d)] e8([ cis)]
+		d r d' d
+		d4 d
+		h8 g a4
+		d, r %315
+		R2*7 %322
+		d4 d
+		e e
+		fis fis %325
+		g g
+		gis gis
+		a a
+		r h~
+		h cis %330
+		d d,
+		e8( a4) g8
+		fis16([ e)] d8 r4
+		a'2
+		a %335
+		a
+		gis
+		h
+		h
+		h %340
+		a
+		cis4 cis
+		cis cis
+		h a
+		a gis8 r %345
+		R2
+		r4 cis8 cis
+		his4 cis
+		r cis8 cis
+		ais4 h! %350
+		R2
+		g4 h
+		ais h
+		cis d
+		cis fis %355
+		fis, e'
+		d16([ cis)] h8 r4
+		h2
+		h
+		h %360
+		h
+		h4 h
+		h h
+		h4. g8
+		g fis r4 %365
+		g4 h
+		ais h
+		g8 e fis4
+		h, r
+		R2*6 %375
+		R2\fermataMarkup \bar "||" %376 finis
 	}
 }
 
 MorsStupebitSopranoLyrics = \lyricmode {
+	Mors stu -- %271
+	pe -- bit
+	et na --
+	tu -- ra,
+	cum re -- %275
+	sur -- get
+	cre -- a --
+	tu -- ra,
+	ju -- di --
+	can -- ti %280
+	re -- spon --
+	su -- ra,
+	ju --
+	di --
+	can -- %285
+	ti,
+	ju -- di --
+	can -- ti
+	re -- spon --
+	su -- ra. %290
 	
+	Mors stu --
+	pe -- bit
+	et na --
+	tu -- ra, %295
+	mors stu --
+	pe -- bit
+	et na --
+	tu -- ra,
+	cum re -- %300
+	sur -- get
+	cre -- a --
+	tu -- ra,
+	ju -- di --
+	can -- _ %305
+	_ _
+	_ ti, __
+	ju -- di --
+	can -- _ _
+	_ ti __ %310
+	re -- spon -- su --
+	ra, ju -- di --
+	can -- ti
+	re -- spon -- su --
+	ra. %315
+	
+	Mors stu -- %323
+	pe -- bit
+	et na -- %325
+	tu -- ra,
+	cum re --
+	sur -- get,
+	cum __
+	re -- %330
+	sur -- get
+	cre -- a --
+	tu -- ra,
+	ju --
+	di -- %335
+	can --
+	ti,
+	ju --
+	di --
+	can -- %340
+	ti,
+	ju -- di --
+	can -- ti
+	re -- spon --
+	su -- ra. %345
+	
+	Mors stu --
+	pe -- bit
+	et na --
+	tu -- ra, %350
+	
+	cum re --
+	sur -- get,
+	cum re --
+	sur -- get %355
+	cre -- a --
+	tu -- ra,
+	ju --
+	di --
+	can -- %360
+	ti,
+	ju -- di --
+	can -- ti
+	re -- spon --
+	su -- ra, %365
+	ju -- di --
+	can -- ti
+	re -- spon -- su --
+	ra. %369 finis
 }
 
 % SopranoNotes = {

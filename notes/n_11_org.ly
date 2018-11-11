@@ -1046,16 +1046,287 @@ TubaMirumBassFigures = \figuremode {
 }
 
 MorsStupebitOrgano = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
 	\relative c {
 		\clef bass
 		\key h \minor \time 2/4 \tempoMorsStupebit
 			\set Score.currentBarNumber = #243
-		\mvTr h'8\fE-\soloE h,16 ais h8 h
+		\mvTr h'8\fE-\soloE ^\tweak TextScript.X-offset #0 ^\critnote h,16 ais h8 h
+		fis' fis16 eis fis8 fis
+		fis e16 d e8 e %245
+		e d16 cis d8 h
+		r fis' h eis,
+		fis e d h
+		ais gis ais fis
+		h h' a!16 g fis e %250
+		d8 d' d,4
+		r8 a' a,4
+		r8 d d, d'
+		a' a, a4
+		r8 a16-! gis-! a8-! a16-! gis-! %255
+		a4 r
+		r8 a16-! gis-! a8-! a16-! gis-!
+		a4 r
+		r8 a16-! gis-! a8-! a16-! gis-!
+		a4 r8 a %260
+		d fis g a
+		d, e d cis
+		h h16 cis d8 h
+		e e16 fis g8 e
+		fis4 fis, %265
+		h r8 e
+		fis4 fis,
+		h r8 h'
+		g e fis fis
+		h,4 r %270
+		h'8\pE h,16 ais h8 h
+		fis' fis16 eis fis8 fis
+		fis e16 d e8 e
+		e d16 cis d8 h
+		r fis' h eis, %275
+		fis e d h
+		ais gis? ais fis
+		h h' a!16 g fis e
+		d8 d' d,4
+		r8 a' a,4 %280
+		r8 d d g
+		a a, a4
+		a8 a16 gis a8 a16 gis
+		a4 r
+		r8 a16 gis a8 a16 gis %285
+		a4 r
+		a8 a16 gis a8 a16 gis
+		a4 r
+		d8 d fis a
+		d d, fis g %290
+		fis( g) fis( g)
+		fis4 r
+		h,8 h h h
+		a a' gis e
+		a a, h gis %295
+		a4 r
+		a8 a a a
+		g! g' fis d
+		g g, g' fis
+		e e e e %300
+		d fis16 e fis8 d
+		cis cis16 h cis8 a
+		d d fis d
+		g g g g
+		g g g g %305
+		fis fis fis fis
+		fis fis fis fis
+		e e cis cis
+		d d d d
+		fis g fis g %310
+		a a a, a
+		d4 r
+		r8 d fis d
+		h' g a a,
+		d\fE d16 e fis8 d %315
+		g g16 a h8 g
+		a4 a,
+		d r8 d
+		a'4 a,
+		d r8 d' %320
+		h g a a,
+		d a d,4
+		d'8\pE d d d
+		d d cis cis
+		c c c c %325
+		h h h h
+		b b b b
+		a a a a
+		a' a g! g
+		g g g g %330
+		fis fis fis fis
+		cis cis cis cis
+		d4 d,
+		d'8 d d d
+		c c c c %335
+		h h h h
+		e e e e
+		e e e e
+		d d d d
+		cis! cis cis cis %340
+		fis fis fis fis
+		eis dis eis cis
+		fis gis a fis
+		gis eis fis his,
+		cis cis eis fis %345
+		eis fis eis fis
+		eis4 r
+		gis8 fis eis dis?
+		cis dis eis cis
+		fis e d cis %350
+		h cis d h
+		e fis g e
+		fis e d h
+		ais fis h eis
+		fis ais ais ais %355
+		h h fis d
+		h' h fis d
+		h-! h16-! ais-! h8-! h16-! ais-!
+		h4 r
+		r8 h16-! ais-! h8-! h16-! ais-! %360
+		h4 r
+		r8 h16-! ais-! h8-! h16-! ais-!
+		h4 r
+		e8 e g h
+		e, h dis h %365
+		e fis g e
+		fis e d! h
+		g' e fis fis,
+		h\fE h16 cis d8 h
+		e e16 fis g8 e %370
+		fis4 fis,
+		h r8 h
+		fis'4 fis,
+		h r8 h'
+		g e fis fis, %375
+		h4 r\fermata \bar "||" %376 finis
 	}
 }
 
 MorsStupebitBassFigures = \figuremode {
-	
+	r2 %243
+	r
+	<2> %245
+	<4+ 2>
+	r4. <7>8
+	<_+>4 <6>
+	r2
+	r %250
+	r
+	r
+	r
+	r
+	r %255
+	r
+	r
+	r
+	r
+	r %260
+	r
+	r4 <6>
+	r2
+	<6 5>
+	<_+> %265
+	r
+	<_+>
+	r
+	r
+	r %270
+	r
+	r
+	<4 2>
+	<4+ 2>4 <[6]>
+	r4. <7>8 %275
+	<_+>4 <6>
+	<6 5>2
+	r
+	r
+	r %280
+	r
+	r
+	r
+	r
+	r %285
+	r
+	r
+	r
+	r
+	r %290
+	r
+	r
+	<5>4 <[6\\]>
+	r2
+	r %295
+	r
+	<5 _!>4 <6>
+	r2
+	r
+	<6> %300
+	r
+	r
+	r
+	r
+	r %305
+	r
+	r
+	r
+	r
+	r %310
+	r
+	r
+	r
+	r
+	r %315
+	r
+	r
+	r
+	r
+	r %320
+	r
+	r
+	r
+	<5 2>
+	r %325
+	<6>
+	<[6\\]>
+	<_+>
+	<4 2>
+	<6 4 2> %330
+	<6>
+	r
+	r
+	r
+	<6> %335
+	<7 _+>
+	<_+>
+	<_+>
+	<6 3>
+	<7 _+> %340
+	r
+	r
+	r
+	r4. <7>8
+	<_+>4 <6>8 q %345
+	q q q q
+	q2
+	<_+>4 <6>
+	<_+>2
+	<_+>4 <6> %350
+	r2
+	r
+	<_+>
+	r
+	r %355
+	r
+	r
+	r
+	r
+	r %360
+	r
+	r
+	r
+	r
+	r %365
+	r
+	r
+	r
+	r
+	r %370
+	r
+	r
+	r
+	r
+	r %375
+	r %376 finis
 }
 
 % Organo = {

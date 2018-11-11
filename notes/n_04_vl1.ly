@@ -532,6 +532,11 @@ TubaMirumViolinoI = {
 }
 
 MorsStupebitViolinoI = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
 		\clef treble
 		\key h \minor \time 2/4 \tempoMorsStupebit

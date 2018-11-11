@@ -525,9 +525,9 @@ TubaMirumViolinoI = {
 		fis fis4 fis \once \tieDashed fis8~
 		fis fis4 fis fis8
 		h,4 a''2
-		gis4 h gis
+		gis4 h gis %240
 		fis8 cis' h a gis fis
-		e h e,4 r\fermata \bar "||"
+		e h e,4 r\fermata \bar "||" %242 finis
 	}
 }
 

@@ -990,7 +990,7 @@ TubaMirumBassFigures = \figuremode {
 	r2 <[6]>4
 	q2.
 	r2 <[5]>8 <[5+]>
-	<[6] [5]>2. %190
+	<[6]>2. %190
 	r
 	r
 	r2 <[2]>4

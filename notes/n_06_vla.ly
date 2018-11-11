@@ -382,7 +382,7 @@ DiesIraeViola = {
 
 TubaMirumViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \major \time 3/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #109
 		e4\fE e, r

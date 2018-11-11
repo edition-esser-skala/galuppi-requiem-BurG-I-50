@@ -402,7 +402,7 @@ DiesIraeTenoreNotes = {
 		h2. %85
 		h
 		e
-		e
+		dis^\critnote
 		cis2 cis4
 		h2. %90
 		h2 r4

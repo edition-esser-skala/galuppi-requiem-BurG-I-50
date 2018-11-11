@@ -119,9 +119,9 @@ DiesIraeCornoII = {
 		g \tieSolid
 		g4 g r
 		g2.
-		g %30
+		d'_\critnote %30
 		R2.*5 %35
-		r4 d'2
+		r4 d2
 		c2.
 		d
 		g,
@@ -185,6 +185,6 @@ DiesIraeCornoII = {
 		g~ %105
 		g2 g4 r
 		r2 r4 g
-		g2 e8 e e4\fermata \bar "||" %108 finis
+		g2 c,8_\critnote c c4\fermata \bar "||" %108 finis
 	}
 }

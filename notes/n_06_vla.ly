@@ -267,7 +267,7 @@ ChristeViola = {
 
 DiesIraeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \major \time 3/4 \tempoDiesIrae
 		e4\fE r gis
 		fis dis r
@@ -338,7 +338,7 @@ DiesIraeViola = {
 		h2 h4
 		h h r
 		e fis gis
-		a2 gis4 %70
+		a2 a4^\critnote %70
 		fis2 fis4
 		fis fis fis
 		e fis dis!

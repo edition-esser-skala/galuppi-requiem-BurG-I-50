@@ -394,7 +394,140 @@ TubaMirumViolinoI = {
 		\clef treble
 		\key e \major \time 3/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #109
-		
+		e4\fE h'8( gis) h( gis)
+		e4 \slurDashed d'8( h) d( h) %110
+		e,4 cis'8( a) cis( a) \slurSolid
+		e4 h'8( gis) h( gis)
+		h,4 a'8( fis) a( fis)
+		h,4 gis'8( e) gis( e)
+		h4 fis'8( dis) fis( dis) %115
+		dis h' fis dis h4
+		h' a'2
+		gis2.
+		h,4 h'2
+		a2. %120
+		gis
+		gis4 fis r
+		h,2.
+		cis8 dis e2
+		a,8 cis h a gis fis %125
+		e e' h h h h
+		h e gis, gis gis gis
+		gis2.
+		e4\pE h'8( gis) h( gis)
+		e4 d'8( h) d( h) %130
+		e,4 cis'8( a) cis( a)
+		e4 h'8( gis) h( gis)
+		h,4 \slurDashed a'8( fis) a( fis)
+		h,4 gis'8( e) gis( e)
+		h4 fis'8( dis) fis( dis) \slurSolid %135
+		e8. e'16 e,4 r
+		r8 e4 e e8~
+		e e4 e eis8
+		fis fis4 fis fis8~
+		fis fis4 fis4 fis8 %140
+		dis' dis dis dis cis cis
+		h h h h h h
+		ais ais ais ais ais ais
+		h h h h h h
+		e,-\critnote e e e e e %145
+		dis dis dis dis dis dis
+		e e e e eis eis
+		fis4 fis e8 cis
+		h4 \slurDashed h'8( fis) h( fis)
+		h,4 a'!8( fis) a( fis) %150
+		h,4 gis'8( e) h'( gis)
+		gis4 fis8( h,) dis( fis) \slurSolid
+		h,4 h'8( fis) h( fis)
+		h,4 a'8( fis) a( fis)
+		h,4 gis'8( e) h'( gis) %155
+		gis4 fis8( h,) dis( eis)
+		fis8 fis4 fis \once \tieDashed fis8~
+		fis fis4 fis fis8
+		e e e e dis dis
+		dis4 cis r %160
+		fis'2.
+		e
+		e
+		dis4 h' h,,
+		gis'8 gis gis gis gis gis %165
+		fis fis fis fis fis fis
+		e e e e e e
+		dis dis dis dis dis dis
+		e e e e dis e
+		fis dis cis2 %170
+		h8\fE dis4 fis \tieDashed h8~
+		h h4 h h8~
+		h h4 h his8
+		cis cis4 cis cis8~
+		cis cis4 cis cis8 \tieSolid %175
+		fis,4 e'!2
+		dis4 h' dis,
+		cis8 gis' fis e dis cis
+		h4 h, r
+		h\pE h'8( fis) h( fis) %180
+		h,4 a'!8( fis) a( fis)
+		h,4 gis'8( e) gis( e)
+		h4 fis'8( dis) fis( dis)
+		h4 a'8( fis) a( fis)
+		h,4 gis'8( e) gis( e) %185
+		h4 fis'8( dis) fis( dis)
+		e8. e'16 e,4 r
+		r8 e4 e \once \tieDashed e8~
+		e e4 e eis8
+		fis fis4 fis fis8~ %190
+		fis fis4 fis fis8
+		fis4 h fis
+		gis fis r
+		e4 h'8( gis) h( gis)
+		e4 \slurDashed d'8( h) d( h) %195
+		e,4 cis'8( a) cis( a)
+		e4 h'8( gis) cis( a) \slurSolid
+		d2.
+		cis8 a cis e a e
+		cis a' a, a' a, a' %200
+		a, a' a, a' a, a'
+		a, a' a, a' a, a'
+		a, a' a, a' a, a'
+		<gis h, e,>2.
+		fis8 h fis dis h fis %205
+		h,4 h'8( gis) h( gis)
+		h,4 a'8( fis) a( fis)
+		h,4 gis'8( e) gis( e)
+		h4 fis'8( dis) fis( dis)
+		h4 h'8( gis) h( gis) %210
+		h,4 a'8( fis) a( fis)
+		h,4 gis'8( e) gis( e)
+		h4 fis'8( dis) fis( dis)
+		a a'4 a a8~
+		a a4 a a8 %215
+		gis gis gis gis gis gis
+		gis gis gis gis gis gis
+		fis fis fis fis e e
+		e4 dis8 h dis fis
+		a!2. %220
+		gis
+		fis
+		gis
+		a
+		ais %225
+		h
+		e,4 e8 h e gis
+		gis gis gis gis gis gis
+		a a a a a a
+		a a a a a a %230
+		gis gis gis gis gis gis
+		gis gis gis gis gis gis
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		e\fE e4 e \once \tieDashed e8~ %235
+		e e4 e eis8
+		fis fis4 fis \once \tieDashed fis8~
+		fis fis4 fis fis8
+		h,4 a''2
+		gis4 h gis
+		fis8 cis' h a gis fis
+		e h e,4 r\fermata \bar "||"
 	}
 }
 

@@ -538,6 +538,139 @@ MorsStupebitViolinoII = {
 		\clef treble
 		\key h \minor \time 2/4 \tempoMorsStupebit
 			\set Score.currentBarNumber = #243
-		
+		h'8\fE h,16 ais h8 h'
+		fis' fis,16 eis fis8 fis
+		g4 h %245
+		ais8 h r h
+		ais4 h
+		ais? h
+		cis cis
+		h16 ais h8 r4 %250
+		r8 fis fis g16 fis
+		e8 e4 fis16 e
+		d8 d4 e16 d
+		d8 cis r e32 d cis h
+		a8 a16 gis a8 a16 gis %255
+		a8 cis16 h cis8 e
+		d a16 gis a8 a16 gis
+		a8 d16 cis d8 fis
+		e a,16 gis a8 a16 gis
+		a8 e'16 d e8 g %260
+		fis16 a fis d e8 cis
+		d4 r
+		R2
+		g'8 cis, cis cis
+		cis8 ais16 h cis8 h16 ais %265
+		h8 h16 cis d8 cis16 h
+		ais8 ais,16 h cis8 h16 ais
+		h8 h16 cis d8 h'
+		g e fis ais,
+		h4 r %270
+		h'8\pE h,16 ais h8 h'
+		fis' fis,16 eis fis8 fis
+		g4 g
+		cis,8 h r h'
+		ais4 h %275
+		ais? h
+		cis cis
+		h16 ais h8 r4
+		fis8 fis4 g16 fis
+		e8 e4 fis16 e %280
+		d8 d4 e16 d
+		d8 cis r e32 d cis h
+		a8 a16 gis a8 a16 gis
+		a8 cis16 h cis8 e
+		d a16 gis a8 a16 gis %285
+		a8 d16 cis d8 fis
+		e a,16 gis a8 a16 gis
+		a8 e'16 d e8 cis
+		d fis4 e8
+		e-\critnote d d16 fis e cis %290
+		d( fis e cis) d fis e cis
+		a4 r
+		d'8 d d d
+		c c h h
+		c?8 a, h gis %295
+		a4 r
+		c'8 c c c
+		h h a a 
+		g16 fis g8 h8 a
+		g g g g %300
+		fis a a fis
+		a,4 e'
+		e8 d d16 a d fis
+		g8 h h h
+		h h h h %305
+		a a a a
+		a a a a
+		g g g e
+		d fis4 a8
+		a d,4 e8 %310
+		d fis cis e
+		d4 r
+		r8 fis a fis
+		h8 g a a,
+		d4\f r %315
+		h''8 e, e e
+		e8 cis16 d e8 d16 cis
+		d8 d16 e fis8 e16 d
+		cis8 cis,16 d e8 d16 cis
+		d8 d16 e fis8 a %320
+		h g a a,
+		d4 r
+		a8\p a a a
+		a a a a
+		a a a a %325
+		d d d d
+		d d d d
+		cis cis cis cis
+		d d d d
+		d d e e %330
+		a a a a
+		a a e e
+		a,4 d16 cis d e
+		fis8 fis fis fis
+		e e e e %335
+		dis dis dis dis
+		e e e e
+		gis gis gis gis
+		fis fis fis fis
+		eis eis eis eis %340
+		fis fis cis cis
+		gis' fis gis eis
+		a h cis a
+		gis4 fis
+		fis8 eis cis d!16 his %345
+		cis8 d16 his cis8 d16 his
+		cis4 cis
+		dis4 gis8 fis
+		eis fis gis eis
+		cis4 fis8 e %350
+		d! e fis d
+		h4 h8 e
+		cis4 fis-\critnote
+		fis fis8 gis
+		ais ais ais ais %355
+		cis cis cis cis
+		h16 ais h8 r4
+		r8 h,16 ais h8 h16 ais
+		h8 dis16 cis dis8 fis
+		e-\critnote h16 ais h8 h16 ais %360
+		h8 e16 dis e8 g
+		fis-\critnote h,16 ais h8 h16 ais
+		h8 fis'16 e fis8 dis
+		e g4 fis8
+		e dis r dis %365
+		h4 h'8 g!
+		fis4 fis
+		g8 e fis4
+		h,\fE r
+		g''8 cis, cis cis %370
+		cis8 ais16 h cis8 h16 ais
+		h8 h16 cis d8 cis16 h
+		ais8 ais,16 h cis8 h16 ais
+		h8 h16 cis d8 h'
+		g e fis ais, %375
+		h4 r\fermata \bar "||" %376 finis
 	}
 }

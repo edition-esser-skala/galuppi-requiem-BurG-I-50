@@ -541,7 +541,140 @@ MorsStupebitViolinoI = {
 		\clef treble
 		\key h \minor \time 2/4 \tempoMorsStupebit
 			\set Score.currentBarNumber = #243
-		
+		h'8\fE h,16 ais h8 h'
+		fis' fis,16 eis fis8 fis
+		g4 h %245
+		ais8 h r d
+		cis4 d
+		cis fis
+		fis, e'
+		d16 cis h8 r4 %250
+		d8 a4 h16 a
+		g8 g4 a16 g
+		fis8 fis4 g16 fis
+		fis8 e r e32 d cis h
+		a8 a16 gis a8 a16 gis %255
+		a8 e'16 d e8 g
+		fis a,16 gis a8 a16 gis
+		a8 fis'16 e fis8 a
+		g a,16 gis a8 a16 gis
+		a8 g'16 fis g8 e %260
+		fis16 a fis d e8 cis
+		d4 r
+		fis'8 h, h h
+		h2
+		ais8 cis16 d e8 d16 cis %265
+		d8 d16 e fis8 e16 d
+		cis8 cis,16 d e8 d16 cis
+		d8 d16 e fis8 h
+		g e fis ais,
+		h4 r %270
+		h'8\pE h,16 ais h8 h'
+		fis' fis,16 eis fis8 fis
+		g4 h
+		ais8 h r d
+		cis4 d %275
+		cis fis
+		fis, e'
+		d16 cis h8 r4
+		d8 a4 h16 a
+		g8 g4 a16 g %280
+		fis8 fis4 g16 fis
+		fis8 e r e32 d cis h
+		a8 a16 gis a8 a16 gis
+		a8 e'16 d e8 g
+		fis a,16 gis a8 a16 gis %285
+		a8 fis'16 e fis8 a
+		g a,16 gis a8 a16 gis
+		a8 g'16 fis g8 e
+		fis a4 g8
+		g-\critnote fis d16 fis e cis %290
+		d( fis e cis) d fis e cis
+		d4 d'8 d
+		d4 gis,
+		a h
+		c?8 a, h gis %295
+		a4 c'8 c
+		c4 fis,
+		g a
+		h16 a g8 g8 d'
+		cis cis cis cis %300
+		d d d, d
+		e e e g
+		g fis fis16 d fis a
+		h8 d d d
+		d d d d %305
+		d d d d
+		d d d d
+		d cis16 d e8 g,
+		fis a4 d8
+		d h a g %310
+		fis d' e, cis'
+		d,4 d'8 d
+		d4 d
+		h8 g a a,
+		d\f d' d d %315
+		d2
+		cis8 e16 fis g8 fis16 e
+		fis8 fis16 g a8 g16 fis
+		e8 e,16 fis g8 fis16 e
+		fis8 fis16 g a8 d %320
+		h g a a,
+		d4 r
+		d8\p d d d
+		e e e e
+		fis fis fis fis %325
+		g g g g
+		gis gis gis gis
+		a a a a
+		h h h h
+		h h cis cis %330
+		d d d d
+		e4 a,8 g
+		fis16 e d8 d16 e fis g
+		a8 a a a
+		a a a a %335
+		a a a a
+		gis gis gis gis
+		h h h h
+		h h h h
+		h h h h %340
+		a a a a
+		cis2
+		cis
+		h4 a
+		a8 gis cis, d16 his %345
+		cis8 d16 his cis8 d16 his
+		cis4 cis'8 cis
+		his4 cis
+		cis, cis'
+		ais h! %350
+		h fis
+		g! h
+		ais h
+		cis d
+		cis fis %355
+		fis, e'
+		d16 cis h8 r4
+		r8 h,16 ais h8 h16 ais
+		h8 fis'16 e fis8 a
+		g h,16 ais h8 h16 ais %360
+		h8 g'16 fis g8 h
+		a h,16 ais h8 h16 ais
+		h8 a'16 g a8 fis
+		g h4 a8
+		g fis r fis %365
+		g4 h
+		ais h
+		g8 e fis4
+		h,8\fE h' h h
+		h2 %370
+		ais8 cis16 d e8 d16 cis
+		d8 d16 e fis8 e16 d
+		cis8 cis,16 d e8 d16 cis
+		d8 d16 e fis8 h
+		g e fis ais, %375
+		h4 r\fermata \bar "||" %376 finis
 	}
 }
 

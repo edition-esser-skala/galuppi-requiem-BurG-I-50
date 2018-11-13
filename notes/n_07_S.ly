@@ -544,14 +544,14 @@ MorsStupebitSopranoNotes = {
 		cis4 cis
 		cis cis
 		h a
-		a gis8 r %345
+		a8^\critnote gis r4 %345
 		R2
 		r4 cis8 cis
 		his4 cis
 		r cis8 cis
 		ais4 h! %350
 		R2
-		g4 h
+		g!4 h
 		ais h
 		cis d
 		cis fis %355
@@ -563,7 +563,7 @@ MorsStupebitSopranoNotes = {
 		h
 		h4 h
 		h h
-		h4. g8
+		a4. g8
 		g fis r4 %365
 		g4 h
 		ais h

@@ -138,7 +138,7 @@
 		\header {
 			movement = "3.3 MORS STUPEBIT"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

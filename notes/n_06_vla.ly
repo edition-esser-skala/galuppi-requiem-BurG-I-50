@@ -529,7 +529,7 @@ MorsStupebitViola = {
 		#'(4)
 		#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key h \minor \time 2/4 \tempoMorsStupebit
 			\set Score.currentBarNumber = #243
 		h'8\fE h,16 ais h8 h

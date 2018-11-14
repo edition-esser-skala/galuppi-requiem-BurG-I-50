@@ -563,7 +563,7 @@ MorsStupebitSopranoNotes = {
 		h
 		h4 h
 		h h
-		a4. g8
+		h4. a8
 		g fis r4 %365
 		g4 h
 		ais h

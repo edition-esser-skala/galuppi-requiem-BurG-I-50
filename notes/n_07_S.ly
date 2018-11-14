@@ -670,6 +670,19 @@ MorsStupebitSopranoLyrics = \lyricmode {
 	ra. %369 finis
 }
 
+LiberScriptusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #377
+		
+	}
+}
+
+LiberScriptusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

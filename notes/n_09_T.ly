@@ -505,6 +505,19 @@ DiesIraeTenoreLyrics = \lyricmode {
 	su -- rus! %108 finis
 }
 
+LiberScriptusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #377
+		
+	}
+}
+
+LiberScriptusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

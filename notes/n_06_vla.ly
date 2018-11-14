@@ -668,3 +668,12 @@ MorsStupebitViola = {
 		h4 r\fermata \bar "||" %376 finis
 	}
 }
+
+LiberScriptusViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #377
+		
+	}
+}

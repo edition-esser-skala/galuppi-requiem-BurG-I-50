@@ -210,6 +210,7 @@ tempoDiesIrae = \tempoMarkup "[Tempo deest]"
 	tempoQuantusTremor = \tempoMarkup "Allegro"
 tempoTubaMirum = \tempoMarkup "Andantino"
 tempoMorsStupebit = \tempoMarkup "Andante"
+tempoLiberScriptus = \tempoMarkup "Adagio"
 
 
 

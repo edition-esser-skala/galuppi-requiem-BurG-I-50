@@ -1329,6 +1329,19 @@ MorsStupebitBassFigures = \figuremode {
 	r2 %376 finis
 }
 
+LiberScriptusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #377
+		\mvTr d4\fE-\tuttiE-! r d-! r
+	}
+}
+
+LiberScriptusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

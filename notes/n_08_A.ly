@@ -576,6 +576,19 @@ DiesIraeAltoLyrics = \lyricmode {
 	su -- rus! %108 finis
 }
 
+LiberScriptusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #377
+		
+	}
+}
+
+LiberScriptusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

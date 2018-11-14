@@ -678,6 +678,15 @@ MorsStupebitViolinoI = {
 	}
 }
 
+LiberScriptusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #377
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

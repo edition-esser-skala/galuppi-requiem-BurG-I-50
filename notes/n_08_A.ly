@@ -581,12 +581,98 @@ LiberScriptusAltoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
-		
+		R1
+		\mvTr fis4\fE^\tuttiE fis fis e
+		g g g fis
+		R1 %380
+		a4 a a gis
+		gis? gis e e
+		R1
+		fis4 fis fis fis
+		d g fis fis %385
+		r fis2 fis4
+		fis fis fis fis
+		e e r e8 e
+		d4 d d d
+		e e r e8 e %390
+		d4 d e e
+		e d d d 
+		d( cis) d r
+		R1*4 %397
+		d'2 d
+		d d,
+		g g %400
+		g g
+		e4 e fis g
+		fis4. g8 g fis r4
+		g4 a g fis
+		e4. fis8 fis e r4 %405
+		a4 g fis fis
+		g g g8[ fis16 e] fis4
+		e g fis \tieDashed a~
+		a2~ a \tieSolid
+		g fis %410
+		e4 a2 gis4
+		a r r2
+		fis4 fis g g
+		fis fis g g
+		gis gis a a %415
+		gis gis a a
+		a g fis fis
+		g g \tieDashed fis2~
+		fis~ fis8[ e16 dis] \tieSolid e4~
+		e d2 cis4 %420
+		d fis8 fis g4 fis
+		g a8([ g)] e2
+		fis4 r r2
+		R1\fermataMarkup \bar "||" %424
 	}
 }
 
 LiberScriptusAltoLyrics = \lyricmode {
+	Li -- ber scri -- ptus %378
+	pro -- fe -- re -- tur,
+	%380
+	in quo to -- tum
+	con -- ti -- ne -- tur,
 	
+	un -- de mun -- dus
+	ju -- di -- ce -- tur. %385
+	Li -- ber
+	scri -- ptus pro -- fe --
+	re -- tur, in quo
+	to -- tum con -- ti --
+	ne -- tur, un -- de %390
+	mun -- dus ju -- di --
+	ce -- tur, ju -- di --
+	ce -- tur.
+	
+	Ju -- dex %398
+	er -- go
+	cum se -- %400
+	de -- bit,
+	quid -- quid la -- tet
+	ap -- pa -- re -- bit:
+	Nil in -- ul -- tum
+	re -- ma -- ne -- bit, %405
+	nil in -- ul -- tum
+	re -- ma -- ne -- _
+	_ _ _ _
+	
+	_ _ %410
+	_ _ _
+	bit.
+	Ju -- dex er -- go
+	cum se -- de -- bit,
+	quid -- quid la -- tet %415
+	ap -- pa -- re -- bit:
+	Nil in -- ul -- tum
+	re -- ma -- ne --
+	_
+	_ _ %420
+	bit, nil in -- ul -- tum
+	re -- ma -- ne --
+	bit. %423 finis
 }
 
 % AltoNotes = {

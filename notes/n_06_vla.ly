@@ -532,6 +532,139 @@ MorsStupebitViola = {
 		\clef treble
 		\key h \minor \time 2/4 \tempoMorsStupebit
 			\set Score.currentBarNumber = #243
-		
+		h'8\fE h,16 ais h8 h
+		fis' fis16 eis fis8 fis
+		fis e16 d e8 e %245
+		e d16 cis d8 h
+		r fis' h eis,
+		fis e d h
+		ais gis ais fis
+		h h' a!16 g fis e %250
+		d8 d' d,4
+		r8 a' a,4
+		r8 d d, d'
+		a' a, a4
+		r8 a16-! gis-! a8-! a16-! gis-! %255
+		a4 r
+		r8 a16-! gis-! a8-! a16-! gis-!
+		a4 r
+		r8 a16-! gis-! a8-! a16-! gis-!
+		a4 r8 a %260
+		d a h a
+		a g' fis e
+		d d16 e fis8 d
+		e g16 fis g8 e
+		fis4 fis,-\critnote %265
+		fis' r8 e
+		fis4 fis
+		fis r8 h
+		g e fis cis
+		h4 r %270
+		h'8\pE h,16 ais h8 h
+		fis' fis16 eis fis8 fis
+		fis e16 d e8 e
+		e d16 cis d8 h
+		r fis' h eis, %275
+		fis e d h
+		ais gis? ais fis
+		h h' a!16 g fis e
+		d8 d' d,4
+		r8 a' a,4 %280
+		r8 d d g
+		a a, a4
+		a8 a16 gis a8 a16 gis
+		a4 r
+		r8 a16 gis a8 a16 gis %285
+		a4 r
+		a8 a16 gis a8 a16 gis
+		a4 r
+		d8 d fis a
+		d d, fis g %290
+		\slurDashed fis( g) fis( g) \slurSolid
+		fis4 r
+		fis8 fis gis gis
+		e e e e
+		e a, h gis %295
+		a4 r
+		e'8 e fis fis
+		d d d d
+		d d d fis
+		e e e e %300
+		d fis16 e fis8 d
+		cis cis16 h cis8 a
+		d d fis d
+		g g g g
+		g g g g %305
+		fis fis fis fis
+		fis fis fis fis
+		e e cis cis
+		d d d d
+		fis g fis g %310
+		a a a, a
+		d4 r
+		r8 d fis d
+		h' g a a,
+		r fis'\fE a fis %315
+		h,4 h
+		a4 a
+		a r8 a
+		a4 a
+		a r8 d %320
+		d h' a a,
+		d a d,4
+		d'8\pE d d d
+		d d cis cis
+		c c c c %325
+		h h h h
+		b b b b
+		a a a a
+		a' a g! g
+		g g g g %330
+		fis fis fis fis
+		cis cis cis cis
+		d4 d,
+		d'8 d d d
+		c c c c %335
+		h h h h
+		e e e e
+		e e e e
+		d! d d d
+		cis! cis cis cis %340
+		fis fis fis fis
+		eis dis eis cis
+		fis gis a fis
+		gis eis fis his,
+		cis cis eis fis %345
+		eis fis eis fis
+		eis4 r
+		gis8 fis eis dis?
+		cis dis eis cis
+		fis e d cis %350
+		h cis d h
+		e fis g e
+		fis e d h
+		ais fis h eis
+		fis ais ais ais %355
+		ais^\critnote gis ais fis
+		h h fis d
+		h-! h16-! ais-! h8-! h16-! ais-!
+		h4 r
+		r8 h16-! ais-! h8-! h16-! ais-! %360
+		h4 r
+		r8 h16-! ais-! h8-! h16-! ais-!
+		h4 r
+		e8 e g h
+		e, h fis' dis %365
+		e fis g e
+		cis4 h
+		g'8 e fis fis,
+		h\fE h16 cis d8 h
+		e e16 fis g8 e %370
+		fis4 fis,
+		h r8 h
+		fis'4 fis,
+		h r8 h'
+		g e fis fis, %375
+		h4 r\fermata \bar "||" %376 finis
 	}
 }

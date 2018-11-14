@@ -1271,7 +1271,7 @@ MorsStupebitBassFigures = \figuremode {
 	r
 	r
 	r %320
-	r
+	<6>
 	r
 	r
 	<5 2>4 <[6]>

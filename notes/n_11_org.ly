@@ -1335,11 +1335,105 @@ LiberScriptusOrgano = {
 		\key d \major \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
 		\mvTr d4\fE-\tuttiE-! r d-! r
+		d r8 d a' a a, a
+		a a a a d d, d d
+		d4 r d'8( cis d gis,) %380
+		a4 r8 a e' e, e e
+		e e e e a a a a
+		a4 r a8( gis a ais)
+		h4 r8 h fis' fis fis fis
+		g g e e fis fis, fis fis %385
+		fis4 r fis' e
+		d r dis r
+		e r cis r
+		d!8 d d d h h h h
+		a2 a %390
+		a-\tasto a
+		a a8 a gis gis
+		a a a a d4 r
+		a r a r
+		a r a r %395
+		a r a r
+		d8 d' d, d d4 r
+		d8 d d d d d d d
+		d d d d d d d d
+		g g g g g g g g %400
+		g g g g g g g g
+		c, c c c a a g g
+		d' d d d d d d d
+		g g d d a' a d, d
+		a' a a a a a, a a %405
+		a a a a d d d d
+		g g g g, d' d d d
+		a a a a a a a a
+		a a a a a a a a
+		a a a a a a a a %410
+		a a a a e' e e e
+		a,4 r a r
+		d8 d d d cis cis cis cis
+		c c c c h g g' fis
+		e e e e dis dis dis dis %415
+		d d d d cis! cis a a
+		a a a a d d d d
+		e e e e fis fis fis e
+		dis dis dis dis e e e d
+		cis cis d d a' a a, a %420
+		d4 d8 d cis cis d d
+		g g fis g a a a, a
+		d4 r a r
+		a a d,2\fermata \bar "||" %424 finis
 	}
 }
 
 LiberScriptusBassFigures = \figuremode {
-	
+	r1 %377
+	r2 <6 4>4 <5 3>
+	<7>2 <4 2>4 <3>
+	r1 %380
+	r2 <6 4>4 <5 _+>
+	<7 [_+]>2 <4 2>4 <3>
+	r1
+	r2 <6 4>4 <5 _+>
+	r <6 5> <_+>2 %385
+	r2. <4+ 2>4
+	<6>2 <6 5!>
+	r <[6]>
+	r <5>4 <6+>
+	r1 %390
+	r
+	r2 <6! 4>4 <[7!]>
+	<5 4> <\l 3>2.
+	r1
+	<6! 4> %395
+	r2 <5 3>
+	<_+>1
+	r2 <6 4>
+	<7!> <6 4>
+	r <6 4!> %400
+	<7!> <6! 4>4 <5 3>
+	r2 <6>
+	<6 4> r8 <5 3> r4
+	r2 <_+>
+	<6 4> r8 <5 3> r4 %405
+	<7>2 <7!>
+	r <5 4>4 <\l 3>
+	<7 5>2 <6 5>8 <\l 4> <8 6>4
+	<7 5>2 <6 4>
+	<7 5>4 <6 5> <6 4>2 %410
+	<5 4> <5 4>4 <\l _+>
+	r1
+	r2 <6 5>
+	<4 2> <[6]>
+	<_+> <6 5> %415
+	<6 4+ 2> <[6]>
+	<7> <9>4 <8>
+	<7> <6>8 <5> <_+>4. <[4+] 2>8
+	<6 5>1
+	<6 5>2 <5 4>4 <\l 3> %420
+	r2 <6 5>
+	r4 <[6]> <[4]> <[3]>
+	r1
+	r %424 finis
 }
 
 % Organo = {

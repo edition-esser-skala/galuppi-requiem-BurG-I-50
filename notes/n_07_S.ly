@@ -675,12 +675,98 @@ LiberScriptusSopranoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
-		
+		R1
+		\mvTr d'4\fE^\tuttiE d d cis
+		cis e e d
+		R1 %380
+		cis4 cis cis h
+		h d d cis
+		R1
+		d4 d d cis
+		h h ais ais %385
+		r ais2 ais4
+		h h h a
+		g g r g8 g
+		fis4 fis fis gis
+		a a r8 a4 a8 %390
+		a4 gis g g
+		g fis f f
+		e2 d4 r
+		R1*4 %397
+		d'2 d
+		d d
+		g, g %400
+		g g
+		g4 c c h
+		a4. h8 h a r4
+		h d cis! d
+		a a a8 a r4 %405
+		r2 d4 c
+		h h a d
+		\tieDashed d8[ cis!16 d] e4~ e8[ d16 e] fis4~
+		fis8[ e16 fis] g4~ g fis~
+		fis e2 d4~ %410
+		d cis h2 \tieSolid
+		a4 r r2
+		a4 a a a
+		a a h h
+		h h h h %415
+		h h cis cis
+		cis e e d
+		d cis8([ h)] ais2
+		h4. a8 \once \tieDashed g2~
+		g4 fis e2 %420
+		d4 a'8 a a4 a
+		h a8([ h)] a2
+		a4 r r2
+		R1\fermataMarkup \bar "||" %424 finis
 	}
 }
 
 LiberScriptusSopranoLyrics = \lyricmode {
+	Li -- ber scri -- ptus %378
+	pro -- fe -- re -- tur,
+	%380
+	in quo to -- tum
+	con -- ti -- ne -- tur,
 	
+	un -- de mun -- dus
+	ju -- di -- ce -- tur. %385
+	Li -- ber
+	scri -- ptus pro -- fe --
+	re -- tur, in quo
+	to -- tum con -- ti --
+	ne -- tur, un -- de %390
+	mun -- dus ju -- di --
+	ce -- tur, ju -- di --
+	ce -- tur.
+	
+	Ju -- dex %398
+	er -- go
+	cum se -- %400
+	de -- bit,
+	quid -- quid la -- tet
+	ap -- pa -- re -- bit:
+	Nil in -- ul -- tum
+	re -- ma -- ne -- bit, %405
+	nil in --
+	ul -- tum re -- ma --
+	ne -- _ _
+	_ _
+	_ _ %410
+	_ _
+	bit.
+	Ju -- dex er -- go
+	cum se -- de -- bit,
+	quid -- quid la -- tet %415
+	ap -- pa -- re -- bit:
+	Nil in -- ul -- tum
+	re -- ma -- ne --
+	_ _ _
+	_ _ %420
+	bit, nil in -- ul -- tum
+	re -- ma -- ne --
+	bit. %423 finis
 }
 
 % SopranoNotes = {

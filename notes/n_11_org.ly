@@ -1442,11 +1442,261 @@ QuidSumOrgano = {
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
 		\mvTr d4\fE-\soloE cis8
+		d e f
+		g a a,
+		d f d
+		a' a, a
+		a4. %430
+		a
+		a8 a' g
+		f4 e8
+		f f,16 g a b
+		c4 f8 %435
+		c c16 c e c
+		f8 f, r
+		f' f f
+		c c c
+		f c16 d e c %440
+		f8 f, r
+		f' f f
+		b c c,
+		f f e
+		d f d %445
+		a' a, r
+		a cis a
+		d a d,
+		a' a a
+		a a a' %450
+		g a a,
+		d d, r
+		d'4\pE cis8
+		d e f
+		g a a, %455
+		d f d
+		a4.
+		a
+		a4 d8
+		a' a g %460
+		f4 e8
+		f f, r
+		c'4 f8
+		c4 r8
+		f a b %465
+		a4 f8
+		e4.
+		f8 f, f
+		f' f f
+		f f f %470
+		f f f
+		f f f
+		c4 h8
+		c c b
+		a a a %475
+		b b b
+		c c c
+		f f es
+		d b b
+		b d b %480
+		c a f
+		b d e!
+		f f, f
+		f a f
+		b4 b8 %485
+		a4.
+		b8 es f
+		b,4 r8
+		b4\fE a8
+		b b' b, %490
+		f'4 b8
+		f f, f'
+		b, b b
+		a4.
+		b8 f' f, %495
+		b b' f
+		b,16\pE b b b b b
+		c c c c c c
+		c c c c cis cis
+		d8 d h %500
+		c! c c
+		c c c
+		a a g
+		d' d fis
+		g d b %505
+		f' e d
+		e cis a
+		d d16 c b a
+		gis4.
+		a8 a' a, %510
+		a16 a a a a a
+		b! b b b h h
+		cis cis cis cis cis cis
+		d d d d c c
+		b! b b b g g %515
+		a a a a a a
+		h h h h h h
+		c c c c h h
+		a8 a a
+		g g g %520
+		g g gis
+		a a a
+		a h? cis
+		d d r
+		cis4. %525
+		d8 f d
+		g e d
+		c4.
+		f8 d c?
+		b4. %530
+		e8 cis h?
+		a4.
+		d8 f d
+		a4 gis8
+		a a' a, %535
+		b! a g
+		a h? cis
+		d e f
+		g g g
+		a a a %540
+		a, a a
+		d d, r
+		d'\fE f d
+		a4.
+		a8 cis a %545
+		d a d,
+		a' a a
+		a a a
+		g a a
+		d d, r\fermata \bar "||" %550 finis
 	}
 }
 
 QuidSumBassFigures = \figuremode {
-	
+	r4. %425
+	r
+	r
+	r
+	r
+	r %430
+	r
+	r
+	r
+	r
+	r %435
+	r
+	r
+	r
+	r
+	r %440
+	r
+	r
+	r
+	r
+	r %445
+	r
+	r
+	r
+	<6 4>8 <5 [_+]>4
+	<6 4> <5 [_+]>8 %450
+	r4.
+	r
+	r
+	r
+	r %455
+	r
+	r
+	r
+	r
+	r %460
+	r
+	r
+	r
+	r
+	r %465
+	r
+	r
+	r
+	<7->
+	<6 4> %470
+	<7! 4 2>
+	<8 3>
+	r4 <7->8
+	<6 4> <5 3>4
+	<6>4. %475
+	r
+	r
+	r
+	r
+	r %480
+	<_->
+	r
+	r
+	r
+	r %485
+	r
+	r
+	r
+	r
+	r %490
+	r
+	r
+	r
+	r
+	r %495
+	r
+	r
+	<7>8 <6>4
+	r4.
+	<4>8 <_+>4 %500
+	<_->4.
+	<6 4 2>
+	<6>
+	<4>8 <_+>4
+	r4. %505
+	r
+	r
+	r
+	<7 [_!]>
+	<4>8 <_+>4 %510
+	<_+>4.
+	<7>8 <6>4
+	<6 5!>4.
+	<4>8 <_+>4
+	<6>4. %515
+	<7>4 <[6\\]>8
+	<6 5!>4.
+	<9 [4]>8 <[8] [3]> <4 2>
+	r4.
+	r %520
+	r
+	r
+	r
+	r
+	r %525
+	r
+	r
+	r
+	r
+	r %530
+	r
+	r
+	r
+	r
+	r %535
+	r
+	r
+	r
+	r
+	r %540
+	r
+	r
+	r
+	r
+	r %545
+	r
+	r
+	r
+	r
+	r %550 finis
 }
 
 % Organo = {

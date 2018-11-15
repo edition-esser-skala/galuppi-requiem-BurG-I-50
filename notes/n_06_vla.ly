@@ -674,6 +674,51 @@ LiberScriptusViola = {
 		\clef treble
 		\key d \major \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
-		
+		d4\fE r d r
+		d r r2
+		R1
+		d4 r \once \slurDashed d8( cis d gis,) %380
+		a4 r r2
+		R1
+		a4-\critnote r \once \slurDashed a8( gis a ais)
+		h4 r r2
+		r4 e fis8 fis fis fis %385
+		fis4 r fis fis
+		fis r h, r
+		h r a r
+		a8 a a a h h h h
+		a2 a4 r %390
+		R1*3
+		a4 r a r
+		a r a r %395
+		a r a r
+		d,8 d' d, d d4 r
+		d'8 d d d d d d d
+		d d d d d d d d
+		g g g g g g g g %400
+		g g g g g g g g
+		g g g g d d d d
+		d d d d d d d d
+		d d fis fis e e a a
+		a a a a a a a a %405
+		a4 r a,8 a a a
+		h h d d d d d d
+		a a a a a a a a
+		a a a a cis cis d d
+		a a a a a a a a %410
+		a a a a e' e e e
+		e4 r e r
+		d8 d d d e e e e
+		d d d d d d d d
+		h e e e fis fis fis fis %415
+		e e e e e e e e
+		e e cis cis a a a a
+		g h e d cis cis cis cis
+		h h h h h h h h
+		a a a a a a a a %420
+		a4 a'8 a a a a a
+		d, d d d a a a a
+		a4 r a r
+		a a a2\fermata \bar "||" %424 finis
 	}
 }

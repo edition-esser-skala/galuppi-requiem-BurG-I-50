@@ -680,6 +680,52 @@ LiberScriptusViolinoII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
-		
+		d8(\fE cis d fis) d( cis d e)
+		d4 r r2
+		R1
+		d8( cis d fis) \slurDashed d( cis d gis,) %380
+		a4 r r2
+		R1
+		a8( gis a cis) a( gis a ais) \slurSolid
+		h4 r r2
+		r4 g' cis,8 cis cis cis %385
+		cis( cis fis ais) cis( ais fis ais)
+		h4 r fis8( eis fis a)
+		e( dis e g) e( dis e g)
+		d fis fis d d fis gis gis
+		a e cis e a,4 r %390
+		R1*2
+		r2 r8 d( fis d)
+		cis( h cis) e-! cis( h cis) e-!
+		d( cis d) f-! d( cis d) f-! %395
+		d( cis d) f-! cis( h cis) a-!
+		d d' d, d d4 r
+		d16(-\critnote fis fis g) fis4 d16( h' g a) g4
+		d16( fis' a, h) a4 g16( h g a) g4
+		g16( h h c) h4 g16( g' c, d) c4 %400
+		g16( g' d e) d4 g,16( c h c) h4
+		c8 c c c c c h g
+		fis fis fis g g fis fis16 g a h
+		g8 g a a g g fis fis
+		e a16 h cis8 d d cis a16 e a cis %405
+		cis4 r d c
+		h8 h h h a a d d
+		d cis16 d e4~ e8 d16 e fis4~
+		fis e2 d4
+		g,2 fis4 fis8 fis %410
+		e e a a a a gis gis
+		a4 cis,8( e) e( d e g)
+		fis fis' fis fis g g g g
+		fis fis fis fis g d h g
+		gis gis' gis gis a a a a %415
+		gis gis gis gis a e cis cis
+		cis cis e e e e d d
+		d d cis h ais ais ais ais
+		h h h a g g g g
+		g g fis fis e e e e %420
+		d4 d'8 d e e d d
+		d g fis e d d cis cis
+		d d,( fis d) cis( h cis d)
+		d4-\critnote cis d2\fermata \bar "||" %424 finis
 	}
 }

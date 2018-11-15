@@ -623,8 +623,8 @@ LiberScriptusAltoNotes = {
 		fis~ fis8[ e16 dis] \tieSolid e4~
 		e d2 cis4 %420
 		d fis8 fis g4 fis
-		g a8([ g)] e2
-		fis4 r r2
+		g a8([ g)] fis4(^\critnote e)
+		fis r r2
 		R1\fermataMarkup \bar "||" %424
 	}
 }

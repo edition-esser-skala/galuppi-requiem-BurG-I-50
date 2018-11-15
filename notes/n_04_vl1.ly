@@ -683,7 +683,7 @@ LiberScriptusViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
-		d8(\fE cis d fis) d( cis d d)
+		d8(\fE cis d fis) d( cis d e)
 		d4 r r2
 		R1
 		d8( cis d fis) \slurDashed d( cis d gis,) %380
@@ -708,7 +708,7 @@ LiberScriptusViolinoI = {
 		g16( g' d e) d4 g,16( g' e f) e4 %400
 		g,16( g' f g) f4 g,16( e' d e) d4
 		e8 e e e fis fis g h,
-		a a a a h a a16 h c d
+		a a a h-\critnote h a a16 h c d
 		h8 h d d cis cis d d
 		a cis16 d e8 fis fis e cis16 a cis e %405
 		a4 g fis2

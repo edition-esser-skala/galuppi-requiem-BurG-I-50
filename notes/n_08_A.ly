@@ -603,7 +603,7 @@ LiberScriptusAltoNotes = {
 		d d,
 		g g %400
 		g g
-		e4 e fis g
+		e4 e fis! g
 		fis4. g8 g fis r4
 		g4 a g fis
 		e4. fis8 fis e r4 %405

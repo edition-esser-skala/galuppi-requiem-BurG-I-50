@@ -1402,7 +1402,7 @@ LiberScriptusBassFigures = \figuremode {
 	r1 %390
 	r
 	r2 <6! 4>4 <[7!]>
-	<5 4> <\l 3> <[_!]>2
+	<5 4> <\l 3> r2
 	r1
 	<6! 4> %395
 	r2 <5 3>
@@ -1433,7 +1433,7 @@ LiberScriptusBassFigures = \figuremode {
 	r2 <6 5>
 	r4 <[6]> <[4]> <[3]>
 	r1
-	r %424 finis
+	<[6] [4]>4 <[5] [3]>2. %424 finis
 }
 
 % Organo = {

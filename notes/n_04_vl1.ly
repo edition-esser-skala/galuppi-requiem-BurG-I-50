@@ -683,7 +683,53 @@ LiberScriptusViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #377
-		
+		d8(\fE cis d fis) d( cis d d)
+		d4 r r2
+		R1
+		d8( cis d fis) \slurDashed d( cis d gis,) %380
+		a4 r r2
+		R1
+		a8( gis a cis) a( gis a ais) \slurSolid
+		h4 r r2
+		r4 h' ais8 ais ais ais %385
+		ais( fis ais cis) ais( fis ais cis)
+		fis,( eis fis h) \once \slurDashed fis( eis fis a)
+		g( fis g e') g,( fis g e')
+		fis, d' d fis, fis d' d d
+		cis a e cis a4 r %390
+		R1*2
+		r2 r8 fis'( a fis)
+		e( d e) a-! e( d e) a-!
+		f( e f) a-! f( e f) a-! %395
+		f( e f) a-! e( d e) a-!
+		d, d' d, d d4 r
+		d16( d' a h) a4 d,16( d' h c) h4
+		d,16( a'' c, d) c4 h16( g' h, c) h4
+		g16( g' d e) d4 g,16( g' e f) e4 %400
+		g,16( g' f g) f4 g,16( e' d e) d4
+		e8 e e e fis fis g h,
+		a a a a h a a16 h c d
+		h8 h d d cis cis d d
+		a cis16 d e8 fis fis e cis16 a cis e %405
+		a4 g fis2
+		g8 g g g g fis16 e fis4
+		e g fis \once \tieDashed a~
+		a \once \tieDashed g~ g fis~
+		fis e2 d8 d %410
+		d d cis cis h h h h
+		a( gis a cis) cis( h cis e)
+		d a' a a a a a a
+		a a a a h g d h
+		h h' h h h h h h %415
+		h h h h a a a a
+		a a g! g fis fis fis fis
+		g g g g fis fis fis fis
+		fis fis fis fis e e e e
+		e e d d d d cis cis %420
+		d4 fis8 fis g g fis fis
+		d h' a g fis fis e e
+		d fis,( a fis) e( d e fis)
+		fis4 e d2\fermata \bar "||" %424 finis
 	}
 }
 

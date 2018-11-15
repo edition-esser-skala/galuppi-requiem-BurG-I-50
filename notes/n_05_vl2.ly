@@ -729,3 +729,21 @@ LiberScriptusViolinoII = {
 		d4-\critnote cis d2\fermata \bar "||" %424 finis
 	}
 }
+
+QuidSumFlautoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/8 \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		
+	}
+}
+
+QuidSumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/8 \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		
+	}
+}

@@ -178,64 +178,119 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.4 LIBER SCRIPTUS – JUDEX ERGO"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\LiberScriptusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\LiberScriptusViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\LiberScriptusViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \LiberScriptusSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \LiberScriptusAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \LiberScriptusAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \LiberScriptusTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \LiberScriptusTenoreLyrics
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \LiberScriptusBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \LiberScriptusBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\LiberScriptusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\LiberScriptusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.4 LIBER SCRIPTUS – JUDEX ERGO"
+			movement = "3.5 QUID SUM MISER"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
+							\set Staff.instrumentName = \markup { "[Flauto I]" \musicglyph #'"pedal.*" }
+							\QuidSumFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { "[Flauto II]" \musicglyph #'"pedal.*" }
+							\QuidSumFlautoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\LiberScriptusViolinoI
+							\QuidSumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\LiberScriptusViolinoII
+							\QuidSumViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\LiberScriptusViola
+						\QuidSumViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \LiberScriptusSopranoLyrics
-					
-					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \LiberScriptusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuidSumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \LiberScriptusAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \LiberScriptusTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \LiberScriptusTenoreLyrics
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \LiberScriptusBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \LiberScriptusBassoLyrics
+					\new Lyrics \lyricsto Alto \QuidSumAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\LiberScriptusOrgano
+						\QuidSumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\LiberScriptusBassFigures
+					\QuidSumBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4. = 80 }
 		}
 	}
 }

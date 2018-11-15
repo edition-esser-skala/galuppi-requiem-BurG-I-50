@@ -733,6 +733,24 @@ LiberScriptusViolinoI = {
 	}
 }
 
+QuidSumFlautoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/8 \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		
+	}
+}
+
+QuidSumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/8 \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

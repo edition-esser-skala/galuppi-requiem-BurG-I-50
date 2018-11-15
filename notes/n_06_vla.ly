@@ -722,3 +722,12 @@ LiberScriptusViola = {
 		a a a2\fermata \bar "||" %424 finis
 	}
 }
+
+QuidSumViola = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/8 \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		
+	}
+}

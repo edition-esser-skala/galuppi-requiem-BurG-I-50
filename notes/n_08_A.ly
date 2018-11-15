@@ -675,6 +675,19 @@ LiberScriptusAltoLyrics = \lyricmode {
 	bit. %423 finis
 }
 
+QuidSumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/8 \autoBeamOff \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		
+	}
+}
+
+QuidSumAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

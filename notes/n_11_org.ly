@@ -1436,6 +1436,19 @@ LiberScriptusBassFigures = \figuremode {
 	<[6] [4]>4 <[5] [3]>2. %424 finis
 }
 
+QuidSumOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/8 \tempoQuidSum
+			\set Score.currentBarNumber = #425
+		\mvTr d4\fE-\soloE cis8
+	}
+}
+
+QuidSumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

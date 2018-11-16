@@ -212,6 +212,7 @@ tempoTubaMirum = \tempoMarkup "Andantino"
 tempoMorsStupebit = \tempoMarkup "Andante"
 tempoLiberScriptus = \tempoMarkup "Adagio"
 tempoQuidSum = \tempoMarkup "[Tempo deest]"
+tempoRecordare = \tempoMarkup "Adagio"
 
 
 

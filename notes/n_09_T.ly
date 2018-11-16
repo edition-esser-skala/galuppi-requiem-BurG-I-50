@@ -604,6 +604,24 @@ LiberScriptusTenoreLyrics = \lyricmode {
 	bit. %423 finis
 }
 
+RecordareTenoreNotes = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 2/4 \autoBeamOff \tempoRecordare
+			\set Score.currentBarNumber = #552
+		
+	}
+}
+
+RecordareTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

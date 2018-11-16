@@ -857,3 +857,31 @@ QuidSumViola = {
 		d d, r\fermata \bar "||" %551 finis
 	}
 }
+
+RecordareViola = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key g \minor \time 2/4 \tempoRecordare
+			\set Score.currentBarNumber = #552
+		
+	}
+}
+
+RecordareVioloncello = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 2/4 \tempoRecordare
+			\set Score.currentBarNumber = #552
+		
+	}
+}

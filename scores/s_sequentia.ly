@@ -238,56 +238,93 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.5 QUID SUM MISER – REX TREMENDAE"
+% 		}
+% 		\paper { page-count = #10 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { "[Flauto I]" \musicglyph #'"pedal.*" }
+% 							\QuidSumFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { "[Flauto II]" \musicglyph #'"pedal.*" }
+% 							\QuidSumFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuidSumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuidSumViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuidSumViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuidSumAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuidSumAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuidSumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuidSumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.5 QUID SUM MISER – REX TREMENDAE"
+			movement = "3.6 RECORDARE"
 		}
-		\paper { page-count = #10 }
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { "[Flauto I]" \musicglyph #'"pedal.*" }
-							\QuidSumFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { "[Flauto II]" \musicglyph #'"pedal.*" }
-							\QuidSumFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuidSumViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuidSumViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuidSumViola
-					>>
-				>>
-				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuidSumAltoNotes }
+						\set Staff.instrumentName = "Viola"
+						\RecordareViola
 					}
-					\new Lyrics \lyricsto Alto \QuidSumAltoLyrics
+					\new Staff <<
+						\set Staff.instrumentName = "Violoncello"
+						\RecordareVioloncello
+					>>
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \RecordareTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuidSumOrgano
+						\RecordareOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuidSumBassFigures
+					\RecordareBassFigures
 				}
 			>>
 			\layout { }

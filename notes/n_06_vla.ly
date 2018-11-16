@@ -725,7 +725,7 @@ LiberScriptusViola = {
 
 QuidSumViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
 			\mvTr d4\fE-\critnote cis8 %425

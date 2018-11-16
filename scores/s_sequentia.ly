@@ -242,6 +242,7 @@
 		\header {
 			movement = "3.5 QUID SUM MISER – REX TREMENDAE"
 		}
+		\paper { page-count = #10 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -290,7 +291,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 80 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

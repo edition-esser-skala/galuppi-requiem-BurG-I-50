@@ -680,12 +680,181 @@ QuidSumAltoNotes = {
 		\clef treble
 		\key d \minor \time 3/8 \autoBeamOff \tempoQuidSum
 			\set Score.currentBarNumber = #425
-		
+		R4.*28 %452
+		\mvTr a'4\pE^\soloE g8
+		f([ e)] d
+		b'([ a)] g %455
+		f16([ e)] d8 r
+		e([ a)] g
+		f([ e)] d
+		e4 f8
+		f e r %460
+		c'4 b8
+		a16([ c)] a8 r
+		b a4
+		g16([ b)] g8 r
+		f4 g16([ e)] %465
+		f8([ c)] c
+		d([ c)] b
+		b a r
+		es'4.
+		d %470
+		e!
+		f
+		g4 as8
+		as? g r
+		r f f %475
+		fis g r
+		r g b
+		b a r
+		b4.
+		f %480
+		es
+		d
+		b'4 d,8
+		d c r
+		c4 es8 %485
+		d16([ f)] d8 r
+		g([ f)] es
+		\tuplet 3/2 8 { d16([ c b] } c4)
+		b r8
+		R4.*8 %497
+		b'4 b8
+		b a4
+		c g8 %500
+		g fis r
+		r es es
+		d d4
+		fis g16([ a)]
+		b8 a r %505
+		b4 b8
+		a4 r8
+		g4 f16([ e)]
+		f4 r8
+		f([ e)] d %510
+		d cis r
+		a'4 a8
+		a gis4
+		g g8
+		g fis r %515
+		r g g
+		g fis4
+		f f8
+		f e r
+		f f4 %520
+		f8( e4)
+		b' d,8
+		d cis r
+		a' g4
+		f8 a r %525
+		a,4 g'8
+		f16([ e)] d8 r
+		\tieDashed b'4.~
+		b8[ a gis]
+		a4.~ %530
+		a8[ g! fis]
+		g4.~
+		g8[ f e] \tieSolid
+		f4.
+		f8[( e d]) %535
+		e4.
+		d4( b'8
+		a4) g8
+		f([ e d)]
+		b4 g8 %540
+		a4.(
+		e')
+		d
+		R4.*7 %550
+		R4.\fermataMarkup \bar "||" %551 finis
 	}
 }
 
 QuidSumAltoLyrics = \lyricmode {
+	Quid sum %453
+	mi -- ser
+	tunc di -- %455
+	ctu -- rus,
+	quem pa --
+	tro -- num
+	ro -- ga --
+	tu -- rus, %460
+	quid sum
+	mi -- ser
+	tunc di --
+	ctu -- rus,
+	quem pa -- %465
+	tro -- num
+	ro -- ga --
+	tu -- rus
+	cum
+	vix %470
+	ju --
+	stus
+	sit se --
+	cu -- rus?
+	Quid sum %475
+	mi -- ser
+	tunc di --
+	ctu -- rus,
+	quem
+	pa -- %480
+	tro --
+	num
+	ro -- ga --
+	tu -- rus,
+	cum vix %485
+	ju -- stus
+	sit se --
+	cu --
+	rus?
 	
+	Rex tre -- %498
+	men -- dae
+	ma -- je -- %500
+	sta -- tis,
+	qui sal --
+	van -- dos
+	sal -- vas
+	gra -- tis, %505
+	sal -- va
+	me,
+	sal -- va
+	me,
+	fons pie -- %510
+	ta -- tis.
+	Rex tre --
+	men -- dae
+	ma -- je --
+	sta -- tis, %515
+	qui sal --
+	van -- dos
+	sal -- vas
+	gra -- tis,
+	sal -- va %520
+	me, __
+	fons pie --
+	ta -- tis,
+	qui sal --
+	van -- dos %525
+	sal -- vas
+	gra -- tis,
+	sal --
+	
+	_ %530
+	
+	_
+	
+	_
+	va __ %535
+	me,
+	sal --
+	va
+	me, __
+	fons pie -- %540
+	ta --
+	
+	tis. %543 finis
 }
 
 % AltoNotes = {

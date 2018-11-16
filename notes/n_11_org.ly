@@ -1491,82 +1491,83 @@ QuidSumOrgano = {
 		f f f
 		c4 h8
 		c c b
-		a a a %475
+		a! a a %475
 		b b b
 		c c c
 		f f es
 		d b b
 		b d b %480
 		c a f
+		b b' b,
 		b d e!
 		f f, f
-		f a f
-		b4 b8 %485
+		f a f %485
+		b4 b8
 		a4.
 		b8 es f
 		b,4 r8
-		b4\fE a8
-		b b' b, %490
+		b4\fE a8 %490
+		b b' b,
 		f'4 b8
 		f f, f'
 		b, b b
-		a4.
-		b8 f' f, %495
+		a4. %495
+		b8 f' f,
 		b b' f
 		b,16\pE b b b b b
 		c c c c c c
-		c c c c cis cis
-		d8 d h %500
+		c c c c cis cis %500
+		d8 d h
 		c! c c
-		c c c
+		b-\critnote b b
 		a a g
-		d' d fis
-		g d b %505
-		f' e d
+		d' d fis %505
+		g e! c
+		f e d
 		e cis a
 		d d16 c b a
-		gis4.
-		a8 a' a, %510
+		gis4. %510
+		a8 a' a,
 		a16 a a a a a
 		b! b b b h h
 		cis cis cis cis cis cis
-		d d d d c c
-		b! b b b g g %515
+		d d d d c c %515
+		b! b b b g g
 		a a a a a a
 		h h h h h h
-		c c c c h h
-		a8 a a
-		g g g %520
+		c c c c b b
+		a8 a a %520
+		g g g
 		g g gis
 		a a a
 		a h? cis
-		d d r
-		cis4. %525
+		d d r %525
+		cis4.
 		d8 f d
 		g e d
 		c4.
-		f8 d c?
-		b4. %530
+		f8 d c? %530
+		b4.
 		e8 cis h?
 		a4.
 		d8 f d
-		a4 gis8
-		a a' a, %535
+		g,4-\critnote gis8 %535
+		a a' a,
 		b! a g
 		a h? cis
 		d e f
-		g g g
-		a a a %540
+		g g g %540
+		a a a
 		a, a a
 		d d, r
 		d'\fE f d
-		a4.
-		a8 cis a %545
+		a4. %545
+		a8 cis a
 		d a d,
 		a' a a
 		a a a
-		g a a
-		d d, r\fermata \bar "||" %550 finis
+		g a a %550
+		d d, r\fermata \bar "||" %551 finis
 	}
 }
 
@@ -1644,29 +1645,29 @@ QuidSumBassFigures = \figuremode {
 	r %495
 	r
 	r
+	r
 	<7>8 <6>4
-	r4.
-	<4>8 <_+>4 %500
+	r4. %500
+	<4>8 <_+>4
 	<_->4.
 	<6 4 2>
 	<6>
+	<4>8 <_+>4 %505
+	r4.
+	r
+	r
+	r
+	<7 [_!]> %510
 	<4>8 <_+>4
-	r4. %505
-	r
-	r
-	r
-	<7 [_!]>
-	<4>8 <_+>4 %510
 	<_+>4.
 	<7>8 <6>4
 	<6 5!>4.
-	<4>8 <_+>4
-	<6>4. %515
+	<4>8 <_+>4 %515
+	<6>4.
 	<7>4 <[6\\]>8
 	<6 5!>4.
 	<9 [4]>8 <[8] [3]> <4 2>
-	r4.
-	r %520
+	r4. %520
 	r
 	r
 	r
@@ -1696,7 +1697,8 @@ QuidSumBassFigures = \figuremode {
 	r
 	r
 	r
-	r %550 finis
+	r %550
+	r %551 finis
 }
 
 % Organo = {

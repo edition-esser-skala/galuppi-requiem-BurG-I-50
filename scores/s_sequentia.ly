@@ -240,7 +240,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.5 QUID SUM MISER"
+			movement = "3.5 QUID SUM MISER – REX TREMENDAE"
 		}
 		\score {
 			<<

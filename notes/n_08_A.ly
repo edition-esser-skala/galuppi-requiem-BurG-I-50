@@ -681,15 +681,15 @@ QuidSumAltoNotes = {
 		\key d \minor \time 3/8 \autoBeamOff \tempoQuidSum
 			\set Score.currentBarNumber = #425
 		R4.*28 %452
-		\mvTr a'4\pE^\soloE g8
-		f([ e)] d
+		\mvTr a'8\pE^\soloE g4
+		f8([ e)] d
 		b'([ a)] g %455
 		f16([ e)] d8 r
-		e([ a)] g
+		e([ a)] f
 		f([ e)] d
 		e4 f8
 		f e r %460
-		c'4 b8
+		c' b4
 		a16([ c)] a8 r
 		b a4
 		g16([ b)] g8 r

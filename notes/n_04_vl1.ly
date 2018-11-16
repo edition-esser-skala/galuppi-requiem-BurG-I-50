@@ -738,11 +738,11 @@ QuidSumFlautoI = {
 		\clef treble
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
-		a''4\fE g8 %425
-		f( e d)
+		a''8\fE g4 %425
+		f8( e d)
 		b'( a g)
 		f16 e d8[ f]
-		e( a g)
+		e( a f)
 		f e d %430
 		cis a'( f)
 		f e r
@@ -763,12 +763,12 @@ QuidSumFlautoI = {
 		g4.
 		g16([ f!) f( e)] f8
 		e16([ f)] f8( e)
-		a16 f f8[ e] %450
+		\slurDashed a16( f) f8[( e]) \slurSolid %450
 		\tuplet 3/2 8 { b'16([ a g)] } f8 e
 		d4 r8
 		R4.*3 %455
 		r8 f16\pE g a f
-		e8 r4
+		e8 r r
 		R4.*4 %461
 		r8 a16([ c)] a8
 		R4.

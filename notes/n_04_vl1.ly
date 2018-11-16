@@ -739,10 +739,10 @@ QuidSumFlautoI = {
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
 		a''8\fE g4 %425
-		f8( e d)
-		b'( a g)
+		f8 e d
+		b' a( g)
 		f16 e d8[ f]
-		e( a f)
+		e a( f)
 		f e d %430
 		cis a'( f)
 		f e r
@@ -752,7 +752,7 @@ QuidSumFlautoI = {
 		g16[ b] g8 r
 		a16( b) b( c) c( d)
 		d8 c4
-		b16( a) a( g) g( a)
+		b16( a) a( g) g( b)^\critnote
 		a8 g4 %440
 		\slurDashed a16( b) b( c) c( d) \slurSolid
 		d8 c4
@@ -800,7 +800,7 @@ QuidSumFlautoI = {
 		R4.*12 %524
 		r8 f( a) %525
 		r e g
-		f16 e d8[ a']
+		f16[ e d8] a'
 		b4.
 		b8 a gis
 		a4. %530
@@ -828,7 +828,133 @@ QuidSumViolinoI = {
 		\clef treble
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
-		
+		a'8\fE g4 %425
+		f8 e d
+		b' a( g)
+		f16 e d8[ f]
+		e a( f)-\critnote
+		f e d %430
+		cis a'( f)
+		f e r
+		c' b4
+		a16[ c] a8 r
+		b a4 %435
+		g16[ b] g8 r
+		a16( b) b( c) c( d)
+		d8 c4
+		b16( a) a( g) g( b)
+		a8 g4 %440
+		\slurDashed a16( b) b( c) c( d) \slurSolid
+		d8 c4
+		b8 a g
+		f4 r8
+		a4. %445
+		a16([ g) g( fis)] g8
+		g4.
+		g16([ f!) f( e)] f8
+		e16([ f)] f8( e)
+		a16( f) \once \slurDashed f8[( e]) %450
+		\tuplet 3/2 8 { b'16([ a g)] } f8 e
+		d4 r8
+		a''\pE g4
+		f8 e d
+		b' a g %455
+		f16[ e] d8 r
+		e a f
+		f e d
+		cis a' f
+		f e r %460
+		c' b4
+		a16([ c)] a8 r
+		b a4
+		g16([ b)] g8 r
+		f4 g16( e) %465
+		f8( c) c
+		d c b
+		b a r
+		es4.
+		d %470
+		e!
+		f
+		g8 g' as
+		as? g r
+		f f f %475
+		fis( g) g
+		g g b
+		b[ a] a16 g32 a
+		b4.
+		f %480
+		es
+		d
+		b'4 d,8
+		d c c
+		c c es %485
+		d16[ f] d8 f
+		g f es
+		d c4
+		b8 b, d32([\fE c d es)]
+		f8 es4 %490
+		d16([ f)] d8 r
+		es d4
+		\once \slurDashed c16([ es)] c8 r
+		d8 f b16[ g]
+		g8 f es %495
+		d c4
+		b4 r8
+		b''16(-.\pE b-. b-. b-. b-. b-.)
+		b(-. b-. a-. a-. a-. a-.)
+		g(-. g-. g-. g-. g-. g-.) %500
+		g8( fis) d
+		es4.
+		d8 g g
+		fis c' b
+		b a r %505
+		b4.
+		a
+		g
+		f
+		f8 e d %510
+		d cis r
+		a'16(-. a-. a-. a-. a-. a-.)
+		a(-. a-. gis-. gis-. gis-. gis-.)
+		g(-. g-. g-. g-. g-. g-.)
+		g(-. g-. fis-. fis-. fis-. fis-.) %515
+		g(-. g-. g-. g-. g-. g-.)
+		g(-. g-. fis-. fis-. fis-. fis-.)
+		f(-. f-. f-. f-. f-. f-.)
+		f(-. f-. e-. e-. e-. e-.)
+		\slurDashed f(-. f-. f-. f-. f-. f-.) %520
+		f(-. f-. e-. e-. e-. e-.)
+		d(-. d-. d-. d-. d-. d-.) \slurSolid
+		d8 cis r
+		a g4
+		f8( a) r %525
+		a,4 g'8
+		f16[ e d8] a'
+		b4.
+		b8 a gis
+		a4. %530
+		a8 g! fis
+		g4.
+		g8 f! e
+		f4.
+		f8 e d %535
+		e4 e'8
+		d4 b'8
+		a4 g8
+		f e d
+		b4 g8 %540
+		f f' f
+		e4.
+		d4 d,8\fE
+		a'4.
+		\slurDashed a16([ g) g( fis?)] \slurSolid g8 %545
+		g4.
+		g16([ f!) f( e)] f8
+		e16([ f)] f8( e)
+		a16([ f)] f8( e)
+		\tuplet 3/2 8 { b'16([ a g)] } f8 e %550
+		d4.\fermata \bar "||" %551 FINIS
 	}
 }
 

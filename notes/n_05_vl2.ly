@@ -739,7 +739,7 @@ QuidSumFlautoII = {
 		d8 cis d
 		d16. g32 f8[ e]
 		d16 cis d8[ d]
-		cis( f d)
+		cis f( d)
 		d cis h %430
 		cis f( d)
 		d cis r
@@ -749,7 +749,7 @@ QuidSumFlautoII = {
 		e16[ g] e8 r
 		f16( g) g( a) a( b)
 		b8 a4
-		g16( f) f( e) e( f)
+		g16( f) f( e) e( g)^\critnote
 		f8 e4 %440
 		\slurDashed f16( g) g( a) a( b) \slurSolid
 		b8 a4
@@ -797,7 +797,7 @@ QuidSumFlautoII = {
 		R4.*12 %524
 		r8 d( f) %525
 		r g e
-		d16 cis d8[ f]
+		d16[ cis d8] f
 		g4.
 		g8 f e
 		f4. %530

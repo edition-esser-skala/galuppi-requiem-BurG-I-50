@@ -1441,7 +1441,7 @@ QuidSumOrgano = {
 		\clef bass
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
-		\mvTr d4\fE-\soloE cis8
+		\mvTr d4\fE-\soloE cis8 %425
 		d e f
 		g a a,
 		d f d

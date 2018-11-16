@@ -728,6 +728,132 @@ QuidSumViola = {
 		\clef treble
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
-		
+			\mvTr d4\fE-\critnote cis8 %425
+		d e f
+		g a a,
+		d f d
+		a' a, a
+		a4. %430
+		a
+		a8 a' g
+		f4 e8
+		f f,16 g a b
+		c4 f8 %435
+		c c16 c e c
+		f8 f, r
+		f' f f
+		c c c
+		f c16 d e c %440
+		f8 f, r
+		f' f f
+		b c c,
+		f f e
+		d f d %445
+		a' a, r
+		a cis a
+		d a d,
+		a' a a
+		a a a' %450
+		g a a,
+		d d, r
+		d'4\pE cis8
+		d e f
+		g a a, %455
+		d f d
+		a4.
+		a
+		a4 d8
+		a' a g %460
+		f4 e8
+		f f, r
+		c'4 f8
+		c4 r8
+		f a b %465
+		a4 f8
+		e4.
+		f8 f, f
+		f' f f
+		f f f %470
+		f f f
+		f f f
+		c4 h8
+		c c b
+		a! a a %475
+		b b b
+		c c c
+		f f es
+		d b b
+		b d b %480
+		c a f
+		b b' b,
+		b d e!
+		f f, f
+		f a f %485
+		b4 b8
+		a4.
+		b8 es f
+		b,4 r8
+		b4\fE a8 %490
+		b b' b,
+		f'4 b8
+		f f, f'
+		b, b b
+		a4. %495
+		b8 f' f,
+		b b' f
+		b,16\pE b b b b b
+		c c c c c c
+		c c c c cis cis %500
+		d8 d b!
+		c! c c
+		b-\critnote b b
+		a a g
+		d' d fis %505
+		g e! c
+		f e d
+		e cis a
+		d d16 c b a
+		gis4. %510
+		a8 a' a,
+		a16 a a a a a
+		b! b b b h h
+		cis cis cis cis cis cis
+		d d d d c c %515
+		b! b b b g g
+		a a a a a a
+		h h h h h h
+		c c c c b b
+		a8 a a %520
+		g g g
+		g g gis
+		a a a
+		a h? cis
+		d d r %525
+		cis4.
+		d8 f d
+		g e d
+		c4.
+		f8 d c? %530
+		b4.
+		e8 cis h?
+		a4.
+		d8 f d
+		a4 gis8 %535
+		a a' a,
+		b! a g
+		a h? cis
+		d e f
+		g g g %540
+		a a a
+		a, a a
+		d d, r
+		d'\fE f d
+		a4. %545
+		a8 cis a
+		d a d,
+		a' a a
+		a a a
+		g a a %550
+		d d, r\fermata \bar "||" %551 finis
 	}
 }

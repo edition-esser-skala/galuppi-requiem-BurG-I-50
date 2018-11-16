@@ -825,6 +825,132 @@ QuidSumViolinoII = {
 		\clef treble
 		\key d \minor \time 3/8 \tempoQuidSum
 			\set Score.currentBarNumber = #425
-		
+		f8\fE e4 %425
+		d8 cis d
+		d16.-\critnote g32 f8[ e]
+		d16 cis d8[ d]
+		cis \once \slurDashed f( d)
+		d cis h %430
+		cis \once \slurDashed f( d)
+		d cis r
+		a' g4
+		f16[ a] f8 r
+		g-\critnote f4 %435
+		e16[ g] e8 r
+		f16( g) g( a) a( b)
+		b8 a4
+		g16( f) f( e) e( g)
+		f8 e4 %440
+		\slurDashed f16( g) g( a) a( b) \slurSolid
+		b8 a4
+		g8 f e
+		f4 r8
+		f4. %445
+		f16([ e) e( dis?)] e8
+		e4.
+		\slurDashed e16([ d!) d( cis)] \slurSolid d8
+		cis16([ d)] d8( cis)
+		f16 d \once \slurDashed d8[( cis]) %450
+		\tuplet 3/2 8 { g'16([ f e)] } d8 cis
+		d4 r8
+		f'8\pE e4
+		d8 cis d
+		d16 g f8[ e] %455
+		d16[ cis] d8 r
+		cis f d
+		d cis h
+		a f' d
+		d cis r %460
+		a' g4
+		f16[( a]) f8 r
+		g f4
+		e16([ g)] e8 r
+		a, c d %465
+		c a a
+		b a g
+		g f r
+		c4.
+		b %470
+		<b g'>
+		<a f'>
+		e'8 e' f
+		f e r
+		c c c %475
+		d d d
+		e e g
+		g( f) f
+		f d d
+		d4. %480
+		c
+		b
+		d4 b8
+		b a a
+		a a c %485
+		b16[ d] b8 d
+		es d c
+		b4 a8
+		b b, b32([\fE a b c)]
+		d8 c4 %490
+		\once \slurDashed b16([ d)] b8 r
+		c b4
+		\once \slurDashed a16([ c)] a8 r
+		b8 d g16[ es]
+		es?8 d c %495
+		b b a
+		b4 r8
+		d'16(-.\pE d-. d-. d-. d-. d-.)
+		es(-. es-. es-. es-. es-. es-.)
+		es?(-. es-. es-. es-. e-. e-.) %500
+		e8 d g,
+		g4.
+		g8 d' d
+		c fis g
+		g fis r %505
+		g4.
+		f!
+		e
+		d
+		d8 cis h %510
+		h? a r
+		cis16(-. cis-. cis-. cis-. cis-. cis-.)
+		d(-. d-. d-. d-. d-. d-.)
+		e(-. e-. e-. e-. e-. e-.)
+		a,(-. a-. a-. a-. a-. a-.) %515
+		\slurDashed d(-. d-. d-. d-. d-. d-.)
+		c(-. c-. c-. c-. c-. c-.)
+		d(-. d-. d-. d-. d-. d-.)
+		d(-. d-. c-. c-. c-. c-.)
+		c(-. c-. c-. c-. c-. c-.) %520
+		b!(-. b-. b-. b-. b-. b-.)
+		b(-. b-. b-. b-. h-. h-.)
+		h?8 a r
+		f e4
+		d8( f) r %525
+		e4 e8
+		d16[ cis d8] f
+		g4.
+		g8 f e
+		f4. %530
+		f8 e dis?
+		e4.
+		e8 d! cis
+		d4.
+		d8 cis d %535
+		cis4 cis'8
+		d4 g8
+		cis, d e
+		d cis d
+		g,4 e8 %540
+		d d' d
+		cis4.
+		d4 d,8\fE
+		f4.
+		\slurDashed f16([ e) e( dis?)] \slurSolid e8 %545
+		e4.
+		\slurDashed e16([ d!) d( cis)] \slurSolid d8
+		cis16([ d)] d8( cis)
+		f16([ d)] d8( cis)
+		\tuplet 3/2 8 { g'16([ f e)] } d8 cis %550
+		d4.\fermata \bar "||" %551 FINIS
 	}
 }

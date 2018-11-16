@@ -869,7 +869,7 @@ QuidSumViolinoI = {
 		b a4
 		g16([ b)] g8 r
 		f4 g16( e) %465
-		f8( c) c
+		f8 c c
 		d c b
 		b a r
 		es4.

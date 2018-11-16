@@ -1614,7 +1614,7 @@ QuidSumBassFigures = \figuremode {
 	r4.
 	r8 <6> q %465
 	q4.
-	<7>8 <6> <5>
+	<7 5>8 <6 4> <5 3>
 	<9 4> <8 3> <6 4>
 	<7->4.
 	<6 4> %470
@@ -1634,8 +1634,8 @@ QuidSumBassFigures = \figuremode {
 	<6 4> <5 3>4
 	r8 <6> <7-> %485
 	r4.
-	<7>8 <6> <5->
-	r <6>4
+	<7 5->8 <6 4> <5- 3>
+	r <6 5>4
 	r4.
 	r8 <4- 2> <\t \t> %490
 	r4.
@@ -1653,12 +1653,12 @@ QuidSumBassFigures = \figuremode {
 	<[6]>
 	<[6\\]>
 	<[6] 4>8 <[5] _+>4 %505
-	<_->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
-	r8 <6\\>4
-	<6\\>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
-	r4.
-	<7 [_!]> %510
-	<[9!] 4>8 <[8] _+>4
+	<5 _->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7 [5]>8 <[6] [4+]> <[5] [_!]> %510
+	<[9!] 4> <[8] _+>4
 	<_+>4.
 	<7>8 <[6\\]>4
 	<6 5!>4.
@@ -1670,8 +1670,8 @@ QuidSumBassFigures = \figuremode {
 	<6>4. %520
 	<7>8 <6>4
 	<5> <7 _!>8
-	<6 4> <5 _+>4
-	<_+>8 <\t> <5>
+	<9 4> <8 _+>4
+	<_+>8 <6 4> <\t \t>
 	r4. %525
 	<6 5>
 	r
@@ -1687,8 +1687,8 @@ QuidSumBassFigures = \figuremode {
 	r
 	<_+>8 <\t> <6 5>
 	r <6\\> <6>
-	r4. %540
-	<6 4>
+	<5>4 <6>8 %540
+	<6 4>4.
 	<5 _+>
 	r
 	r

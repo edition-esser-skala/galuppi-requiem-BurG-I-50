@@ -305,6 +305,7 @@ tempoRecordare = \tempoMarkup "Adagio"
 	\context {
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
+		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing =
 		  #'((basic-distance . 15)
          (minimum-distance . 15)

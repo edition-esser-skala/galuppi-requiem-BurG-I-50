@@ -296,11 +296,12 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.6 RECORDARE"
+			movement = "3.6 RECORDARE – QUAERENS ME"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new StaffGroup \with { instrumentName = "obligati" } <<
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
 						\RecordareViola
@@ -328,7 +329,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

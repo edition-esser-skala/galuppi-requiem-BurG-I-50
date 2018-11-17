@@ -865,7 +865,7 @@ RecordareViola = {
 		#'(4)
 		#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 2/4 \tempoRecordare
 			\set Score.currentBarNumber = #552
 			\partial 8 b16\fE c d8 d d d
@@ -1018,12 +1018,12 @@ RecordareVioloncello = {
 		a8 \tuplet 3/2 8 { a16 b c } b8 a
 		g16 fis g8 r es'16 d %555
 		d4. es16( d)
+		d4.-\critnote es16( d)
 		d8 g4 cis,8
-		d g4 cis,8
 		d4 r
 		b8.( c32 d) b8 b %560
 		c8.( d32 es) c8 r
-		c8.( d32 es) f8 es
+		c8.( d32 es) d8 c
 		b8.( c32 d) b8 r
 		g4. g8
 		g8 f r4 %565

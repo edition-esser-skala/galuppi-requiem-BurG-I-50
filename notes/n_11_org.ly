@@ -1712,11 +1712,283 @@ RecordareOrgano = {
 		\key g \minor \time 2/4 \tempoRecordare
 			\set Score.currentBarNumber = #552
 		\partial 8 r8 r \mvTr g\fE-\soloE b g
+		d' d, d4
+		d' r8 fis
+		g g, g4 %555
+		r8 a'( b) r
+		r a( b) r
+		g4 es
+		d r8 c
+		b b b b %560
+		b b b b
+		a4 r8 a
+		b b' b, d
+		es es es e
+		f f, f4 %565
+		r8 a' b4^\critnote
+		r8 a b4
+		r8 f f, f'
+		b b, r f'
+		b d, es f %570
+		b, b' b g
+		a a fis d
+		g g, g' g16 f
+		es2
+		d8 d, d d' %575
+		r fis g4
+		r8 fis g4
+		r8 d d, d'
+		g4 r8 c,
+		d d d, d %580
+		g4 r
+		g'8\pE g g g
+		g g g g
+		fis fis fis fis
+		g g, g4 %585
+		r8 g' g f!
+		es es es es
+		a, a a a
+		b b' b,4
+		d8 d d d %590
+		es es es es
+		es es es e
+		f f, f f
+		f f f b
+		f f' f16 es d c %595
+		b8 b a a
+		b b b a
+		b b' b b
+		b, b' b b
+		a a as as %600
+		g g, g a!
+		h h h c
+		g' g, g' f
+		e e e e
+		f f f f %605
+		fis fis fis fis
+		g g g g
+		g g f! f
+		es! es es es
+		c c c c %610
+		g' g g, g
+		g g h h
+		c c c es
+		f f f fis
+		g g es c %615
+		f f f f
+		es es e e
+		f f fis fis
+		g g g, g
+		c g c,4 %620
+		r8 h''(\fE c4)
+		r8 h( c4)
+		r8 g g, g'
+		c, c c c
+		c c f f %625
+		g g, g4
+		r8 g g' g,
+		c c es g
+		c es, f g
+		c, g c,4 %630
+		c'8\pE c c c
+		c c c c
+		d d d d
+		es es es, es'
+		d as' f b, %635
+		es es es es
+		es d d d
+		es b b b
+		es es es es
+		es es es es %640
+		es es es d
+		c c c c
+		b b b es
+		f4 f,
+		f r8 a %645
+		b f' f16 es d c
+		b8 d d es
+		f f, f4
+		r8 f' a f
+		b b, b b %650
+		b b b b
+		c c c c
+		c c c cis
+		d d, d d
+		d'4 d8 d, %655
+		d'4 d,8 d'
+		d4 d8 fis
+		g d g, g'
+		g4. f!8
+		es2 %660
+		d8 d, d d'
+		d d16 c b8 a
+		g g b b
+		c c c c
+		a a a a %665
+		b b b b
+		g g g g
+		a a a a
+		fis fis fis fis
+		g g' es d %670
+		cis2
+		d8 d, d4
+		d' r
+		d fis
+		g g, %675
+		c d
+		es c16 b a g
+		fis2
+		g4 r8 b
+		c c cis cis %680
+		d4 d,\fermata
+		g8 g' g, r
+		r fis'\fE g4
+		r8 fis g4
+		r8 d d, d' %685
+		g,4 r8 c
+		d d d, d
+		g d' g,4\fermata \bar "||" %688 finis
 	}
 }
 
 RecordareBassFigures = \figuremode {
-	
+	r8 r2 %552
+	<7 [_+]>
+	<[_+]>4. <[6] [5]>8
+	r2 %555
+	r8 <6\\> <[6]>4
+	r8 <[6\\]> <[6]>4
+	r <6\\>
+	<_+>4. <6>8
+	r2 %560
+	r
+	<[6]>
+	r4. <[6]>8
+	r2
+	r %565
+	r8 <[6]> <[_-]>4
+	r8 <[6]> <[_-]>4
+	r8 <7>4.
+	<[_!]>2
+	r %570
+	r
+	r
+	r
+	<5>4 <6\\>
+	<[_+]>2 %575
+	r
+	r
+	r
+	r
+	<6 4>4 <[5] _+> %580
+	r2
+	r
+	<4 2>
+	r
+	r %585
+	r8 <7 _!>4.
+	<6>2
+	q
+	r
+	r %590
+	<6>
+	r
+	r
+	r
+	r %595
+	r
+	r
+	r4. <6 4>8
+	<\t \t> <[5] 3>4.
+	<6>2 %600
+	<_!>
+	r
+	r
+	<7->
+	<_-> %605
+	<7>
+	<_!>
+	r
+	<7>4 <6>
+	r2 %610
+	<6 4>4 <5 _!>
+	r2
+	r
+	<6>
+	r %615
+	r
+	r
+	r
+	r
+	r %620
+	r
+	r
+	r
+	r
+	r %625
+	r
+	r
+	r
+	r
+	r %630
+	r
+	<6->
+	<[5-]>
+	r
+	r %635
+	r
+	<4! 2>8 <6>4 <5->8
+	r2
+	r
+	r %640
+	r
+	<6!>
+	r
+	r
+	r %645
+	r
+	r
+	r
+	r
+	r %650
+	r
+	<6>
+	r
+	<_+>
+	r %655
+	r
+	r
+	r
+	r
+	<5>4 <6\\> %660
+	<_+>2
+	r
+	r
+	r
+	r %665
+	r
+	r
+	r
+	r
+	r %670
+	r
+	r
+	r
+	r
+	r %675
+	<6>4 <6 4>8 <[5] _+>
+	r2
+	<7>4 <6>
+	r2
+	r %680
+	r
+	r
+	r
+	r
+	r %685
+	r
+	r
+	r %688 finis
 }
 
 % Organo = {

@@ -614,12 +614,195 @@ RecordareTenoreNotes = {
 		\clef "treble_8"
 		\key g \minor \time 2/4 \autoBeamOff \tempoRecordare
 			\set Score.currentBarNumber = #552
-		
+		\partial 8 r8 R2*30 %581
+		\mvTr d4.\pE^\soloE es8
+		c16([ h)] c8 r4
+		c8.([ d32 es)] d8([ c)]
+		b!16([ a)] g8 r4 %585
+		g4 g8 r
+		\tuplet 3/2 8 { c16([ h c)] } c4.
+		c es,8
+		es d r4
+		f'( es32[ d16.)] c32([ b16.)] %590
+		h32([ c16.)] c4 r8
+		c4( \tuplet 3/2 8 { g'16[ f es)] d([ c b)] }
+		b8 a4 f8~
+		f( es'4) d8
+		d c r4 %595
+		b8.([ a32 b] c8) es,
+		es d \once \tieDashed d'4~
+		d8.([ c32 d] es8) es
+		es d r4
+		\once \tieDashed f~ f16[( es)] d([ c)] %600
+		h4 h8([ a!)]
+		g( f'4) es8
+		es d r4
+		des4 des
+		c16([ b)] as4. %605
+		es'4 es
+		d!16([ c)] h4 a!8
+		g h4 d8
+		d[ c16 h] c8[ c]
+		g c4 es8 %610
+		es[ d16 c] d8[ g,]
+		g d'4 f8
+		f[ es16 d] es8 r
+		d4. c8
+		c h r4 %615
+		as4 as
+		g c
+		c4. c8
+		c4( d)
+		c r %620
+		R2*10 %630
+		c4 g
+		as4. as8
+		as?8.([ b32 c] b8) as
+		as? g r4
+		c d %635
+		es8([ d16 c)] b4
+		a!8( b4) as8
+		g f r4
+		es es
+		es8([ g)] g4 %640
+		g8([ b)] b4
+		b8([ a!)] a4
+		b4( f'8) es16([ d)]
+		d8 c r4
+		R2*2 %646
+		b4. c8
+		\appoggiatura b a4 r8 r16 f
+		f4( es8) es
+		es d r4 %650
+		f b
+		b8([ a)] a4
+		es'( c16[ b)] a([ g)]
+		g8 fis r4
+		d' d %655
+		d d,
+		c' c
+		b16([ a)] b8 r4
+		b r
+		g cis %660
+		d d,
+		r \tieDashed d'~
+		d c16([ b a g)]
+		es'2~
+		es16[ d c b] a[ g f es'] %665
+		d2~
+		d16[ c b a] g[ f es d']
+		c2~
+		c16[ b a g] fis[ e? d c'] \tieSolid
+		c8[ b16 a] b4 %670
+		b8( a4) g8
+		g fis r4
+		d' r
+		c8.([ d32 es)] d8([ c)]
+		b8.([ c32 d)] b8 r %675
+		a8.([ b32 c)] b8([ a)]
+		g16([ fis)] g8 es'4~
+		es( d8) c
+		b([ a)] g4
+		g g %680
+		g( a)
+		g r
+		R2*5 %687
+		R2\fermataMarkup \bar "||" %688 finis
 	}
 }
 
 RecordareTenoreLyrics = \lyricmode {
+	Re -- cor -- %582
+	da -- re,
+	Je -- su
+	pi -- e, %585
+	quod sum
+	cau -- sa
+	tu -- ae
+	vi -- ae:
+	Ne __ me %590
+	per -- das,
+	ne __ me
+	per -- das il --
+	la
+	di -- e. %595
+	Re -- cor --
+	da -- re, Je --
+	su
+	pi -- e,
+	quod __ sum %600
+	cau -- sa __
+	tu -- ae
+	vi -- ae:
+	Ne me
+	per -- das, %605
+	ne me
+	per -- das __ _
+	_ _ _
+	_ _
+	_ _ _ %610
+	_ _
+	_ _ _
+	_ _
+	il -- la
+	di -- e, %615
+	ne me
+	per -- das
+	il -- la
+	di --
+	e. %620
 	
+	Quae -- rens %631
+	me, se --
+	di -- sti
+	las -- sus:
+	Re -- de -- %635
+	mi -- sti
+	Cru -- cem
+	pas -- sus:
+	Tan -- tus
+	la -- bor, %640
+	tan -- tus
+	la -- bor
+	non __ sit
+	cas -- sus.
+	
+	Quae -- rens %647
+	me, se --
+	di -- sti
+	las -- sus: %650
+	Re -- de --
+	mi -- sti
+	Cru -- cem
+	pas -- sus:
+	Tan -- tus %655
+	la -- bor,
+	tan -- tus
+	la -- bor
+	non,
+	non sit %660
+	cas -- sus,
+	tan --
+	tus __
+	la --
+	_ %665
+	_
+	_
+	_
+	_
+	_ bor %670
+	non __ sit
+	cas -- sus,
+	non,
+	tan -- tus
+	la -- bor %675
+	non __ sit
+	cas -- sus, tan --
+	tus
+	la -- bor
+	non sit %680
+	cas --
+	sus. %682 finis
 }
 
 % TenoreNotes = {

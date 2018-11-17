@@ -868,7 +868,138 @@ RecordareViola = {
 		\clef treble
 		\key g \minor \time 2/4 \tempoRecordare
 			\set Score.currentBarNumber = #552
-		
+			\partial 8 b16\fE c d8 d d d
+		c16 b c8 r a16 b
+		c8 \tuplet 3/2 8 { c16 d es } d8 c
+		b16 a g8 r4 %555
+		r8 fis'( g) r
+		r fis( g) r
+		r b,4 g'8
+		fis4 r
+		d8.( es!32 f) d8 d %560
+		es8.( f32 g) es8 r
+		es8.( f32 g) f8 es
+		d8.( es32 f) d8 r
+		c4 g'16 es c b
+		b8 a r g'16 e %565
+		f4. g16 e
+		f4. g16 e
+		f8 c16 d es8 es
+		d!16 c d es f8 es
+		d4 c %570
+		b r8 d
+		c16 b c8 r c
+		b16 a b8 r b16 a
+		g8. a16 b8 cis
+		d d, r4 %575
+		r8 a'' b4
+		r8 a b4
+		r8 fis16 g a8 a
+		g c b a
+		g g4 fis8 %580
+		g d g,4
+		R2
+		r4 c16\p h? c8
+		c2
+		b!8 b16 c d4 %585
+		r8 d(-. d-. d-.)
+		es(-. g-. g-. g-.)
+		f(-. f-. f-. f-.)
+		es d16 es f8 f
+		\once \slurDashed f(-.^\critnote f-. f-. f-.) %590
+		g(-. g-. g-. g-.)
+		\once \slurDashed g(-.^\critnote g-. g-. g-.)
+		g f4 f8~
+		f es4 d8
+		d c r4 %595
+		r r8 es
+		es( d) r4
+		r r8 es
+		es d16 es f8 f
+		f^\critnote f f f %600
+		f f f f
+		f f f es
+		es d d d
+		des^\critnote des des des
+		c16 b as8 c c %605
+		es es es es
+		d!16 c h4 c8
+		h d d d
+		d d g g
+		es es es es %610
+		es es d d
+		d d d f
+		f es16 d es8 es
+		d as' as a
+		g g g g %615
+		as^\critnote as as as
+		g g g g
+		as as a a
+		g4 r
+		r r8 as?16\fE fis %620
+		g4. as16 fis^\critnote
+		g4. as16 fis
+		g8 d16 es f8 f
+		es16 d es f g4
+		g f16 es d es %625
+		es8 d r d16 es
+		f8.( g32 as) g8 f
+		es16 f g4 f8
+		es4 d
+		c8 g c,4 %630
+		es'8\p^\critnote es es es
+		es es es es
+		f f f f
+		f es16 f g8 g
+		as4 f %635
+		g r
+		R2
+		r8 d16 es f8 as,
+		g8-\critnote g g g
+		g' g g g %640
+		g4 r
+		R2*2
+		r8 c, c d
+		es8.( f32 g) f8 es %645
+		d c r4
+		R2*2
+		r4 r8 es
+		es d16 es f8 d %650
+		d4 r
+		R2*2
+		r8 fis16 g fis8 fis
+		r fis16 g fis8 fis %655
+		r fis16 g fis8 fis
+		r a16 b a8 a
+		r g16 a g8 g
+		r g16 a g8 g
+		g2 %660
+		fis8 a16 g fis8 fis
+		fis?4 r
+		r g
+		g8 g c c
+		c^\critnote c c c %665
+		f, f f f
+		b^\critnote b b b
+		es, es es es
+		a^\critnote a a a
+		a g16 fis g8 fis %670
+		e2
+		r8 fis16 g a8 fis
+		r d16 e? fis8 g
+		a4 r
+		r8 g b g %675
+		R2*3
+		r4 r8 g
+		g4 g %680
+		d2\fermata
+		R
+		r8 a'\fE b4
+		r8 a b4
+		r8 fis16 g a8 a %685
+		g c b a
+		g g4 fis8
+		g d g,4\fermata \bar "||" %688 finis
 	}
 }
 

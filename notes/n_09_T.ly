@@ -810,12 +810,193 @@ JusteJudexTenoreNotes = {
 		\clef "treble_8"
 		\key b \major \time 3/4 \autoBeamOff \tempoJusteJudex
 			\set Score.currentBarNumber = #689
-		
+		R2.*6 %694
+		\mvTr f2.\pE^\soloE %695
+		c
+		b
+		a
+		g8([ d'] c4) b
+		b a r %700
+		r d b
+		a f r
+		r d'4. b8
+		a4 f c'~
+		c( b) a %705
+		b c2
+		b4( d) b
+		b a r
+		f'2.
+		f %710
+		f
+		f
+		f
+		f
+		f %715
+		e
+		r4 d c
+		b2 a4
+		r g g
+		g b r %720
+		r a a
+		a c r
+		r8 g([ a g)] b([ a)]
+		d4 c r
+		r a a %725
+		g2.
+		g
+		g4( b) a^\critnote
+		g2.
+		f2 r4 %730
+		R2.*17 %747
+		r4 d' d
+		c es r
+		c( es4.) d16([ c)] %750
+		b8([ a)] g4 r
+		r a a
+		b8([ d)] b4 r
+		r b b
+		b a r %755
+		r d c
+		h2.
+		b4 c b
+		a2.
+		b8[ a] b4 r %760
+		g2 a4
+		a g r
+		R2.*7 %769
+		f2 b4 %770
+		b a2
+		as as4
+		as? g r
+		r es' es
+		d d2 %775
+		c c4
+		c b r
+		r d es
+		f2 es4
+		d2 es4 %780
+		es d r
+		r a b
+		c2 b4
+		a2 b4
+		b a r %785
+		R2.
+		c2 c4
+		h8([ a)] h4 r
+		g( c) b
+		a8([ g)] a4 r %790
+		b2 b4
+		b a r
+		c2 c4
+		b2 d4
+		c2 c4 %795
+		b2 d4
+		a2 a4
+		b2 b4
+		b2 b4
+		b2( a4) %800
+		b r r
+		c2.
+		b4 r r
+		c2 b4
+		b2( a4) %805
+		b r r
+		R2.*2
+		R2.\fermataMarkup \bar "||" %809 finis
 	}
 }
 
 JusteJudexTenoreLyrics = \lyricmode {
-	% 	donum fac remissionis,
+	Do --
+	num
+	fac
+	re --
+	mis -- si --
+	on -- is, %700
+	an -- te
+	di -- em
+	ra -- ti --
+	o -- nis, an --
+	te %705
+	di -- em
+	ra -- ti --
+	o -- nis,
+	an --
+	te %710
+	di --
+	em
+	an --
+	te
+	di -- %715
+	em
+	ra -- ti --
+	o -- nis,
+	an -- te
+	di -- em, %720
+	an -- te
+	di -- em
+	ra -- ti --
+	o -- nis,
+	an -- te %725
+	di --
+	em
+	ra -- ti --
+	o --
+	nis. %730
+
+	Cul -- pa %748
+	ru -- bet
+	vul -- tus %750
+	me -- us:
+	Sup -- pli --
+	can -- ti
+	par -- ce,
+	De -- us, %755
+	sup -- pli --
+	can --
+	_ _ _
+	_
+	_ ti %760
+	par -- ce,
+	De -- us.
+	
+	Cul -- pa %770
+	ru -- bet
+	vul -- tus
+	me -- us:
+	Sup -- pli --
+	can -- ti %775
+	par -- ce,
+	De -- us.
+	In -- ge --
+	mi -- sco,
+	tam -- quam %780
+	re -- us:
+	Cul -- pa
+	ru -- bet
+	vul -- tus
+	me -- us: %785
+	
+	Sup -- pli --
+	can -- ti
+	par -- ce,
+	De -- us, %790
+	par -- ce,
+	De -- us,
+	sup -- pli --
+	can -- ti
+	par -- ce, %795
+	De -- us,
+	sup -- pli --
+	can -- ti
+	par -- ce,
+	De -- %800
+	us,
+	par --
+	ce,
+	par -- ce,
+	De -- %805
+	us. %806 finis
 }
 
 % TenoreNotes = {

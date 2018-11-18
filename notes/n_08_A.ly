@@ -869,7 +869,7 @@ JusteJudexAltoNotes = {
 		c8([ g'] f4) es
 		es d r
 		R2.*5 %699
-		r4 f es %700
+		r4 f es! %700
 		d f r
 		r f4. es8
 		d4 f r

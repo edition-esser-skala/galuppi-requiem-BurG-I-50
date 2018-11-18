@@ -2037,7 +2037,7 @@ JusteJudexOrgano = {
 		c2.
 		c,
 		c
-		f4 f f %730
+		f4\fE f f %730
 		e e e
 		d e c
 		f f, a
@@ -2051,7 +2051,7 @@ JusteJudexOrgano = {
 		f4 f, f'
 		b, c c,
 		f2 r4
-		d'4 d d
+		d'4\pE d d
 		d d d %745
 		cis cis cis
 		d d d

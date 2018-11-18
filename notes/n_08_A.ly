@@ -862,12 +862,200 @@ JusteJudexAltoNotes = {
 		\clef treble
 		\key b \major \time 3/4 \autoBeamOff \tempoJusteJudex
 			\set Score.currentBarNumber = #689
-		
+		\mvTr b'2.\pE^\soloE
+		f %690
+		es
+		d
+		c8([ g'] f4) es
+		es d r
+		R2.*5 %699
+		r4 f es %700
+		d f r
+		r f4. es8
+		d4 f r
+		r r es~
+		es( d) c %705
+		d es2
+		d4( f) d
+		d c r
+		R2.*4 %712
+		g'2.
+		g
+		g %715
+		g
+		r4 b a
+		a( g) f
+		r e e
+		e? g r %720
+		r f f
+		f a r
+		r8 e[( f e)] g([ f])
+		b4 a r
+		r f f %725
+		f2.
+		e
+		e?4( g) f
+		f( e8[ d] e4)
+		f2 r4 %730
+		R2.*13 %743
+		r4 a a
+		g b r %745
+		r g g
+		g fis r
+		R2.*4 %751
+		r4 fis fis
+		g8([ b)] g4 r
+		r g g
+		g fis r %755
+		R2.
+		r4 g f!
+		e2.
+		es4 f es
+		d8[ c] d4 r %760
+		e2 f4
+		f e r
+		R2.*3 %765
+		r4 f f
+		f e2
+		es4.( f8) g([ f16 es)]
+		es4 d r
+		r d d %770
+		es es2
+		f f4
+		f es r
+		r g g
+		f f2 %775
+		es es4
+		es d r
+		r f g
+		as2 g4
+		f2 ges4 %780
+		ges? f r
+		r c d
+		es2 d4
+		c2 des4
+		des? c r %785
+		f2 f4
+		e8([ d)] e4 r
+		d( g) f
+		e8([ d)] e2
+		c4( f) es %790
+		d2.
+		c4 r r
+		es2 es4
+		d2 f4
+		es2 es4 %795
+		d2 f4
+		c2 c4
+		des2 des4
+		des?2 des4
+		c2. %800
+		b4 r r
+		es2.
+		d4 r r
+		es2 d4
+		c2. %805
+		b4 r r
+		R2.*2
+		R2.\fermataMarkup \bar "||" %809 finis
 	}
 }
 
 JusteJudexAltoLyrics = \lyricmode {
+	Ju -- %689
+	ste %690
+	Ju --
+	dex
+	ul -- ti --
+	o -- nis,
 	
+	an -- te %700
+	di -- em
+	ra -- ti --
+	o -- nis,
+	an --
+	te %705
+	di -- em
+	ra -- ti --
+	o -- nis,
+	
+	an -- %713
+	te
+	di -- %715
+	em
+	ra -- ti --
+	o -- nis,
+	an -- te
+	di -- em, %720
+	an -- te
+	di -- em
+	ra -- ti --
+	o -- nis,
+	an -- te %725
+	di --
+	em
+	ra -- ti --
+	o --
+	nis. %730
+
+	In -- ge -- %744
+	mi -- sco, %745
+	tam -- quam
+	re -- us:
+	
+	Sup -- pli -- %752
+	can -- ti
+	par -- ce,
+	De -- us, %755
+	
+	sup -- pli --
+	can --
+	_ _ _
+	_ ti %760
+	par -- ce,
+	De -- us.
+	
+	In -- ge -- %766
+	mi -- sco,
+	tam -- quam
+	re -- us:
+	Cul -- pa %770
+	ru -- bet
+	vul -- tus
+	me -- us:
+	Sup -- pli --
+	can -- ti %775
+	par -- ce,
+	De -- us.
+	In -- ge --
+	mi -- sco,
+	tam -- quam %780
+	re -- us:
+	Cul -- pa
+	ru -- bet
+	vul -- tus
+	me -- us: %785
+	Sup -- pli --
+	can -- ti
+	par -- ce,
+	De -- us,
+	par -- ce, %790
+	De --
+	us,
+	sup -- pli --
+	can -- ti
+	par -- ce, %795
+	De -- us,
+	sup -- pli --
+	can -- ti
+	par -- ce,
+	De -- %800
+	us,
+	par --
+	ce,
+	par -- ce,
+	De -- %805
+	us. %806 finis
 }
 
 % AltoNotes = {

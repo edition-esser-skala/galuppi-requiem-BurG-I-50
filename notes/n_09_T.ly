@@ -815,7 +815,7 @@ JusteJudexTenoreNotes = {
 }
 
 JusteJudexTenoreLyrics = \lyricmode {
-	
+	% 	donum fac remissionis,
 }
 
 % TenoreNotes = {

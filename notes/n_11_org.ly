@@ -1991,6 +1991,259 @@ RecordareBassFigures = \figuremode {
 	r2 %688 finis
 }
 
+JusteJudexOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \tempoJusteJudex
+			\set Score.currentBarNumber = #689
+		\mvTr b'4\pE-\soloE b b
+		a a a %690
+		g a f
+		b b, d
+		es f f,
+		b b'8 b a g
+		f4 f f %695
+		e e e
+		d e c
+		f f, a
+		b c c,
+		f2 a4 %700
+		b2.
+		f'2 f,4
+		b2.
+		f'2 f,4
+		f2. %705
+		b4 b a
+		b2.
+		f'4 f, g
+		a a a
+		a a a %710
+		a a a
+		a a a
+		b b b
+		h h h
+		c c c %715
+		c, c c
+		f2 f'4
+		g c, f
+		c2 r4
+		c c c %720
+		f2.
+		f4 f f,
+		c'2 f4
+		b, f' a8 g
+		f4 a f %725
+		b b h
+		c2.
+		c,
+		c
+		f4 f f %730
+		e e e
+		d e c
+		f f, a
+		b c c,
+		f f8 g a4 %735
+		b b b
+		h h h
+		c c, r
+		f' f, r
+		e'2. %740
+		f4 f, f'
+		b, c c,
+		f2 r4
+		d'4 d d
+		d d d %745
+		cis cis cis
+		d d d
+		b g g
+		g g g
+		fis fis fis %750
+		g g g'
+		d d d
+		d d d
+		cis cis cis
+		d d, d' %755
+		d d d
+		g g g
+		c, c c
+		f f f
+		b, b b %760
+		c c c
+		c c c
+		b b b
+		c c c
+		c c c %765
+		f f f
+		c c b
+		a a a
+		b b b
+		b b b %770
+		c c c
+		d d d
+		es es, es'
+		es es es
+		b b b %775
+		c a f
+		b b b
+		b b b
+		b b b
+		b b b %780
+		a b b
+		f' f, f
+		f f' f
+		f f e
+		f f f %785
+		f f f,
+		c' c c
+		g' g, g
+		c c c
+		f f f %790
+		b, b b
+		f' f, f'
+		f f f
+		b b, b'
+		f a f %795
+		b b, r
+		f' f f
+		f f f
+		e e e
+		e? f f, %800
+		b b b
+		a a a
+		b b b
+		c a b
+		es f f, %805
+		b b b
+		es f f,
+		b b b
+		b2.\fermata \bar "||" %809 finis
+	}
+}
+
+JusteJudexBassFigures = \figuremode {
+	r2. %689
+	<6> %690
+	<6>4 <6 5>2
+	r2.
+	r
+	r
+	r %695
+	<6>
+	r
+	r
+	r
+	r %700
+	r
+	r
+	r
+	r
+	r %705
+	r
+	r
+	r
+	r
+	r %710
+	r
+	r
+	r
+	r
+	r %715
+	r
+	r
+	r
+	r
+	r %720
+	r
+	r
+	r
+	r
+	r %725
+	r
+	r
+	r
+	r
+	r %730
+	<6>
+	<6>4 <6 5>2
+	r2.
+	r
+	r %735
+	r
+	r
+	r
+	r
+	r %740
+	r
+	r
+	r
+	r
+	<6 4> %745
+	<7 [_!]>
+	<6 4>4 <5 _+>2
+	r2.
+	<6 4>
+	<7> %750
+	r
+	<_+>
+	<6 4>
+	<7 [_!]>
+	<6 4>4 <5 _+>2 %755
+	<_+>2.
+	<_!>
+	<7->
+	<7->
+	r %760
+	r
+	<6 4>4 <[5] 3>2
+	<4 2>2.
+	r
+	<7 5>4 <6 4> <5 3> %765
+	r2.
+	r
+	<5->
+	r
+	r %770
+	r
+	<5->
+	r
+	r
+	r %775
+	r
+	r
+	<6 4>
+	<7->2 <6 4>4
+	<5 3>2 <6- 4>4 %780
+	<7> <5>2
+	r2 <6 4>4
+	<7>2 <6 4>4
+	<5 3>2 <5->4
+	<6- 4> <5 3>2 %785
+	r2.
+	<_!>
+	<_!>
+	<_!>
+	r %790
+	r
+	<6 4>4 <5 3>2
+	<7>2.
+	r
+	<7> %795
+	r
+	r
+	<6- 4>
+	<7>
+	r %800
+	r
+	r
+	r
+	r
+	r %805
+	r
+	r
+	r
+	r %809 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

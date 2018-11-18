@@ -857,6 +857,19 @@ QuidSumAltoLyrics = \lyricmode {
 	tis. %543 finis
 }
 
+JusteJudexAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoJusteJudex
+			\set Score.currentBarNumber = #689
+		
+	}
+}
+
+JusteJudexAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

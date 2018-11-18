@@ -954,3 +954,12 @@ QuidSumViolinoII = {
 		d4.\fermata \bar "||" %551 FINIS
 	}
 }
+
+JusteJudexViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoJusteJudex
+			\set Score.currentBarNumber = #689
+		
+	}
+}

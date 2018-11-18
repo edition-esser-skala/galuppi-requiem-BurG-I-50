@@ -294,42 +294,91 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.6 RECORDARE – QUAERENS ME"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup \with { instrumentName = "obligati" } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\RecordareViola
+% 					}
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Violoncello"
+% 						\RecordareVioloncello
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \RecordareTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RecordareOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\RecordareBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.6 RECORDARE – QUAERENS ME"
+			movement = "3.7 JUSTE JUDEX"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup \with { instrumentName = "obligati" } <<
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\RecordareViola
-					}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\JusteJudexViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\JusteJudexViolinoII
+						}
+					>>
 					\new Staff <<
-						\set Staff.instrumentName = "Violoncello"
-						\RecordareVioloncello
+						\set Staff.instrumentName = "Viola"
+						\JusteJudexViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \JusteJudexAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \JusteJudexAltoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \RecordareTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \JusteJudexTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
+					\new Lyrics \lyricsto Tenore \JusteJudexTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RecordareOrgano
+						\JusteJudexOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RecordareBassFigures
+					\JusteJudexBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

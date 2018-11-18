@@ -958,6 +958,15 @@ QuidSumViolinoI = {
 	}
 }
 
+JusteJudexViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoJusteJudex
+			\set Score.currentBarNumber = #689
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

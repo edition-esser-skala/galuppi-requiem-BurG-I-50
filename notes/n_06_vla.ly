@@ -1149,3 +1149,12 @@ RecordareVioloncello = {
 		g8 d g,4\fermata \bar "||" %688 finis
 	}
 }
+
+JusteJudexViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoJusteJudex
+			\set Score.currentBarNumber = #689
+		
+	}
+}

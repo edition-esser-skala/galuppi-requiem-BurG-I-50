@@ -805,6 +805,19 @@ RecordareTenoreLyrics = \lyricmode {
 	sus. %682 finis
 }
 
+JusteJudexTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/4 \autoBeamOff \tempoJusteJudex
+			\set Score.currentBarNumber = #689
+		
+	}
+}
+
+JusteJudexTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

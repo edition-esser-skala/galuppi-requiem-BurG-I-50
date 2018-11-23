@@ -1179,8 +1179,8 @@ QuiMariamViolinoI = {
 		g a8 g
 		g fis r g16( d)
 		es8 es4 g16( es)
-		d fis g4 g16 d %895
-		es8 es4 g16 es
+		\slurDashed d( fis) g4 g16( d) %895
+		es8 es4 g16( es) \slurSolid
 		d fis g4 b8
 		a a a a
 		b b b b
@@ -1192,7 +1192,7 @@ QuiMariamViolinoI = {
 		g4 r8 g16\fE c %905
 		es( g) es4 g16( es)
 		d( b) d4 f16( b,)
-		b a c b d c es d
+		\slurDashed b( a) c( b) d( c) es( d) \slurSolid
 		c8 b d d,
 		es c'16 a g8 fis %910
 		g d g,4

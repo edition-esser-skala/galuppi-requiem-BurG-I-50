@@ -2530,8 +2530,8 @@ QuiMariamBassFigures = \figuremode {
 	<9 4-> <8 3>4. %885
 	r4 <6>
 	<6 4>8 <5 3>4.
-	<6>2
-	r
+	<6>4 <[5-]>
+	<[9 4-]>8 <[8 3]>4.
 	r4 <6-> %890
 	r2
 	<[5 _-]>4 \bassFigureExtendersOn <[6] _->8 <[5] _-> \bassFigureExtendersOff
@@ -2573,9 +2573,9 @@ QuiMariamBassFigures = \figuremode {
 	r
 	<6 5>
 	<6>4 <5-> %930
-	<9>8 <8>4.
+	<9 4->8 <8 3>4.
 	<6> <5>8
-	<6 4> <5 3>4.
+	<9 4> <8 3>4.
 	r2
 	r %935
 	r

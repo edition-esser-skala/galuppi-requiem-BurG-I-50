@@ -2255,11 +2255,397 @@ QuiMariamOrgano = {
 		\key f \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #810
 		\mvTr f2\fE-\soloE
+		c
+		f8 f, f f'
+		e f f, r
+		r f' f, f'
+		r f f, f' %815
+		r c c, c'
+		f c c,4
+		r8 c'( d e)
+		r c( d e)
+		f4 r %820
+		c8 f r4
+		b8 g c c,
+		f4 r
+		c8 f a f
+		b g c c, %825
+		f c f,4
+		f'2\pE
+		c
+		f,8 f' f f
+		e f f,4 %830
+		r8 f' f f
+		r f f f,
+		r c' c c
+		f c e c
+		f f f f %835
+		c c c c
+		c c h h
+		c c c, c'
+		c c c c
+		c c c c %840
+		c c c c
+		c c d c
+		r g' f e
+		r h c c,
+		r c' e fis %845
+		g g, g g
+		h h h h
+		a a a a
+		h h h h
+		c c c e %850
+		f d g g,
+		c c r e16 d
+		c8 d e c
+		f d g g,
+		c g c,4 %855
+		r8 g''(\fE a h)
+		r g( a h)
+		c r r4
+		g,8 c e c
+		f d g g, %860
+		c c, c4
+		c'2\pE
+		g
+		c8 c c c
+		h c es c %865
+		r f f, f'
+		r c c, c'
+		r g' g c,
+		g' g g g
+		g4 g8 g %870
+		c c b! b
+		a! a as as
+		g g g f
+		e! c-\critnote c' b
+		as f e! c %875
+		f f f, f'
+		c f f es
+		d b b' as
+		g es d b
+		es es es es %880
+		b es es, es'
+		es es es es
+		b' b b, b
+		b b d f
+		b b, b b %885
+		r b d es
+		f f, f g
+		a! a a a
+		b b' b,4
+		r8 b c d %890
+		es es, es' d
+		c c c c
+		d d b g
+		r c es c
+		r g' g, g' %895
+		r c c, c'
+		r g g, g'
+		d4 d
+		d d
+		d d %900
+		a'8 d, fis d
+		es es es es
+		d d d d
+		es c d d,
+		g g' g,4 %905
+		r8 c\fE c' c,
+		r g g' g,
+		d'4 r
+		fis8 g b g
+		c a d d, %910
+		g d g,4
+		g'2\pE
+		d
+		g,8 g g g'
+		d g g,4 %915
+		r8 c c' c,
+		r g' g, g'
+		r d d, d'
+		d d16 es? d8 c
+		b c d es %920
+		d c d b
+		c4 a
+		b8 b' b, b
+		b4 b
+		f'8 f f16 es d c %925
+		b2
+		f
+		b8 b b b
+		a b r4
+		d8 d d d %930
+		es es es es
+		es? es e e
+		f f, f f
+		f4 r8 f
+		b b' b, r %935
+		b b b r
+		f' f f r
+		f, f f r
+		b4 b
+		f'8 f f es? %940
+		d d d d
+		es es es es
+		f f f, f
+		b f' b,4
+		r8 f'16\fE g a8 g %945
+		f f16 g a8 f
+		b4 r
+		a8 b c a
+		b es,? f f,
+		b4 r %950
+		b\pE r
+		r16 b32 b b16 b b8 b
+		a g a f
+		g a b b
+		f' f, r4 %955
+		r8 f a h
+		c c16 d e!8 f
+		e e e e
+		f f, f f'
+		f4 r8 f %960
+		c c16 c c8 c
+		c4 r8 c
+		f f16 f f4
+		c r
+		r8 \mvTr c16\fE-\tutti c c8 c %965
+		c4 r
+		r8 c c c
+		f, f' e c
+		f f e e
+		f f g g %970
+		f f c4
+		R2
+		r8 f f f
+		c' c, c b
+		a f g a %975
+		b b a a
+		b b f' f
+		b4 f
+		R2
+		r8 b, c b %980
+		f' f f, g
+		a a a a
+		a a a a
+		b b b b
+		h h h h %985
+		c c c c
+		c, c c c
+		f' f f f
+		d d d d
+		b b b b %990
+		c c c c
+		f, f f f
+		f' f f f
+		d d d d
+		b b b b %995
+		c c c c
+		f, f' f,4
+		r8 c'16 d e4
+		r8 c16 d e8 c
+		f4 r %1000
+		e8 f a f
+		b g c c,
+		f c f,4\fermata \bar "||" %1003 finis
 	}
 }
 
 QuiMariamBassFigures = \figuremode {
-	
+	r2 %810
+	r
+	r
+	r
+	r8 <6 4>4.
+	r8 <5 3>4. %815
+	r2
+	r
+	r
+	r
+	r %820
+	r
+	r
+	r
+	r
+	r %825
+	r
+	r
+	r
+	r
+	r %830
+	r8 <6 4>4.
+	r8<5 3>4.
+	r2
+	r
+	r %835
+	r
+	<6 4>
+	r
+	<6 4>
+	<6 4>8 <5 3>4. %840
+	<6 4>2
+	<6 4>8 <5 3>4.
+	r2
+	r
+	r %845
+	r
+	r
+	<6>
+	<6 5>
+	r %850
+	r
+	r
+	r8 <6> q r
+	r2
+	r %855
+	r
+	r
+	r
+	r
+	r %860
+	r
+	<_->
+	r
+	<_->
+	r %865
+	r8 <_->4.
+	r8 <_->4.
+	r8 <_!>4 <_->8
+	<6- 4> <5 _!>4.
+	r2 %870
+	r4 <4! 2>
+	<6> <[6\\]>
+	<_!>2
+	<[6]>8 <_!>4.
+	<6>4 <6> %875
+	<_->2
+	<_->8 q4 <6 4! 2>8
+	<5>4. <4 2>8
+	<[6-]>4 <6>
+	r2 %880
+	<_->
+	r
+	r
+	r
+	r %885
+	r
+	r
+	<6>
+	r
+	r4 <6-> %890
+	r2
+	r
+	<4>8 <_+> <6>4
+	r8 <[_-]> <6>4
+	r2 %895
+	r
+	r
+	r
+	<6 4>
+	<\l _+> %900
+	r
+	<5>
+	<_+>
+	<1>8 q q q
+	r2 %905
+	r
+	r
+	r
+	r
+	r %910
+	r
+	r
+	<_+>
+	r
+	r %915
+	r
+	r
+	r
+	r
+	r %920
+	r
+	<7->4 <6>8 <[5-]>
+	r2
+	r
+	r %925
+	r
+	r
+	r
+	r
+	r %930
+	r
+	r
+	r
+	r
+	r %935
+	r
+	r
+	r
+	r
+	r %940
+	r
+	r
+	r
+	r
+	r %945
+	r
+	r
+	r
+	r
+	r %950
+	r
+	r
+	r
+	r
+	r %955
+	r
+	r
+	r
+	r
+	r %960
+	r
+	r
+	r
+	r
+	r %965
+	r
+	r
+	r
+	r
+	r4 <6> %970
+	r2
+	r
+	r
+	<6 4>8 <5 3>4.
+	r <5->8 %975
+	r2
+	r
+	r
+	r
+	r %980
+	<6 4>8 <5 3>4.
+	<6>2
+	r
+	<6 5>
+	r %985
+	<5 4>
+	r
+	r
+	r
+	r %990
+	<6 4>4 <5 3>
+	r2
+	r
+	r
+	r %995
+	<6 4>4 <5 3>
+	r2
+	r
+	r
+	r %1000
+	r
+	r
+	r %1003 finis
 }
 
 % Organo = {

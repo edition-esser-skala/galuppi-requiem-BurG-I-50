@@ -2244,6 +2244,24 @@ JusteJudexBassFigures = \figuremode {
 	r %809 finis
 }
 
+QuiMariamOrgano = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c {
+		\clef bass
+		\key f \major \time 2/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #810
+		\mvTr f2\fE-\soloE
+	}
+}
+
+QuiMariamBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

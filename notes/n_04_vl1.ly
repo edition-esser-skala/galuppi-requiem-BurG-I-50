@@ -1066,21 +1066,35 @@ JusteJudexViolinoI = {
 		c, b'^\critnote c, a' d, b'
 		es, c es c es c
 		d b' d, b' d, b'
-		es, c es c es c
+		es, c es c es c %795
 		d f d b f d'
 		a c a c a c
 		des b' des, b' des, b'
 		des,? b' des, b' des, b'
-		c, b' c, b' c, a'
+		c, b' c, b' c, a' %800
 		d,! b' b, d f, b
 		es, c' es, c' es, c'
 		d, b' d, b' d, b'
 		es, c' es, c' d, b'
-		c, b' c, b' c, a'
+		c, b' c, b' c, a' %805
 		b d b d b d
 		c es b d a c
 		b( d) b( d) b( d)
-		b2.\fermata \bar "||"
+		b2.\fermata \bar "||" %809
+	}
+}
+
+QuiMariamViolinoI = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #810
+		
 	}
 }
 

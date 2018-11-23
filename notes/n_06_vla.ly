@@ -1278,3 +1278,17 @@ JusteJudexViola = {
 		f2.\fermata \bar "||" %809 finis
 	}
 }
+
+QuiMariamViola = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #810
+		
+	}
+}

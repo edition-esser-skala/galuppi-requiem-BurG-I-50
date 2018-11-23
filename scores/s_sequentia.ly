@@ -332,9 +332,58 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.7 JUSTE JUDEX – INGEMISCO"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JusteJudexViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JusteJudexViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\JusteJudexViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \JusteJudexAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \JusteJudexAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \JusteJudexTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \JusteJudexTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JusteJudexOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\JusteJudexBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.7 JUSTE JUDEX – INGEMISCO"
+			movement = "3.8 QUI MARIAM – PRECES MEAE – INTER OVES – CONFUTATIS"
 		}
 		\score {
 			<<
@@ -342,43 +391,54 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\JusteJudexViolinoI
+							\QuiMariamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\JusteJudexViolinoII
+							\QuiMariamViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\JusteJudexViola
+						\QuiMariamViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \JusteJudexAltoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuiMariamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Alto \JusteJudexAltoLyrics
+					\new Lyrics \lyricsto Soprano \QuiMariamSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuiMariamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuiMariamAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \JusteJudexTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \QuiMariamTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \JusteJudexTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuiMariamTenoreLyrics
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuiMariamBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuiMariamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JusteJudexOrgano
+						\QuiMariamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\JusteJudexBassFigures
+					\QuiMariamBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2. = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

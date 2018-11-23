@@ -999,6 +999,24 @@ JusteJudexTenoreLyrics = \lyricmode {
 	us. %806 finis
 }
 
+QuiMariamTenoreNotes = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/8
+		#'(4)
+		#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 2/4 \autoBeamOff \tempoQuiMariam
+			\set Score.currentBarNumber = #810
+		
+	}
+}
+
+QuiMariamTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

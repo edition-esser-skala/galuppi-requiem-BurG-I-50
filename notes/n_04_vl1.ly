@@ -1094,7 +1094,200 @@ QuiMariamViolinoI = {
 		\clef treble
 		\key f \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #810
-		
+		\once \slurDashed f8(\fE a) a( f)
+		g( b) b( g)
+		a4. g16 f
+		g8 f r f16( b)
+		b( d) d4 \once \slurDashed f16( d)
+		c( a) c4 f16( a,) %815
+		g4. b8
+		a g r g'16( h,)
+		h?( c) c4 g'16( h,)
+		h?( c) c4 \once \slurDashed g'16( b,)
+		a( g) b( a) c( b) d( c) %820
+		b8 a c,8. cis16
+		d8 d'16 b a8 g
+		f a16 g b a d c
+		b8 a f'16 e f f
+		d cis d d c b a g %825
+		f4 r
+		\slurDashed f8(\pE a) a( f)
+		g( b) b( g) \slurSolid
+		a4. g16 f
+		g8 f r f16( b) %830
+		b( d) d4 \once \slurDashed f16( d)
+		c( a) c4 \once \slurDashed f16( a,)
+		g4. b8
+		a g r4
+		f'8 f f f %835
+		e e e e
+		f4. e16 d
+		d8( c e g)
+		g f16 e c'8 a
+		a g e16 d e f %840
+		g8 f16 e a8 a
+		a g r e
+		d4. e8
+		f4 e
+		c' e, %845
+		e8 d r4
+		g8 d d d
+		c c c c
+		d d d d
+		d c e g %850
+		a4 g16 f e d
+		e g g8 c c
+		c h16 a g4
+		a8 g16 f e8 d
+		c4 r8 c'16\fE fis, %855
+		fis? g g4 c16( fis,)
+		fis? g g4 \once \slurDashed d'16( f,)
+		e( d) f( e) g( f) a( g)
+		f8 e g,8. gis16
+		a8 f'16 d c8 h %860
+		c c, r4
+		c'8(\pE es) es( c)
+		d( f) f( d)
+		es4. d16 c
+		d8 c r g' %865
+		as as4 c16 as
+		g es g4 es8
+		d4. es8
+		es? d g,16 d d d
+		d4 d'8 d %870
+		es4 e
+		f fis
+		g8 g, h d
+		c g' g g
+		as as g as16 b %875
+		as4. g16 f
+		g8 f f a
+		b f f f
+		g g f f
+		g4. f16 es %880
+		f8 es? g g~
+		g b4 g8
+		g f16 es f4
+		f8 b4 es,8
+		es? d d f~ %885
+		f b4 es,8
+		d c r4
+		f es
+		es?16 d d8 d16 b d f
+		b4 as %890
+		as?16 g g8 g4~
+		g a8 g
+		g fis r g16( d)
+		es8 es4 g16( es)
+		d fis g4 g16 d %895
+		es8 es4 g16 es
+		d fis g4 b8
+		a a a a
+		b b b b
+		a a a a %900
+		b a r4
+		g cis,
+		cis?8( d) d4
+		es8 c d d,
+		g4 r8 g16\fE c %905
+		es( g) es4 g16( es)
+		d( b) d4 f16( b,)
+		b a c b d c es d
+		c8 b d d,
+		es c'16 a g8 fis %910
+		g d g,4
+		\once \slurDashed g'8(\p b) b( g)
+		a( c) c( a)
+		b4. a16 g
+		a8 g r g16( c) %915
+		es( g) es4 g16( es)
+		\slurDashed d( b) d4 g16( b,) \slurSolid
+		a4. b8
+		b a r4
+		b b %920
+		b2~
+		b8 a16 g f8 es
+		es? d d' d
+		d d d d
+		d c r4 %925
+		b8( d) d( b)
+		\slurDashed c( es) es( c) \slurSolid
+		d4. c16 b
+		c8 b b16 c d es?
+		f8 f f f %930
+		f es es es
+		c c c b
+		b a a16 g a b
+		c8. d16 es8 es
+		d b' d, r %935
+		r^\critnote f4 es16 d
+		es?8 c' es, r
+		r es?4 d16 c
+		d8 g f es
+		d c c c %940
+		b b b b
+		b g g16 es' d c
+		b8 b a a
+		b4 r8 b'16(\fE e,!)
+		e( f) f4 c'16( e,!) %945
+		e( f) f4 c'16( es,)
+		d c es d f es g f
+		es8 d c,4
+		d16 b' g es? d8 c
+		b4 r %950
+		R2
+		r16 f'32\pE f f16 f f8 f
+		f4 f
+		f8. es16 d8. b16
+		f'8 f a16 c f a %955
+		a4 r8 a
+		g c, c c
+		c4 b'
+		a8 a, a a'
+		a4 r %960
+		r8 g,16 g g8 g'
+		g4 r
+		r8 a,16 a a4
+		g r
+		r8 g16\fE g g8 b %965
+		b4 r
+		r8 b16 b b8 b
+		a4 r
+		R2
+		c'4. b8 %970
+		a a e e
+		f f g g
+		f f f a
+		a g r4
+		R2 %975
+		f4. es8
+		d d a a
+		b b c c
+		d d es es
+		d d d d %980
+		d c r e!
+		f4 f,
+		R2
+		g'8 g g g
+		g g g g %985
+		g g g g
+		g g g g
+		a a a a
+		a a a a
+		b b b b %990
+		a a g g
+		a a a a
+		a a a a
+		a a a a
+		b b b b %995
+		a a g g
+		f f, r f'16 h,
+		h? c c4 g'16 h,
+		h? c c4 g'16 b,
+		a g b a c b d c %1000
+		b8 a c,8. cis16
+		d8 d'16 b a8 g
+		f4 r\fermata \bar "||" %1003 finis
 	}
 }
 

@@ -1009,12 +1009,133 @@ QuiMariamTenoreNotes = {
 		\clef "treble_8"
 		\key f \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #810
-		
+		R2*102 %911
+		\mvTr g8([\pE^\soloE b)] b([ g)]
+		a([ c)] c([ a)]
+		b4. a16([ g)]
+		a8 g r4 %915
+		es' es
+		d16([ b)] d8 r4
+		a4. b8
+		b a r4
+		b4. b8 %920
+		b4 b
+		b8([ a16 g] f8) es
+		es? d r f
+		f( b4) d8
+		d c r4 %925
+		b8([ d)] d([ b)]
+		c([ es)] es([ c)]
+		d4. c16([ b)]
+		c8 b r4
+		f' as, %930
+		as?16([ g)] g4 r8
+		c4. b8
+		b a! r4
+		c8. d16 es8 es
+		d4. c16[^\critnote b] %935
+		f4. es16[ d]
+		es4. c'16[ a]
+		es?4. d16[ c]
+		d8[ g f] c'
+		b a r4 %940
+		b8. b16 b8 b
+		g4 g16([ es' d c)]
+		b8.([ c16] c4)
+		b r
+		R2*26 %970
+		\mvTr c4.\fE^\tuttiE b8
+		a4 e
+		f c'
+		c8 c r4
+		R2*2 %976
+		f4. es8
+		d4 a
+		b c
+		b8 b b b %980
+		b a r4
+		c2
+		c
+		d
+		d %985
+		c4 c
+		c c
+		c c
+		d d^\critnote
+		d d^\critnote %990
+		c2
+		c
+		c4 c
+		d d
+		d d %995
+		c2
+		c4 r
+		R2*5 %1002
+		R2\fermataMarkup \bar "||" %1003 finis
 	}
 }
 
 QuiMariamTenoreLyrics = \lyricmode {
+	In -- ter %912
+	o -- ves
+	lo -- cum
+	prae -- sta. %915
+	Et ab
+	hae -- dis
+	me se --
+	que -- stra,
+	sta -- tu -- %920
+	ens in
+	par -- te
+	dex -- tra, in
+	par -- te
+	dex -- tra. %925
+	In -- ter
+	o -- ves
+	lo -- cum
+	prae -- sta.
+	Et ab %930
+	hae -- dis
+	me se --
+	que -- stra,
+	sta -- tu -- ens in
+	par -- _ %935
+	_ _
+	_ _
+	_ _
+	_ te
+	dex -- tra, %940
+	sta -- tu -- ens in
+	par -- te __
+	dex --
+	tra.
 	
+	Vo -- ca %971
+	me cum
+	be -- ne --
+	di -- ctis,
+	
+	vo -- ca %977
+	me cum
+	be -- ne --
+	di -- ctis, be -- ne -- %980
+	di -- ctis,
+	vo --
+	ca
+	me
+	cum %985
+	be -- ne --
+	di -- ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %990
+	di --
+	ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %995
+	di --
+	ctis. %997 finis
 }
 
 % TenoreNotes = {

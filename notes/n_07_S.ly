@@ -779,12 +779,129 @@ QuiMariamSopranoNotes = {
 		\clef treble
 		\key f \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #810
-		
+		R2*17 %826
+		\mvTr f8(\pE^\soloE a4) f8
+		g( b4) g8
+		a4. g16([ f)]
+		g8 f r4 %830
+		d' d
+		c16([ a)] c8 r4
+		g4. b8
+		a g r4
+		f'8([ a,)] a([ h)] %835
+		c([ g)] g4
+		a4. g16([ f)]
+		f8 e r4
+		g8([ f16 e] c'8) a
+		a g r4 %840
+		g8([ f16 e] a8) a
+		a g r4
+		h4. c8
+		f,4 e
+		c'4. e,8 %845
+		e d r4
+		d'4 g,
+		g16([ fis)] fis8 r4
+		d'4 f,
+		f16([ e)] e8 r4 %850
+		a4( g16[ f)] e([ d)]
+		e([ g)] g8 c c
+		c8([ h16 a)] g4
+		a8 g16([ f)] e8([ d)]
+		c4 r %855
+		R2*113 %968
+		\mvTr c'4.\fE^\tuttiE b8
+		a4 e %970
+		f g
+		a b8 b
+		a4. a8
+		a g r4
+		R2 %975
+		f'4. es8
+		d4 a
+		b c
+		d es
+		d4. d8 %980
+		d c r4
+		R2*2
+		g4 g
+		g g %985
+		g g
+		g g
+		a a
+		a a
+		b b %990
+		a( g)
+		a2
+		a4 a
+		a a
+		b b %995
+		a( g)
+		f r
+		R2*5 %1002
+		R2\fermataMarkup \bar "||" %1003 finis
 	}
 }
 
 QuiMariamSopranoLyrics = \lyricmode {
+	Qui __ Ma -- %827
+	ri -- am
+	ab -- sol --
+	vi -- sti, %830
+	et la --
+	tro -- nem
+	ex -- au --
+	di -- sti,
+	mi -- hi __ %835
+	quo -- que
+	spem de --
+	di -- sti.
+	Qui __ Ma --
+	ri -- am %840
+	ab -- sol --
+	vi -- sti,
+	et la --
+	tro -- nem
+	ex -- au -- %845
+	di -- sti,
+	mi -- hi
+	quo -- que,
+	mi -- hi
+	quo -- que %850
+	spem __ de --
+	di -- sti, mi -- hi
+	quo -- que
+	spem de -- di --
+	sti. %855
 	
+	Vo -- ca %969
+	me cum %970
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis,
+	%975
+	vo -- ca
+	me cum
+	be -- ne --
+	di -- ctis,
+	be -- ne -- %980
+	di -- ctis,
+	
+	vo -- ca %984
+	me cum %985
+	be -- ne --
+	di -- ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %990
+	di --
+	ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %995
+	di --
+	ctis. %997 finis
 }
 
 % SopranoNotes = {

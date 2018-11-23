@@ -1068,12 +1068,155 @@ QuiMariamAltoNotes = {
 		\clef treble
 		\key f \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #810
-		
+		R2*52 %861
+		\mvTr c8([\pE^\soloE es)] es([ c)]
+		d f r4
+		es4. d16([ c)]
+		d8 c r4 %865
+		as' as
+		g16([ es)] g8 r4
+		d4. es8
+		es? d r4
+		r d8 d %870
+		es4 e
+		f fis
+		g8 g, r4
+		c' e,!
+		f8.([ g32 as]) g8.([ as32 b)] %875
+		as4. g16([ f)]
+		g8 f r4
+		b4 d,
+		es8.([ f32 g)] f8.([ g32 as)]
+		g4. f16([ es)] %880
+		f8 es? r4
+		g8( b4) g8
+		g([ f16 es)] f4
+		f8( b4) es,8
+		es? d r4 %885
+		f8( b4) es,8
+		d c r4
+		f es
+		es?16([ d)] d8 r4
+		b' as %890
+		as?16([ g)] g8 r4
+		g( a8) g
+		g fis r4
+		es es
+		d8 g r4 %895
+		es es
+		d8 g r4
+		fis8( a4) d,8
+		g( b4) g8
+		fis( a4) d,8 %900
+		b'^\critnote a r4
+		g cis,
+		cis?8([ d)] d4
+		es8 c d4
+		g, r %905
+		R2*64 %969
+		\mvTr c'4.\fE^\tuttiE b8 %970
+		a4 e
+		f g
+		f8 f f f
+		f e^\critnote r4
+		R2*3 %977
+		f4. es8
+		d4 a
+		b f' %980
+		f8 f r4
+		f2
+		f
+		f
+		f %985
+		f4 f
+		e e
+		f f
+		f f
+		f f %990
+		f( e)
+		f2
+		f4 f
+		f f
+		f g %995
+		f( e)
+		f r
+		R2*5 %1002
+		R2\fermataMarkup \bar "||" %1003 finis
 	}
 }
 
 QuiMariamAltoLyrics = \lyricmode {
+	Pre -- ces %862
+	me -- ae
+	non sunt
+	di -- gnae, %865
+	sed tu
+	bo -- nus
+	fac be --
+	ni -- gne,
+	ne per -- %870
+	en -- ni
+	cre -- mer
+	i -- gne.
+	Pre -- ces
+	me -- ae __ %875
+	non sunt
+	di -- gnae,
+	sed tu
+	bo -- nus __
+	fac be -- %880
+	ni -- gne,
+	sed __ tu
+	bo -- nus
+	fac __ be --
+	ni -- gne, %885
+	fac __ be --
+	ni -- gne,
+	ne per --
+	en -- ni,
+	ne per -- %890
+	en -- ni
+	cre -- mer
+	i -- gne.
+	Pre -- ces
+	me -- ae %895
+	non sunt
+	di -- gnae,
+	sed __ tu
+	bo -- nus
+	fac __ be -- %900
+	ni -- gne,
+	ne per --
+	en -- ni
+	cre -- mer i --
+	gne. %905
 	
+	Vo -- ca %970
+	me cum
+	be -- ne --
+	di -- ctis, be -- ne --
+	di -- ctis,
+	
+	vo -- ca %978
+	me cum
+	be -- ne -- %980
+	di -- ctis,
+	vo --
+	ca
+	me
+	cum %985
+	be -- ne --
+	di -- ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %990
+	di --
+	ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %995
+	di --
+	ctis. %997 finis
 }
 
 % AltoNotes = {

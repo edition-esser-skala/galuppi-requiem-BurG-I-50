@@ -665,12 +665,109 @@ QuiMariamBassoNotes = {
 		\clef bass
 		\key f \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #810
-		
+		R2*140 %949
+		r4 r8 \mvTr b'16\pE^\soloE a %950
+		b8 f d f
+		b, b r4
+		f' f
+		f8. es16 d8 b
+		f' f r4 %955
+		f f
+		e! r
+		c' c,
+		f r8 c
+		f([ c f)] a %960
+		a g r c,
+		g'([ c,)] g'([ b)]
+		a f^\critnote r c'16\fE h
+		c8 g e g
+		c, c r a'16 a %965
+		b8 g e g
+		c, c r4
+		c'4.^\tuttiE b8
+		a4 e
+		f g %970
+		f c
+		R2
+		r8 f f f
+		c' c, r4
+		f4. es8 %975
+		d4 a
+		b f'
+		b f
+		R2
+		r8 b, d^\critnote b %980
+		f' f r4
+		a,2
+		a
+		b
+		h4 h %985
+		\once \tieDashed c2~
+		c
+		f4 f
+		d d
+		b b %990
+		c2
+		f
+		f4 f
+		d d
+		b b %995
+		c2
+		f4 r
+		R2*5 %1002
+		R2\fermataMarkup \bar "||" %1003 finis
 	}
 }
 
 QuiMariamBassoLyrics = \lyricmode {
+	Con -- fu -- %950
+	ta -- tis ma -- le --
+	di -- ctis,
+	flam -- mis
+	a -- cri -- bus ad --
+	di -- ctis, %955
+	vo -- ca
+	me,
+	vo -- ca
+	me cum
+	be -- ne -- %960
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis. Con -- fu --
+	ta -- tis ma -- le --
+	di -- ctis, flam -- mis %965
+	a -- cri -- bus ad --
+	di -- ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %970
+	di -- ctis,
 	
+	cum be -- ne --
+	di -- ctis,
+	vo -- ca %975
+	me cum
+	be -- ne --
+	di -- ctis,
+	
+	cum be -- ne -- %980
+	di -- ctis,
+	vo --
+	ca
+	me,
+	vo -- ca %985
+	me, __
+	
+	vo -- ca
+	me cum
+	be -- ne -- %990
+	di --
+	ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %995
+	di --
+	ctis. %997 finis
 }
 
 % BassoNotes = {

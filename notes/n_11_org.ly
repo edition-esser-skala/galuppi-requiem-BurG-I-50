@@ -2345,7 +2345,7 @@ QuiMariamOrgano = {
 		d4 d
 		d d
 		d d %900
-		a'8 d, fis d
+		g8^\critnote d fis d
 		es es es es
 		d d d d
 		es c d d,
@@ -2424,7 +2424,7 @@ QuiMariamOrgano = {
 		b b f' f
 		b4 f
 		R2
-		r8 b, c b %980
+		r8 b, d-\critnote b %980
 		f' f f, g
 		a a a a
 		a a a a
@@ -2481,9 +2481,9 @@ QuiMariamBassFigures = \figuremode {
 	r
 	<6 4>
 	r
-	<6 4>
-	<6 4>8 <5 3>4. %840
-	<6 4>2
+	<[5 3]>4. <6 4>8
+	<6 4> <5 3>4. %840
+	r4 <6 4>
 	<6 4>8 <5 3>4.
 	r2
 	r
@@ -2519,11 +2519,11 @@ QuiMariamBassFigures = \figuremode {
 	<[6]>8 <_!>4.
 	<6>4 <6> %875
 	<_->2
-	<_->8 q4 <6 4! 2>8
+	<[_!]>8 <_->4 <6 4! 2>8
 	<5>4. <4 2>8
 	<[6-]>4 <6>
 	r2 %880
-	<_->
+	<7->
 	r
 	r
 	r
@@ -2564,7 +2564,7 @@ QuiMariamBassFigures = \figuremode {
 	r
 	r %920
 	r
-	<7->4 <6>8 <[5-]>
+	<7 _->4 <6>8 <[5-]>
 	r2
 	r
 	r %925

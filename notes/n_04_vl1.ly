@@ -963,7 +963,124 @@ JusteJudexViolinoI = {
 		\clef treble
 		\key b \major \time 3/4 \tempoJusteJudex
 			\set Score.currentBarNumber = #689
-		
+		b''2.\p
+		f %690
+		es
+		d
+		c8 g' f4 es
+		es d r
+		a' a a %695
+		g g g
+		f g g
+		g f f
+		d8 b' a4 g
+		b, a r %700
+		r8 d f b f d
+		c4 f4. es8
+		d d f b f d
+		c4 f, es'~
+		es d c %705
+		d es2
+		d4 b' d,
+		d c r
+		R2.*4 %712
+		g'8 g g g g g
+		g g g g g g
+		g g g g g g %715
+		g g g g g g
+		r4 b a
+		a g f
+		r e e
+		e( g) g16( f g b) %720
+		r4 f f
+		f( a) r
+		r8 g( a g) b( a)
+		d4( c) r
+		f, f f %725
+		f f f
+		e e e
+		e? g f~
+		f e8 d e4
+		f2.\f %730
+		c
+		b
+		a
+		g8 d' c4 b
+		b a r8 a %735
+		g2.
+		g
+		g8( f e) b'( a b)
+		a( g f) c'( b c)
+		r b( a b) g'( b,) %740
+		a2.
+		g
+		f2 r4
+		f8(\p a) f( a) f( a)
+		g( b) g( b) g( b) %745
+		g( b) g( b) g( b)
+		g b fis a fis a
+		g d' b d b d
+		c es c es c es
+		c es c es c es %750
+		b g' b, g' b, g'
+		a, fis' a, fis' a, fis'
+		b, g' b, g' b, g'
+		b, g' b, g' b, g'
+		b, g' a, fis' a, fis' %755
+		a, fis' a, fis' a, fis'
+		h, d h g' h, d
+		g, e' g, e' g, e'
+		a, c a f' a, es'
+		d b' d, b' d, b' %760
+		e, g e g f^\critnote a
+		f a e g e g
+		e g e g e g
+		g, b g b g b
+		b g' a, f' g, e' %765
+		a, c a f' a, f'
+		a, f' g, e' g, e'
+		c es c es c es
+		c es b d b d
+		b d b d b d %770
+		b es a, c a c
+		as f' as, f' as, f'
+		as,? f' g, es' g, es'
+		g,( es') b( g') b,( g')
+		b,( f') d( f) d( f) %775
+		c( es) c( es) c( es)
+		c( es) b( d) b( d)
+		b( f') d( f) es( g)
+		f as f as es g
+		d f d f es ges %780
+		es ges? d f b, d
+		a c a c b d
+		c es c es b d
+		a c a c b des
+		b des a c a c %785
+		a f' a, f' a, f'
+		g, e' g, e' g, e'
+		d g d g d f
+		e g e g e g
+		f a c, f c es %790
+		d b' d, b' d, b'
+		c, b'^\critnote c, a' d, b'
+		es, c es c es c
+		d b' d, b' d, b'
+		es, c es c es c
+		d f d b f d'
+		a c a c a c
+		des b' des, b' des, b'
+		des,? b' des, b' des, b'
+		c, b' c, b' c, a'
+		d,! b' b, d f, b
+		es, c' es, c' es, c'
+		d, b' d, b' d, b'
+		es, c' es, c' d, b'
+		c, b' c, b' c, a'
+		b d b d b d
+		c es b d a c
+		b( d) b( d) b( d)
+		b2.\fermata \bar "||"
 	}
 }
 

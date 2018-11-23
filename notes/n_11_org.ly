@@ -2155,7 +2155,7 @@ JusteJudexBassFigures = \figuremode {
 	<7 _!> %720
 	r
 	r
-	r
+	<_!>
 	r2 <6>8 <6!>
 	r4 <6>2 %725
 	<6 5> <\t \t>4
@@ -2172,7 +2172,7 @@ JusteJudexBassFigures = \figuremode {
 	<\t \t>
 	<_!>
 	r
-	<6 5> %740
+	<7> %740
 	r
 	<6 5>4 <4> <_!>
 	r2.

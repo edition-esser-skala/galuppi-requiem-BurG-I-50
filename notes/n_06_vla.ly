@@ -1152,7 +1152,7 @@ RecordareVioloncello = {
 
 JusteJudexViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 3/4 \tempoJusteJudex
 			\set Score.currentBarNumber = #689
 		b'4\pE b b

@@ -960,6 +960,126 @@ JusteJudexViolinoII = {
 		\clef treble
 		\key b \major \time 3/4 \tempoJusteJudex
 			\set Score.currentBarNumber = #689
-		
+		d'4\p d d
+		c c c %690
+		b c a
+		b b f
+		g8 es' d4 c
+		c b r
+		f'2. %695
+		c
+		b
+		a
+		g8 d'^\critnote c4 b
+		g f r %700
+		r8 b d f d b
+		a4 a a
+		b b8 d d b
+		a4 f c'~
+		c b a %705
+		b c2
+		b4 d b
+		b a e'
+		f8 f f f f f
+		f f f f f f %710
+		f f f f f f
+		f f f f f f
+		f f f f f f
+		f f f f f f
+		f f f f f f %715
+		e e e e e e
+		r4 d c
+		b2 a4
+		r g g
+		\once \slurDashed g( b) e,16( d e g) %720
+		r4 a a
+		\once \slurDashed a( c) r
+		r8 \slurDashed e( f e) g( f)
+		b4( a) \slurSolid r
+		r a a %725
+		g g g
+		g g g
+		g b a
+		g2.
+		f\f %730
+		c
+		b
+		a
+		g8 b a4 g
+		g f r8 f %735
+		f4 f f
+		f f f
+		e8( d c) g'( f g)
+		f( e f) a( g a)
+		r g( f g) b( g) %740
+		f2.
+		f2-\critnote e4
+		f2 r4
+		d8(\p f) d( f) d( f)
+		d( g) d( g) d( g) %745
+		e( g) e( g) e( g)
+		d g d fis d fis
+		g b g b g b
+		g c g c g c
+		a c a c a c %750
+		g b g b g b
+		fis a fis a fis a
+		g b g b g b
+		g b g b g b
+		g b fis a fis a %755
+		fis a fis a fis a
+		g h g h g h
+		b g e g e g
+		c, a' c, a' c, a'
+		b d b d b d %760
+		g, e' g, e' a,-\critnote f'
+		a, f' g, e' c e
+		c e c e c e
+		e, g e g e g
+		g b f a e g %765
+		f a f a f a
+		f a e g e g
+		f c' f, c' f, c'
+		f, c' f, b f b
+		d, b' d, f d f %770
+		es b' es, es' es, es'
+		f, as f as f as
+		f as es g es g
+		es( b') g( b) g( b)
+		f( d') b( d) b( d) %775
+		es, c' es, c' es, c'
+		es, c' d, b' d, b'
+		d, d' b d b es
+		d f d f b, es
+		f, d' f, d' ges, es' %780
+		c es b d-\critnote d, f
+		f a f a f b
+		a c a c f, b
+		f a f a g b
+		g b f a f a %785
+		f a f a f a
+		e g e g e g 
+		d h' h d h d
+		g, e' g, e' g, b
+		a c a c a c %790
+		b d b d b d
+		b-\critnote c a c b d
+		c a c a c a
+		b d b d b d
+		c a c a c a %795
+		b d b f d f
+		f a f a f a
+		b des b des b des
+		b des? b des b des
+		b c b c a c %800
+		b d! d, f d b
+		c es c es c es
+		b d b d b d
+		c es c es b d
+		b c b c a c %805
+		b f' d f d f
+		es c' d, b' c, a'
+		d, f d f d f
+		d2.\fermata \bar "||" %809 finis
 	}
 }

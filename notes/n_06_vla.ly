@@ -1289,6 +1289,197 @@ QuiMariamViola = {
 		\clef treble
 		\key f \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #810
-		
+		a4\fE c
+		c2
+		c8 c c c
+		c c c r
+		r f f, f'
+		r f f, f' %815
+		r c c, c'
+		c c c,4
+		r8 c'( d e)
+		r c( d e)
+		f4 r %820
+		c8 f r4
+		b8 g c c,
+		f4 r
+		c8 f a f
+		b g c c, %825
+		f c f,4
+		f'2\pE
+		c
+		f,8 f' f f
+		e f f,4 %830
+		r8 f' f f
+		r f f f,
+		r c' c c
+		f c e c
+		f f f f %835
+		c c c c
+		c c h h
+		c c c, c'
+		c c c c
+		c c c c %840
+		c c c c
+		c c e-\critnote c
+		r g' f e
+		r h c c,
+		r c' e fis %845
+		g g, g g
+		h h h h
+		a a a a
+		h h h h
+		c c c e %850
+		f d g g,
+		c c r e16 d
+		c8 d e c
+		f d g g,
+		c g c,4 %855
+		r8 g''(\fE a h)
+		r g( a h)
+		c r r4
+		g,8 c e c
+		f d g g, %860
+		c c, c4
+		c'2\pE
+		g
+		c8 c c c
+		h c es c %865
+		r f f, f'
+		r c c, c'
+		r g' g c,
+		g' g g g
+		g4 g8 g %870
+		c c b! b
+		a! a as as
+		g g g f
+		e! c-\critnote c' b
+		as f e! c %875
+		f f f, f'
+		c f f es
+		d b b' as
+		g es d b
+		es es es es %880
+		b es es, es'
+		es es es es
+		b' b b, b
+		b b d f
+		b b, b b %885
+		r b d es
+		f f, f g
+		a! a a a
+		b b' b,4
+		r8 b c d %890
+		es es, es' d
+		c c c c
+		d d d d
+		r es? g es
+		r d d d %895
+		r es? g es
+		r d d d
+		d d d d
+		d d d d
+		d d d d %900
+		d fis a fis
+		g es es es
+		d d d d
+		es c d d,
+		g4 r %905
+		r8 g'\fE g g
+		r g g, g'
+		d4 r
+		d8 d d b
+		c a d d %910
+		d d g,4
+		d'2\pE
+		d
+		d8 g g, g
+		fis' g g,4 %915
+		r8 g' g g
+		r g g, g'
+		r d d, d'
+		d d16 es? d8 c
+		b c d es %920
+		d c d b
+		c4 a
+		b8 b' b, b
+		f' f f f
+		f8 f f16 es d c %925
+		b4 f'
+		f2
+		f8 b, b b
+		a b r4
+		b8 b b b %930
+		b b b es?
+		es? es e e
+		f f f f,
+		f'4 f
+		f8 f f r %935
+		f f f r
+		f f f r
+		f f f r
+		b,4 b
+		f'8 f f es? %940
+		d d d d
+		es es es es
+		f f f, f
+		b f' b,4
+		r8 f'16\fE g a8 g %945
+		f f16 g a8 f
+		b4 r
+		a8 b c a
+		b es,? f f,
+		b4 r %950
+		b\pE r
+		r16 b32 b b16 b b8 b
+		a g a f
+		g a b b
+		f' f, r4 %955
+		r8 f a h
+		c e!16 f g8 a
+		g g c, c
+		c c c c
+		c4 r %960
+		r8 c16 c c8 c
+		c4 r
+		r8 c16 c c4
+		c r
+		r8 c16\fE c c8 c %965
+		e4 r
+		r8 e16 e e8 e
+		c4^\critnote r
+		R2*2 %970
+		c'4. b8
+		a8 a e e
+		f c c c
+		c c c b
+		R2*2 %976
+		f'4. es8
+		d8 d a a
+		b b c c
+		b b f' f %980
+		f f a b
+		c c c c
+		c, c c c
+		d d d d
+		d d d d %985
+		c c c c
+		c c c c
+		c c c c
+		d d d d
+		d d d d %990
+		c c c c
+		c c c c
+		c c c c
+		d d d d
+		d d d d %995
+		c c c c
+		c4 r
+		r8 c16 d e4
+		r8 c16 d e8 c
+		f4 r %1000
+		e8 f a f
+		b b c c
+		c4 r\fermata \bar "||" %1003 finis
 	}
 }

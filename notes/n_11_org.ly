@@ -2623,7 +2623,7 @@ QuiMariamBassFigures = \figuremode {
 	r
 	r
 	r4 <[6]> %980
-	<6 4>8 <5 3>4.
+	<6 4>8 <5 3>4 <[6\\]>8
 	<6>2
 	r
 	<6 5>

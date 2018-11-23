@@ -1191,7 +1191,7 @@ QuiMariamViolinoI = {
 		es8 c d d,
 		g4 r8 g16\fE c %905
 		es( g) es4 g16( es)
-		d( b) d4 f16( b,)
+		d( b) d4 g16(^\critnote b,)
 		\slurDashed b( a) c( b) d( c) es( d) \slurSolid
 		c8 b d d,
 		es c'16 a g8 fis %910

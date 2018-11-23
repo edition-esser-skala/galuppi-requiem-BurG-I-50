@@ -1155,6 +1155,126 @@ JusteJudexViola = {
 		\clef treble
 		\key b \major \time 3/4 \tempoJusteJudex
 			\set Score.currentBarNumber = #689
-		
+		b'4\pE b b
+		a a a %690
+		g a f
+		b b, d
+		es f f,
+		b d8 d c b
+		a4 c c %695
+		c c c
+		d e e
+		c c c
+		d c c
+		c c c %700
+		b b b
+		f c' c
+		b f' f
+		f2 f4
+		f2. %705
+		f4 f f
+		f f f
+		f f g
+		a c, c
+		c c c %710
+		c c c
+		c c c
+		d d d
+		d d d
+		c8 c c c c c %715
+		c4 c c
+		a2 r4
+		d e f
+		c2 r4
+		c c, c' %720
+		c2 r4
+		c c c
+		c2 f4
+		f f c8 b
+		a4 c a %725
+		d d d
+		c2.
+		c
+		c
+		c4\fE f a %730
+		g g g
+		f g e
+		c c c
+		d c c
+		c c c %735
+		d d d
+		d d d
+		c c, r
+		c'^\critnote c c
+		d d d %740
+		c c c
+		d c^\critnote c
+		c2 r4
+		d\pE d d
+		d d d %745
+		cis cis cis
+		d d c
+		b g g
+		g g g
+		fis fis fis %750
+		g g g'
+		d d d
+		d d d
+		cis cis cis
+		d d, d' %755
+		d d d
+		g g g
+		c, c c
+		f f f
+		b, b b %760
+		c c c
+		c c c
+		b b b
+		c c c
+		c c c %765
+		f f f
+		c c b
+		a a a
+		b b b
+		b b b %770
+		c c c
+		d d d
+		es es, es'
+		es es es
+		b b b %775
+		c a f
+		b b b
+		b b b
+		b b b
+		b b b %780
+		a b b
+		f' f, f
+		f f' f
+		f f e
+		f f f %785
+		f f f,
+		c' c c
+		g' g, g
+		c c c
+		f f f %790
+		b, b b
+		f' f, f'
+		f f f
+		b b, b'
+		f a f %795
+		b b, r
+		f' f f
+		f f f
+		e e e
+		e? f f, %800
+		b b b
+		a a a
+		b b b
+		c a b
+		es f f, %805
+		b b b
+		es f f,
+		b f' f
+		f2.\fermata \bar "||" %809 finis
 	}
 }

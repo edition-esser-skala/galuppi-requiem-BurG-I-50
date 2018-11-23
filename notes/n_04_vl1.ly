@@ -1291,6 +1291,15 @@ QuiMariamViolinoI = {
 	}
 }
 
+OroSupplexViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/2 \tempoOroSupplex
+			\set Score.currentBarNumber = #1004
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

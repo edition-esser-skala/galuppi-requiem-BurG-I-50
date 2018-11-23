@@ -2648,6 +2648,19 @@ QuiMariamBassFigures = \figuremode {
 	r2 %1003 finis
 }
 
+OroSupplexOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 2/2 \tempoOroSupplex
+			\set Score.currentBarNumber = #1004
+		r4 \mvTr a\fE-\soloE a a
+	}
+}
+
+OroSupplexBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

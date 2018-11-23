@@ -1219,6 +1219,19 @@ QuiMariamAltoLyrics = \lyricmode {
 	ctis. %997 finis
 }
 
+OroSupplexAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/2 \autoBeamOff \tempoOroSupplex
+			\set Score.currentBarNumber = #1004
+		
+	}
+}
+
+OroSupplexAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

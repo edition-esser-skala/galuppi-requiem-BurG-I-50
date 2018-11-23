@@ -1288,3 +1288,12 @@ QuiMariamViolinoII = {
 		f4 r\fermata \bar "||"
 	}
 }
+
+OroSupplexViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/2 \tempoOroSupplex
+			\set Score.currentBarNumber = #1004
+		
+	}
+}

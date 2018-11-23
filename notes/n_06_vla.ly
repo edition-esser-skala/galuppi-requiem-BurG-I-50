@@ -1286,7 +1286,7 @@ QuiMariamViola = {
 		#'(4)
 		#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #810
 		a4\fE c

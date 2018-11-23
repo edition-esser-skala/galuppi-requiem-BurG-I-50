@@ -1166,11 +1166,11 @@ QuiMariamAltoLyrics = \lyricmode {
 	bo -- nus __
 	fac be -- %880
 	ni -- gne,
-	sed __ tu
+	sed tu
 	bo -- nus
-	fac __ be --
+	fac be --
 	ni -- gne, %885
-	fac __ be --
+	fac be --
 	ni -- gne,
 	ne per --
 	en -- ni,
@@ -1182,9 +1182,9 @@ QuiMariamAltoLyrics = \lyricmode {
 	me -- ae %895
 	non sunt
 	di -- gnae,
-	sed __ tu
+	sed tu
 	bo -- nus
-	fac __ be -- %900
+	fac be -- %900
 	ni -- gne,
 	ne per --
 	en -- ni

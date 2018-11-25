@@ -2654,11 +2654,193 @@ OroSupplexOrgano = {
 		\key a \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #1004
 		r4 \mvTr a\fE-\soloE a a
+		r a a a %1005
+		r a a a
+		r a a a
+		r e' e e
+		r e e e
+		r e cis dis %1010
+		r e e e
+		r dis dis dis
+		r e e e
+		r dis dis dis
+		r e e e %1015
+		r e e e
+		r a, a a
+		r d e e,
+		r fis' fis gis
+		r a a, a %1020
+		r d e e,
+		r a a e'
+		r a a,2
+		r4 a\pE a a
+		r a a a %1025
+		r a a a
+		r a a a
+		r e' e e
+		r e e e
+		r e e e %1030
+		r e e e
+		r e e e
+		r h h h
+		r h h h
+		r e e e %1035
+		r gis, gis gis
+		r a a a
+		r h h h'
+		r gis gis gis
+		r dis dis dis %1040
+		r e e, e'
+		r h' h, h'
+		r e, e a
+		h h gis e
+		r a a a^\critnote %1045
+		r gis gis gis
+		r a a a
+		h h h, h
+		e e, e r
+		r e'\fE e e %1050
+		r a a a
+		e a, h h
+		r cis cis dis
+		e a, h h
+		e h e,2 %1055
+		r4 e'\pE e e
+		r e e e
+		r dis dis dis
+		r e e, e'
+		r gis gis gis %1060
+		r a a, a'
+		r a, a a
+		r e' e, d'
+		r cis cis cis
+		r d d d %1065
+		r h h his
+		r cis cis cis
+		r ais ais ais
+		r ais? ais ais
+		r ais? ais ais %1070
+		r h h h
+		r gis gis gis
+		r a! a a
+		r gis gis gis
+		r a a a %1075
+		r cis cis cis
+		r cis cis cis
+		r d d d
+		r a a a
+		r e' e e %1080
+		r gis a a,
+		r a cis dis
+		r e gis e
+		r fis fis fis
+		gis a a, a' %1085
+		r d, cis d
+		r e e e,
+		a2 r
+		r4 e'\fE e e
+		r a a, a' %1090
+		r d, e e,
+		r fis' fis gis
+		a d, e e,
+		a a cis e
+		a,2 r\fermata \bar "||" %1095 finis
 	}
 }
 
 OroSupplexBassFigures = \figuremode {
-	
+	r1 %1004
+	r4 <6 4>2. %1005
+	r4 <[\t \t]>2.
+	r4 <5 3>2.
+	r1
+	r4 <6 4>2.
+	r4 <[\t \t]> <6> q %1010
+	r1
+	r4 <[6 5]>2.
+	r1
+	r4 <[6 5]>2.
+	r1 %1015
+	r
+	r
+	r4 <[6]> <[6 4]> <[5 3]>
+	r4 <6>2 <6 5>4
+	r1 %1020
+	r4 <[6]> <[6 4]> <[5 3]>
+	r1
+	r
+	r1
+	r4 <6 4>2. %1025
+	r4 <6 4>2.
+	r4 <[5 3]>2.
+	r4 <7>2.
+	r4 <6 4>2.
+	r4 <[\t \t]>2. %1030
+	r4 <5 3>2.
+	r1
+	r4 <_+>2.
+	r4 <_+>2.
+	r1 %1035
+	r4 <[6]>2.
+	r1
+	r4 <_+>2.
+	r4 <[6]>2.
+	r4 <6>2. %1040
+	r1
+	r4 <_+>2.
+	r <[8 6]>8 <[7 5]>
+	<[_+]>2 <[6]>
+	r2. <[4+] 2>4 %1045
+	r4 <6>2.
+	r4 <6>2.
+	<[6 4]>2 <[5 \t]>4 <\t _+>
+	r1
+	r %1050
+	r
+	r2 <6 4>4 <5 _+>
+	r <6>2 <6 5>4
+	r2 <6 4>4 <5 _+>
+	r1 %1055
+	r
+	r
+	r4 <[6 5]>2.
+	r1
+	r4 <[6 5!]>2. %1060
+	r1
+	r
+	r2. <[2]>4
+	r4 <6 [5!]>2.
+	r1 %1065
+	r4 <6 5>2.
+	<4>4 <_+>2.
+	r4 <[6]>2.
+	r1
+	r %1070
+	r4 <[_+]>2.
+	r4 <[6 5!]>2.
+	r1
+	r4 <[6 5]>2.
+	r1 %1075
+	r4 <[6]>2.
+	r4 <[6 5!]>2.
+	r1
+	r
+	r4 <4> <3>2 %1080
+	r4 <5>2.
+	r2 <[6]>4 <[\t]>
+	r2 <[6]>
+	r4 <6>2.
+	<6 5!>1 %1085
+	r2 <[6]>
+	<[6 4]> <[5 3]>
+	r1
+	r
+	r %1090
+	r4 <[6]> <[6 4]> <[5 3]>
+	r <[6]>2 <[6 5]>4
+	r <[6]> <[6 4]> <[5 3]>
+	r2 <[6]>4 <[7]>
+	r1 %1095 finis
 }
 
 % Organo = {

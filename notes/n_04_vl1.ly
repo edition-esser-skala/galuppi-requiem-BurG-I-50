@@ -1296,7 +1296,98 @@ OroSupplexViolinoI = {
 		\clef treble
 		\key a \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #1004
-		
+		e'2\fE a
+		fis8 d fis4 r a,~ %1005
+		a d2 fis4
+		fis e r2
+		d1
+		cis8 a cis4 r cis~
+		cis a'2 cis,4 %1010
+		cis h r h'
+		a8( fis) h,2 a'4
+		gis8( e) h2 h'4
+		a8( fis) h,2 fis8 a
+		a4 gis r e' %1015
+		d!8( h) h'2 d,4
+		cis8( a) a'2 cis,4
+		h fis'16( d cis h) a4 gis
+		a dis2 d4
+		cis8 a a'2 cis,4 %1020
+		h fis'16( d cis h) a4 gis
+		a e8 fis e4 d
+		cis2 r
+		e'\p a
+		fis a %1025
+		a, fis'
+		fis4 e a2
+		d,1
+		cis2 a'
+		cis, a'8 e d cis %1030
+		cis4 h h h
+		r e e e
+		r dis dis dis
+		r fis fis fis
+		r gis gis gis %1035
+		r e e e
+		r e e e
+		r dis dis dis
+		r e e e
+		r fis fis fis %1040
+		r gis gis gis
+		r fis fis fis
+		r gis gis a8 gis
+		r4 dis? e e
+		r cis cis dis %1045
+		r e e e
+		r fis fis fis
+		r e e dis?
+		e2 r4 e\fE
+		d!8( h) h'2 d,4 %1050
+		cis8( a) a'2 cis,4
+		h8[ gis] cis16( a gis fis) e4 dis
+		e ais2 a4
+		gis cis16( a gis fis) e4 dis
+		e h gis2 %1055
+		r4 h''\p h h
+		r a a a
+		r a a a
+		r gis gis gis
+		r h h h %1060
+		r a a a
+		r e e a
+		r gis gis gis
+		r a g g
+		r fis fis fis %1065
+		r fis fis fis
+		r eis eis eis
+		r fis fis fis
+		r e! e e
+		r fis fis e %1070
+		r dis dis dis
+		r d d d
+		r cis e e
+		r e e e
+		r e e e %1075
+		r e e e
+		r g g g
+		r fis fis fis
+		r a a a
+		r a gis! gis %1080
+		r h a a
+		r a a a
+		r gis gis gis
+		r a a a
+		r a a a %1085
+		r fis e8 d cis h
+		a2 r
+		r r4 e'\fE
+		d8 h h'2 h,4
+		cis8 a a'2 cis,4 %1090
+		h fis'16 d cis h a4 gis
+		a dis2 d4
+		cis fis16 d cis h a4 gis
+		a e8 fis e4 d
+		cis2 r\fermata \bar "||" %1095 finis
 	}
 }
 

@@ -1224,12 +1224,133 @@ OroSupplexAltoNotes = {
 		\clef treble
 		\key a \major \time 2/2 \autoBeamOff \tempoOroSupplex
 			\set Score.currentBarNumber = #1004
-		
+		R1*20 %1023
+		\mvTr e2\pE^\soloE a
+		fis8([ d)] fis4 r2 %1025
+		a,4( d2) fis4
+		fis e r2
+		d2 d
+		cis8([ a)] cis4 r2
+		cis2( a'8[ e)] d([ cis)] %1030
+		cis4 h r2
+		h e
+		e8([ dis)] fis4 r2
+		h,4( dis8[ h] fis'[ dis)] a'([ fis)]
+		fis([ gis)] gis4 r2 %1035
+		e e
+		e4( a) a2
+		fis a8[ fis e dis]
+		e2 gis8[ e h' gis]
+		fis2 a8[ fis cis' a] %1040
+		\tuplet 3/2 4 { gis[ fis e] } gis4 r8 e[ gis h]
+		\tuplet 3/2 4 { a[ gis fis] }  a4 r8 dis,[ fis a]
+		\tuplet 3/2 4 { gis[( fis e] } h'2) a8[( gis])
+		gis4 fis r2
+		cis2. dis4 %1045
+		e8([ gis)] e4 r2
+		\once \tieDashed fis2~ fis8([ a)] gis([ fis)]
+		\once \tieDashed e4~ e16[ dis e fis] fis2
+		e r
+		R1*6 %1055
+		e2 e
+		h'4( a) a2
+		h, a'
+		a4 gis r2
+		e e %1060
+		cis8([ e)] cis4 r2
+		cis2( a'8[ e)] d([ cis)]
+		cis4 h r2
+		a g'
+		g?4( fis) fis2 %1065
+		h fis
+		fis4 eis r2
+		cis fis
+		fis4( e!) e2
+		g4( fis2) e4 %1070
+		e dis r2
+		d d
+		cis4( e) e2
+		e e
+		e4.( d8) cis4 r %1075
+		e2 e
+		e4( g) g2
+		fis2. a8[( fis)]
+		fis4( e) a2
+		a gis! %1080
+		d cis
+		a'2. cis,4
+		cis h r2
+		e4( dis) dis2
+		d4( cis) cis2 %1085
+		fis( e8[ d]) cis([ h)]
+		a4.( h8 h2)
+		a r
+		R1*6 %1094
+		R1\fermataMarkup \bar "||" %1095 finis
 	}
 }
 
 OroSupplexAltoLyrics = \lyricmode {
+	O -- ro %1024
+	sup -- plex %1025
+	et __ ac --
+	cli -- nis,
+	cor con --
+	tri -- tum
+	qua -- si __ %1030
+	ci -- nis,
+	ge -- re
+	cu -- ram
+	me -- i __
+	fi -- nis, %1035
+	ge -- re
+	cu -- ram __
+	_ _
+	_ _
+	_ _ %1040
+	_ _ _
+	_ _ _
+	me -- i __
+	fi -- nis,
+	ge -- re %1045
+	cu -- ram
+	me -- i __
+	fi -- _
+	nis.
 	
+	O -- ro %1056
+	sup -- plex
+	et ac --
+	cli -- nis,
+	cor con -- %1060
+	tri -- tum
+	qua -- si __
+	ci -- nis,
+	ge -- re
+	cu -- ram %1065
+	me -- i
+	fi -- nis.
+	O -- ro
+	sup -- plex
+	et __ ac -- %1070
+	cli -- nis,
+	cor con --
+	tri -- tum
+	qua -- si
+	ci -- nis, %1075
+	ge -- re
+	cu -- ram
+	me -- i __
+	fi -- nis,
+	ge -- re %1080
+	cu -- ram
+	me -- i
+	fi -- nis,
+	ge -- re
+	cu -- ram %1085
+	me -- i __
+	fi --
+	nis. %1088 finis
 }
 
 % AltoNotes = {

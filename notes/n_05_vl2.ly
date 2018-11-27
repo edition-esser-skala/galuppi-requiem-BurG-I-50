@@ -1541,3 +1541,11 @@ LacrimosaViolinoII = {
 		gis\fermata \bar "|." %1255 FINIS
 	}
 }
+
+DomineViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 2/2 \tempoDomine
+		
+	}
+}

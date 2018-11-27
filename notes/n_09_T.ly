@@ -1412,6 +1412,18 @@ LacrimosaTenoreLyrics = \lyricmode {
 	men. %1255 FINIS
 }
 
+DomineTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

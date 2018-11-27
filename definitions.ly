@@ -218,6 +218,8 @@ tempoQuiMariam = \tempoMarkup "[Tempo deest]"
 tempoOroSupplex = \tempoMarkup "[Tempo deest]"
 tempoLacrimosa = \tempoMarkup "Presto"
 
+tempoDomine = \tempoMarkup "Alla breve non molto allegro"
+
 
 
 % modify the Scheme function 'format-bass-figure'

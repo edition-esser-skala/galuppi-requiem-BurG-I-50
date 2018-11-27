@@ -3221,6 +3221,18 @@ LacrimosaBassFigures = \figuremode {
 	r %1255 FINIS
 }
 
+DomineOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 2/2 \tempoDomine
+		\mvTr e2.\fE-\tuttiE e4
+	}
+}
+
+DomineBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

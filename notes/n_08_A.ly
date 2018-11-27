@@ -1660,6 +1660,18 @@ LacrimosaAltoLyrics = \lyricmode {
 	men. %1255 FINIS
 }
 
+DomineAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

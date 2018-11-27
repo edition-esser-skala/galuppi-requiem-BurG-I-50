@@ -1049,6 +1049,18 @@ LacrimosaBassoLyrics = \lyricmode {
 	men. %1255 FINIS
 }
 
+DomineBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

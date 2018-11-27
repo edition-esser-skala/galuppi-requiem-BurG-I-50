@@ -909,12 +909,279 @@ LacrimosaSopranoNotes = {
 		\clef treble
 		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		R1*5 %1100
+		r2 \mvTr h'4\fE^\tuttiE h
+		ais a gis cis
+		ais h r a~
+		a gis gis h
+		ais h h( ais) %1105
+		h dis cis cis
+		h gis cis h
+		R1*2
+		h4 h ais a %1110
+		gis cis ais h
+		r cis8 cis cis4 h
+		h ais gis2
+		ais gis4 gis
+		fis2 fis4 r %1115
+		r2 h
+		h h4( a!)
+		gis2 a
+		h cis~
+		cis4( h8[ a]) gis2 %1120
+		r4 h2 h4
+		cis2 h
+		ais2. ais4
+		h2 h
+		h4 a! gis2 %1125
+		fis4 r r2
+		R1
+		h2 h4 h
+		h2 a
+		gis1 %1130
+		a4 a2 a4
+		gis2.( ais4)
+		h h2 a4
+		gis1(
+		fis) %1135
+		e2 g4 g
+		g?1(
+		fis) \noBreak
+		e2 r\fermata \bar "||"
+		\key e \minor \time 3/4
+			\mvTr h'4(\pE^\soloE g) h \noBreak %1140
+		a( fis) a
+		g2 g4
+		fis2 r4
+		h( fis) a
+		gis8([ fis]) gis2 %1145
+		\once \tieDashed a2.~
+		a2 a4
+		gis2 r4
+		R2.*10 %1158
+		r4 \mvTr h\fE^\tuttiE h
+		h( a) a %1160
+		a( g) g
+		fis2 r4
+		fis4( e) e
+		dis2 r4
+		fis2 fis4 %1165
+		g2 g4
+		fis2 fis4
+		e2\fermata r4
+		fis2 fis4
+		g2\fermata r4 %1170
+		g2 fis8([^\critnote e)] \noBreak
+		fis2.\fermata \bar "||"
+		\key e \major \time 2/2
+			e2. fis8[ gis] \noBreak
+		fis2. gis8[ a]
+		gis2.^\critnote a8[ h] %1175
+		h2 a~
+		a gis
+		fis1
+		e4 fis gis ais
+		h2 dis %1180
+		e4 dis cis2
+		h1
+		R1*4 %1186
+		r2 e~
+		e dis
+		d4 h e d
+		cis2. dis4 %1190
+		e h e2~
+		e dis
+		cis1
+		h2 h~
+		h ais %1195
+		a4 fis h a
+		gis e gis2
+		ais4 fis \once \tieDashed h2~
+		h4 ais8[ gis] ais4 fis
+		his2 \once \tieDashed cis~ %1200
+		cis his
+		h4 gis cis h
+		a!1
+		gis
+		fis %1205
+		R1*5 %1210
+		h2. cis8[ d]
+		cis2. d8[ e]
+		dis2. e8[ fis]
+		fis2 \tieDashed e~
+		e d~ %1215
+		d \tieSolid cis
+		h1
+		a4 h cis dis!
+		e2 r
+		R1*6 %1225
+		r2 h~
+		h ais
+		a4 fis h a
+		gis2. ais4
+		h fis \tieDashed h2~ %1230
+		h a!~
+		a gis
+		fis h~
+		h ais 
+		a4 fis h a %1235
+		gis2. ais4
+		h fis h2~
+		h a!~
+		a gis \tieSolid
+		fis1 %1240
+		e2 h'
+		a1
+		h
+		cis
+		dis2 e~ %1245
+		e dis
+		e1
+		d
+		cis
+		cis( %1250
+		h2) gis
+		fis1
+		e
+		a\breve*1/2
+		gis\fermata \bar "|." %1255 FINIS
 	}
 }
 
 LacrimosaSopranoLyrics = \lyricmode {
+	La -- cri -- %1101
+	mo -- sa di -- es
+	il -- la, qua __
+	re -- sur -- get
+	ex fa -- vil -- %1105
+	la, re -- sur -- get
+	ex fa -- vil -- la,
 	
+	la -- cri -- mo -- sa %1110
+	di -- es il -- la,
+	qua re -- sur -- get
+	ex fa -- vil --
+	la, ex fa --
+	vil -- la, %1115
+	ju --
+	di -- can --
+	dus ho --
+	mo re --
+	us, %1120
+	ju -- di --
+	can -- dus
+	ho -- mo
+	re -- us,
+	ho -- mo re -- %1125
+	us,
+
+	huic er -- go
+	par -- ce,
+	De -- %1130
+	us, par -- ce,
+	De --
+	us, par -- ce,
+	De --
+	%1135
+	us, par -- ce,
+	De --
+	
+	us.
+	Pi -- e %1140
+	Je -- su
+	Do -- mi --
+	ne,
+	do -- na
+	e -- is %1145
+	re --
+	qui --
+	em,
+	
+	do -- na %1159
+	e -- is %1160
+	re -- qui --
+	em,
+	re -- qui --
+	em,
+	do -- na %1165
+	e -- is
+	re -- qui --
+	em,
+	re -- qui --
+	em, %1170
+	re -- qui --
+	em.
+	A -- _
+	_ _
+	_ _ %1175
+	_ _
+	_
+	_
+	_ _ _ _
+	men, a -- %1180
+	_ _ _
+	men,
+	
+	a -- %1187
+	_
+	_ _ _ _
+	_ _ %1190
+	_ _ _
+	_
+	_
+	men, a --
+	_ %1195
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ %1200
+	_
+	_ _ _ _
+	_
+	_
+	men, %1205
+	
+	a -- _ %1211
+	_ _
+	_ _
+	_ _
+	_ %1215
+	_
+	_
+	_ _ _ _
+	men,
+	
+	a -- %1226
+	_
+	_ _ _ _
+	_ _
+	_ _ _ %1230
+	_
+	_
+	men, a --
+	_
+	_ _ _ _ %1235
+	_ _
+	_ _ _
+	_
+	_
+	_ %1240
+	men, a --
+	_
+	_
+	_
+	_ _ %1245
+	_
+	men,
+	a --
+	men,
+	a -- %1250
+	men,
+	a --
+	men,
+	a --
+	men. %1255 FINIS
 }
 
 % SopranoNotes = {

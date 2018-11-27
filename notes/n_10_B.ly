@@ -775,12 +775,278 @@ LacrimosaBassoNotes = {
 		\clef bass
 		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		R1*4 %1099
+		\mvTr e4\fE^\tuttiE e dis d %1100
+		cis fis dis e
+		r fis2 e4
+		e dis cis4. dis8
+		e4 e r e8 e
+		e4 dis cis cis %1105
+		h2 fis'4 fis
+		fis e e dis
+		cis( ais) h r
+		R1*2 %1110
+		r2 fis'4 fis
+		eis e dis gis
+		eis fis r cis8 cis
+		fis4 fis eis cis
+		fis e dis h %1115
+		ais2 h4 r
+		R1
+		e2 e
+		e4( d) cis2
+		dis e %1120
+		fis e
+		r4 e2 e4
+		fis2 e
+		dis d
+		cis cis4 r %1125
+		fis2 fis4 fis
+		fis2 d
+		h1
+		cis2 r4 fis
+		cis2 cis %1130
+		fis dis!^\critnote
+		e cis4 cis
+		\tieDashed h1~
+		h~
+		h \tieSolid %1135
+		e2 e4 e
+		c c ais ais
+		h1 \noBreak
+		e,2 r\fermata \bar "||"
+		\key e \minor \time 3/4
+			R2.*9 %1148
+		\mvTr c''4(\pE^\soloE a) c
+		h( gis) h %1150
+		a2 a4
+		gis2 r4
+		R2.
+		r4 a8([ g!)] f([ e)]
+		dis2 dis4 %1155
+		e2 e4
+		h2.
+		\mvTr h\fE^\tuttiE
+		h
+		h %1160
+		h
+		h
+		h
+		h2 r4
+		h'2 a4 %1165
+		g2 e4
+		h2 h4
+		c2\fermata r4
+		h2 h4
+		ais2\fermata r4 %1170
+		h2 h4 \noBreak
+		h2.\fermata \bar "||"
+		\key e \major \time 2/2
+			R1*7 %1179
+		r2 h'~ %1180
+		h ais
+		a4 fis h a
+		gis2. ais4
+		h fis h2~
+		h ais %1185
+		h a
+		gis e
+		fis2. gis8[ a]
+		gis2. a8[ h]
+		h2 a~ %1190
+		a gis
+		fis4 ais h2
+		fis1
+		h,2 h'
+		\once \tieDashed fis1~ %1195
+		fis2 h,
+		\once \tieDashed e1~
+		e2 dis
+		cis fis~
+		fis e %1200
+		dis gis4 fis
+		eis1
+		fis
+		cis
+		fis %1205
+		R1*5 %1210
+		r2 h~
+		h ais
+		a4 fis h a
+		gis!2. ais4
+		h2. a4 %1215
+		gis2 a
+		e1
+		fis
+		e2 e
+		h1 %1220
+		e
+		a,2 r
+		R1*3 %1225
+		h2. cis8[ dis]
+		cis2. dis8[ e]
+		dis2. e8[ fis]
+		fis2 e
+		dis1 %1230
+		cis2 fis4 e
+		dis2 e
+		h1
+		\tieDashed h~
+		h~ %1235
+		h~
+		h~
+		h~
+		h \tieSolid
+		h2 r %1240
+		e2. fis8[ gis]
+		fis2. gis8[ a]
+		gis2. a8[ h]
+		h2 \once \tieDashed a~
+		a gis %1245
+		fis1
+		e
+		gis,
+		a
+		ais %1250
+		\once \tieDashed h~
+		h
+		e,
+		a\breve*1/2
+		e'\fermata \bar "|." %1255 FINIS
 	}
 }
 
 LacrimosaBassoLyrics = \lyricmode {
+	La -- cri -- mo -- sa %1100
+	di -- es il -- la,
+	qua re --
+	sur -- get ex fa --
+	vil -- la, qua re --
+	sur -- get ex fa -- %1105
+	vil -- la, re --
+	sur -- get ex fa --
+	vil -- la,
 	
+	la -- cri -- %1111
+	mo -- sa di -- es
+	il -- la, qua re --
+	sur -- get ex fa --
+	vil -- la, ex fa -- %1115
+	vil -- la,
+	
+	ju -- di --
+	can -- dus
+	ho -- mo %1120
+	re -- us,
+	ju -- di --
+	can -- dus
+	ho -- mo
+	re -- us, %1125
+	huic er -- go
+	par -- ce,
+	De --
+	us, huic
+	er -- go %1130
+	par -- ce,
+	huic er -- go
+	par --
+	
+	ce, par -- ce, %1136
+	par -- ce, par -- ce,
+	De --
+	us.
+	
+	Pi -- e %1149
+	Je -- su %1150
+	Do -- mi --
+	ne,
+	
+	do -- na
+	e -- is %1155
+	re -- qui --
+	em,
+	do --
+	na
+	e -- %1160
+	is
+	re --
+	qui --
+	em,
+	do -- na %1165
+	e -- is
+	re -- qui --
+	em,
+	re -- qui --
+	em, %1170
+	re -- qui --
+	em.
+	
+	A -- %1180
+	_
+	_ _ _ _
+	_ _
+	_ _ _
+	_ %1185
+	men, a --
+	_ _
+	_ _
+	_ _
+	_ _ %1190
+	_
+	_ _ _
+	_
+	men, a --
+	_ %1195
+	_
+	_
+	_
+	_ _
+	_ %1200
+	_ _ _
+	_
+	_
+	_
+	men, %1205
+	
+	a -- %1211
+	_
+	_ _ _ _
+	_ _
+	_ _ %1215
+	_ _
+	_
+	_
+	men, a --
+	_ %1220
+	_
+	men,
+	
+	a -- _ %1226
+	_ _
+	_ _
+	_ _
+	_ %1230
+	_ _ _
+	_ _
+	men,
+	a --
+	
+	men, %1240
+	a -- _
+	_ _
+	_ _
+	_ _
+	_ %1245
+	_
+	men,
+	a --
+	men,
+	a -- %1250
+	_
+	
+	men,
+	a --
+	men. %1255 FINIS
 }
 
 % BassoNotes = {

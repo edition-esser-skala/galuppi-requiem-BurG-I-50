@@ -1358,12 +1358,306 @@ LacrimosaAltoNotes = {
 		\clef treble
 		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		\mvTr e4\fE^\tuttiE e dis d
+		cis fis dis e
+		r fis2 e4
+		e dis cis4. dis8
+		e4 e r fis8 fis %1100
+		e4 e fis e^\critnote
+		fis fis r gis8 gis
+		fis4 fis e4. fis8
+		fis4 e e gis
+		fis2( e) %1105
+		dis4 r r2
+		r fis4 fis
+		eis e dis gis
+		eis fis r e~
+		e dis cis4. dis8 %1110
+		e4 e e dis
+		cis gis' fis fis
+		gis4. fis8 fis([ eis16 dis] eis4)
+		fis r r2
+		fis2 fis %1115
+		fis4( e!) dis2
+		e fis
+		e4( d) cis2
+		r4 e2 e4
+		fis2 e %1120
+		e4( dis!) e2
+		e4( gis) gis2
+		fis fis
+		fis fis
+		eis4( fis2 eis4) %1125
+		fis r r2
+		fis fis4 fis
+		fis2 d
+		eis fis
+		fis4( eis8[ dis] eis2) %1130
+		fis4 fis2 fis4
+		e2 e
+		\tieDashed fis1~
+		fis4 e8[ dis] e2~
+		e \tieSolid dis %1135
+		e e4 e
+		e1~
+		e2 dis \noBreak
+		e r\fermata \bar "||"
+		\key e \minor \time 3/4
+			\mvTr g4(\pE^\soloE e) g \noBreak %1140
+		fis( dis) fis
+		e2 e4
+		dis2 r4
+		R2.
+		e4( h) d! %1145
+		c8([ h)] c2
+		c c4
+		h2 r4
+		R2.*8 %1156
+		r4 \mvTr h'\fE^\tuttiE h
+		h( a) a
+		a( g) g
+		fis2 r4 %1160
+		fis( e) e
+		dis2 dis4
+		h2 h4
+		h2 r4
+		dis2 dis4 %1165
+		e2 e4
+		dis2 dis4
+		e2\fermata r4
+		dis2 dis4
+		e2\fermata r4 %1170
+		e2 dis8([ cis)] \noBreak
+		dis2.\fermata \bar "||"
+		\key e \major \time 2/2
+			r2 e~ \noBreak
+		e dis
+		d4 h e d %1175
+		cis2. dis4
+		e h \tieDashed e2~
+		e dis
+		e1
+		dis2 fis~ %1180
+		fis1~
+		fis \tieSolid
+		h,2. cis4
+		h2 fis'
+		e1 %1185
+		dis4 e fis dis
+		e2 gis
+		a2. h8[ cis]
+		h2 gis
+		e fis %1190
+		gis h
+		ais fis
+		fis r
+		r h,
+		cis2. dis8[ e] %1195
+		dis2. e8[ fis]
+		fis2 e
+		cis fis
+		e1
+		dis2 gis %1200
+		fis1
+		\once \tieDashed gis~
+		gis2 fis~
+		fis eis
+		fis \once \tieDashed fis~ %1205
+		fis eis
+		e4 cis fis e
+		d1
+		eis2 \once \tieDashed fis~
+		fis e %1210
+		d?1
+		R1*7 %1218
+		e2. fis8[ gis]
+		fis2. gis8[ a] %1220
+		gis2. a8[ h]
+		h2 \once \tieDashed a~
+		a gis
+		fis4 ais \once \tieDashed h2~
+		h ais %1225
+		h fis
+		e2. fis8[ gis]
+		\once \tieDashed fis2~ fis
+		e1
+		fis %1230
+		e4 dis cis2
+		fis e
+		dis dis
+		e1
+		fis %1235
+		e
+		fis
+		e2 e
+		fis \once \tieDashed e~
+		e dis %1240
+		e \once \tieDashed e~
+		e dis
+		d4 h e d
+		cis1
+		fis2 gis %1245
+		a1
+		gis
+		h
+		a
+		fis~ %1250
+		fis2 e~
+		e dis
+		e1
+		e\breve*1/2
+		e\fermata \bar "|." %1255 FINIS
 	}
 }
 
 LacrimosaAltoLyrics = \lyricmode {
+	La -- cri -- mo -- sa %1096
+	di -- es il -- la,
+	qua re --
+	sur -- get ex fa --
+	vil -- la, qua re -- %1100
+	sur -- get ex fa --
+	vil -- la, qua re --
+	sur -- get ex fa --
+	vil -- la, ex fa --
+	vil -- %1105
+	la,
+	la -- cri --
+	mo -- sa [di -- es
+	il -- la,] qua __
+	re -- sur -- get %1110
+	ex fa -- vil -- la,
+	qua re -- sur -- get
+	ex fa -- vil --
+	la,
+	ju -- di -- %1115
+	can -- dus
+	ho -- mo
+	re -- us,
+	ju -- di --
+	can -- dus %1120
+	ho -- mo,
+	ho -- mo
+	re -- us,
+	ho -- mo
+	re -- %1125
+	us,
+	huic er -- go
+	par -- ce,
+	par -- ce,
+	De -- %1130
+	us, par -- ce,
+	De -- us,
+	par --
+	_ _
+	_
+	ce, par -- ce
+	De --
+	_
+	us.
 	
+	Pi -- e %1140
+	Je -- su
+	Do -- mi --
+	ne,
+	
+	do -- na %1145
+	e -- is
+	re -- qui --
+	em,
+	
+	do -- na %1157
+	e -- is
+	re -- qui --
+	em, %1160
+	do -- na
+	e -- is
+	re -- qui --
+	em,
+	do -- na %1165
+	e -- is
+	re -- qui --
+	em,
+	re -- qui --
+	em, %1170
+	re -- qui --
+	em.
+	A --
+	_
+	_ _ _ _ %1175
+	_ _
+	_ _ _
+	_
+	_
+	men, a -- %1180
+	
+	_ _ %1183
+	_ _
+	_ %1185
+	_ _ _ _
+	men, a --
+	_ _
+	men, a --
+	_ _ %1190
+	_ _
+	_ _
+	men,
+	a --
+	_ _ %1195
+	_ _
+	_ _
+	_ _
+	_
+	_ _ %1200
+	_
+	_
+	_
+	_
+	men, a -- %1205
+	_
+	_ _ _ _
+	_
+	_ _
+	_ %1210
+	men,
+	
+	a -- _ %1219
+	_ _ %1220
+	_ _
+	_ _
+	_
+	_ _ _
+	_ %1225
+	men, a --
+	_ _
+	_
+	_
+	_ %1230
+	_ _ _
+	_ _
+	men, a --
+	_
+	_ %1235
+	_
+	_
+	men, a --
+	_ _
+	_ %1240
+	men, a --
+	_
+	_ _ _ _
+	_
+	_ _ %1245
+	_
+	men,
+	a --
+	men,
+	a -- %1250
+	_
+	_
+	men,
+	a --
+	men. %1255 FINIS
 }
 
 % AltoNotes = {

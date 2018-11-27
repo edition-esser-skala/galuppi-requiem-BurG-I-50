@@ -1143,12 +1143,273 @@ LacrimosaTenoreNotes = {
 		\clef "treble_8"
 		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		R1
+		r2 \mvTr h4\fE^\tuttiE h
+		ais a gis cis
+		ais h r a~
+		a gis h h %1100
+		h a a gis
+		r cis8 cis h4 h
+		cis h cis4.( h8)
+		h4 r r2
+		R1 %1105
+		h4 h ais a
+		gis cis ais h
+		r cis2 h4
+		h ais gis4. ais8
+		h4 h r2 %1110
+		R1*2
+		r2 cis
+		cis cis4( h)
+		ais2 h %1115
+		cis h4( a)
+		gis r dis dis
+		e2 a
+		gis a
+		a4( h) h2 %1120
+		a4 a gis gis
+		R1*3
+		cis2 cis4 cis %1125
+		cis2 a
+		d d
+		d4.( cis8) h2
+		gis fis4 r
+		cis'2 cis4 cis %1130
+		cis2 h
+		h( cis
+		dis1)
+		h
+		h2.( a4) %1135
+		gis2 h4 h
+		c c cis cis
+		h1 \noBreak
+		h2 r\fermata \bar "||"
+		\key e \minor \time 3/4
+			R2.*9 %1148
+		\mvTr e4(\pE^\soloE c) e
+		d( h) d %1150
+		c2 c4
+		h2 r4
+		e( h) d
+		c8([ h)] c2
+		c4( h) a %1155
+		g g g
+		fis2.
+		R2.*3 %1160
+		r4 \mvTr h\fE^\tuttiE h
+		h( a) a
+		a( g) g
+		fis2 r4
+		h2 h4 %1165
+		h2 h4
+		h2 h4
+		g2\fermata r4
+		h2 h4
+		cis2\fermata r4 %1170
+		h2 h4 \noBreak
+		h2.\fermata \bar "||"
+		\key e \major \time 2/2
+			R1*7 %1179
+		h2. cis8[ dis] %1180
+		cis2. dis8[ e]
+		dis2. e8[ fis]
+		fis2 e~
+		e dis
+		cis1 %1185
+		h4 cis dis h
+		e2 h
+		a1
+		gis2 r
+		R1 %1190
+		r2 h
+		cis \once \tieDashed h~
+		h ais
+		h r
+		R1*10 %1204
+		fis2. gis8[ a] %1205
+		gis2. a8[ h]
+		ais2. h8[ cis]
+		cis2 h~
+		h a!
+		gis2. ais4 %1210
+		h cis d2
+		e1
+		fis2 dis!
+		h2. \once \tieDashed cis4~
+		cis ais \once \tieDashed h2~ %1215
+		h \once \tieDashed a~
+		a gis
+		a r
+		r \once \tieDashed e'~
+		e dis %1220
+		d4 h e d
+		cis2. dis4
+		e h \once \tieDashed e2~
+		e dis!
+		cis1 %1225
+		h4 cis dis2
+		e4 dis cis2
+		h1
+		h2. cis4
+		h1 %1230
+		cis
+		h
+		h2 h
+		cis2. dis8[ e]
+		dis2. e8[ fis] %1235
+		fis2 e
+		dis1
+		cis
+		dis4 h e2
+		h1 %1240
+		h2 r
+		R1*2
+		r2 e
+		dis h %1245
+		a1
+		h
+		e
+		e
+		cis %1250
+		dis2 e
+		h1
+		h
+		cis\breve*1/2
+		h\fermata \bar "|." %1255 FINIS
 	}
 }
 
 LacrimosaTenoreLyrics = \lyricmode {
+	La -- cri -- %1097
+	mo -- sa di -- es
+	il -- la, qua __
+	re -- sur -- get %1100
+	ex fa -- vil -- la,
+	qua re -- sur -- get
+	ex fa -- vil --
+	la,
+	%1105
+	la -- cri -- mo -- sa
+	di -- es il -- la,
+	qua re --
+	sur -- get ex fa --
+	vil -- la, %1110
 	
+	ju -- %1113
+	di -- can --
+	dus ho -- %1115
+	mo re --
+	us, ho -- mo
+	re -- us,
+	ju -- di --
+	can -- dus %1120
+	ho -- mo re -- us,
+	
+	huic er -- go %1125
+	par -- ce,
+	De -- us,
+	par -- ce,
+	De -- us,
+	huic er -- go %1130
+	par -- ce,
+	par --
+	
+	ce
+	De -- %1135
+	us, par -- ce,
+	par -- ce, par -- ce,
+	De --
+	us.
+	
+	Pi -- e %1149
+	Je -- su %1150
+	Do -- mi --
+	ne,
+	do -- na
+	e -- is
+	re -- qui -- %1155
+	em, re -- qui --
+	em,
+	
+	do -- na %1161
+	e -- is
+	re -- qui --
+	em,
+	do -- na %1165
+	e -- is
+	re -- qui --
+	em,
+	re -- qui --
+	em, %1170
+	re -- qui --
+	em.
+	
+	A -- _ %1180
+	_ _
+	_ _
+	_ _
+	_
+	_ %1185
+	_ _ _ _
+	men, a --
+	_
+	men,
+	%1190
+	a --
+	_ _
+	_
+	men,
+	
+	a -- _ %1205
+	_ _
+	_ _
+	_ _
+	_
+	_ _ %1210
+	_ _ _
+	_
+	_ _
+	_ _
+	_ _ %1215
+	_
+	_
+	men,
+	a --
+	_ %1220
+	_ _ _ _
+	_ _
+	_ _ _
+	_
+	_ %1225
+	_ _ _
+	_ _ _
+	men,
+	a -- _
+	_ %1230
+	_
+	_
+	men, a --
+	_ _
+	_ _ %1235
+	_ _
+	_
+	_
+	_ _ _
+	_ %1240
+	men,
+	
+	a -- %1244
+	_ _ %1245
+	_
+	men,
+	a --
+	men,
+	a -- %1250
+	_ _
+	_
+	men,
+	a --
+	men. %1255 FINIS
 }
 
 % TenoreNotes = {

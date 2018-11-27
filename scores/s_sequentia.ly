@@ -445,6 +445,7 @@
 		\header {
 			movement = "3.9 ORO SUPPLEX"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

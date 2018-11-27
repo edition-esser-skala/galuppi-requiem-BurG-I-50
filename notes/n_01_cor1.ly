@@ -196,8 +196,8 @@ LacrimosaCornoI = {
 			\set Score.currentBarNumber = #1096
 		R1*8 %1103
 		r4 e'2\fE e4
-		d d c2 %1105
-		d4 d d r
+		\pao d d \pao c2 %1105
+		d4 d \pao d r
 		R1*8 %1114
 		d2 d %1115
 		d d4 r
@@ -233,7 +233,7 @@ LacrimosaCornoI = {
 		e2^\critnote e
 		d1 %1220
 		c
-		c2 r
+		\pao c2 r
 		R1*8 %1230
 		r2 f~
 		f e

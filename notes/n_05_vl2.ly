@@ -1370,21 +1370,21 @@ OroSupplexViolinoII = {
 		r e' e e
 		r d d d
 		r cis cis cis
-		r h h h
+		r h h h %1080
 		r d cis cis
 		r cis cis cis
 		r h h h
 		r dis dis dis
-		r cis cis cis
+		r cis cis cis %1085
 		r a a a
 		a2 r
 		r r4 cis\fE
 		h8 d d2 h4
-		a8 e cis'2 a4
+		a8 e cis'2 a4 %1090
 		r d, cis h
 		r a' a h
 		a d, cis h
 		cis cis8 d cis4 h
-		a2 r\fermata \bar "||"
+		a2 r\fermata \bar "||" %1095 finis
 	}
 }

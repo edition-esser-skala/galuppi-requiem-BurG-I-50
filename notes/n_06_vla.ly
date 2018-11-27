@@ -1489,6 +1489,97 @@ OroSupplexViola = {
 		\clef treble
 		\key a \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #1004
-		
+		r4 cis\fE cis cis
+		r d d d %1005
+		r d d d
+		r cis cis cis
+		r h h h
+		r e cis cis
+		r cis e fis %1010
+		r h, h-\critnote h
+		r h h h
+		r h h h
+		r h h h
+		r h h h %1015
+		r gis' gis gis
+		r e e e
+		r fis e e
+		r fis fis e
+		r e e e %1020
+		r fis e e
+		r a, e' e
+		e2 r
+		r4 e\pE e e
+		r fis fis fis %1025
+		r fis fis fis
+		r e e e
+		r e e e
+		r e e e
+		r e e e %1030
+		r e e e
+		r h h h
+		r h h h
+		r h h h
+		r h h h %1035
+		r h h h
+		r a a a
+		r h h h
+		r e e e
+		r dis dis dis %1040
+		r e e e
+		r a a, a'
+		r e e a,
+		r h' gis e
+		r a, a a %1045
+		r e' e e
+		r a a a
+		r h h, h
+		e e, e r
+		r gis'\fE gis gis %1050
+		r e e e
+		r cis h a
+		r cis cis h
+		r cis h h
+		h2 r %1055
+		r4 e\pE e e
+		r e e e
+		r h h h
+		r h h h
+		r e e e %1060
+		r e e e
+		r e e e
+		r e e e
+		r a, a a
+		r a a a %1065
+		r h h his
+		r cis cis cis
+		r fis fis fis
+		r fis fis fis
+		r fis fis fis %1070
+		r fis h, h
+		r e e e
+		r e e e
+		r e e e
+		r e e e %1075
+		r e a,-\critnote a
+		r a a a
+		r a a a
+		r a e' e
+		r e e e %1080
+		r e e e
+		r e e fis
+		r e e e
+		r fis fis fis
+		r e e e %1085
+		r d e fis
+		e2 r
+		R1
+		r4 gis\fE gis gis
+		r e e e %1090
+		r fis e d
+		r fis fis e
+		e fis e d
+		cis a a e'
+		e2 r\fermata \bar "||" %1095 finis
 	}
 }

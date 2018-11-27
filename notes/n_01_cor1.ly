@@ -194,6 +194,71 @@ LacrimosaCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		R1*8 %1103
+		r4 e'2\fE e4
+		d d c2 %1105
+		d4 d d r
+		R1*8 %1114
+		d2 d %1115
+		d d4 r
+		R1
+		c2 c
+		c c
+		d e %1120
+		f e
+		e4 r r2
+		R1*10 %1132
+		g,1
+		g
+		g %1135
+		c,2 r
+		R1
+		g'2 d' \noBreak
+		c r\fermata \bar "||"
+		\time 3/4 R2.*33 \bar "||" %1172
+		\time 2/2 R1*14 %1186
+		e1
+		f
+		g
+		R1*2 %1191
+		r2 d
+		d1
+		d2 d
+		d1 %1195
+		d
+		c2 r
+		R1*19 %1216
+		r2 e
+		f1
+		e2^\critnote e
+		d1 %1220
+		c
+		c2 r
+		R1*8 %1230
+		r2 f~
+		f e
+		d g,
+		g1~
+		g~ %1235
+		g~
+		g~
+		g~
+		g~
+		g2 r %1240
+		e'1
+		f
+		g2 r
+		R1
+		r2 e %1245
+		f1
+		e
+		c
+		c2 r
+		d1 %1250
+		d2 e
+		d1
+		c
+		c\breve*1/2
+		c\fermata \bar "|." %1255 FINIS
 	}
 }

@@ -2849,11 +2849,376 @@ LacrimosaOrgano = {
 		\key e \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
 		\mvTr e'4\fE-\tuttiE e dis d?
+		<< {
+			cis fis dis e
+			r fis2 e4
+			e dis cis4. dis8
+		} \\ {
+			r2 h4 h
+			ais a gis cis
+			ais h r a
+		} >>
+		\clef bass e e dis d %1100
+		cis fis dis e
+		r fis2 e4
+		e dis cis4. dis8
+		e4 e r e~
+		e dis cis2 %1105
+		h fis'4 fis
+		fis e2 dis4
+		cis ais h \clef treble << {
+			\voiceOne s4
+			s1
+			h''4 h ais a %1110
+			gis cis
+		} \\ {
+			\voiceThree gis4
+			eis fis r e~-\critnote
+			e dis cis4. dis8 %1110
+			e4 e
+		} \\ {
+			\voiceTwo h4
+			h ais gis4. ais8
+			h4 h r2 %1110
+			r
+		} >> \clef bass fis4 fis
+		eis e dis gis
+		eis fis r cis8 cis
+		fis4 fis eis cis
+		fis e dis h %1115
+		ais2 h4 a'
+		gis r dis dis
+		e2 e
+		e4 d cis2
+		dis e %1120
+		fis e
+		r4 e2 e4
+		fis2 e
+		dis d
+		cis cis4 r %1125
+		fis2 fis4 fis
+		fis2 d
+		h1
+		cis2 r4 fis
+		cis2 cis %1130
+		fis4. e!8 dis!2
+		e cis4 cis
+		\tieDashed h1~
+		h~
+		h \tieSolid %1135
+		e2 e4 e
+		c c ais ais
+		h1 \noBreak
+		e,2 r\fermata \bar "||"
+		\key e \minor \time 3/4
+			r8 e' e e e e \noBreak %1140
+		r h' h h h h
+		r ais ais ais ais ais
+		r h, h h h h
+		h2.
+		e %1145
+		a,4 a'8 g f e
+		dis dis dis dis dis dis
+		e4 e8 d c h
+		a a a a a a
+		r e' e e e e %1150
+		r a a a a, a
+		r e' e e e e
+		e2.
+		a,
+		dis2 dis4 %1155
+		e2 e4
+		h2.
+		h
+		h
+		h %1160
+		h
+		h
+		h2 h4
+		h2 r4
+		r8 h' h h a a %1165
+		r g g g e e
+		r h h h h h
+		c2\fermata r4
+		r8 h h h h h
+		ais2\fermata r4 %1170
+		r8 h h h h h \noBreak
+		h2.\fermata \bar "||"
+		\clef treble \key e \major \time 2/2
+		<< {
+			e'2. fis8 gis \noBreak
+			fis2. gis8 a
+			gis2.^\critnote a8 h %1175
+			h2 a~
+			a gis
+			fis1
+			e4 fis gis ais
+			h2
+		} \\ {
+			r2 e,~
+			e dis
+			d4 h e d %1175
+			cis2. dis4
+			e h \once \tieDashed e2~
+			e dis
+			e1
+			dis2
+		} >> \clef bass h2~ %1180
+		h ais
+		a4 fis h a
+		gis2. ais4
+		h fis h2~
+		h ais %1185
+		h a
+		gis e
+		fis2. gis8 a
+		gis2. a8 h
+		h2 a~ %1190
+		a gis
+		fis4 ais h2
+		fis1
+		h,2 h'
+		\once \tieDashed fis1~ %1195
+		fis2 h,
+		\once \tieDashed e1~
+		e2 dis
+		cis fis~
+		fis e %1200
+		dis gis4 fis
+		eis1
+		fis
+		cis
+		fis %1205
+		\clef treble << {
+			fis'2 eis
+			e4 cis fis e
+			d1
+			eis2 \once \tieDashed fis~
+			fis e %1210
+			d
+		} \\ {
+			gis,2. a8 h
+			ais2. h8 cis
+			cis2 h~
+			h a!
+			gis2. ais4 %1210
+			h2
+		} >> \clef bass h~
+		h ais
+		a4 fis h a
+		gis2. ais4
+		h2. a4 %1215
+		gis2 a
+		e1
+		fis
+		e2 e
+		h1 %1220
+		e
+		a,2 \clef treble << {
+			\once \tieDashed a''~
+			a gis
+			fis4 ais \once \tieDashed h2~
+			h ais %1225
+		} \\ {
+			cis,4 dis!
+			e h \once \tieDashed e2~
+			e dis
+			cis1 %1225
+		} >>
+		\clef bass h,2. cis8 dis
+		cis2. dis8 e
+		dis2. e8 fis
+		fis2 e
+		dis1 %1230
+		cis2 fis4 e
+		dis2 e
+		h1
+		\tieDashed h~
+		h~ %1235
+		h~
+		h~
+		h~
+		h \tieSolid
+		h2 r %1240
+		e2. fis8 gis
+		fis2. gis8 a
+		gis2. a8 h
+		h2 \once \tieDashed a~
+		a gis %1245
+		fis1
+		e
+		gis,
+		a
+		ais %1250
+		\once \tieDashed h~
+		h
+		e,
+		a\breve*1/2
+		e'\fermata \bar "|." %1255 FINIS
 	}
 }
 
 LacrimosaBassFigures = \figuremode {
-	
+	r1 %1096
+	r
+	r
+	r
+	<4>4 <3> <6> <7> %1100
+	r <7> <6 5> r
+	r <2!>2 <6>4
+	<4+ 2> <6> <7> <6>
+	<4 2> <3>2.
+	<4+ 2>4 <6> <7> <6> %1105
+	r2 <_+>4 <_!>
+	<2> <5> <4+ 2> <6>
+	<_+>1
+	r
+	r %1110
+	r2 <6 4+>
+	<6> <7>4 <7>
+	<6 5> <_+> r q
+	q2 <6>
+	<_+>4 <4 2> <6>2 %1115
+	<6 5>2. <4 2>4
+	<6>2 q
+	r <6 4>
+	r4 <4 2> r2
+	<7>4 <6>8 <5> r2 %1120
+	<7>4 <6> r2
+	r4 <6> <5>2
+	<_+> <4 2>
+	<6>1
+	<7>4 <6 4> <5 4> r %1125
+	<_!>1
+	<6 4>2 <6>
+	<_!>1
+	<7 _+>
+	<5 4>2 <\l _+> %1130
+	r1
+	r2 <5>4 <6>
+	<7>1
+	<6 5>2 <\l 4>
+	<5 4> <\l 3> %1135
+	r2 <_!>
+	<5> <7>
+	<5 4> <\l _+>
+	r1
+	r2. %1140
+	r8 <_+> r2
+	r8 <7> r2
+	r8 <_+> r2
+	r2.
+	<_+> %1145
+	<_!>
+	<7>
+	<_+>
+	r
+	r8 <_+> r2 %1150
+	r2.
+	r8 <_+> r2
+	<_+>2.
+	r
+	r %1155
+	r
+	<_+>
+	<7>
+	<7>
+	<7 _+> %1160
+	<7 [5]>4 <6 [4]>2
+	<6>4 <7 5>2
+	<7>4 <6>2
+	<_+>2.
+	r8 <_+> r2 %1165
+	r8 <6> r2
+	r2.
+	r
+	r
+	r %1170
+	r
+	r
+	r1
+	r
+	r %1175
+	r
+	r
+	r
+	r
+	r %1180
+	<4 2>2 <6>
+	<4 2>1
+	<6>
+	<9>2 <8>
+	<4 2>1 %1185
+	r2 <4 2>
+	r1
+	<7>2 <6>
+	r1
+	<2> %1190
+	<4 2>2 <6>
+	<7 _+>1
+	<5 4>2 <\l _+>
+	r1
+	<4>2 <_+> %1195
+	<6 _!>1
+	<9>2 <8>
+	<4+ 2> <6>
+	<7> <_+>
+	<4+ 2> <5> %1200
+	<7> <_+>
+	<6 5!>1
+	<9>2 <8>
+	<4> <_+>
+	r1 %1205
+	r
+	r
+	r
+	r
+	r %1210
+	r
+	<4 2>
+	<4+ 2>
+	r
+	<4>2 <3> %1215
+	<6 5!>1
+	<4>2 <3>
+	r1
+	r
+	<4>2 <3> %1220
+	<7!>1
+	r
+	r
+	r
+	r %1225
+	r
+	<7>2 <6>
+	<6 5!>1
+	r
+	<[6]> %1230
+	<7>2 <3>
+	<6 5>1
+	r
+	<4 2>2 <7+>
+	<7! 5 3>1 %1235
+	<6 4>2. <7+>4
+	<8 5 3>1
+	<4 2>2 <7!>
+	<7 5 3> <6 4>
+	<5 4> <\l 3> %1240
+	r1
+	<7>2 <6>
+	<6 5!>1
+	<9>
+	<6 2>2 <6> %1245
+	<7> <6>
+	r1
+	<6 5!>
+	r
+	<6 5> %1250
+	<5 3>2 <6 4>
+	<5 4> <\l 3>
+	r1
+	r
+	r %1255 FINIS
 }
 
 % Organo = {

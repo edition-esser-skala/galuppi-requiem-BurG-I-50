@@ -2886,9 +2886,9 @@ LacrimosaOrgano = {
 		eis fis r cis8 cis
 		fis4 fis eis cis
 		fis e dis h %1115
-		ais2 h4 a'
+		ais2 h4 \clef "treble_8" a'
 		gis r dis dis
-		e2 e
+		\clef bass e2 e
 		e4 d cis2
 		dis e %1120
 		fis e

@@ -1441,7 +1441,7 @@ LacrimosaViolinoI = {
 		fis1 \noBreak
 		e2 r\fermata \bar "||"
 		\key e \minor \time 3/4
-		r8 h'\pE h h h h %1140
+			r8 h'\pE h h h h \noBreak %1140
 		r a a a a a
 		r g g g g g
 		r fis fis fis fis fis
@@ -1472,7 +1472,7 @@ LacrimosaViolinoI = {
 		e2\fermata r4
 		r8 fis fis fis fis fis
 		g2\fermata r4 %1170
-		g2 fis8 e
+		g2 fis8 e \noBreak
 		fis2.\fermata \bar "||"
 		\key e \major \time 2/2
 			r2 e~ \noBreak

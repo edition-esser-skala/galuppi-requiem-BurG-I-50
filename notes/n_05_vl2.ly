@@ -1394,6 +1394,150 @@ LacrimosaViolinoII = {
 		\clef treble
 		\key e \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		R1*5 %1100
+		r2 h'4\fE h
+		ais a gis cis
+		ais h r a~
+		a gis2 h4
+		ais h2 ais4 %1105
+		h dis cis cis
+		h gis cis h
+		R1*2
+		h4 h ais a %1110
+		gis cis ais h
+		r cis2 h4
+		h ais gis2
+		ais gis4 gis
+		fis2 fis4 r %1115
+		r2 h
+		h h4 a!
+		gis2 a
+		h cis~
+		cis4 h8 a gis2 %1120
+		r4 h2 h4
+		cis2 h
+		ais2. ais4
+		h2 h
+		h4 a! gis2 %1125
+		fis4 r r2
+		R1
+		h2 h4 h
+		h2 a
+		gis1 %1130
+		a4 a2 a4
+		gis2. ais4
+		h h2 a4
+		gis1
+		fis %1135
+		e2 e'4 e
+		e e e e
+		e2 dis \noBreak
+		e r\fermata \bar "||"
+		\key e \minor \time 3/4
+			r8 g\pE g g g g \noBreak %1140
+		r fis fis fis fis fis
+		r e e e e e
+		r dis dis dis dis dis
+		dis2.
+		h %1145
+		c2 r4
+		r8 c c c c c
+		h4 e,8 d c h
+		\kneeBeam a c' c c c c
+		r h h h h h %1150
+		r a a a a a
+		r gis gis gis gis gis
+		gis2.
+		a
+		a2 r4 %1155
+		r8 g! g g g g
+		fis dis'\fE dis dis dis dis
+		dis e fis fis fis fis
+		fis fis e e e e
+		e e dis dis dis dis %1160
+		dis dis e g h h
+		fis fis fis a a a
+		dis, dis e e e e
+		dis dis dis dis dis4
+		r8 dis dis dis dis dis %1165
+		r e e e e e
+		r dis dis dis dis dis
+		c2\fermata r4
+		r8 dis dis dis dis dis
+		e2\fermata r4 %1170
+		e2 dis8 cis \noBreak
+		dis2.\fermata \bar "||"
+		\key e \major \time 2/2
+			e,2. fis8 gis \noBreak
+		fis2. gis8 a
+		gis2.^\critnote a8 h^\critnote %1175
+		h2 \once \tieDashed a~
+		a gis
+		fis1
+		e4 fis gis ais
+		h2 dis %1180
+		e4 dis cis2
+		h1
+		R1*4 %1186
+		r2 e~
+		e dis
+		d4 h e d
+		cis2. dis4 %1190
+		e h \once \tieDashed e2~
+		e dis
+		cis1
+		h2 h~
+		h ais %1195
+		a4 fis h a
+		gis e gis2
+		ais4 fis h2~
+		h4 ais8 gis ais4 fis
+		his2 cis~ %1200
+		cis his
+		h4 gis cis h
+		a!1
+		gis
+		fis %1205
+		R1*5 %1210
+		h2. cis8 d
+		cis2. d8 e
+		dis2. e8 fis
+		fis2 \once \tieDashed e~
+		e d~ %1215
+		d cis
+		h1
+		a4 h cis dis!
+		e2 r
+		R1*6 %1225
+		r2 h~
+		h ais
+		a4 fis h a
+		gis2. ais4
+		h fis h2~ %1230
+		h a!~
+		a gis
+		fis \once \tieDashed h~
+		h ais 
+		a4 fis h a %1235
+		gis2. ais4
+		h fis h2~
+		h a!~
+		a gis
+		fis1 %1240
+		e2 h'
+		a1
+		h
+		cis
+		dis2 e~ %1245
+		e dis
+		e1
+		e4 gis d h
+		a cis e a
+		cis, e cis cis %1250
+		h2 e~
+		e dis
+		e1
+		a,\breve*1/2
+		gis\fermata \bar "|." %1255 FINIS
 	}
 }

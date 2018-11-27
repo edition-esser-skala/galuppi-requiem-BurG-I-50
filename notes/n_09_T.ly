@@ -1172,7 +1172,7 @@ LacrimosaTenoreNotes = {
 		cis2 cis4 cis %1125
 		cis2 a
 		d d
-		d4.( cis8) h2
+		d?4.( cis8) h2
 		gis fis4 r
 		cis'2 cis4 cis %1130
 		cis2 h

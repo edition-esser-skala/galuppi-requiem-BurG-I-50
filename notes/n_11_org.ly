@@ -3110,7 +3110,7 @@ LacrimosaBassFigures = \figuremode {
 	r2.
 	<_+> %1145
 	<_!>
-	<7 [_+]>
+	<7>
 	<_+>
 	r
 	r8 <[7] _+> r2 %1150

@@ -1589,6 +1589,148 @@ LacrimosaViola = {
 		\clef treble
 		\key e \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #1096
-		
+		R1
+		r2 h4\fE h
+		ais a gis cis
+		ais h r a'~
+		a gis h h %1100
+		h a2 gis4
+		r cis,8 cis h4 h
+		cis h cis4. h8
+		h4 r r2
+		R1 %1105
+		h4 h ais a
+		gis cis ais h
+		r cis2 h4
+		h ais gis4. ais8
+		h4 h r2 %1110
+		R1*2
+		r2 cis
+		cis cis4 h
+		ais2 h %1115
+		cis h4 a
+		gis r dis dis
+		e2 a
+		gis a
+		a4 h h2 %1120
+		a4 a gis gis
+		R1*3
+		cis2 cis4 cis %1125
+		cis2 a
+		d d
+		d?4. cis8 h2
+		gis fis4 r
+		cis'2 cis4 cis %1130
+		cis2 h
+		h cis
+		dis1
+		h
+		h2. a4 %1135
+		gis2 h4 h
+		c c cis cis
+		h1-\critnote \noBreak
+		h2 r\fermata \bar "||"
+		\key e \minor \time 3/4
+			r8 e\pE e e e e %1140
+		r fis dis dis dis dis
+		r e cis cis cis ais
+		r h h h h h
+		h2.
+		e %1145
+		e4 c'8 h a gis
+		fis fis fis fis fis fis
+		gis4 e8 d c h
+		a a' a a a a
+		r gis gis gis gis gis %1150
+		r e e e e e
+		r e e e e e
+		e2.
+		e
+		fis2 r4 %1155
+		r8 h, h h h h
+		h h\fE fis' fis fis h,
+		h cis dis dis dis dis
+		e e h h h h
+		h h h h g' g %1160
+		h h g g g g
+		fis a a a a a
+		a a g e e e
+		h h h h h h
+		r h h h h h %1165
+		r h h h h h
+		r h h h h h
+		g2\fermata r4
+		r8 h h h h h
+		cis2\fermata r4 %1170
+		h2.
+		h\fermata \bar "||"
+		\key e \major \time 2/2
+			R1*7 %1179
+		h2. cis8 dis %1180
+		cis2. dis8 e
+		dis2. e8 fis
+		fis2 \once \tieDashed e~
+		e dis
+		cis1 %1185
+		h4 cis dis h
+		e2 h
+		a1
+		gis2 r
+		R1 %1190
+		r2 h
+		cis \once \tieDashed h~
+		h ais
+		h r
+		R1*10 %1204
+		fis2. gis8 a %1205
+		gis2. a8 h
+		ais2. h8 cis
+		cis2 h~
+		h a!
+		gis2. ais4 %1210
+		h cis d2
+		e1
+		fis2 dis!
+		h2. cis4~
+		cis ais h2~ %1215
+		h \once \tieDashed a~
+		a gis
+		a r
+		r \once \tieDashed e'~
+		e dis %1220
+		d4 h e d
+		cis2. dis4
+		e h e2~
+		e dis!
+		cis1 %1225
+		h4 cis dis2
+		e4 dis cis2
+		h1
+		h2. cis4
+		h1 %1230
+		cis
+		h
+		h2 h
+		cis2. dis8 e
+		dis2. e8 fis %1235
+		fis2 e
+		dis1
+		cis
+		dis4 h e2
+		h1 %1240
+		h2 r
+		R1*2
+		r2 e
+		dis h %1245
+		a1
+		h
+		e
+		e
+		fis %1250
+		fis2 e
+		h h
+		h1
+		e\breve*1/2
+		e\fermata \bar "|." %1255 FINIS
 	}
 }

@@ -770,6 +770,19 @@ QuiMariamBassoLyrics = \lyricmode {
 	ctis. %997 finis
 }
 
+LacrimosaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		
+	}
+}
+
+LacrimosaBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

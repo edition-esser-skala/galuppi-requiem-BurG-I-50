@@ -216,6 +216,7 @@ tempoRecordare = \tempoMarkup "Adagio"
 tempoJusteJudex = \tempoMarkup "[Tempo deest]"
 tempoQuiMariam = \tempoMarkup "[Tempo deest]"
 tempoOroSupplex = \tempoMarkup "[Tempo deest]"
+tempoLacrimosa = \tempoMarkup "Presto"
 
 
 

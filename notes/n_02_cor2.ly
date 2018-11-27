@@ -188,3 +188,12 @@ DiesIraeCornoII = {
 		g2 c,8_\critnote c c4\fermata \bar "||" %108 finis
 	}
 }
+
+LacrimosaCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		
+	}
+}

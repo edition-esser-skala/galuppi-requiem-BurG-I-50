@@ -1391,6 +1391,15 @@ OroSupplexViolinoI = {
 	}
 }
 
+LacrimosaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -2843,6 +2843,19 @@ OroSupplexBassFigures = \figuremode {
 	r1 %1095 finis
 }
 
+LacrimosaOrgano = {
+	\relative c {
+		\clef treble
+		\key e \major \time 4/4 \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		\mvTr e'4\fE-\tuttiE e dis d?
+	}
+}
+
+LacrimosaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -1138,6 +1138,19 @@ QuiMariamTenoreLyrics = \lyricmode {
 	ctis. %997 finis
 }
 
+LacrimosaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		
+	}
+}
+
+LacrimosaTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

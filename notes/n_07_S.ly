@@ -904,6 +904,19 @@ QuiMariamSopranoLyrics = \lyricmode {
 	ctis. %997 finis
 }
 
+LacrimosaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		
+	}
+}
+
+LacrimosaSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

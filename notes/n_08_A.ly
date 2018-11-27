@@ -1353,6 +1353,19 @@ OroSupplexAltoLyrics = \lyricmode {
 	nis. %1088 finis
 }
 
+LacrimosaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #1096
+		
+	}
+}
+
+LacrimosaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

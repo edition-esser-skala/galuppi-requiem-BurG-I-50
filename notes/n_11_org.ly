@@ -3226,11 +3226,191 @@ DomineOrgano = {
 		\clef bass
 		\key e \minor \time 2/2 \tempoDomine
 		\mvTr e2.\fE-\tuttiE e4
+		dis2 dis
+		e h
+		c1
+		h2 h %5
+		h h'
+		gis2. gis4
+		a2 a
+		fis2. fis4
+		g2 h %10
+		c2. c4
+		c2 c,4 c'
+		a2. a4
+		a1
+		fis2. fis4 %15
+		fis2 g
+		d2. d4
+		d2 d
+		d d
+		cis cis %20
+		d d
+		d d
+		d d
+		c! c
+		c c %25
+		h g'
+		g, g'
+		g g
+		g g
+		g,1 %30
+		g
+		g
+		g
+		g
+		c %35
+		c
+		c4 b a2
+		h4 g c e
+		f d g g,
+		c c' c,2 %40
+		r4 c e g
+		c2 c,~
+		c h
+		c g
+		a4 g a h %45
+		c d e fis!
+		g2 g,
+		g g'
+		c, g
+		d' g %50
+		fis4 d e fis
+		g2 e
+		e d
+		d4 a' f d
+		e2 a, %55
+		gis1
+		a4 h c d
+		e d e e,
+		a2 a'
+		a2. a4 %60
+		e1
+		a2 g!
+		fis2. fis4
+		g2 h
+		c c, %65
+		h h'
+		a a,
+		g g'
+		fis1
+		e2 e %70
+		a4 a a a
+		ais ais ais ais
+		h h h h
+		h, h h h \noBreak
+		e2 r\fermata \markSegno \bar "||" %75
+		e2 e \noBreak
+		e e
+		e2. e4
+		d!1
+		cis2 h~ %80
+		h ais
+		h h
+		cis cis
+		cis? dis
+		e1 %85
+		e2 e
+		h'4 h h h
+		ais ais ais ais
+		h2 h
+		h, h %90
+		e r\fermata \bar "||" %91 finis
 	}
 }
 
 DomineBassFigures = \figuremode {
-	
+	r1
+	<6>
+	r2 <_+>
+	<7> <6>
+	<_+>1 %5
+	r
+	<6 5>
+	r
+	<[6 5]>
+	r2 <6>4 <5!> %10
+	r1
+	r
+	<5>
+	r
+	<6 5> %15
+	r
+	r
+	r
+	<4 2>
+	<6 5> %20
+	<4>2 <3>
+	r1
+	<4+ 2>
+	<6>
+	<4 2> %25
+	<6>
+	<1>2 q
+	q q
+	q q
+	q1 %30
+	q
+	q
+	q
+	q
+	q %35
+	<6 4!>2 <7 4>
+	r <[6!]>
+	<6 [5!]>2. <[6]>4
+	<6 5>1
+	r %40
+	r2 <[6]>
+	r1
+	<4! 2>2 <[\t \t]>
+	r <7!>
+	<5>1 %45
+	r
+	<6 4>2 <5 3>
+	r1
+	<3>4 <4+> r2
+	r1 %50
+	<6 5>
+	r2 <5>
+	<6+> <_!>
+	r1
+	<_+> %55
+	<7!>2 <6>4 <5>
+	r1
+	<[4]>2 <[_+]>
+	r1
+	r %60
+	<[_+]>
+	r2 <[2]>
+	<[6 5]>1
+	r2 <[6]>
+	r1 %65
+	<[6]>
+	<5>2 <6>
+	r1
+	<6\\>
+	r %70
+	<5>
+	<[6 5 _+]>
+	<5 _+>2 <6 4>
+	<5 4> <\l _+>
+	r1 %75
+	r
+	r
+	<4+ 2>
+	<6>
+	<6+>
+	<4 [2+]>2 <[\t \t]>
+	r1
+	<7>2 <6>
+	<\t> <6 5>
+	<4> <3>4 <2>
+	r1
+	<_+>
+	<7>
+	<6 4>2 <5 4>
+	<5 _+>1
+	r
 }
 
 % Organo = {

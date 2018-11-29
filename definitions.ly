@@ -199,6 +199,7 @@ markKyrieDaCapo = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark "Kyrie da capo"
 }
+markSegno = \mark \markup { \musicglyph #"scripts.segno" }
 
 tempoIntroitus = \tempoMarkup "[Tempo deest]"
 tempoTeDecet = \tempoMarkup "Maestoso"

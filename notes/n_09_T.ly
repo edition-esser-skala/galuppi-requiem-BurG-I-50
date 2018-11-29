@@ -1416,12 +1416,184 @@ DomineTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
-		
+		\mvTr h2.\fE^\tuttiE h4
+		h1
+		h2 dis
+		e1
+		dis %5
+		r2 dis?
+		e2. d4
+		c2 e
+		d2. d4
+		d2 r %10
+		e2. e4
+		e1
+		e2. e4
+		e1
+		d2. d4 %15
+		d2 d
+		d2. d4
+		d1
+		h
+		a %20
+		a2 a
+		r a
+		h1
+		a2 a
+		a1 %25
+		g2 r
+		R1*2
+		r2 h
+		h c %30
+		d c
+		h1
+		c2 g
+		g1
+		g2 r %35
+		R1*4
+		r2 \once \tieDashed \mvTr e'~\pE^\soloE %40
+		e2. d4
+		c1
+		d2.( e8[ f?)]
+		e2 d
+		c1 %45
+		c2 c
+		c h
+		r h4 h
+		c c h2
+		a h %50
+		c2. c4
+		h2 r4 h
+		cis2 d
+		r f
+		e4( d) c!2 %55
+		d h
+		\once \tieDashed a1~
+		a2 gis
+		a \mvTr e'\fE^\tuttiE
+		e2. e4 %60
+		e1
+		e2 e
+		d2. d4
+		d2 r
+		e1 %65
+		d
+		e2( fis)
+		g( d)
+		fis1
+		h,2 e %70
+		e1
+		e
+		dis2 e
+		h1 \noBreak
+		h2 r\fermata \markSegno \bar "||" %75
+		r2 e \noBreak
+		e e
+		cis2. cis4
+		d1
+		e2 d %80
+		e1
+		d2 d
+		e2. e4
+		e2 h
+		h2. h4 %85
+		h2 h
+		h2. h4
+		cis1
+		\once \tieDashed h~
+		h %90
+		h2 r\fermata \bar "||" %91 finis
 	}
 }
 
 DomineTenoreLyrics = \lyricmode {
+	Do -- mi --
+	ne
+	Je -- su
+	Chri --
+	ste, %5
+	Rex
+	glo -- ri --
+	ae, Rex
+	glo -- ri --
+	ae, %10
+	li -- be --
+	ra
+	a -- ni --
+	mas
+	o -- mni -- %15
+	um fi --
+	de -- li --
+	um
+	de --
+	fun -- %20
+	cto -- rum
+	de
+	poe --
+	nis in --
+	fer -- %25
+	ni
 	
+	et %29
+	de pro -- %30
+	fun -- do
+	la --
+	_ _
+	_
+	cu. %35
+	
+	Li -- %40
+	be --
+	ra
+	e --
+	as de
+	o -- %45
+	re le --
+	on -- is,
+	ne ab --
+	sor -- be -- at
+	e -- as %50
+	tar -- ta --
+	rus, ne
+	ca -- dant,
+	ne
+	ca -- dant %55
+	in ob --
+	scu --
+	_
+	rum. Sed
+	si -- gni -- %60
+	fer
+	san -- ctus
+	Mi -- cha --
+	el
+	re -- %65
+	prae --
+	sen --
+	tet __
+	e --
+	as in %70
+	lu --
+	cem
+	san -- _
+	_
+	ctam. %75
+	Quam
+	o -- lim
+	A -- bra --
+	hae
+	pro -- mi -- %80
+	si --
+	sti, et
+	se -- mi --
+	ni, et
+	se -- mi -- %85
+	ni, et
+	se -- mi --
+	ni
+	e --
+ %90
+	ius. %91 finis
 }
 
 % TenoreNotes = {

@@ -1669,7 +1669,9 @@ DomineAltoNotes = {
 }
 
 DomineAltoLyrics = \lyricmode {
-	
+% 	Libera eas de ore leonis,
+% 	ne absorbeat eas tartarus,
+% 	ne cadant in obscurum.
 }
 
 % AltoNotes = {

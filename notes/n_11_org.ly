@@ -3265,7 +3265,7 @@ DomineOrgano = {
 		h4 g c e
 		f d g g,
 		c c' c,2 %40
-		r4 c e g
+		r4 c\pE-\soloE e g
 		c2 c,~
 		c h
 		c g
@@ -3283,7 +3283,7 @@ DomineOrgano = {
 		gis1
 		a4 h c d
 		e d e e,
-		a2 a'
+		a2 \mvTr a'\fE-\tuttiE
 		a2. a4 %60
 		e1
 		a2 g!
@@ -3353,8 +3353,8 @@ DomineBassFigures = \figuremode {
 	q
 	q
 	q
-	q
-	q %35
+	<[5 4]>2 <\l [3]>
+	r1 %35
 	<6 4!>2 <7 4>
 	r <[6!]>
 	<6 [5!]>2. <[6]>4
@@ -3399,18 +3399,18 @@ DomineBassFigures = \figuremode {
 	r
 	<4+ 2>
 	<6>
-	<6+>
+	<6+> %80
 	<4 [2+]>2 <[\t \t]>
 	r1
 	<7>2 <6>
 	<\t> <6 5>
-	<4> <3>4 <2>
+	<4> <3>4 <2> %85
 	r1
 	<_+>
 	<7>
 	<6 4>2 <5 4>
-	<5 _+>1
-	r
+	<5 _+>1 %90
+	r %91 finis
 }
 
 % Organo = {

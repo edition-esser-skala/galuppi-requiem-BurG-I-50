@@ -1188,12 +1188,146 @@ DomineSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
-		
+		\mvTr h'2.\fE^\tuttiE h4
+		h1
+		h2 h
+		h( a)
+		h1 %5
+		r2 h
+		h2. h4
+		c2 c
+		c2. c4
+		h2 r %10
+		c2. c4
+		c1
+		c2. c4
+		c1
+		c2. c4 %15
+		c2 h
+		a2. a4
+		a1
+		g
+		g %20
+		g2 fis
+		r a
+		gis1
+		a2 a
+		fis1 %25
+		g!2 r
+		R1*2
+		r2 g
+		g g %30
+		h c
+		g f
+		e1
+		d
+		c2 r %35
+		R1*23 %58
+		r2 c'
+		c2. c4 %60
+		h1
+		c2 c
+		c2. c4
+		h2 r
+		c1 %65
+		d
+		c
+		h
+		a
+		g2 h %70
+		c1
+		cis
+		h2 g
+		fis1 \noBreak
+		e2 r\fermata \markSegno \bar "||" %75
+		r2 h' \noBreak
+		h h
+		ais2. ais4
+		h1
+		ais2 h %80
+		cis1
+		h2 h
+		h a!4( g)
+		a2 a
+		a g4( fis) %85
+		g2 g
+		fis2. fis4
+		g1
+		g2 fis
+		fis1 %90
+		e2 r\fermata \bar "||" %91 finis
 	}
 }
 
 DomineSopranoLyrics = \lyricmode {
+	Do -- mi --
+	ne
+	Je -- su
+	Chri --
+	ste, %5
+	Rex
+	glo -- ri --
+	ae, Rex
+	glo -- ri --
+	ae, %10
+	li -- be --
+	ra
+	a -- ni --
+	mas
+	o -- mni -- %15
+	um fi --
+	de -- li --
+	um
+	de --
+	fun -- %20
+	cto -- rum
+	de
+	poe --
+	nis in --
+	fer -- %25
+	ni
 	
+	et %29
+	de pro -- %30
+	fun -- do
+	la -- _
+	_
+	_
+	cu. %35
+	
+	Sed %59
+	si -- gni -- %60
+	fer
+	san -- ctus
+	Mi -- cha --
+	el
+	re -- %65
+	prae --
+	sen --
+	tet
+	e --
+	as in %70
+	lu --
+	cem
+	san -- _
+	_
+	ctam. %75
+	Quam
+	o -- lim
+	A -- bra --
+	hae
+	pro -- mi -- %80
+	si --
+	sti, et
+	se -- mi --
+	ni, et
+	se -- mi -- %85
+	ni, et
+	se -- mi --
+	ni
+	e -- _
+	_ %90
+	ius. %91 finis
 }
 
 % SopranoNotes = {

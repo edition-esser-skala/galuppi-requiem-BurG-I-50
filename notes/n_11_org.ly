@@ -3254,11 +3254,11 @@ DomineOrgano = {
 		g, g'
 		g g
 		g g
-		g,1 %30
-		g
-		g
-		g
-		g
+		\tieDashed g,1~ %30
+		g~
+		g~
+		g~
+		g \tieSolid
 		c %35
 		c
 		c4 b a2

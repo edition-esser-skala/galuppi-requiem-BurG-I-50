@@ -1053,12 +1053,145 @@ DomineBassoNotes = {
 	\relative c {
 		\clef bass
 		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
-		
+		\mvTr e2.\fE^\tuttiE e4
+		dis1
+		e2 h
+		c1
+		h %5
+		r2 h'
+		gis2. gis4
+		a2 a
+		fis2. fis4
+		g2 r %10
+		c2. c4
+		c1
+		a2. a4
+		a1
+		fis2. fis4 %15
+		fis2 g
+		d2. d4
+		d1
+		d
+		cis %20
+		d2 d
+		r d
+		d1
+		c!2 c
+		c1 %25
+		h2 r
+		r g'
+		g g
+		g g
+		\tieDashed g,1~ %30
+		g~
+		g~
+		g~
+		g \tieSolid
+		c2 r %35
+		R1*23 %58
+		r2 a'
+		a2. a4 %60
+		e1
+		a2 g!
+		fis2. fis4
+		g2 r
+		c1 %65
+		h
+		a
+		g
+		fis
+		e2 e %70
+		a1
+		ais
+		h
+		h, \noBreak
+		e2 r\fermata \markSegno \bar "||" %75
+		r e \noBreak
+		e e
+		e2. e4
+		d!1
+		cis2 h %80
+		h( ais)
+		h h
+		\once \tieDashed cis1~
+		cis?2 dis
+		e1 %85
+		e
+		h'2 h
+		ais1
+		\once \tieDashed h~
+		h %90
+		e,2 r\fermata \bar "||" %91 finis
 	}
 }
 
 DomineBassoLyrics = \lyricmode {
+	Do -- mi --
+	ne
+	Je -- su
+	Chri --
+	ste, %5
+	Rex
+	glo -- ri --
+	ae, Rex
+	glo -- ri --
+	ae, %10
+	li -- be --
+	ra
+	a -- ni --
+	mas
+	o -- mni -- %15
+	um fi --
+	de -- li --
+	um
+	de --
+	fun -- %20
+	cto -- rum
+	de
+	poe --
+	nis in --
+	fer -- %25
+	ni
+	et
+	de pro --
+	fun -- do
+	la -- %30
 	
+	cu. %35
+	
+	Sed %59
+	si -- gni -- %60
+	fer
+	san -- ctus
+	Mi -- cha --
+	el
+	re -- %65
+	prae --
+	sen --
+	tet
+	e --
+	as in %70
+	lu --
+	cem
+	san --
+	_
+	ctam. %75
+	Quam
+	o -- lim
+	A -- bra --
+	hae
+	pro -- mi -- %80
+	si --
+	sti, et
+	se --
+	mi --
+	ni, %85
+	et
+	se -- mi --
+	ni
+	e --
+	%90
+	ius. %91 finis
 }
 
 % BassoNotes = {

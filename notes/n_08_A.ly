@@ -1664,14 +1664,184 @@ DomineAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 2/2 \autoBeamOff \tempoDomine
-		
+		\mvTr g'2.\fE^\tuttiE g4
+		fis1
+		g2 fis
+		e1
+		fis %5
+		r2 fis
+		e2. e4
+		e2 a
+		a2. a4
+		g2 r %10
+		g2. g4
+		g1
+		a2. a4
+		a1
+		a2. a4 %15
+		a2 g
+		fis2. fis4
+		fis1
+		e
+		e %20
+		e2 d
+		r fis
+		e1
+		e2 e
+		d1 %25
+		d2 r
+		R1*2
+		r2 d
+		d e %30
+		f e
+		d1
+		\once \tieDashed c~
+		c2 h
+		c r %35
+		R1*4
+		r2 \mvTr g'~\pE^\solo %40
+		g2. f4
+		e1
+		f2.( g8[ a)]
+		g2 f
+		e1 %45
+		e2 e
+		e d
+		r d4 d
+		e fis! g2
+		fis g %50
+		a2. a4
+		g2 r4 g
+		g2 f
+		r a
+		gis a %55
+		f e4( d)
+		c1
+		h
+		a2 \mvTr a'\fE^\tutti
+		a2. a4 %60
+		gis1
+		a2 a
+		a2. a4
+		g!2 r
+		g1 %65
+		g
+		a2( d,)
+		d1
+		dis
+		e2 g %70
+		fis1
+		fis
+		fis2 \once \tieDashed e~
+		e dis \noBreak
+		e r\fermata \markSegno \bar "||" %75
+		r g\noBreak
+		g g
+		fis2. fis4
+		fis1
+		fis2 fis %80
+		e( fis)
+		fis fis
+		e2. e4
+		e2 fis
+		fis e4( dis) %85
+		e2 e
+		dis2. dis4
+		e1
+		e
+		dis %90
+		e2 r\fermata \bar "||" %91 finis
 	}
 }
 
 DomineAltoLyrics = \lyricmode {
-% 	Libera eas de ore leonis,
-% 	ne absorbeat eas tartarus,
-% 	ne cadant in obscurum.
+	Do -- mi --
+	ne
+	Je -- su
+	Chri --
+	ste, %5
+	Rex
+	glo -- ri --
+	ae, Rex
+	glo -- ri --
+	ae, %10
+	li -- be --
+	ra
+	a -- ni --
+	mas
+	o -- mni -- %15
+	um fi --
+	de -- li --
+	um
+	de --
+	fun -- %20
+	cto -- rum
+	de
+	poe --
+	nis in --
+	fer -- %25
+	ni
+	
+	et %29
+	de pro -- %30
+	fun -- do
+	la --
+	_
+	_
+	cu. %35
+	
+	Li -- %40
+	be --
+	ra
+	e --
+	as de
+	o -- %45
+	re le --
+	on -- is,
+	ne ab --
+	sor -- be -- at
+	e -- as %50
+	tar -- ta --
+	rus, ne
+	ca -- dant,
+	ne
+	ca -- dant %55
+	in ob --
+	scu --
+	_
+	rum. Sed
+	si -- gni -- %60
+	fer
+	san -- ctus
+	Mi -- cha --
+	el
+	re -- %65
+	prae --
+	sen --
+	tet
+	e --
+	as in %70
+	lu --
+	cem
+	san -- _
+	_
+	ctam. %75
+	Quam
+	o -- lim
+	A -- bra --
+	hae
+	pro -- mi -- %80
+	si --
+	sti, et
+	se -- mi --
+	ni, et
+	se -- mi -- %85
+	ni, et
+	se -- mi --
+	ni
+	e --
+	_ %90
+	ius. %91 finis
 }
 
 % AltoNotes = {

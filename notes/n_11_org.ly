@@ -3260,12 +3260,12 @@ DomineOrgano = {
 		g~
 		g \tieSolid
 		c %35
-		c
+		c\pE
 		c4 b a2
 		h4 g c e
 		f d g g,
 		c c' c,2 %40
-		r4 c\pE-\soloE e g
+		r4 c-\soloE e g
 		c2 c,~
 		c h
 		c g
@@ -3397,7 +3397,7 @@ DomineBassFigures = \figuremode {
 	r1 %75
 	r
 	r
-	<4+ 2>
+	<[6+] 4+ 2>
 	<6>
 	<6+> %80
 	<4 [2+]>2 <[\t \t]>

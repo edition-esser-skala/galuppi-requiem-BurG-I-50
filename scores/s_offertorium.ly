@@ -75,7 +75,7 @@
 					\DomineBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 2 = 100 }
 		}
 	}

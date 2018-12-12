@@ -1737,7 +1737,7 @@ LacrimosaViola = {
 
 DomineViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 2/2 \tempoDomine
 		h2\fE h
 		h h

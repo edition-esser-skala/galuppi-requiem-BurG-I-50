@@ -3419,9 +3419,157 @@ HostiasOrgano = {
 		\key g \major \time 3/4 \tempoHostias
 			\set Score.currentBarNumber = #92
 		\mvTr g'4\fE-\soloE g, r
+		g' g, r
+		g' g, r
+		g' d' d, %95
+		g g, g'
+		c8. h16 a8 d, g cis,
+		d4 d8 e fis e
+		d2 r4
+		d' d, g %100
+		R2.
+		d'4 d, g
+		g, r r
+		g' g, r
+		c d d, %105
+		g r r
+		g' g, r
+		c' d d,
+		g g, r
+		g'\pE g, r %110
+		g' g, r
+		g' g, r
+		g d' d,
+		g g' g,
+		c8. h16 a4 g %115
+		d' d, d'
+		d d, d'
+		g fis4. d8
+		a4 d8 e fis d
+		g4 g, g'8 fis %120
+		e2 d4
+		a' a, g'
+		fis2 f4
+		e e e
+		a a, a %125
+		d2.
+		g
+		c,2 c4
+		g' g, g'
+		d2. %130
+		c4 c, c'
+		c8. as'16 as4 fis!
+		g2.
+		g,4 g g
+		c r r %135
+		c' c, r
+		f g g,
+		c c, c'
+		h c c'8. h16
+		a4 g g %140
+		a2 ais4
+		h2 h4
+		e, h' a
+		gis2.
+		a2 a,4 %145
+		d2 d4
+		g8 a h a g4
+		d' d,8 c h a
+		g4 g' r
+		g g, r %150
+		g d' d,
+		g g' g,
+		g2 g4
+		c d g,
+		d'4 d8 c h a %155
+		g4 r r
+		g' g, r
+		c d d,
+		g r g'
+		g g, r %160
+		c d d,
+		g g' g,
+		g2 g'4
+		g g, r
+		c d d, %165
+		g2 r4\fermata \markQuamOlimDaCapo \bar "||" %166 FINIS
 	}
 }
 
 HostiasBassFigures = \figuremode {
-	
+	r2. %92
+	<6 4>
+	<5 3>
+	r4 <8 6> <7 5> %95
+	<4 2> <3>2
+	r2.
+	r
+	r
+	<7> %100
+	r
+	r
+	r
+	r
+	r4 <6 4> <5 3> %105
+	r2.
+	r
+	r4 <6 4> <5 3>
+	r2.
+	r %110
+	<6 4>
+	<5 3>
+	r4 <8 6> <7 5>
+	<4> <3>2
+	r4 <6>2 %115
+	<6 4>4 <5 3>2
+	r2.
+	<4+ 2>4 <6>2
+	<7+> <6 5!>4
+	<9>4 <8>2 %120
+	<5>4 <6+>2
+	<6 4>4 <5 _+> <6 4\+>
+	<6>2.
+	<7 _+>
+	r %125
+	<_!>
+	<7>
+	r
+	<6 4>4 <5 3> r
+	<5 4> <6 _!>2 %130
+	r2 <_->4
+	r <[5-]5> <[7-]>
+	<5 3>4 <6! 4>8 <5 3> <7! 5> <6 4>
+	<5 4>4 <\l 3>2
+	r2. %135
+	r
+	r4 <6 4> <5 3>
+	r2.
+	r
+	<6> %140
+	<7>4 <6> <6 5 [_+]>
+	<_+ \l> <4 2+> <5 [_+]>
+	r <_+> <[4+]>
+	<6>2.
+	<_+> %145
+	r2 <7>4
+	r2.
+	<6 4>4 <5 3>2
+	r2.
+	<6 4> %150
+	r4 <8 6> <7 5>
+	<4> <3> r
+	<5 3> <6 4> <7! 5>
+	r <7> r
+	<6 4> <5 3>2 %155
+	r2.
+	r
+	r4 <6 4> <5 3>
+	r2.
+	r %160
+	r
+	r
+	r
+	r
+	r %165
+	r %166 FINIS
 }

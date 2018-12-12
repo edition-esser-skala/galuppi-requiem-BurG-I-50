@@ -1546,6 +1546,96 @@ DomineViolinoII = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 2/2 \tempoDomine
-		
+		e'4\fE g e h
+		h fis' h fis
+		e2 dis
+		e1
+		dis4 fis, h dis %5
+		fis dis fis dis
+		h h e h
+		e, e a c
+		c a2 d,4
+		d h' d d %10
+		c e, g c
+		e c g e
+		e e a c
+		e c a e
+		d d a' c %15
+		c a g h
+		a fis' d a
+		fis a d fis
+		e2 e,~
+		e e %20
+		e d
+		fis4 a d fis
+		h, gis  h gis
+		a c! a e
+		a fis a fis %25
+		d h' g d
+		h2 r
+		R1
+		r2 h
+		h c %30
+		d c
+		h1
+		c
+		c2 h
+		c g\pE %35
+		a( h)
+		c c
+		d c
+		c h
+		c r %40
+		r4 e'2 d4
+		c g c e
+		d2. e8 f
+		e2 d
+		c1~ %45
+		c2 c
+		c( h)
+		h4 d h h
+		c2 h
+		a4 d, h' d, %50
+		c'4. a8 a2
+		g4 d g h
+		g2 f
+		a a
+		gis a %55
+		h2. h4
+		a1
+		a2 gis
+		a a\fE
+		a4 e a c %60
+		h gis gis h
+		a e a c
+		c a d, a'
+		g h d g
+		g e, g g %65
+		g d g g
+		e c' fis, a
+		d, h h d
+		dis fis a a
+		g h g e %70
+		e e e e
+		e e e e
+		dis dis' e e
+		e e dis dis
+		<e h e,>2 r\fermata \markSegno \bar "||" %75
+		e,4 e g h
+		e h g g'
+		cis, ais cis fis
+		fis d h h
+		ais2 h %80
+		cis1
+		h4 fis h d
+		e1~
+		e2 fis
+		fis e4 dis %85
+		e2 e
+		dis4 dis dis dis
+		e e e e
+		e2 e
+		dis1 %90
+		e2 r\fermata \bar "||" %91 finis
 	}
 }

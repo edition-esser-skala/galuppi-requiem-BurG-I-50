@@ -1329,15 +1329,3 @@ DomineSopranoLyrics = \lyricmode {
 	_ %90
 	ius. %91 finis
 }
-
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }

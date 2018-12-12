@@ -220,6 +220,7 @@ tempoOroSupplex = \tempoMarkup "[Tempo deest]"
 tempoLacrimosa = \tempoMarkup "Presto"
 
 tempoDomine = \tempoMarkup "Alla breve non molto allegro"
+tempoHostias = \tempoMarkup "Adagio"
 
 
 

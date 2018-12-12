@@ -1193,15 +1193,3 @@ DomineBassoLyrics = \lyricmode {
 	%90
 	ius. %91 finis
 }
-
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }

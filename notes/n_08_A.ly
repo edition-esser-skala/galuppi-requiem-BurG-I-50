@@ -1844,14 +1844,15 @@ DomineAltoLyrics = \lyricmode {
 	ius. %91 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+HostiasAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoHostias
+			\set Score.currentBarNumber = #92
+		
+	}
+}
+
+HostiasAltoLyrics = \lyricmode {
+	
+}

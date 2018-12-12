@@ -1596,14 +1596,15 @@ DomineTenoreLyrics = \lyricmode {
 	ius. %91 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+HostiasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 3/4 \autoBeamOff \tempoHostias
+			\set Score.currentBarNumber = #92
+		
+	}
+}
+
+HostiasTenoreLyrics = \lyricmode {
+	
+}

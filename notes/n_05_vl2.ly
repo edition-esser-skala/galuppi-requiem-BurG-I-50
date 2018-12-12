@@ -1639,3 +1639,12 @@ DomineViolinoII = {
 		e2 r\fermata \bar "||" %91 finis
 	}
 }
+
+HostiasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoHostias
+			\set Score.currentBarNumber = #92
+		
+	}
+}

@@ -3413,14 +3413,15 @@ DomineBassFigures = \figuremode {
 	r %91 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+HostiasOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoHostias
+			\set Score.currentBarNumber = #92
+		\mvTr g'4\fE-\soloE g, r
+	}
+}
+
+HostiasBassFigures = \figuremode {
+	
+}

@@ -1739,6 +1739,96 @@ DomineViola = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 2/2 \tempoDomine
-		
+		h2\fE h
+		h h
+		h h
+		c1
+		h %5
+		r2 h
+		h e
+		e e
+		d d
+		d g, %10
+		g g'
+		g1
+		a2 e
+		e1
+		a2 d, %15
+		d d
+		d d
+		d1
+		h
+		a %20
+		a2 a
+		r d
+		e1
+		e
+		d %25
+		d
+		d2 r
+		R1
+		r2 g
+		g g %30
+		g1
+		g2 f
+		e c
+		g1
+		g2 c\pE %35
+		c d
+		g, a
+		g g
+		a g
+		g r %40
+		r4 c e g
+		c2 c,
+		c h
+		c g
+		a4 g a h %45
+		c d e fis!
+		g2 g,
+		g g'
+		c, g
+		d' d %50
+		d4 d e fis
+		g2 e
+		a, a
+		a d
+		e e %55
+		gis,1
+		a4 h c d
+		e d e e
+		e2 e\fE
+		e e %60
+		e e
+		e e
+		d d
+		d g
+		g1 %65
+		g
+		e2 d
+		d1
+		fis2 h,
+		h g' %70
+		fis4 fis fis fis
+		fis fis fis fis
+		fis2 h,
+		h h
+		h r\fermata \markSegno \bar "||" %75
+		h2 h
+		h e
+		fis2. fis4
+		fis1
+		e2 fis %80
+		e fis
+		fis h,
+		cis1~
+		cis2 h
+		h h %85
+		h h
+		h h
+		cis1
+		h2 h
+		h h %90
+		h r\fermata \bar "||" %91 finis
 	}
 }

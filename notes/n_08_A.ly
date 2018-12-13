@@ -1849,10 +1849,115 @@ HostiasAltoNotes = {
 		\clef treble
 		\key g \major \time 3/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #92
-		
+		R2.*18 %109
+		\mvTr d8.\pE^\soloE e16 d4 g %110
+		e8.([ f16)] e4 r
+		d8.([ e16] d8[ g)] fis([ e)]
+		d8.([ e16] d4) c
+		\appoggiatura c4 h2 d4(
+		e) fis g %115
+		g8. fis16 fis4 r
+		r r d
+		cis8. e16 d4 a'8([ fis)]
+		e8. g16 fis4 a
+		a( g8[ fis)] g4 %120
+		g2 fis4
+		fis e r
+		R2.
+		r4 gis gis
+		a8. e16 e4 e %125
+		\once \tieDashed f2.~
+		f8.[( e32 f]) g4 f
+		e8[( e f e g f]
+		e) d d4 g
+		g f2 %130
+		f?8. e16 e4 r8 es
+		es?4 es es
+		d e8([ d)] f?([ e)]
+		d2.
+		c4 r r %135
+		R2.*2
+		r4 r g'
+		g8. f16 e4 e
+		fis8. fis16 g4 g %140
+		g( fis) e
+		dis( e) fis
+		g fis r
+		R2.
+		r4 a g %145
+		fis8. fis16 fis4 fis
+		g4. fis8 g4
+		g8 fis fis4 r
+		r r g
+		e8.([ f16] e4) g %150
+		d8.([ e16] d4) c
+		\appoggiatura c h2 d4
+		d e f
+		e fis g
+		g fis r %155
+		r r r8 d
+		d8.([ e16)] d8([ e)] fis([ g)]
+		e8.([ a16] g4 fis)
+		g r r8 d
+		d8.([ e16)] d8([ e)] fis([ g)] %160
+		e8.([ a16] g4 fis)
+		g2 r4
+		R2.*3 %165
+		R2.\fermataMarkup \markQuamOlimDaCapo \bar "||" %166 FINIS
 	}
 }
 
 HostiasAltoLyrics = \lyricmode {
+	Ho -- sti -- as et %110
+	pre -- ces
+	ti -- bi,
+	Do -- mi --
+	ne, lau --
+	dis of -- %115
+	fe -- ri -- mus.
+	Tu
+	su -- sci -- pe, tu
+	su -- sci -- pe pro
+	a -- ni -- %120
+	ma -- bus
+	il -- lis,
 	
+	qua -- rum
+	ho -- di -- e me -- %125
+	mo --
+	ri -- am
+	fa --
+	ci -- mus: Fac
+	e -- as, %130
+	Do -- mi -- ne, de
+	mor -- te trans --
+	i -- re ad
+	vi --
+	tam. %135
+	
+	Tu %138
+	su -- sci -- pe, tu
+	su -- sci -- pe pro %140
+	a -- ni --
+	ma -- bus
+	il -- lis,
+	
+	qua -- rum %145
+	ho -- di -- e me --
+	mo -- ri -- am
+	fa -- ci -- mus:
+	Fac
+	e -- as, %150
+	Do -- mi --
+	ne, de
+	mor -- te trans --
+	i -- re ad
+	vi -- tam, %155
+	trans --
+	i -- re ad
+	vi --
+	tam, trans --
+	i -- re ad %160
+	vi --
+	tam. %162 FINIS
 }

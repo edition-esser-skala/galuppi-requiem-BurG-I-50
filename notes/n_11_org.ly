@@ -3462,9 +3462,9 @@ HostiasOrgano = {
 		g2.
 		g,4 g g
 		c r r %135
-		c' c, r
+		c'\fE c, r
 		f g g,
-		c c, c'
+		c c, c'\pE
 		h c c'8. h16
 		a4 g g %140
 		a2 ais4
@@ -3488,7 +3488,7 @@ HostiasOrgano = {
 		g r g'
 		g g, r %160
 		c d d,
-		g g' g,
+		g\fE g' g,
 		g2 g'4
 		g g, r
 		c d d, %165
@@ -3544,7 +3544,7 @@ HostiasBassFigures = \figuremode {
 	r
 	r4 <6 4> <5 3>
 	r2.
-	r
+	<[6]>
 	<6> %140
 	<7>4 <6> <6 5 [_+]>
 	<_+ \l> <4 2+> <5 [_+]>
@@ -3552,8 +3552,8 @@ HostiasBassFigures = \figuremode {
 	<6>2.
 	<_+> %145
 	r2 <7>4
-	r2.
-	<6 4>4 <5 3>2
+	r4 <[6]>8 q r4
+	<6 4> <5 3>2
 	r2.
 	<6 4> %150
 	r4 <8 6> <7 5>
@@ -3563,13 +3563,13 @@ HostiasBassFigures = \figuremode {
 	<6 4> <5 3>2 %155
 	r2.
 	r
-	r4 <6 4> <5 3>
+	<[6]>4 <6 4> <5 3>
 	r2.
 	r %160
+	<[6]>4 <[6 4]> <[5 3]>
+	r2.
 	r
 	r
-	r
-	r
-	r %165
-	r %166 FINIS
+	<[6]>4 <[6 4]> <[5 3]> %165
+	r2. %166 FINIS
 }

@@ -1838,6 +1838,80 @@ HostiasViola = {
 		\clef treble
 		\key g \major \time 3/4 \tempoHostias
 			\set Score.currentBarNumber = #92
-		
+		g'4\fE g, r
+		g' g, r
+		g' g, r
+		g' d' d, %95
+		g g, g'
+		c8. h16 a8 d, g cis,
+		d2 r4
+		r4 fis g
+		a2 g4 %100
+		r fis g
+		a2 g4
+		g, r r
+		g' g, r
+		c d d, %105
+		g8 r r4 r
+		g'4\pE g, r
+		c\fE d d
+		d r r
+		g\pE g, r %110
+		g' g, r
+		g' g, r
+		g d' d,
+		g g' g,
+		c8. h16 a4 g %115
+		d' d, d'
+		d d, d'
+		g fis4. d8
+		a4 d8 e fis d
+		g4 g, g'8 fis %120
+		e2 d4
+		a' a, g'
+		fis2 f4
+		e e e
+		a a, a %125
+		d2.
+		g
+		c,2 c4
+		g' g, g'
+		d2. %130
+		c4 c, c'
+		c8. as'16 as4 fis!
+		g2.
+		g,4 g g
+		c r r %135
+		c'\fE c, r
+		f g g,
+		c c, e'\pE
+		d g, c
+		c d d %140
+		c a ais
+		h2 h4
+		h h fis'
+		h,2.
+		a4 e'2 %145
+		d4 a2
+		g8 a h a g g
+		d'4 d8 c h a
+		g4 g' r
+		g g, r %150
+		g d' d,
+		g g' g,
+		g2 g4
+		c d g,
+		d'4 d8 c h a %155
+		g4 r r
+		g' g, r
+		c d d,
+		g r g'
+		g g, r %160
+		c d d,
+		g\fE g' g,
+		g2 g'4
+		g g, r
+		c d d, %165
+		g2 r4\fermata \markQuamOlimDaCapo \bar "||" %166 FINIS
 	}
 }

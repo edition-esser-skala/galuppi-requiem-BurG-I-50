@@ -360,9 +360,9 @@ DiesIraeViola = {
 		cis cis cis cis cis ais
 		h h h h h h %90
 		e4 gis e
-		cis e cis
+		cis e cis \noBreak
 		ais cis ais \bar "||"
-		\time 4/4 \newSpacingSection \tempoQuantusTremor h8 h h h fis'16 fis fis fis fis fis fis fis
+		\time 4/4 \newSpacingSection \tempoQuantusTremor h8 h h h fis'16 fis fis fis fis fis fis fis \noBreak
 		h, h h h h h h h cis! cis cis cis cis cis cis cis %95
 		cis cis cis cis h h h h h h h h h h h h
 		h h h h h h h h a a a a e' e e e

@@ -955,6 +955,16 @@ QuidSumViolinoII = {
 	}
 }
 
+RecordareViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 2/4 \tempoRecordare
+			\set Score.currentBarNumber = #552
+		\override MultiMeasureRest.minimum-length = #50
+		R2*137 \bar "||" %688
+	}
+}
+
 JusteJudexViolinoII = {
 	\relative c' {
 		\clef treble

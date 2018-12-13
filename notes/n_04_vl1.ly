@@ -1658,6 +1658,80 @@ HostiasViolinoI = {
 		\clef treble
 		\key g \major \time 3/4 \tempoHostias
 			\set Score.currentBarNumber = #92
-		
+		\mvTr d'8.\fE-\markup { \remark "sotto voce sempre" } e16 d8 g-! g-! g-!
+		e8. f16 e8 g-! g-! g-!
+		d8. e16 d8( g fis e)
+		d8. e16 d4 c %95
+		\appoggiatura c h2 d4
+		e( fis g)
+		g8 fis fis4 r
+		d'8 d, d d d d
+		d fis fis8.( e32 fis) g4 %100
+		d8 d, d d d d
+		d8. fis16 fis8.( e32 fis) g4
+		r8 h-! c( h) e( d)
+		d8.-! e16-! d8-! e( fis g)
+		e8. c16 h32( c d8.) fis,8.( e32 fis) %105
+		g8 h[-!\p c( h) e( d)]
+		d8.-! e16-! d8-! e( fis g)
+		e8.\fE c16 h32( c d8.) fis,8.( e32 fis)
+		g8 d16 c h4 r
+		d'8.\pE e16 d8 g-! g-! g-! %110
+		e8. f16 e8 g-! g-! g-!
+		d8. e16 d8 g( fis e)
+		d8. e16 d4 c
+		\appoggiatura c h2 d4
+		e fis g %115
+		g8.( fis16) fis4 fis16( g a) a
+		a d( cis h) a4 d,
+		cis8. e16 d8 fis a fis
+		e8. g16 fis4 a~
+		a g8 fis g4 %120
+		g2 fis4
+		fis e8 a, cis8.(\trill h32 cis)
+		d2.
+		d8 d d d d d
+		c!4 e8 e a e %125
+		f4 f f~
+		f8.( e32 f) g4 f?
+		e8-! e-! f( e) g( f)
+		e d d4 g
+		g f2 %130
+		f?8. e16 e4 es
+		es?2.
+		d4 e8( d) f( e)
+		d2.
+		c8 e-!\fE f( e) a( g) %135
+		g8. a16 g8( a h c)
+		a8. f16 e32( f g8.) h,( a32 h)
+		c8 g16 f e4 r
+		r r e'\pE
+		fis!( g) g-! %140
+		g fis e
+		dis e fis
+		g fis8 h, dis h
+		e4 e, r
+		r a' g %145
+		fis fis4. e16 fis
+		g4. fis8 g h,
+		h4 a r
+		d8. e16 d8 g g g
+		e8. f16 e8 g g g %150
+		d8. e16 d4 c
+		\appoggiatura c h2 d8 g
+		g2 f4
+		e fis g
+		g fis r %155
+		r8 h,-! c( h) e( d)
+		d8. e16 d8 e fis g
+		e8. c16 h32( c d8.) c32( h a8.)
+		h8 h([ c h e d)]
+		d8. e16 d8( e fis g) %160
+		e8. c16 h32( c d8.) fis,( e32 fis)
+		g8-!\fE h c( h) e( d)
+		d g, a g c h
+		h-! d,-! e( d) e( d)
+		e8. a16 g4 fis %165
+		g g, r\fermata \markQuamOlimDaCapo \bar "||" %166 FINIS
 	}
 }

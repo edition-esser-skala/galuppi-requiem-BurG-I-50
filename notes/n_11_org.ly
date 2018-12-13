@@ -3433,8 +3433,8 @@ HostiasOrgano = {
 		g' g, r
 		c d d, %105
 		g r r
-		g' g, r
-		c' d d,
+		g'\pE g, r
+		c'\fE d d,
 		g g, r
 		g'\pE g, r %110
 		g' g, r
@@ -3502,9 +3502,9 @@ HostiasBassFigures = \figuremode {
 	<5 3>
 	r4 <8 6> <7 5> %95
 	<4 2> <3>2
+	r4 <[6]>4. <[7]>8
+	<[6 4]>4 <[5 3]>2
 	r2.
-	r
-	r
 	<7> %100
 	r
 	r

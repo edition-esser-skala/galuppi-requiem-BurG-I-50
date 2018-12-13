@@ -1660,7 +1660,7 @@ HostiasViolinoI = {
 			\set Score.currentBarNumber = #92
 		\mvTr d'8.\fE-\markup { \remark "sotto voce sempre" } e16 d8 g-! g-! g-!
 		e8. f16 e8 g-! g-! g-!
-		d8. e16 d8( g fis e)
+		d8. e16 d8 g( fis e)
 		d8. e16 d4 c %95
 		\appoggiatura c h2 d4
 		e( fis g)
@@ -1670,10 +1670,10 @@ HostiasViolinoI = {
 		d8 d, d d d d
 		d8. fis16 fis8.( e32 fis) g4
 		r8 h-! c( h) e( d)
-		d8.-! e16-! d8-! e( fis g)
+		d8.-! e16-! d8( e fis g)
 		e8. c16 h32( c d8.) fis,8.( e32 fis) %105
 		g8 h[-!\p c( h) e( d)]
-		d8.-! e16-! d8-! e( fis g)
+		d8.-! e16-! d8( e fis g)
 		e8.\fE c16 h32( c d8.) fis,8.( e32 fis)
 		g8 d16 c h4 r
 		d'8.\pE e16 d8 g-! g-! g-! %110
@@ -1728,7 +1728,7 @@ HostiasViolinoI = {
 		h8 h([ c h e d)]
 		d8. e16 d8( e fis g) %160
 		e8. c16 h32( c d8.) fis,( e32 fis)
-		g8-!\fE h c( h) e( d)
+		g8-! h\fE-\parenthesize-! c( h) e( d)
 		d g, a g c h
 		h-! d,-! e( d) e( d)
 		e8. a16 g4 fis %165

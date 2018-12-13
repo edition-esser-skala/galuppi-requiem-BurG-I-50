@@ -1645,6 +1645,80 @@ HostiasViolinoII = {
 		\clef treble
 		\key g \major \time 3/4 \tempoHostias
 			\set Score.currentBarNumber = #92
-		
+		\mvTr h'8.\fE-\markup { \remark "sotto voce sempre" } c16 h4 r8 h
+		c8. d16 c4 r8 c
+		h8. c16 h8 \once \slurDashed e( d c)
+		h8. c16 h4 a %95
+		\appoggiatura a g2 h4
+		c2 h4
+		h8 a a4 r
+		r a h
+		c2 h4 %100
+		r a h
+		c2 h4
+		r8 g-\parenthesize-! a( g) c( h)
+		h8.-\parenthesize-! c16-\parenthesize-! \slurDashed h8( c) a( h) \slurSolid
+		c8. e,16 d32( c h8.) c32( h a8.) %105
+		h8 g'[\pE-\parenthesize-! \slurDashed a( g) c( h]) \slurSolid
+		h8.-\parenthesize-! c16-\parenthesize-! \once\slurDashed h8( c a h)
+		c8.\fE e,16 d32( c h8.) c32( h a8.)
+		h8 h16 a g4 r
+		h'8.\pE c16 h4 r8 h %110
+		c8. d16 c4 r8 c
+		h8. c16 h8 \once \slurDashed e( d c)
+		h8. c16 h4 a
+		\appoggiatura a g2 h4
+		c2 h4 %115
+		\once \slurDashed h8.( a16) a4 d16( e fis) fis
+		fis h( a g) fis4 fis,
+		e a d
+		cis8. e16 d4 c
+		h2 h4~ %120
+		h cis d
+		d cis e,
+		a2.
+		gis8 gis gis gis gis gis
+		a4 c!8 c c c %125
+		a4 d c
+		h2 h8.( a32 h)
+		c8-! c-! d( c) e( d)
+		c8 h h4 g
+		a2 h4 %130
+		c g c
+		c2.
+		h4 c8( h) d( c)
+		c4 h8 a h4
+		c8 c[\fE-\parenthesize-! d( c) f( e)] %135
+		e8. f16 e8( f d e)
+		f8. a,16 g32( f e8.) f32( e d8.)
+		e8 e16 d c4 r
+		r r g'\pE
+		c h h %140
+		c2 cis4
+		h cis dis
+		e dis8 h dis h
+		e4 e d
+		cis cis4. h16 cis %145
+		d4 d c
+		h8 c d c h g
+		g4 fis r
+		h8. c16 h4 r8 h
+		c8. d16 c4 r8 c %150
+		h8. c16 h4 a
+		\appoggiatura a g2 h4
+		h c d
+		g, a h
+		h a r %155
+		r8 g-\parenthesize-! a( g) \once \slurDashed c( h)
+		h8. c16 h8 c a h
+		c8. e,16 d32( c h8.) a32( h c8.)
+		h8 g'([ a g c h])
+		h8. c16 h8( c a h) %160
+		c8. e,16 d32( c h8.) c32( h a8.)
+		h8-! g'-!\fE a( g) \once \slurDashed c( h)
+		h h, c h e d
+		d-! h-! c( h) c( h)
+		c4 h a %165
+		g2 r4\fermata \markQuamOlimDaCapo \bar "||" %166 FINIS
 	}
 }

@@ -1601,10 +1601,113 @@ HostiasTenoreNotes = {
 		\clef "treble_8"
 		\key g \major \time 3/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #92
-		
+		R2.*18 %109
+		\mvTr h8.\pE^\soloE c16 h4 h %110
+		c8.([ d16)] c4 r
+		h8.([ c16] h8[ e)] d([ c)]
+		h8.([ c16] h4) a
+		\appoggiatura a g2 h4(
+		c) c h %115
+		h8. a16 a4 r
+		R2.
+		r4 r d
+		cis8. e16 d4 c
+		h2 h4 %120
+		h( cis) d
+		d cis r
+		r d d
+		d2 d4
+		c!2 c4 %125
+		a d c
+		\once \tieDashed h2.
+		c8[ c d c e d]
+		c h h4 g
+		a2 h4 %130
+		c8. c16 c4 r8 c
+		c4 c c
+		h c8([ h)] d([ c)]
+		c4( h8[ a] h4)
+		c r r %135
+		R2.*3
+		r4 r c
+		c8. c16 h4 h %140
+		c2 cis4
+		h( cis) dis
+		e dis r
+		r e d
+		cis8. cis16 cis4 cis %145
+		d4. d8 c4
+		h8([ c d c] \once \tieDashed h4~)
+		h8 a a4 r
+		r r h
+		c8.([ d16)] c4 r %150
+		h8.([ c16] h4) a
+		\appoggiatura a g2 h4
+		h c d
+		c c h
+		h a r %155
+		r r r8 h
+		h8.([ c16)] h8([ c]) a([ h)]
+		c4( h a)
+		h r r8 h
+		h8.([ c16)] h8([ c]) a([ h)] %160
+		c4( h a)
+		g2 r4
+		R2.*3 %165
+		R2.\fermataMarkup \markQuamOlimDaCapo \bar "||" %166 FINIS
 	}
 }
 
 HostiasTenoreLyrics = \lyricmode {
+	Ho -- sti -- as et %110
+	pre -- ces
+	ti -- bi,
+	Do -- mi --
+	ne, lau --
+	dis of -- %115
+	fe -- ri -- mus.
 	
+	Tu
+	su -- sci -- pe pro
+	a -- ni -- %120
+	ma -- bus
+	il -- lis,
+	qua -- rum
+	ho -- di --
+	e me -- %125
+	mo -- ri -- am
+	fa --
+	_
+	_ ci -- mus: Fac
+	e -- as, %130
+	Do -- mi -- ne, de
+	mor -- te trans --
+	i -- re ad
+	vi --
+	tam. %135
+	
+	Tu %139
+	su -- sci -- pe pro %140
+	a -- ni --
+	ma -- bus
+	il -- lis,
+	qua -- rum
+	ho -- di -- e me -- %145
+	mo -- ri -- am
+	fa --
+	ci -- mus:
+	Fac
+	e -- as, %150
+	Do -- mi --
+	ne, de
+	mor -- te trans --
+	i -- re ad
+	vi -- tam, %155
+	trans --
+	i -- re ad
+	vi --
+	tam, trans --
+	i -- re ad %160
+	vi --
+	tam. %162 FINIS
 }

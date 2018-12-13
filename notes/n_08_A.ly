@@ -1868,8 +1868,8 @@ HostiasAltoNotes = {
 		a8. e16 e4 e %125
 		\once \tieDashed f2.~
 		f8.[( e32 f]) g4 f
-		e8[( e f e g f]
-		e) d d4 g
+		e8[ e f e g f]
+		e d d4 g
 		g f2 %130
 		f?8. e16 e4 r8 es
 		es?4 es es
@@ -1927,7 +1927,7 @@ HostiasAltoLyrics = \lyricmode {
 	mo --
 	ri -- am
 	fa --
-	ci -- mus: Fac
+	_ ci -- mus: Fac
 	e -- as, %130
 	Do -- mi -- ne, de
 	mor -- te trans --

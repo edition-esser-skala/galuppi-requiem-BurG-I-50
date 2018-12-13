@@ -1657,7 +1657,7 @@ HostiasViolinoII = {
 		r a h
 		c2 h4
 		r8 g-\parenthesize-! a( g) c( h)
-		h8.-\parenthesize-! c16-\parenthesize-! \slurDashed h8( c) a( h) \slurSolid
+		h8.-\parenthesize-! c16-\parenthesize-! \once \slurDashed h8( c a h)
 		c8. e,16 d32( c h8.) c32( h a8.) %105
 		h8 g'[\pE-\parenthesize-! \slurDashed a( g) c( h]) \slurSolid
 		h8.-\parenthesize-! c16-\parenthesize-! \once\slurDashed h8( c a h)

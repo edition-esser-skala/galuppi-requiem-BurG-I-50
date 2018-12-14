@@ -8,7 +8,7 @@ project = Galuppi_Requiem_BurG_I_50
 zipname = Galuppi_Requiem_BurG_I_50_Engraving_Files
 notes = A B cor1 cor2 org S T tr vl1 vl2 vla
 parts = b cor12 coro org tr vl1 vl2 vla
-movements = introitus kyrie sequentia
+movements = introitus kyrie sequentia offertorium
 
 
 .DEFAULT_GOAL := info

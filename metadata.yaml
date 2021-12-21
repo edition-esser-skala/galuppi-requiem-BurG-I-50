@@ -1,17 +1,22 @@
-composer: Galuppi, Baldassare
-title: Requiem in E
+composer:
+  last: Galuppi
+  first: Baldassare
+title: Requiem
 id: BurG I/50
 genre: requiem
-scoring: 2 S, A, T, B (solo), S, A, T, B (coro), clno (C), 2 ob, vl solo, 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), [2 fl], 2 cor (E),\\clno (E), 2 vl, vla, vlc solo, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-D-21
-    type: manuscript copy
     date: 1750–1764
     rism: 212006206
-    url: http://digital.slub-dresden.de/id426040252
-github: galuppi-requiem-BurG-I-50
+    url: https://digital.slub-dresden.de/id426040252
+    license: public domain
+    principal: true
 imslp: Requiem_in_E_major_(Galuppi,_Baldassare)
-notes:
-
+parts:
+  clno: Clarino solo in E
+  cor12: Corno I, II in E
+  vlc: Violoncello solo
